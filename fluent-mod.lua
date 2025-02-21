@@ -13,12 +13,12 @@ local a, b = {
 				"ModuleScript",
 				{"Themes"},
 				{
-					{50, "ModuleScript", {"Dark"}},
-					{55, "ModuleScript", {"CustomGradient"}},		
+					{50, "ModuleScript", {"Dark"}}
 					{54, "ModuleScript", {"Grey"}},					
 					{52, "ModuleScript", {"Light"}},
 					{51, "ModuleScript", {"Darker"}},
 					{53, "ModuleScript", {"Rose"}},
+					{55, "ModuleScript", {"R2LX"}},		
 					{49, "ModuleScript", {"Aqua"}},
 					{48, "ModuleScript", {"Amethyst"}}
 				}
@@ -5165,7 +5165,7 @@ local aa = {
 	end,
 	[47] = function()
 		local aa, ab, ac, ad, ae = b(47)
-		local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Grey", "CustomGradient"}}
+		local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Grey", "R2LX"}}
 		for ag, ah in next, ab:GetChildren() do
 			local aj = ac(ah)
 			af[aj.Name] = aj
@@ -5443,14 +5443,11 @@ end
 [55] = function()
     local aa, ab, ac, ad, ae = b(55)
     return {
-        Name = "CustomGradient",
+        Name = "R2LX",
         Accent = Color3.fromRGB(178, 172, 255),
         AcrylicMain = Color3.fromRGB(178, 172, 255),
         AcrylicBorder = Color3.fromRGB(168, 172, 255),
-        AcrylicGradient = ColorSequence.new(
-            Color3.fromRGB(131, 181, 255),
-            Color3.fromRGB(224, 162, 255)
-        ),
+        AcrylicGradient = ColorSequence.new(Color3.fromRGB(131, 181, 255), Color3.fromRGB(224, 162, 255)),
         AcrylicNoise = 0.92,
         TitleBarLine = Color3.fromRGB(158, 172, 255),
         Tab = Color3.fromRGB(178, 172, 255),
@@ -5483,7 +5480,6 @@ end
         HoverChange = 0.04
     }
 end
-
 }
 do
 	local ab, ac, ad, ae, af, ag, ah, aj, c, e, f, g, h, i, j, k =
