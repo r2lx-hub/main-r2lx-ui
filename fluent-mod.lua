@@ -14,7 +14,7 @@ local a, b = {
 				{"Themes"},
 				{
 					{50, "ModuleScript", {"Dark"}},
-					{54, "ModuleScript", {"Custom Gradient"}},		
+					{54, "ModuleScript", {"CustomGradient"}},		
 					{54, "ModuleScript", {"Grey"}},					
 					{52, "ModuleScript", {"Light"}},
 					{51, "ModuleScript", {"Darker"}},
@@ -5443,7 +5443,7 @@ end
 [55] = function()
     local aa, ab, ac, ad, ae = b(55)
     return {
-        Name = "Custom Gradient",
+        Name = "CustomGradient",
         Accent = Color3.fromRGB(178, 172, 255),
         AcrylicMain = Color3.fromRGB(178, 172, 255),
         AcrylicBorder = Color3.fromRGB(168, 172, 255),
