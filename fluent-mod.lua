@@ -14,7 +14,7 @@ local a, b = {
 				{"Themes"},
 				{
 					{50, "ModuleScript", {"Dark"}},
-					{54, "ModuleScript", {"CustomGradient"}},		
+					{55, "ModuleScript", {"CustomGradient"}},		
 					{54, "ModuleScript", {"Grey"}},					
 					{52, "ModuleScript", {"Light"}},
 					{51, "ModuleScript", {"Darker"}},
