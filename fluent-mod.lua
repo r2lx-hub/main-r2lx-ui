@@ -1,4 +1,4 @@
--- R2LX Mod
+-- Fluent Mod
 local old_tts = tostring;
 local a, b = {
 	{
@@ -306,7 +306,7 @@ local aa = {
 			return t:New(D)
 		end
 		if getgenv then
-			getgenv().R2LX = x
+			getgenv().Fluent = x
 		end
 		return x
 	end,
