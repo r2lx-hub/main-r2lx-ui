@@ -5491,7 +5491,7 @@ local aa = {
         AcrylicBorder = Color3.fromRGB(168, 172, 255),
         AcrylicGradient = ColorSequence.new(
             Color3.fromRGB(131, 181, 255),
-            Color3.fromRGB(180, 200, 255), -- Màu bổ sung
+            Color3.fromRGB(180, 200, 255),
             Color3.fromRGB(224, 162, 255)
         ),
         AcrylicNoise = 0.92,
@@ -5533,11 +5533,7 @@ end,
         Accent = Color3.fromRGB(178, 172, 255),
         AcrylicMain = Color3.fromRGB(178, 172, 255),
         AcrylicBorder = Color3.fromRGB(168, 172, 255),
-        AcrylicGradient = ColorSequence.new(
-            Color3.fromRGB(131, 181, 255),
-            Color3.fromRGB(200, 170, 255), -- Màu tím nhạt được thêm vào
-            Color3.fromRGB(224, 162, 255)
-        ),
+        AcrylicGradient = ColorSequence.new(Color3.fromRGB(131, 181, 255), Color3.fromRGB(200, 170, 255), Color3.fromRGB(224, 162, 255)),
         AcrylicNoise = 0.92,
         TitleBarLine = Color3.fromRGB(158, 172, 255),
         Tab = Color3.fromRGB(178, 172, 255),
