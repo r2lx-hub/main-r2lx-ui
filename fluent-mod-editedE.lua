@@ -5443,7 +5443,7 @@ local aa = {
 [55] = function()
     local aa, ab, ac, ad, ae = b(55)
     return {
-        Name = "Random",
+        Name = "R2LX",
         Accent = Color3.fromRGB(178, 172, 255),
         AcrylicMain = Color3.fromRGB(178, 172, 255),
         AcrylicBorder = Color3.fromRGB(168, 172, 255),
