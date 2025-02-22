@@ -15,7 +15,7 @@ local a, b = {
 				{
 					{50, "ModuleScript", {"Dark"}},
 					{54, "ModuleScript", {"Grey"}}
-					{56, "ModuleScript", {"Random"}},		,		
+					{56, "ModuleScript", {"Random"}},				
 					{55, "ModuleScript", {"R2LX"}},		
 					{52, "ModuleScript", {"Light"}},
 					{51, "ModuleScript", {"Darker"}},
