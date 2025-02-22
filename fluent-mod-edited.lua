@@ -15,7 +15,8 @@ local a, b = {
 				{
 					{50, "ModuleScript", {"Dark"}},
 					{54, "ModuleScript", {"Grey"}}
-					{56, "ModuleScript", {"Random"}},				
+					{56, "ModuleScript", {"56"}},		
+					{57, "ModuleScript", {"57"}},		
 					{55, "ModuleScript", {"R2LX"}},		
 					{52, "ModuleScript", {"Light"}},
 					{51, "ModuleScript", {"Darker"}},
@@ -5166,7 +5167,7 @@ local aa = {
 	end,
 	[47] = function()
 		local aa, ab, ac, ad, ae = b(47)
-		local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Grey", "R2LX", "Random"}}
+		local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Grey", "R2LX", "56", "57"}}
 		for ag, ah in next, ab:GetChildren() do
 			local aj = ac(ah)
 			af[aj.Name] = aj
@@ -5480,50 +5481,93 @@ local aa = {
         Hover = Color3.fromRGB(178, 172, 255),
         HoverChange = 0.04
     }
-end,
+  end,
 [56] = function()
     local aa, ab, ac, ad, ae = b(56)
-
-    local function randomColor()
-        return Color3.fromRGB(math.random(100, 255), math.random(100, 255), math.random(100, 255))
-    end
-
     return {
-        Name = "Random",
-        Accent = randomColor(),
-        AcrylicMain = randomColor(),
-        AcrylicBorder = randomColor(),
-        AcrylicGradient = ColorSequence.new(randomColor(), randomColor()),
-        AcrylicNoise = math.random() * 0.5 + 0.5, -- Giữ giá trị trong khoảng 0.5 - 1.0 để không quá tối
-        TitleBarLine = randomColor(),
-        Tab = randomColor(),
-        Element = randomColor(),
-        ElementBorder = randomColor(),
-        InElementBorder = randomColor(),
-        ElementTransparency = math.random() * 0.5 + 0.5, -- Đảm bảo độ trong suốt hợp lý
-        ToggleSlider = randomColor(),
-        ToggleToggled = randomColor(),
-        SliderRail = randomColor(),
-        DropdownFrame = randomColor(),
-        DropdownHolder = randomColor(),
-        DropdownBorder = randomColor(),
-        DropdownOption = randomColor(),
-        Keybind = randomColor(),
-        Input = randomColor(),
-        InputFocused = randomColor(),
-        InputIndicator = randomColor(),
-        Dialog = randomColor(),
-        DialogHolder = randomColor(),
-        DialogHolderLine = randomColor(),
-        DialogButton = randomColor(),
-        DialogButtonBorder = randomColor(),
-        DialogBorder = randomColor(),
-        DialogInput = randomColor(),
-        DialogInputLine = randomColor(),
-        Text = Color3.fromRGB(math.random(0, 50), math.random(0, 50), math.random(0, 50)), -- Màu chữ tối để dễ đọc
-        SubText = Color3.fromRGB(math.random(50, 150), math.random(50, 150), math.random(50, 150)),
-        Hover = randomColor(),
-        HoverChange = math.random() * 0.1 -- Giữ hiệu ứng hover nhẹ nhàng
+        Name = "56",
+        Accent = Color3.fromRGB(178, 172, 255),
+        AcrylicMain = Color3.fromRGB(178, 172, 255),
+        AcrylicBorder = Color3.fromRGB(168, 172, 255),
+        AcrylicGradient = ColorSequence.new(
+            Color3.fromRGB(131, 181, 255),
+            Color3.fromRGB(180, 200, 255), -- Màu bổ sung
+            Color3.fromRGB(224, 162, 255)
+        ),
+        AcrylicNoise = 0.92,
+        TitleBarLine = Color3.fromRGB(158, 172, 255),
+        Tab = Color3.fromRGB(178, 172, 255),
+        Element = Color3.fromRGB(178, 172, 255),
+        ElementBorder = Color3.fromRGB(158, 172, 255),
+        InElementBorder = Color3.fromRGB(168, 172, 255),
+        ElementTransparency = 0.86,
+        ToggleSlider = Color3.fromRGB(178, 172, 255),
+        ToggleToggled = Color3.fromRGB(150, 150, 255),
+        SliderRail = Color3.fromRGB(178, 172, 255),
+        DropdownFrame = Color3.fromRGB(178, 172, 255),
+        DropdownHolder = Color3.fromRGB(178, 172, 255),
+        DropdownBorder = Color3.fromRGB(158, 172, 255),
+        DropdownOption = Color3.fromRGB(178, 172, 255),
+        Keybind = Color3.fromRGB(178, 172, 255),
+        Input = Color3.fromRGB(178, 172, 255),
+        InputFocused = Color3.fromRGB(158, 172, 255),
+        InputIndicator = Color3.fromRGB(178, 172, 255),
+        Dialog = Color3.fromRGB(178, 172, 255),
+        DialogHolder = Color3.fromRGB(168, 172, 255),
+        DialogHolderLine = Color3.fromRGB(158, 172, 255),
+        DialogButton = Color3.fromRGB(178, 172, 255),
+        DialogButtonBorder = Color3.fromRGB(178, 172, 255),
+        DialogBorder = Color3.fromRGB(168, 172, 255),
+        DialogInput = Color3.fromRGB(178, 172, 255),
+        DialogInputLine = Color3.fromRGB(178, 172, 255),
+        Text = Color3.fromRGB(50, 50, 50),
+        SubText = Color3.fromRGB(120, 120, 120),
+        Hover = Color3.fromRGB(178, 172, 255),
+        HoverChange = 0.04
+    }
+end,
+[57] = function()
+    local aa, ab, ac, ad, ae = b(57)
+    return {
+        Name = "57",
+        Accent = Color3.fromRGB(178, 172, 255),
+        AcrylicMain = Color3.fromRGB(178, 172, 255),
+        AcrylicBorder = Color3.fromRGB(168, 172, 255),
+        AcrylicGradient = ColorSequence.new(
+            Color3.fromRGB(131, 181, 255),
+            Color3.fromRGB(200, 170, 255), -- Màu tím nhạt được thêm vào
+            Color3.fromRGB(224, 162, 255)
+        ),
+        AcrylicNoise = 0.92,
+        TitleBarLine = Color3.fromRGB(158, 172, 255),
+        Tab = Color3.fromRGB(178, 172, 255),
+        Element = Color3.fromRGB(178, 172, 255),
+        ElementBorder = Color3.fromRGB(158, 172, 255),
+        InElementBorder = Color3.fromRGB(168, 172, 255),
+        ElementTransparency = 0.86,
+        ToggleSlider = Color3.fromRGB(178, 172, 255),
+        ToggleToggled = Color3.fromRGB(150, 150, 255),
+        SliderRail = Color3.fromRGB(178, 172, 255),
+        DropdownFrame = Color3.fromRGB(178, 172, 255),
+        DropdownHolder = Color3.fromRGB(178, 172, 255),
+        DropdownBorder = Color3.fromRGB(158, 172, 255),
+        DropdownOption = Color3.fromRGB(178, 172, 255),
+        Keybind = Color3.fromRGB(178, 172, 255),
+        Input = Color3.fromRGB(178, 172, 255),
+        InputFocused = Color3.fromRGB(158, 172, 255),
+        InputIndicator = Color3.fromRGB(178, 172, 255),
+        Dialog = Color3.fromRGB(178, 172, 255),
+        DialogHolder = Color3.fromRGB(168, 172, 255),
+        DialogHolderLine = Color3.fromRGB(158, 172, 255),
+        DialogButton = Color3.fromRGB(178, 172, 255),
+        DialogButtonBorder = Color3.fromRGB(178, 172, 255),
+        DialogBorder = Color3.fromRGB(168, 172, 255),
+        DialogInput = Color3.fromRGB(178, 172, 255),
+        DialogInputLine = Color3.fromRGB(178, 172, 255),
+        Text = Color3.fromRGB(50, 50, 50),
+        SubText = Color3.fromRGB(120, 120, 120),
+        Hover = Color3.fromRGB(178, 172, 255),
+        HoverChange = 0.04
     }
 end
 }
