@@ -15,8 +15,8 @@ local a, b = {
 				{
 					{50, "ModuleScript", {"Dark"}},
 					{54, "ModuleScript", {"Grey"}}
-					{56, "ModuleScript", {"56"}},		
-					{57, "ModuleScript", {"57"}},		
+					{56, "ModuleScript", {"On"}},		
+					{57, "ModuleScript", {"Off"}},		
 					{55, "ModuleScript", {"R2LX"}},		
 					{52, "ModuleScript", {"Light"}},
 					{51, "ModuleScript", {"Darker"}},
@@ -5167,7 +5167,7 @@ local aa = {
 	end,
 	[47] = function()
 		local aa, ab, ac, ad, ae = b(47)
-		local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Grey", "R2LX", "56", "57"}}
+		local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Grey", "R2LX", "On", "Off"}}
 		for ag, ah in next, ab:GetChildren() do
 			local aj = ac(ah)
 			af[aj.Name] = aj
@@ -5485,7 +5485,7 @@ local aa = {
 [56] = function()
     local aa, ab, ac, ad, ae = b(56)
     return {
-        Name = "56",
+        Name = "On",
         Accent = Color3.fromRGB(178, 172, 255),
         AcrylicMain = Color3.fromRGB(178, 172, 255),
         AcrylicBorder = Color3.fromRGB(168, 172, 255),
@@ -5529,7 +5529,7 @@ end,
 [57] = function()
     local aa, ab, ac, ad, ae = b(57)
     return {
-        Name = "57",
+        Name = "Off",
         Accent = Color3.fromRGB(178, 172, 255),
         AcrylicMain = Color3.fromRGB(178, 172, 255),
         AcrylicBorder = Color3.fromRGB(168, 172, 255),
