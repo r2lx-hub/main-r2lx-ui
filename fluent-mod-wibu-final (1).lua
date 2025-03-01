@@ -15,13 +15,13 @@ local a, b = {
 				{
 					{50, "ModuleScript", {"Dark"}},
 					{54, "ModuleScript", {"Grey"}},		
+			     	{58, "ModuleScript", {"WibuTheme"}},		
 					{57, "ModuleScript", {"Gradien"}},		
 					{56, "ModuleScript", {"Enhanced"}},		
 					{55, "ModuleScript", {"R2LX"}},		
 					{52, "ModuleScript", {"Light"}},
 					{51, "ModuleScript", {"Darker"}},
-					{53, "ModuleScript", {"Rose"},
-					{58, "ModuleScript", {"WibuTheme"}},
+					{53, "ModuleScript", {"Rose"}},
 					{49, "ModuleScript", {"Aqua"}},
 					{48, "ModuleScript", {"Amethyst"}}
 				}
@@ -34,7 +34,7 @@ local a, b = {
 					{21, "ModuleScript", {"Colorpicker"}},
 					{27, "ModuleScript", {"Toggle"}},
 					{23, "ModuleScript", {"Input"}},
-					{20, "ModuleScript", {"Button", "GlowEffect", "NeonOutline" -- Thêm hiệu ứng Wibu}},
+					{20, "ModuleScript", {"Button"}},
 					{25, "ModuleScript", {"Paragraph"}},
 					{22, "ModuleScript", {"Dropdown"}},
 					{26, "ModuleScript", {"Slider"}},
@@ -87,7 +87,7 @@ local a, b = {
 				"Folder",
 				{"Components"},
 				{
-					{9, "ModuleScript", {"Button", "GlowEffect", "NeonOutline" -- Thêm hiệu ứng Wibu}},
+					{9, "ModuleScript", {"Button"}},
 					{12, "ModuleScript", {"Notification"}},
 					{13, "ModuleScript", {"Section"}},
 					{17, "ModuleScript", {"Window"}},
@@ -149,7 +149,7 @@ local MkButton = function()
 	ImageLabel.Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
 	ImageLabel.Image = "rbxassetid://10734895530"
 
-	Button.Name = "Button", "GlowEffect", "NeonOutline" -- Thêm hiệu ứng Wibu
+	Button.Name = "Button"
 	Button.Parent = stf
 	Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Button.BackgroundTransparency = 1.000
@@ -787,7 +787,7 @@ local aa = {
 			end
 			function s.Button(z, A, B)
 				s.Buttons = s.Buttons + 1
-				A = A or "Button", "GlowEffect", "NeonOutline" -- Thêm hiệu ứng Wibu
+				A = A or "Button"
 				B = B or function()
 				end
 				local C = e(k.Components.Button)("", s.ButtonHolder, true)
@@ -2219,7 +2219,7 @@ local aa = {
 		local i = e(h.Creator)
 		local j, k, l = i.New, h.Components, {}
 		l.__index = l
-		l.__type = "Button", "GlowEffect", "NeonOutline" -- Thêm hiệu ứng Wibu
+		l.__type = "Button"
 		function l.New(m, n)
 			assert(n.Title, "Button - Missing Title")
 			n.Callback = n.Callback or function()
@@ -3730,7 +3730,7 @@ local aa = {
 				["lucide-award"] = "rbxassetid://10709769406",
 				["lucide-axe"] = "rbxassetid://10709769508",
 				["lucide-axis-3d"] = "rbxassetid://10709769598",
-				["lucide-pvp"] = "rbxassetid://10709769732",
+				["lucide-baby"] = "rbxassetid://10709769732",
 				["lucide-backpack"] = "rbxassetid://10709769841",
 				["lucide-baggage-claim"] = "rbxassetid://10709769935",
 				["lucide-banana"] = "rbxassetid://10709770005",
@@ -4097,7 +4097,7 @@ local aa = {
 				["lucide-hexagon"] = "rbxassetid://10723407092",
 				["lucide-highlighter"] = "rbxassetid://10723407192",
 				["lucide-history"] = "rbxassetid://10723407335",
-				["lucide-main"] = "rbxassetid://10723407389",
+				["lucide-home"] = "rbxassetid://10723407389",
 				["lucide-hourglass"] = "rbxassetid://10723407498",
 				["lucide-ice-cream"] = "rbxassetid://10723414308",
 				["lucide-image"] = "rbxassetid://10723415040",
