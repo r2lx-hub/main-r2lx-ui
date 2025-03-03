@@ -15,8 +15,8 @@ screen_gui.Parent = PlayerGui
 local frame = Instance.new("Frame")
 frame.AnchorPoint = Vector2.new(0.5, 1)
 frame.BackgroundTransparency = 1
-frame.Position = UDim2.new(0.5, 0, 1, -100) -- Hiển thị dưới cùng
-frame.Size = UDim2.new(0, 300, 0, 100)
+frame.Position = UDim2.new(0.5, 0, 0.95, 0)
+frame.Size = UDim2.new(0, 100, 0, 100)
 frame.Parent = screen_gui
 
 local uilist_layout = Instance.new("UIListLayout")
@@ -29,7 +29,7 @@ function Notif.New(text, duration)
     local notifFrame = Instance.new("Frame")
     notifFrame.BackgroundTransparency = 0.2
     notifFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-    notifFrame.Size = UDim2.new(0, 300, 0, 40)
+    notifFrame.Size = UDim2.new(0, 100, 0, 0)
     notifFrame.Parent = frame
 
     local uicorner = Instance.new("UICorner")
@@ -51,8 +51,8 @@ function Notif.New(text, duration)
     closeButton.Text = "✖"
     closeButton.Font = Enum.Font.GothamBold
     closeButton.TextColor3 = Color3.fromRGB(255, 100, 100)
-    closeButton.Size = UDim2.new(0, 30, 0, 30)
-    closeButton.Position = UDim2.new(1, -35, 0.5, -15)
+    closeButton.Size = UDim2.new(0, 24, 0, 24)
+    closeButton.Position = UDim2.new(1, -28, 0, 3)
     closeButton.BackgroundTransparency = 1
     closeButton.Parent = notifFrame
 
@@ -71,4 +71,15 @@ function Notif.New(text, duration)
     task.delay(duration or 5, closeNotif)
 end
 
+function Notif.Error(text, duration)
+    Notif.New("❌ ERROR: " .. text, duration)
+end
+
+function Notif.Success(text, duration)
+    Notif.New("✅ SUCCESS: " .. text, duration)
+end
+
+function Notif.Warning(text, duration)
+    Notif.New("⚠️ WARNING: " .. text, duration)
+end
 return Notif
