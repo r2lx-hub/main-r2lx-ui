@@ -2,15 +2,24 @@ local Notif = {}
 
 local CoreGUI = game:GetService("CoreGui")
 local TS = game:GetService("TweenService")
-local Players = game:GetService("Players")
 
-local Player = Players.LocalPlayer
-local PlayerGui = Player:FindFirstChild("PlayerGui") or CoreGUI
+local HIDEUI = get_hidden_gui or gethui
+if syn and typeof(syn) == "table" and RenderWindow then syn.protect_gui = gethui; end
+local function Hide_UI(gui)
+    if HIDEUI then
+        gui["Parent"] = HIDEUI()
+    elseif (not is_sirhurt_closure) and (syn and syn.protect_gui) then
+        syn.protect_gui(gui)
+        gui["Parent"] = CoreGUI
+    elseif CoreGUI:FindFirstChild('RobloxGui') then
+        gui["Parent"] = CoreGUI.RobloxGui
+    else
+        gui["Parent"] = CoreGUI
+    end
+end
 
--- Tạo GUI thông báo
 local screen_gui = Instance.new("ScreenGui")
-screen_gui.Name = "NotifUI"
-screen_gui.Parent = PlayerGui
+Hide_UI(screen_gui)
 
 local frame = Instance.new("Frame")
 frame.AnchorPoint = Vector2.new(0.5, 0.949999988079071)
@@ -28,6 +37,7 @@ uilist_layout.HorizontalAlignment = Enum.HorizontalAlignment.Center
 uilist_layout.SortOrder = Enum.SortOrder.LayoutOrder
 uilist_layout.VerticalAlignment = Enum.VerticalAlignment.Bottom
 uilist_layout.Parent = frame
+
 
 function Notif.New(text, duration)
     local notifFrame = Instance.new("Frame")
@@ -52,9 +62,7 @@ function Notif.New(text, duration)
     textLabel.Parent = notifFrame
 
     local closeButton = Instance.new("TextButton")
-    closeButton.Text = "✖"
     closeButton.Font = Enum.Font.GothamBold
-    closeButton.TextColor3 = Color3.fromRGB(255, 80, 80)  -- Màu đỏ đậm hơn
     closeButton.Parent = frame
     closeButton.Size = UDim2.new(0, 20, 0, 20)
     closeButton.Position = UDim2.new(1, -20, 0, 0)
