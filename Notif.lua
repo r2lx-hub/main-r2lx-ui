@@ -42,7 +42,7 @@ function Notif.New(text, duration)
     mainFrame.AnchorPoint = Vector2.new(0.5, 1)
     mainFrame.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
     mainFrame.BackgroundTransparency = 0.2
-    mainFrame.Size = UDim2.new(0, 0, 0, 30)
+    mainFrame.Size = UDim2.new(0, 100, 0, 30)
     mainFrame.Position = UDim2.new(0.5, 0, 1, 60)
     mainFrame.Parent = notifFrame
 
@@ -55,6 +55,7 @@ function Notif.New(text, duration)
     textLabel.Text = text
     textLabel.TextColor3 = Color3.fromRGB(200, 200, 200)
     textLabel.TextSize = 14
+    textLabel.AutomaticSize = Enum.AutomaticSize.X
     textLabel.BackgroundTransparency = 1
     textLabel.Size = UDim2.new(0, 0, 0, 24)
     textLabel.Parent = mainFrame
@@ -68,7 +69,7 @@ function Notif.New(text, duration)
     closeButton.BackgroundTransparency = 1
     closeButton.Parent = mainFrame
 
-    TS:Create(mainFrame, TweenInfo.new(0.2, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 200, 0, 30)}):Play()
+    TS:Create(mainFrame, TweenInfo.new(0.2, Enum.EasingStyle.Quint), {Position = UDim2.new(0.5, 0, 1, 0), Size = UDim2.new(0, 250, 0, 30)}):Play()
 
     local function closeNotif()
         TS:Create(mainFrame, TweenInfo.new(0.25, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
@@ -78,6 +79,18 @@ function Notif.New(text, duration)
 
     closeButton.MouseButton1Click:Connect(closeNotif)
     task.delay(duration or 5, closeNotif)
+end
+
+function Notif.Error(text, duration)
+    Notif.New("❌ ERROR: " .. text, duration)
+end
+
+function Notif.Success(text, duration)
+    Notif.New("✅ SUCCESS: " .. text, duration)
+end
+
+function Notif.Warning(text, duration)
+    Notif.New("⚠️ WARNING: " .. text, duration)
 end
 
 return Notif
