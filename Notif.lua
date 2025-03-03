@@ -13,17 +13,20 @@ screen_gui.Name = "NotifUI"
 screen_gui.Parent = PlayerGui
 
 local frame = Instance.new("Frame")
-frame.AnchorPoint = Vector2.new(0.5, 1)
+frame.AnchorPoint = Vector2.new(0.5, 0.949999988079071)
+frame.BackgroundColor3 = Color3.new(1, 1, 1)
 frame.BackgroundTransparency = 1
-frame.Position = UDim2.new(0.5, 0, 1, -60)  -- Vị trí thấp hơn một chút
-frame.Size = UDim2.new(0, 250, 0, 100)  -- Kích thước nhỏ hơn, phù hợp với script gốc
+frame.BorderColor3 = Color3.new(0, 0, 0)
+frame.BorderSizePixel = 0
+frame.Position = UDim2.new(0.5, 0, 0.954999983, 0)
+frame.Size = UDim2.new(0, 100, 0, 100)
+frame.Visible = true
 frame.Parent = screen_gui
 
 local uilist_layout = Instance.new("UIListLayout")
 uilist_layout.HorizontalAlignment = Enum.HorizontalAlignment.Center
 uilist_layout.SortOrder = Enum.SortOrder.LayoutOrder
 uilist_layout.VerticalAlignment = Enum.VerticalAlignment.Bottom
-uilist_layout.Padding = UDim.new(0, 4) -- Giảm khoảng cách giữa các thông báo
 uilist_layout.Parent = frame
 
 function Notif.New(text, duration)
@@ -52,18 +55,19 @@ function Notif.New(text, duration)
     closeButton.Text = "✖"
     closeButton.Font = Enum.Font.GothamBold
     closeButton.TextColor3 = Color3.fromRGB(255, 80, 80)  -- Màu đỏ đậm hơn
-    closeButton.Size = UDim2.new(0, 24, 0, 24)  -- Nút đóng nhỏ hơn
-    closeButton.Position = UDim2.new(1, -30, 0.5, -12)
-    closeButton.BackgroundTransparency = 1
-    closeButton.Parent = notifFrame
+    closeButton.Parent = frame
+    closeButton.Size = UDim2.new(0, 20, 0, 20)
+    closeButton.Position = UDim2.new(1, -20, 0, 0)
+    closeButton.BackgroundColor3 = Color3.new(1, 0, 0)
+    closeButton.Text = "X"
 
     -- Hiệu ứng mở thông báo
     notifFrame.Size = UDim2.new(0, 0, 0, 35)
-    TS:Create(notifFrame, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 250, 0, 35)}):Play()
+    TS:Create(notifFrame, TweenInfo.new(0.2, Enum.EasingStyle.Quint), { Size = UDim2.new(0, 100, 0, 35) }):Play()
 
     -- Xử lý đóng thông báo
     local function closeNotif()
-        TS:Create(notifFrame, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 0, 0, 35)}):Play()
+        TS:Create(notifFrame, TweenInfo.new(0.2, Enum.EasingStyle.Quint), { Size = UDim2.new(0, 100, 0, 0) }):Play()
         task.wait(0.3)
         notifFrame:Destroy()
     end
