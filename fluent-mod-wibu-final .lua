@@ -1,4 +1,19 @@
 -- Fluent Mod
+
+_G.HoHoLoaded = true
+notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+wait(1)
+Notification:Notify(
+   {Title = "R2lx Hub", Description = "R2LX HUB"},
+   {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
+   {Image = "http://www.roblox.com/asset/?id=72839129717682", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
+)
+notify.New("Project Main 1.0", 60)
+notify.New("by R2LX and (cayngaydem) and T & Version X_X", 60)
+
 local old_tts = tostring;
 local a, b = {
 	{
