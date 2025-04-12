@@ -1,1 +1,6322 @@
- local v50 = tostring; local v55, b = { { 1, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\090\118\126\121\090\120\115\098\123\114"}, { {18, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\084\101\114\118\099\120\101"}}, {28, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\094\116\120\121\100"}}, { 47, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\067\127\114\122\114\100"}, { {50, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\083\118\101\124"}}, {54, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\080\101\114\110"}}, {58, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\064\126\117\098\067\127\114\122\114"}}, {57, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\080\101\118\115\126\114\121"}}, {56, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\082\121\127\118\121\116\114\115"}}, {55, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\069\037\091\079"}}, {52, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\091\126\112\127\099"}}, {51, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\083\118\101\124\114\101"}}, {53, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\069\120\100\114"}}, {49, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\086\102\098\118"}}, {48, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\086\122\114\099\127\110\100\099"}} } }, { 19, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\082\123\114\122\114\121\099\100"}, { {21, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\084\120\123\120\101\103\126\116\124\114\101"}}, {27, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\067\120\112\112\123\114"}}, {23, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\094\121\103\098\099"}}, {20, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\097\035\046"}}, {25, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\071\118\101\118\112\101\118\103\127"}}, {22, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\083\101\120\103\115\120\096\121"}}, {26, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\068\123\126\115\114\101"}}, {24, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\092\114\110\117\126\121\115"}} } }, { 29, "\081\120\123\115\114\101", {"\071\118\116\124\118\112\114\100"}, { { 30, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\081\123\126\103\103\114\101"}, { {33, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\080\101\120\098\103\090\120\099\120\101"}}, {46, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\126\100\090\120\099\120\101\057\100\103\114\116"}}, {39, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\068\126\112\121\118\123"}}, {40, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\068\126\112\121\118\123\057\100\103\114\116"}}, {45, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\126\100\090\120\099\120\101"}}, {36, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\094\121\100\099\118\121\099\057\100\103\114\116"}}, {44, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\068\103\101\126\121\112\057\100\103\114\116"}}, {42, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\068\126\121\112\123\114\090\120\099\120\101\057\100\103\114\116"}}, {38, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\091\126\121\114\118\101\057\100\103\114\116"}}, {31, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\085\118\100\114\090\120\099\120\101"}}, {43, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\068\103\101\126\121\112"}}, {35, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\094\121\100\099\118\121\099"}}, {37, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\091\126\121\114\118\101"}}, {41, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\068\126\121\112\123\114\090\120\099\120\101"}}, {34, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\080\101\120\098\103\090\120\099\120\101\057\100\103\114\116"}}, {32, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\085\118\100\114\090\120\099\120\101\057\100\103\114\116"}} } } } }, { 2, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\086\116\101\110\123\126\116"}, { {3, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\086\116\101\110\123\126\116\085\123\098\101"}}, {5, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\084\101\114\118\099\114\086\116\101\110\123\126\116"}}, {6, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\066\099\126\123\100"}}, {4, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\086\116\101\110\123\126\116\071\118\126\121\099"}} } }, { 7, "\081\120\123\115\114\101", {"\084\120\122\103\120\121\114\121\099\100"}, { {9, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\097\035\046"}}, {12, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\089\120\099\126\113\126\116\118\099\126\120\121"}}, {13, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\068\114\116\099\126\120\121"}}, {17, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\064\126\121\115\120\096"}}, {14, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\067\118\117"}}, {10, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\083\126\118\123\120\112"}}, {8, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\086\100\100\114\099\100"}}, {16, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\067\126\099\123\114\085\118\101"}}, {15, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\067\114\111\099\117\120\111"}}, {11, "\090\120\115\098\123\114\068\116\101\126\103\099", {"\082\123\114\122\114\121\099"}} } } } } } local v11 = v17() local v3 = Instance.new("\081\101\118\122\114") local v46 = Instance.new("\097\035\033") local v69 = Instance.new("\097\033\036") local v63 = Instance.new("\097\033\036") local v49 = Instance.new("\067\114\111\099\085\098\099\099\120\121") v3.Name = "\097\036" v3.BackgroundColor3 = Color3.fromRGB(77, 77, 77) v3.BackgroundTransparency = 0.500 v3.BorderColor3 = Color3.fromRGB(0, 0, 0) v3.BorderSizePixel = 0 v3.Position = UDim2.new(-0.085, 0, 0.00999999978, 0) v3.Size = UDim2.new(0.100000001, 0, 0.100000001, 0) v3.SizeConstraint = Enum.SizeConstraint.RelativeYY v3.Rotation = 360 v46.CornerRadius = UDim.new(0, 3) v46.Parent = v3 v69.Name = "\097\033\046" v69.Parent = v3 v69.AnchorPoint = Vector2.new(0.5, 0.5) v69.BackgroundTransparency = 1.000 v69.BorderSizePixel = 0 v69.Position = UDim2.new(0.5, 0, 0.5, 0) v69.Rotation = 0.010 v69.Size = UDim2.new(1, 47, 1, 47) v69.ZIndex = 0 v69.Image = "\101\117\111\118\100\100\114\099\126\115\045\056\056\038\036\033\036\039\034\047\034\038\038\035\035\035\036\036" v69.ImageColor3 = Color3.fromRGB(0, 0, 0) v69.ImageTransparency = 0.500 v69.ScaleType = Enum.ScaleType.Slice v69.SliceCenter = Rect.new(49, 49, 450, 450) v63.Parent = v3 v63.AnchorPoint = Vector2.new(0.5, 0.5) v63.BackgroundColor3 = Color3.fromRGB(255, 255, 255) v63.BackgroundTransparency = 1.000 v63.BorderColor3 = Color3.fromRGB(0, 0, 0) v63.BorderSizePixel = 0 v63.Position = UDim2.new(0.5, 0, 0.5, 0) v63.Size = UDim2.new(0.699999988, 0, 0.699999988, 0) v63.Image = "\101\117\111\118\100\100\114\099\126\115\045\056\056\038\038\036\037\037\046\033\036\038\037\038\037\039\036\039" v49.Name = "\097\035\046" v49.Parent = v3 v49.BackgroundColor3 = Color3.fromRGB(255, 255, 255) v49.BackgroundTransparency = 1.000 v49.BorderColor3 = Color3.fromRGB(0, 0, 0) v49.BorderSizePixel = 0 v49.Size = UDim2.new(1, 0, 1, 0) v49.ZIndex = 10 v49.Font = Enum.Font.SourceSans v49.TextColor3 = Color3.fromRGB(0, 0, 0) v49.TextSize = 14.000 v49.TextTransparency = 1.000; return v3; end; local v68 = { v17() local v18, v65, v36, v37, v33 = b(1) local v0, v25, v29, v52, v6, v34 = game:GetService "\091\126\112\127\099\126\121\112", game:GetService "\069\098\121\068\114\101\097\126\116\114", game:GetService "\071\123\118\110\114\101\100".LocalPlayer, game:GetService "\066\100\114\101\094\121\103\098\099\068\114\101\097\126\116\114", game:GetService "\067\096\114\114\121\068\114\101\097\126\116\114", game:GetService "\064\120\101\124\100\103\118\116\114".CurrentCamera local v43, v15 = v29:GetMouse(), v65 local v44, v28, v67, v60 = v36(v15.Creator), v36(v15.Elements), v36(v15.Acrylic), v15.Components local v64, v20, v47 = v36(v60.Notification), v44.New, protectgui or (syn and syn.protect_gui) or v17() end local v10 = v20("\068\116\101\114\114\121\080\098\126", {Parent = v25:IsStudio() and v29.PlayerGui or game:GetService "\084\120\101\114\080\098\126"}) v47(v10) v64:Init(v10) local v40 = { Version = "\038\057\038\057\039", OpenFrames = {}, Options = {}, Themes = v36(v15.Themes).Names, Window = nil, WindowFrame = nil, Unloaded = false, Theme = "\083\118\101\124", DialogOpen = false, UseAcrylic = false, Acrylic = false, Transparency = true, MinimizeKeybind = nil, MinimizeKey = Enum.KeyCode.LeftControl, GUI = v10 } v17 v40.SafeCallback(v9, v7, ...) if not v7 then return end local v1, v30 = pcall(v7, ...) if not v1 then local v61, v38 = v30:find "\045\050\097\033\034\060\045\055" if not v38 then return v40:Notify {Title = "\094\121\099\114\101\113\118\116\114", Content = "\084\118\123\123\117\118\116\124\055\114\101\101\120\101", SubContent = v30, Duration = 5} end return v40:Notify { Title = "\094\121\099\114\101\113\118\116\114", Content = "\084\118\123\123\117\118\116\124\055\114\101\101\120\101", SubContent = v30:sub(v38 + 1), Duration = 5 } end end v17 v40.Round(v9, v7, v1) if v1 == 0 then return math.floor(v7) end v7 = tostring(v7) return v7:find "\050\057" and tonumber(v7:sub(1, v7:find "\050\057" + v1)) or v7 end local v9 = v36(v15.Icons).assets v17 v40.GetIcon(v7, v1) if v1 ~= nil and v9["\123\098\116\126\115\114\058" .. v1] then return v9["\123\098\116\126\115\114\058" .. v1] end return nil end local v7 = {} v7.__index = v7 v7.__namecall = v17(v1, v30, ...) return v7[v30](...) end for v1, v30 in ipairs(v28) do v7["\086\115\115" .. v30.__type] = v17(v61, v38, v19) v30.Container = v61.Container v30.Type = v61.Type v30.ScrollFrame = v61.ScrollFrame v30.Library = v40 return v30:New(v38, v19) end end v40.Elements = v7 v17 v40.CreateWindow(v61, v38) assert(v38.Title, "\064\126\121\115\120\096\055\058\055\090\126\100\100\126\121\112\055\067\126\099\123\114") if v40.Window then print "\078\120\098\055\116\118\121\121\120\099\055\116\101\114\118\099\114\055\122\120\101\114\055\099\127\118\121\055\120\121\114\055\096\126\121\115\120\096\057" return end v40.MinimizeKey = v38.MinimizeKey v40.UseAcrylic = v38.Acrylic if v38.Acrylic then v67.init() end local v19 = v36(v60.Window) {Parent = v10, Size = v38.Size, Title = v38.Title, SubTitle = v38.SubTitle, TabWidth = v38.TabWidth} v40.Window = v19 local v21 = v11(); v40.Window.MBT = v21 v40.Window.Root.Active = true; v21.Parent = v40.Window.Root.Parent; v21.Visible = v52.TouchEnabled v40:SetTheme(v38.Theme) return v19 end v17 v40.SetTheme(v61, v38) if v40.Window and table.find(v40.Themes, v38) then v40.Theme = v38 v44.UpdateTheme() end end v17 v40.Destroy(v61) if v40.Window then v40.Unloaded = true if v40.UseAcrylic then v40.Window.AcrylicPaint.Model:Destroy() end v44.Disconnect() v40.GUI:Destroy() end end v17 v40.ToggleAcrylic(v61, v38) if v40.Window then if v40.UseAcrylic then v40.Acrylic = v38 v40.Window.AcrylicPaint.Model.Transparency = v38 and 0.98 or 1 if v38 then v67.Enable() else v67.Disable() end end end end v17 v40.ToggleTransparency(v61, v38) if v40.Window then v40.Window.AcrylicPaint.Frame.Background.BackgroundTransparency = v38 and 0.35 or 0 end end v17 v40.Notify(v61, v38) return v64:New(v38) end if getgenv then getgenv().Fluent = v40 end return v40 end, v17() local v18, v65, v36, v37, v33 = b(2) local v0 = {AcrylicBlur = v36(v65.AcrylicBlur), CreateAcrylic = v36(v65.CreateAcrylic), AcrylicPaint = v36(v65.AcrylicPaint)} v17 v0.init() local v25 = Instance.new "\083\114\103\099\127\088\113\081\126\114\123\115\082\113\113\114\116\099" v25.FarIntensity = 0 v25.InFocusRadius = 0.1 v25.NearIntensity = 1 local v29 = {} v17 v0.Enable() for v52, v6 in pairs(v29) do v6.Enabled = false end v25.Parent = game:GetService "\091\126\112\127\099\126\121\112" end v17 v0.Disable() for v52, v6 in pairs(v29) do v6.Enabled = v6.enabled end v25.Parent = nil end local v52 = v17() local v52 = v17(v52) if v52:IsA "\083\114\103\099\127\088\113\081\126\114\123\115\082\113\113\114\116\099" then v29[v52] = {enabled = v52.Enabled} end end for v6, v34 in pairs(game:GetService "\091\126\112\127\099\126\121\112":GetChildren()) do v52(v34) end if game:GetService "\064\120\101\124\100\103\118\116\114".CurrentCamera then for v43, v15 in pairs(game:GetService "\064\120\101\124\100\103\118\116\114".CurrentCamera:GetChildren()) do v52(v15) end end end v52() v0.Enable() end return v0 end, v17() local v18, v65, v36, v37, v33 = b(3) local v0, v25, v29, v52 = v36(v65.Parent.Parent.Creator), v36(v65.Parent.CreateAcrylic), unpack(v36(v65.Parent.Utils)) local v6 = v17(v6) local v34 = {} v6 = v6 or 0.001 local v43, v15 = {topLeft = Vector2.new(), topRight = Vector2.new(), bottomRight = Vector2.new()}, v25() v15.Parent = workspace local v44, v28 = v17(v44, v28) v43.topLeft = v28 v43.topRight = v28 + Vector2.new(v44.v2, 0) v43.bottomRight = v28 + v44 end, v17() local v44 = game:GetService "\064\120\101\124\100\103\118\116\114".CurrentCamera if v44 then v44 = v44.CFrame end local v28 = v44 if not v28 then v28 = CFrame.new() end local v67, v60, v64, v20 = v28, v43.topLeft, v43.topRight, v43.bottomRight local v47, v10, v40 = v29(v60, v6), v29(v64, v6), v29(v20, v6) local v9, v7 = (v10 - v47).Magnitude, (v10 - v40).Magnitude v15.CFrame = CFrame.fromMatrix((v47 + v40) / 2, v67.XVector, v67.YVector, v67.ZVector) v15.Mesh.Scale = Vector3.new(v9, v7, 0) end local v67, v60 = v17(v67) local v60 = v52() local v64, v20 = v67.AbsoluteSize - Vector2.new(v60, v60), v67.AbsolutePosition + Vector2.new(v60 / 2, v60 / 2) v44(v64, v20) task.spawn(v28) end, v17() local v67 = game:GetService "\064\120\101\124\100\103\118\116\114".CurrentCamera if not v67 then return end table.insert(v34, v67:GetPropertyChangedSignal "\084\081\101\118\122\114":Connect(v28)) table.insert(v34, v67:GetPropertyChangedSignal "\065\126\114\096\103\120\101\099\068\126\109\114":Connect(v28)) table.insert(v34, v67:GetPropertyChangedSignal "\081\126\114\123\115\088\113\065\126\114\096":Connect(v28)) task.spawn(v28) end v15.Destroying:Connect( v17() for v64, v20 in v34 do pcall( v17() v20:Disconnect() end ) end end ) v60() return v67, v15 end return v17(v34) local v43, v15, v44 = {}, v6(v34) local v28 = v0.New("\081\101\118\122\114", {BackgroundTransparency = 1, Size = UDim2.fromScale(1, 1)}) v0.AddSignal( v28:GetPropertyChangedSignal "\086\117\100\120\123\098\099\114\071\120\100\126\099\126\120\121", v17() v15(v28) end ) v0.AddSignal( v28:GetPropertyChangedSignal "\086\117\100\120\123\098\099\114\068\126\109\114", v17() v15(v28) end ) v43.AddParent = v17(v67) v0.AddSignal( v67:GetPropertyChangedSignal "\065\126\100\126\117\123\114", v17() v43.SetVisibility(v67.Visible) end ) end v43.SetVisibility = v17(v67) v44.Transparency = v67 and 0.98 or 1 end v43.Frame = v28 v43.Model = v44 return v43 end end, v17() local v18, v65, v36, v37, v33 = b(4) local v0, v25 = v36(v65.Parent.Parent.Creator), v36(v65.Parent.AcrylicBlur) local v29 = v0.New return v17(v52) local v6 = {} v6.Frame = v29( "\081\101\118\122\114", { Size = UDim2.fromScale(1, 1), BackgroundTransparency = 0.9, BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderSizePixel = 0 }, { v29( "\097\033\036", { Image = "\101\117\111\118\100\100\114\099\126\115\045\056\056\047\046\046\037\037\036\039\033\032\032", ScaleType = "\068\123\126\116\114", SliceCenter = Rect.new(Vector2.new(99, 99), Vector2.new(99, 99)), AnchorPoint = Vector2.new(0.5, 0.5), Size = UDim2.new(1, 120, 1, 116), Position = UDim2.new(0.5, 0, 0.5, 0), BackgroundTransparency = 1, ImageColor3 = Color3.fromRGB(0, 0, 0), ImageTransparency = 0.7 } ), v29("\097\035\033", {CornerRadius = UDim.new(0, 8)}), v29( "\081\101\118\122\114", { BackgroundTransparency = 0.45, Size = UDim2.fromScale(1, 1), Name = "\085\118\116\124\112\101\120\098\121\115", ThemeTag = {BackgroundColor3 = "\086\116\101\110\123\126\116\090\118\126\121"} }, {v29("\097\035\033", {CornerRadius = UDim.new(0, 8)})} ), v29( "\081\101\118\122\114", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 0.4, Size = UDim2.fromScale(1, 1) }, { v29("\097\035\033", {CornerRadius = UDim.new(0, 8)}), v29("\066\094\080\101\118\115\126\114\121\099", {Rotation = 90, ThemeTag = {Color = "\086\116\101\110\123\126\116\080\101\118\115\126\114\121\099"}}) } ), v29( "\097\033\036", { Image = "\101\117\111\118\100\100\114\099\126\115\045\056\056\046\046\033\047\036\035\035\038\039\034", ImageTransparency = 0.98, ScaleType = Enum.ScaleType.Tile, TileSize = UDim2.new(0, 128, 0, 128), Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1 }, {v29("\097\035\033", {CornerRadius = UDim.new(0, 8)})} ), v29( "\097\033\036", { Image = "\101\117\111\118\100\100\114\099\126\115\045\056\056\046\046\033\047\036\035\035\037\037\032", ImageTransparency = 0.9, ScaleType = Enum.ScaleType.Tile, TileSize = UDim2.new(0, 128, 0, 128), Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1, ThemeTag = {ImageTransparency = "\086\116\101\110\123\126\116\089\120\126\100\114"} }, {v29("\097\035\033", {CornerRadius = UDim.new(0, 8)})} ), v29( "\081\101\118\122\114", {BackgroundTransparency = 1, Size = UDim2.fromScale(1, 1), ZIndex = 2}, { v29("\097\035\033", {CornerRadius = UDim.new(0, 8)}), v29("\066\094\068\099\101\120\124\114", {Transparency = 0.5, Thickness = 1, ThemeTag = {Color = "\086\116\101\110\123\126\116\085\120\101\115\114\101"}}) } ) } ) local v34 if v36(v65.Parent.Parent).UseAcrylic then v34 = v25() v34.Frame.Parent = v6.Frame v6.Model = v34.Model v6.AddParent = v34.AddParent v6.SetVisibility = v34.SetVisibility end return v6 end end, v17() local v18, v65, v36, v37, v33 = b(5) local v0 = v65.Parent.Parent local v25 = v36(v0.Creator) local v29 = v17() local v29 = v25.New( "\071\118\101\099", { Name = "\085\120\115\110", Color = Color3.new(0, 0, 0), Material = Enum.Material.Glass, Size = Vector3.new(1, 1, 0), Anchored = true, CanCollide = false, Locked = true, CastShadow = false, Transparency = 0.98 }, {v25.New("\068\103\114\116\126\118\123\090\114\100\127", {MeshType = Enum.MeshType.Brick, Offset = Vector3.new(0, 0, -1E-6)})} ) return v29 end return v29 end, v17() local v18, v65, v36, v37, v33 = b(6) local v0, v25 = v17(v0, v25, v29, v52, v6) return (v0 - v25) * (v6 - v52) / (v29 - v25) + v52 end, v17(v0, v25) local v29 = game:GetService "\064\120\101\124\100\103\118\116\114".CurrentCamera:ScreenPointToRay(v0.v2, v0.v16) return v29.Origin + v29.Direction * v25 end local v29 = v17() local v29 = game:GetService "\064\120\101\124\100\103\118\116\114".CurrentCamera.ViewportSize.v16 return v0(v29, 0, 2560, 8, 56) end return {v25, v29} end, [8] = v17() local v18, v65, v36, v37, v33 = b(8) return { Close = "\101\117\111\118\100\100\114\099\126\115\045\056\056\046\047\047\033\033\034\046\033\032\038", Min = "\101\117\111\118\100\100\114\099\126\115\045\056\056\046\047\047\033\033\034\046\037\032\033", Max = "\101\117\111\118\100\100\114\099\126\115\045\056\056\046\047\047\033\033\034\046\035\039\033", Restore = "\101\117\111\118\100\100\114\099\126\115\045\056\056\046\047\047\033\033\034\046\039\039\038" } end, [9] = v17() local v18, v65, v36, v37, v33 = b(9) local v0 = v65.Parent.Parent local v25, v29 = v36(v0.Packages.Flipper), v36(v0.Creator) local v52, v6 = v29.New, v25.Spring.new return v17(v34, v43, v15) v15 = v15 or false local v44 = {} v44.Title = v52( "\067\114\111\099\091\118\117\114\123", { FontFace = Font.new "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", TextColor3 = Color3.fromRGB(200, 200, 200), TextSize = 14, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Center, TextYAlignment = Enum.TextYAlignment.Center, BackgroundColor3 = Color3.fromRGB(255, 255, 255), AutomaticSize = Enum.AutomaticSize.v16, BackgroundTransparency = 1, Size = UDim2.fromScale(1, 1), ThemeTag = {TextColor3 = "\067\114\111\099"} } ) v44.HoverFrame = v52( "\081\101\118\122\114", {Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1, ThemeTag = {BackgroundColor3 = "\095\120\097\114\101"}}, {v52("\097\035\033", {CornerRadius = UDim.new(0, 4)})} ) v44.Frame = v52( "\067\114\111\099\085\098\099\099\120\121", {Size = UDim2.new(0, 0, 0, 32), Parent = v43, ThemeTag = {BackgroundColor3 = "\083\126\118\123\120\112\085\098\099\099\120\121"}}, { v52("\097\035\033", {CornerRadius = UDim.new(0, 4)}), v52( "\066\094\068\099\101\120\124\114", { ApplyStrokeMode = Enum.ApplyStrokeMode.Border, Transparency = 0.65, ThemeTag = {Color = "\083\126\118\123\120\112\085\098\099\099\120\121\085\120\101\115\114\101"} } ), v44.HoverFrame, v44.Title } ) local v28, v67 = v29.SpringMotor(1, v44.HoverFrame, "\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110", v15) v29.AddSignal( v44.Frame.MouseEnter, v17() v67(0.97) end ) v29.AddSignal( v44.Frame.MouseLeave, v17() v67(1) end ) v29.AddSignal( v44.Frame.MouseButton1Down, v17() v67(1) end ) v29.AddSignal( v44.Frame.MouseButton1Up, v17() v67(0.97) end ) return v44 end end, [10] = v17() local v18, v65, v36, v37, v33 = b(10) local v0, v25, v29, v52 = game:GetService "\066\100\114\101\094\121\103\098\099\068\114\101\097\126\116\114", game:GetService "\071\123\118\110\114\101\100".LocalPlayer:GetMouse(), game:GetService "\064\120\101\124\100\103\118\116\114".CurrentCamera, v65.Parent.Parent local v6, v34 = v36(v52.Packages.Flipper), v36(v52.Creator) local v43, v15, v44, v28 = v6.Spring.new, v6.Instant.new, v34.New, {Window = nil} v17 v28.Init(v67, v60) v28.Window = v60 return v28 end v17 v28.Create(v67) local v60 = {Buttons = 0} v60.TintFrame = v44( "\067\114\111\099\085\098\099\099\120\121", { Text = "", Size = UDim2.fromScale(1, 1), BackgroundColor3 = Color3.fromRGB(0, 0, 0), BackgroundTransparency = 1, Parent = v28.Window.Root }, {v44("\097\035\033", {CornerRadius = UDim.new(0, 8)})} ) local v64, v20 = v34.SpringMotor(1, v60.TintFrame, "\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110", true) v60.ButtonHolder = v44( "\081\101\118\122\114", { Size = UDim2.new(1, -40, 1, -40), AnchorPoint = Vector2.new(0.5, 0.5), Position = UDim2.fromScale(0.5, 0.5), BackgroundTransparency = 1 }, { v44( "\066\094\091\126\100\099\091\118\110\120\098\099", { Padding = UDim.new(0, 10), FillDirection = Enum.FillDirection.Horizontal, HorizontalAlignment = Enum.HorizontalAlignment.Center, SortOrder = Enum.SortOrder.LayoutOrder } ) } ) v60.ButtonHolderFrame = v44( "\081\101\118\122\114", { Size = UDim2.new(1, 0, 0, 70), Position = UDim2.new(0, 0, 1, -70), ThemeTag = {BackgroundColor3 = "\083\126\118\123\120\112\095\120\123\115\114\101"} }, { v44("\081\101\118\122\114", {Size = UDim2.new(1, 0, 0, 1), ThemeTag = {BackgroundColor3 = "\083\126\118\123\120\112\095\120\123\115\114\101\091\126\121\114"}}), v60.ButtonHolder } ) v60.Title = v44( "\067\114\111\099\091\118\117\114\123", { FontFace = Font.new( "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal ), Text = "\083\126\118\123\120\112", TextColor3 = Color3.fromRGB(240, 240, 240), TextSize = 22, TextXAlignment = Enum.TextXAlignment.Left, Size = UDim2.new(1, 0, 0, 22), Position = UDim2.fromOffset(20, 25), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ThemeTag = {TextColor3 = "\067\114\111\099"} } ) v60.Scale = v44("\066\094\068\116\118\123\114", {Scale = 1}) local v47, v10 = v34.SpringMotor(1.1, v60.Scale, "\068\116\118\123\114") v60.Root = v44( "\084\118\121\097\118\100\080\101\120\098\103", { Size = UDim2.fromOffset(300, 165), AnchorPoint = Vector2.new(0.5, 0.5), Position = UDim2.fromScale(0.5, 0.5), GroupTransparency = 1, Parent = v60.TintFrame, ThemeTag = {BackgroundColor3 = "\083\126\118\123\120\112"} }, { v44("\097\035\033", {CornerRadius = UDim.new(0, 8)}), v44("\066\094\068\099\101\120\124\114", {Transparency = 0.5, ThemeTag = {Color = "\083\126\118\123\120\112\085\120\101\115\114\101"}}), v60.Scale, v60.Title, v60.ButtonHolderFrame } ) local v40, v9 = v34.SpringMotor(1, v60.Root, "\080\101\120\098\103\067\101\118\121\100\103\118\101\114\121\116\110") v17 v60.Open(v7) v36(v52).DialogOpen = true v60.Scale.Scale = 1.1 v20(0.75) v9(0) v10(1) end v17 v60.Close(v7) v36(v52).DialogOpen = false v20(1) v9(1) v10(1.1) v60.Root.UIStroke:Destroy() task.wait(0.15) v60.TintFrame:Destroy() end v17 v60.v49(v7, v1, v30) v60.Buttons = v60.Buttons + 1 v1 = v1 or "\097\035\046" v30 = v30 or v17() end local v61 = v36(v52.Components.v49)("", v60.ButtonHolder, true) v61.Title.Text = v1 for v38, v19 in next, v60.ButtonHolder:GetChildren() do if v19:IsA "\067\114\111\099\085\098\099\099\120\121" then v19.Size = UDim2.new(1 / v60.Buttons, -(((v60.Buttons - 1) * 10) / v60.Buttons), 0, 32) end end v34.AddSignal( v61.Frame.MouseButton1Click, v17() v36(v52):SafeCallback(v30) pcall( v17() v60:Close() end ) end ) return v61 end return v60 end return v28 end, [11] = v17() local v18, v65, v36, v37, v33 = b(11) local v0 = v65.Parent.Parent local v25, v29 = v36(v0.Packages.Flipper), v36(v0.Creator) local v52, v6 = v29.New, v25.Spring.new return v17(v34, v43, v15, v44) local v28 = {} v28.TitleLabel = v52( "\067\114\111\099\091\118\117\114\123", { FontFace = Font.new( "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", Enum.FontWeight.Medium, Enum.FontStyle.Normal ), Text = v34, TextColor3 = Color3.fromRGB(240, 240, 240), TextSize = 13, TextXAlignment = Enum.TextXAlignment.Left, Size = UDim2.new(1, 0, 0, 14), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ThemeTag = {TextColor3 = "\067\114\111\099"} } ) v28.DescLabel = v52( "\067\114\111\099\091\118\117\114\123", { FontFace = Font.new "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", Text = v43, TextColor3 = Color3.fromRGB(200, 200, 200), TextSize = 12, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left, BackgroundColor3 = Color3.fromRGB(255, 255, 255), AutomaticSize = Enum.AutomaticSize.v16, BackgroundTransparency = 1, Size = UDim2.new(1, 0, 0, 14), ThemeTag = {TextColor3 = "\068\098\117\067\114\111\099"} } ) v28.LabelHolder = v52( "\081\101\118\122\114", { AutomaticSize = Enum.AutomaticSize.v16, BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, Position = UDim2.fromOffset(10, 0), Size = UDim2.new(1, -28, 0, 0) }, { v52( "\066\094\091\126\100\099\091\118\110\120\098\099", {SortOrder = Enum.SortOrder.LayoutOrder, VerticalAlignment = Enum.VerticalAlignment.Center} ), v52("\066\094\071\118\115\115\126\121\112", {PaddingBottom = UDim.new(0, 13), PaddingTop = UDim.new(0, 13)}), v28.TitleLabel, v28.DescLabel } ) v28.Border = v52( "\066\094\068\099\101\120\124\114", { Transparency = 0.5, ApplyStrokeMode = Enum.ApplyStrokeMode.Border, Color = Color3.fromRGB(0, 0, 0), ThemeTag = {Color = "\082\123\114\122\114\121\099\085\120\101\115\114\101"} } ) v28.Frame = v52( "\067\114\111\099\085\098\099\099\120\121", { Size = UDim2.new(1, 0, 0, 0), BackgroundTransparency = 0.89, BackgroundColor3 = Color3.fromRGB(130, 130, 130), Parent = v15, AutomaticSize = Enum.AutomaticSize.v16, Text = "", LayoutOrder = 7, ThemeTag = {BackgroundColor3 = "\082\123\114\122\114\121\099", BackgroundTransparency = "\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110"} }, {v52("\097\035\033", {CornerRadius = UDim.new(0, 4)}), v28.Border, v28.LabelHolder} ) v17 v28.SetTitle(v67, v60) v28.TitleLabel.Text = v60 end v17 v28.SetDesc(v67, v60) if v60 == nil then v60 = "" end if v60 == "" then v28.DescLabel.Visible = false else v28.DescLabel.Visible = true end v28.DescLabel.Text = v60 end v17 v28.Destroy(v67) v28.Frame:Destroy() end v28:SetTitle(v34) v28:SetDesc(v43) if v44 then local v67, v60, v64 = v0.Themes, v29.SpringMotor( v29.GetThemeProperty "\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110", v28.Frame, "\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110", false, true ) v29.AddSignal( v28.Frame.MouseEnter, v17() v64(v29.GetThemeProperty "\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110" - v29.GetThemeProperty "\095\120\097\114\101\084\127\118\121\112\114") end ) v29.AddSignal( v28.Frame.MouseLeave, v17() v64(v29.GetThemeProperty "\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110") end ) v29.AddSignal( v28.Frame.MouseButton1Down, v17() v64(v29.GetThemeProperty "\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110" + v29.GetThemeProperty "\095\120\097\114\101\084\127\118\121\112\114") end ) v29.AddSignal( v28.Frame.MouseButton1Up, v17() v64(v29.GetThemeProperty "\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110" - v29.GetThemeProperty "\095\120\097\114\101\084\127\118\121\112\114") end ) end return v28 end end, [12] = v17() local v18, v65, v36, v37, v33 = b(12) local v0 = v65.Parent.Parent local v25, v29, v52 = v36(v0.Packages.Flipper), v36(v0.Creator), v36(v0.Acrylic) local v6, v34, v43, v15 = v25.Spring.new, v25.Instant.new, v29.New, {} v17 v15.Init(v44, v28) v15.Holder = v43( "\081\101\118\122\114", { Position = UDim2.new(1, -30, 1, -30), Size = UDim2.new(0, 310, 1, -30), AnchorPoint = Vector2.new(1, 1), BackgroundTransparency = 1, Parent = v28 }, { v43( "\066\094\091\126\100\099\091\118\110\120\098\099", { HorizontalAlignment = Enum.HorizontalAlignment.Center, SortOrder = Enum.SortOrder.LayoutOrder, VerticalAlignment = Enum.VerticalAlignment.Bottom, Padding = UDim.new(0, 20) } ) } ) end v17 v15.New(v44, v28) v28.Title = v28.Title or "\067\126\099\123\114" v28.Content = v28.Content or "\084\120\121\099\114\121\099" v28.SubContent = v28.SubContent or "" v28.Duration = v28.Duration or nil v28.Buttons = v28.Buttons or {} local v67 = {Closed = false} v67.AcrylicPaint = v52.AcrylicPaint() v67.Title = v43( "\067\114\111\099\091\118\117\114\123", { Position = UDim2.new(0, 14, 0, 17), Text = v28.Title, RichText = true, TextColor3 = Color3.fromRGB(255, 255, 255), TextTransparency = 0, FontFace = Font.new "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", TextSize = 13, TextXAlignment = "\091\114\113\099", TextYAlignment = "\084\114\121\099\114\101", Size = UDim2.new(1, -12, 0, 12), TextWrapped = true, BackgroundTransparency = 1, ThemeTag = {TextColor3 = "\067\114\111\099"} } ) v67.ContentLabel = v43( "\067\114\111\099\091\118\117\114\123", { FontFace = Font.new "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", Text = v28.Content, TextColor3 = Color3.fromRGB(240, 240, 240), TextSize = 14, TextXAlignment = Enum.TextXAlignment.Left, AutomaticSize = Enum.AutomaticSize.v16, Size = UDim2.new(1, 0, 0, 14), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, TextWrapped = true, ThemeTag = {TextColor3 = "\067\114\111\099"} } ) v67.SubContentLabel = v43( "\067\114\111\099\091\118\117\114\123", { FontFace = Font.new "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", Text = v28.SubContent, TextColor3 = Color3.fromRGB(240, 240, 240), TextSize = 14, TextXAlignment = Enum.TextXAlignment.Left, AutomaticSize = Enum.AutomaticSize.v16, Size = UDim2.new(1, 0, 0, 14), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, TextWrapped = true, ThemeTag = {TextColor3 = "\068\098\117\067\114\111\099"} } ) v67.LabelHolder = v43( "\081\101\118\122\114", { AutomaticSize = Enum.AutomaticSize.v16, BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, Position = UDim2.fromOffset(14, 40), Size = UDim2.new(1, -28, 0, 0) }, { v43( "\066\094\091\126\100\099\091\118\110\120\098\099", { SortOrder = Enum.SortOrder.LayoutOrder, VerticalAlignment = Enum.VerticalAlignment.Center, Padding = UDim.new(0, 3) } ), v67.ContentLabel, v67.SubContentLabel } ) v67.CloseButton = v43( "\067\114\111\099\085\098\099\099\120\121", { Text = "", Position = UDim2.new(1, -14, 0, 13), Size = UDim2.fromOffset(20, 20), AnchorPoint = Vector2.new(1, 0), BackgroundTransparency = 1 }, { v43( "\097\033\036", { Image = v36(v65.Parent.Assets).Close, Size = UDim2.fromOffset(16, 16), Position = UDim2.fromScale(0.5, 0.5), AnchorPoint = Vector2.new(0.5, 0.5), BackgroundTransparency = 1, ThemeTag = {ImageColor3 = "\067\114\111\099"} } ) } ) v67.Root = v43( "\081\101\118\122\114", {BackgroundTransparency = 1, Size = UDim2.new(1, 0, 1, 0), Position = UDim2.fromScale(1, 0)}, {v67.AcrylicPaint.Frame, v67.Title, v67.CloseButton, v67.LabelHolder} ) if v28.Content == "" then v67.ContentLabel.Visible = false end if v28.SubContent == "" then v67.SubContentLabel.Visible = false end v67.Holder = v43("\081\101\118\122\114", {BackgroundTransparency = 1, Size = UDim2.new(1, 0, 0, 200), Parent = v15.Holder}, {v67.Root}) local v60 = v25.GroupMotor.new {Scale = 1, Offset = 60} v60:onStep( v17(v64) v67.Root.Position = UDim2.new(v64.Scale, v64.Offset, 0, 0) end ) v29.AddSignal( v67.CloseButton.MouseButton1Click, v17() v67:Close() end ) v17 v67.Open(v64) local v20 = v67.LabelHolder.AbsoluteSize.v16 v67.Holder.Size = UDim2.new(1, 0, 0, 58 + v20) v60:setGoal {Scale = v6(0, {frequency = 5}), Offset = v6(0, {frequency = 5})} end v17 v67.Close(v64) if not v67.Closed then v67.Closed = true task.spawn( v17() v60:setGoal {Scale = v6(1, {frequency = 5}), Offset = v6(60, {frequency = 5})} task.wait(0.4) if v36(v0).UseAcrylic then v67.AcrylicPaint.Model:Destroy() end v67.Holder:Destroy() end ) end end v67:Open() if v28.Duration then task.delay( v28.Duration, v17() v67:Close() end ) end return v67 end return v15 end, [13] = v17() local v18, v65, v36, v37, v33 = b(13) local v0 = v65.Parent.Parent local v25 = v36(v0.Creator) local v29 = v25.New return v17(v52, v6) local v34 = {} v34.Layout = v29("\066\094\091\126\100\099\091\118\110\120\098\099", {Padding = UDim.new(0, 5)}) v34.Container = v29( "\081\101\118\122\114", {Size = UDim2.new(1, 0, 0, 26), Position = UDim2.fromOffset(0, 24), BackgroundTransparency = 1}, {v34.Layout} ) v34.Root = v29( "\081\101\118\122\114", {BackgroundTransparency = 1, Size = UDim2.new(1, 0, 0, 26), LayoutOrder = 7, Parent = v6}, { v29( "\067\114\111\099\091\118\117\114\123", { RichText = true, Text = v52, TextTransparency = 0, FontFace = Font.new( "\101\117\111\118\100\100\114\099\126\115\045\056\056\038\037\038\047\032\036\033\034\036\033\035", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal ), TextSize = 18, TextXAlignment = "\091\114\113\099", TextYAlignment = "\084\114\121\099\114\101", Size = UDim2.new(1, -16, 0, 18), Position = UDim2.fromOffset(0, 2), ThemeTag = {TextColor3 = "\067\114\111\099"} } ), v34.Container } ) v25.AddSignal( v34.Layout:GetPropertyChangedSignal "\086\117\100\120\123\098\099\114\084\120\121\099\114\121\099\068\126\109\114", v17() v34.Container.Size = UDim2.new(1, 0, 0, v34.Layout.AbsoluteContentSize.v16) v34.Root.Size = UDim2.new(1, 0, 0, v34.Layout.AbsoluteContentSize.v16 + 25) end ) return v34 end end, [14] = v17() local v18, v65, v36, v37, v33 = b(14) local v0 = v65.Parent.Parent local v25, v29 = v36(v0.Packages.Flipper), v36(v0.Creator) local v52, v6, v34, v43, v15 = v29.New, v25.Spring.new, v25.Instant.new, v0.Components, {Window = nil, Tabs = {}, Containers = {}, SelectedTab = 0, TabCount = 0} v17 v15.Init(v44, v28) v15.Window = v28 return v15 end v17 v15.GetCurrentTabPos(v44) local v28, v67 = v15.Window.TabHolder.AbsolutePosition.v16, v15.Tabs[v15.SelectedTab].Frame.AbsolutePosition.v16 return v67 - v28 end v17 v15.New(v44, v28, v67, v60) local v64, v20 = v36(v0), v15.Window local v47 = v64.Elements v15.TabCount = v15.TabCount + 1 local v10, v40 = v15.TabCount, {Selected = false, Name = v28, Type = "\067\118\117"} if v64:GetIcon(v67) then v67 = v64:GetIcon(v67) end if v67 == "" or nil then v67 = nil end v40.Frame = v52( "\067\114\111\099\085\098\099\099\120\121", { Size = UDim2.new(1, 0, 0, 34), BackgroundTransparency = 1, Parent = v60, ThemeTag = {BackgroundColor3 = "\067\118\117"} }, { v52("\097\035\033", {CornerRadius = UDim.new(0, 6)}), v52( "\067\114\111\099\091\118\117\114\123", { AnchorPoint = Vector2.new(0, 0.5), Position = v67 and UDim2.new(0, 30, 0.5, 0) or UDim2.new(0, 12, 0.5, 0), Text = v28, RichText = true, TextColor3 = Color3.fromRGB(255, 255, 255), TextTransparency = 0, FontFace = Font.new( "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", Enum.FontWeight.Regular, Enum.FontStyle.Normal ), TextSize = 12, TextXAlignment = "\091\114\113\099", TextYAlignment = "\084\114\121\099\114\101", Size = UDim2.new(1, -12, 1, 0), BackgroundTransparency = 1, ThemeTag = {TextColor3 = "\067\114\111\099"} } ), v52( "\097\033\036", { AnchorPoint = Vector2.new(0, 0.5), Size = UDim2.fromOffset(16, 16), Position = UDim2.new(0, 8, 0.5, 0), BackgroundTransparency = 1, Image = v67 and v67 or nil, ThemeTag = {ImageColor3 = "\067\114\111\099"} } ) } ) local v9 = v52("\066\094\091\126\100\099\091\118\110\120\098\099", {Padding = UDim.new(0, 5), SortOrder = Enum.SortOrder.LayoutOrder}) v40.ContainerFrame = v52( "\068\116\101\120\123\123\126\121\112\081\101\118\122\114", { Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1, Parent = v20.ContainerHolder, Visible = false, BottomImage = "\101\117\111\118\100\100\114\099\126\115\045\056\056\033\047\047\046\047\038\037\032\046\038", MidImage = "\101\117\111\118\100\100\114\099\126\115\045\056\056\033\047\047\046\047\038\037\032\037\038", TopImage = "\101\117\111\118\100\100\114\099\126\115\045\056\056\033\037\032\033\033\035\038\037\037\034", ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255), ScrollBarImageTransparency = 0.95, ScrollBarThickness = 3, BorderSizePixel = 0, CanvasSize = UDim2.fromScale(0, 0), ScrollingDirection = Enum.ScrollingDirection.v16 }, { v9, v52( "\066\094\071\118\115\115\126\121\112", { PaddingRight = UDim.new(0, 10), PaddingLeft = UDim.new(0, 1), PaddingTop = UDim.new(0, 1), PaddingBottom = UDim.new(0, 1) } ) } ) v29.AddSignal( v9:GetPropertyChangedSignal "\086\117\100\120\123\098\099\114\084\120\121\099\114\121\099\068\126\109\114", v17() v40.ContainerFrame.CanvasSize = UDim2.new(0, 0, 0, v9.AbsoluteContentSize.v16 + 2) end ) v40.Motor, v40.SetTransparency = v29.SpringMotor(1, v40.Frame, "\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110") v29.AddSignal( v40.Frame.MouseEnter, v17() v40.SetTransparency(v40.Selected and 0.85 or 0.89) end ) v29.AddSignal( v40.Frame.MouseLeave, v17() v40.SetTransparency(v40.Selected and 0.89 or 1) end ) v29.AddSignal( v40.Frame.MouseButton1Down, v17() v40.SetTransparency(0.92) end ) v29.AddSignal( v40.Frame.MouseButton1Up, v17() v40.SetTransparency(v40.Selected and 0.85 or 0.89) end ) v29.AddSignal( v40.Frame.MouseButton1Click, v17() v15:SelectTab(v10) end ) v15.Containers[v10] = v40.ContainerFrame v15.Tabs[v10] = v40 v40.Container = v40.ContainerFrame v40.ScrollFrame = v40.Container v17 v40.AddSection(v7, v1) local v30, v61 = {Type = "\068\114\116\099\126\120\121"}, v36(v43.Section)(v1, v40.Container) v30.Container = v61.Container v30.ScrollFrame = v40.Container setmetatable(v30, v47) return v30 end setmetatable(v40, v47) return v40 end v17 v15.SelectTab(v44, v28) local v67 = v15.Window v15.SelectedTab = v28 for v60, v64 in next, v15.Tabs do v64.SetTransparency(1) v64.Selected = false end v15.Tabs[v28].SetTransparency(0.89) v15.Tabs[v28].Selected = true v67.TabDisplay.Text = v15.Tabs[v28].Name v67.SelectorPosMotor:setGoal(v6(v15:GetCurrentTabPos(), {frequency = 6})) task.spawn( v17() v67.ContainerPosMotor:setGoal(v6(110, {frequency = 10})) v67.ContainerBackMotor:setGoal(v6(1, {frequency = 10})) task.wait(0.15) for v20, v47 in next, v15.Containers do v47.Visible = false end v15.Containers[v28].Visible = true v67.ContainerPosMotor:setGoal(v6(94, {frequency = 5})) v67.ContainerBackMotor:setGoal(v6(0, {frequency = 8})) end ) end return v15 end, [15] = v17() local v18, v65, v36, v37, v33 = b(15) local v0, v25 = game:GetService "\067\114\111\099\068\114\101\097\126\116\114", v65.Parent.Parent local v29, v52 = v36(v25.Packages.Flipper), v36(v25.Creator) local v6 = v52.New return v17(v34, v43) v43 = v43 or false local v15 = {} v15.Input = v6( "\067\114\111\099\085\120\111", { FontFace = Font.new "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", TextColor3 = Color3.fromRGB(200, 200, 200), TextSize = 14, TextXAlignment = Enum.TextXAlignment.Left, TextYAlignment = Enum.TextYAlignment.Center, BackgroundColor3 = Color3.fromRGB(255, 255, 255), AutomaticSize = Enum.AutomaticSize.v16, BackgroundTransparency = 1, Size = UDim2.fromScale(1, 1), Position = UDim2.fromOffset(10, 0), ThemeTag = {TextColor3 = "\067\114\111\099", PlaceholderColor3 = "\068\098\117\067\114\111\099"} } ) v15.Container = v6( "\081\101\118\122\114", { BackgroundTransparency = 1, ClipsDescendants = true, Position = UDim2.new(0, 6, 0, 0), Size = UDim2.new(1, -12, 1, 0) }, {v15.Input} ) v15.Indicator = v6( "\081\101\118\122\114", { Size = UDim2.new(1, -4, 0, 1), Position = UDim2.new(0, 2, 1, 0), AnchorPoint = Vector2.new(0, 1), BackgroundTransparency = v43 and 0.5 or 0, ThemeTag = {BackgroundColor3 = v43 and "\094\121\103\098\099\094\121\115\126\116\118\099\120\101" or "\083\126\118\123\120\112\094\121\103\098\099\091\126\121\114"} } ) v15.Frame = v6( "\081\101\118\122\114", { Size = UDim2.new(0, 0, 0, 30), BackgroundTransparency = v43 and 0.9 or 0, Parent = v34, ThemeTag = {BackgroundColor3 = v43 and "\094\121\103\098\099" or "\083\126\118\123\120\112\094\121\103\098\099"} }, { v6("\097\035\033", {CornerRadius = UDim.new(0, 4)}), v6( "\066\094\068\099\101\120\124\114", { ApplyStrokeMode = Enum.ApplyStrokeMode.Border, Transparency = v43 and 0.5 or 0.65, ThemeTag = {Color = v43 and "\094\121\082\123\114\122\114\121\099\085\120\101\115\114\101" or "\083\126\118\123\120\112\085\098\099\099\120\121\085\120\101\115\114\101"} } ), v15.Indicator, v15.Container } ) local v44 = v17() local v44, v28 = 2, v15.Container.AbsoluteSize.v2 if not v15.Input:IsFocused() or v15.Input.TextBounds.v2 <= v28 - 2 * v44 then v15.Input.Position = UDim2.new(0, v44, 0, 0) else local v67 = v15.Input.CursorPosition if v67 ~= -1 then local v60 = string.sub(v15.Input.Text, 1, v67 - 1) local v64 = v0:GetTextSize(v60, v15.Input.TextSize, v15.Input.Font, Vector2.new(math.huge, math.huge)).v2 local v20 = v15.Input.Position.v2.Offset + v64 if v20 < v44 then v15.Input.Position = UDim2.fromOffset(v44 - v64, 0) elseif v20 > v28 - v44 - 1 then v15.Input.Position = UDim2.fromOffset(v28 - v64 - v44 - 1, 0) end end end end task.spawn(v44) v52.AddSignal(v15.Input:GetPropertyChangedSignal "\067\114\111\099", v44) v52.AddSignal(v15.Input:GetPropertyChangedSignal "\084\098\101\100\120\101\071\120\100\126\099\126\120\121", v44) v52.AddSignal( v15.Input.Focused, v17() v44() v15.Indicator.Size = UDim2.new(1, -2, 0, 2) v15.Indicator.Position = UDim2.new(0, 1, 1, 0) v15.Indicator.BackgroundTransparency = 0 v52.OverrideTag(v15.Frame, {BackgroundColor3 = v43 and "\094\121\103\098\099\081\120\116\098\100\114\115" or "\083\126\118\123\120\112\095\120\123\115\114\101"}) v52.OverrideTag(v15.Indicator, {BackgroundColor3 = "\086\116\116\114\121\099"}) end ) v52.AddSignal( v15.Input.FocusLost, v17() v44() v15.Indicator.Size = UDim2.new(1, -4, 0, 1) v15.Indicator.Position = UDim2.new(0, 2, 1, 0) v15.Indicator.BackgroundTransparency = 0.5 v52.OverrideTag(v15.Frame, {BackgroundColor3 = v43 and "\094\121\103\098\099" or "\083\126\118\123\120\112\094\121\103\098\099"}) v52.OverrideTag(v15.Indicator, {BackgroundColor3 = v43 and "\094\121\103\098\099\094\121\115\126\116\118\099\120\101" or "\083\126\118\123\120\112\094\121\103\098\099\091\126\121\114"}) end ) return v15 end end, [16] = v17() local v18, v65, v36, v37, v33 = b(16) local v0, v25 = v65.Parent.Parent, v36(v65.Parent.Assets) local v29, v52 = v36(v0.Creator), v36(v0.Packages.Flipper) local v6, v34 = v29.New, v29.AddSignal return v17(v43) local v15, v44, v28 = {}, v36(v0), v17(v15, v44, v28, v67) local v60 = {Callback = v67 or v17() end} v60.Frame = v6( "\067\114\111\099\085\098\099\099\120\121", { Size = UDim2.new(0, 34, 1, -8), AnchorPoint = Vector2.new(1, 0), BackgroundTransparency = 1, Parent = v28, Position = v44, Text = "", ThemeTag = {BackgroundColor3 = "\067\114\111\099"} }, { v6("\097\035\033", {CornerRadius = UDim.new(0, 7)}), v6( "\097\033\036", { Image = v15, Size = UDim2.fromOffset(16, 16), Position = UDim2.fromScale(0.5, 0.5), AnchorPoint = Vector2.new(0.5, 0.5), BackgroundTransparency = 1, Name = "\094\116\120\121", ThemeTag = {ImageColor3 = "\067\114\111\099"} } ) } ) local v64, v20 = v29.SpringMotor(1, v60.Frame, "\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110") v34( v60.Frame.MouseEnter, v17() v20(0.94) end ) v34( v60.Frame.MouseLeave, v17() v20(1, true) end ) v34( v60.Frame.MouseButton1Down, v17() v20(0.96) end ) v34( v60.Frame.MouseButton1Up, v17() v20(0.94) end ) v34(v60.Frame.MouseButton1Click, v60.Callback) v60.SetCallback = v17(v47) v60.Callback = v47 end return v60 end v15.Frame = v6( "\081\101\118\122\114", {Size = UDim2.new(1, 0, 0, 42), BackgroundTransparency = 1, Parent = v43.Parent}, { v6( "\081\101\118\122\114", {Size = UDim2.new(1, -16, 1, 0), Position = UDim2.new(0, 16, 0, 0), BackgroundTransparency = 1}, { v6( "\066\094\091\126\100\099\091\118\110\120\098\099", { Padding = UDim.new(0, 5), FillDirection = Enum.FillDirection.Horizontal, SortOrder = Enum.SortOrder.LayoutOrder } ), v6( "\067\114\111\099\091\118\117\114\123", { RichText = true, Text = v43.Title, FontFace = Font.new( "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", Enum.FontWeight.Regular, Enum.FontStyle.Normal ), TextSize = 12, TextXAlignment = "\091\114\113\099", TextYAlignment = "\084\114\121\099\114\101", Size = UDim2.fromScale(0, 1), AutomaticSize = Enum.AutomaticSize.v2, BackgroundTransparency = 1, ThemeTag = {TextColor3 = "\067\114\111\099"} } ), v6( "\067\114\111\099\091\118\117\114\123", { RichText = true, Text = v43.SubTitle, TextTransparency = 0.4, FontFace = Font.new( "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", Enum.FontWeight.Regular, Enum.FontStyle.Normal ), TextSize = 12, TextXAlignment = "\091\114\113\099", TextYAlignment = "\084\114\121\099\114\101", Size = UDim2.fromScale(0, 1), AutomaticSize = Enum.AutomaticSize.v2, BackgroundTransparency = 1, ThemeTag = {TextColor3 = "\067\114\111\099"} } ) } ), v6( "\081\101\118\122\114", { BackgroundTransparency = 0.5, Size = UDim2.new(1, 0, 0, 1), Position = UDim2.new(0, 0, 1, 0), ThemeTag = {BackgroundColor3 = "\067\126\099\123\114\085\118\101\091\126\121\114"} } ) } ) v15.CloseButton = v28( v25.Close, UDim2.new(1, -4, 0, 4), v15.Frame, v17() v44.Window:Dialog { Title = "\084\123\120\100\114", Content = "\086\101\114\055\110\120\098\055\100\098\101\114\055\110\120\098\055\096\118\121\099\055\099\120\055\098\121\123\120\118\115\055\099\127\114\055\126\121\099\114\101\113\118\116\114\040", Buttons = {{Title = "\078\114\100", Callback = v17() v44:Destroy() end}, {Title = "\089\120"}} } end ) v15.MaxButton = v28( v25.Max, UDim2.new(1, -40, 0, 4), v15.Frame, v17() v43.Window.Maximize(not v43.Window.Maximized) end ) v15.MinButton = v28( v25.Min, UDim2.new(1, -80, 0, 4), v15.Frame, v17() v44.Window:Minimize() end ) return v15 end end, [17] = v17() local v18, v65, v36, v37, v33 = b(17) local v0, v25, v29, v52 = game:GetService "\066\100\114\101\094\121\103\098\099\068\114\101\097\126\116\114", game:GetService "\071\123\118\110\114\101\100".LocalPlayer:GetMouse(), game:GetService "\064\120\101\124\100\103\118\116\114".CurrentCamera, v65.Parent.Parent local v23 = game:GetService('TweenService'); local v6, v34, v43, v15, v44 = v36(v52.Packages.Flipper), v36(v52.Creator), v36(v52.Acrylic), v36(v65.Parent.Assets), v65.Parent local v28, v67, v60 = v6.Spring.new, v6.Instant.new, v34.New return v17(v64) local v20, v47, v10, v40, v9, v7 = v36(v52), { Minimized = false, Maximized = false, Size = v64.Size, CurrentPos = 0, Position = UDim2.fromOffset( v29.ViewportSize.v2 / 2 - v64.Size.v2.Offset / 2, v29.ViewportSize.v16 / 2 - v64.Size.v16.Offset / 2 ) }, false local v1, v30 = false local v61 = false v47.AcrylicPaint = v43.AcrylicPaint() local v38, v19 = v60( "\081\101\118\122\114", { Size = UDim2.fromOffset(4, 0), BackgroundColor3 = Color3.fromRGB(76, 194, 255), Position = UDim2.fromOffset(0, 17), AnchorPoint = Vector2.new(0, 0.5), ThemeTag = {BackgroundColor3 = "\086\116\116\114\121\099"} }, {v60("\097\035\033", {CornerRadius = UDim.new(0, 2)})} ), v60( "\081\101\118\122\114", {Size = UDim2.fromOffset(20, 20), BackgroundTransparency = 1, Position = UDim2.new(1, -20, 1, -20)} ) v47.TabHolder = v60( "\068\116\101\120\123\123\126\121\112\081\101\118\122\114", { Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1, ScrollBarImageTransparency = 1, ScrollBarThickness = 0, BorderSizePixel = 0, CanvasSize = UDim2.fromScale(0, 0), ScrollingDirection = Enum.ScrollingDirection.v16 }, {v60("\066\094\091\126\100\099\091\118\110\120\098\099", {Padding = UDim.new(0, 4)})} ) local v26 = v60( "\081\101\118\122\114", { Size = UDim2.new(0, v64.TabWidth, 1, -66), Position = UDim2.new(0, 12, 0, 54), BackgroundTransparency = 1, ClipsDescendants = true }, {v47.TabHolder, v38} ) v47.TabDisplay = v60( "\067\114\111\099\091\118\117\114\123", { RichText = true, Text = "\067\118\117", TextTransparency = 0, FontFace = Font.new("\101\117\111\118\100\100\114\099\126\115\045\056\056\038\037\038\047\032\036\033\034\036\033\035", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal), TextSize = 28, TextXAlignment = "\091\114\113\099", TextYAlignment = "\084\114\121\099\114\101", Size = UDim2.new(1, -16, 0, 28), Position = UDim2.fromOffset(v64.TabWidth + 26, 56), BackgroundTransparency = 1, ThemeTag = {TextColor3 = "\067\114\111\099"} } ) v47.ContainerHolder = v60( "\084\118\121\097\118\100\080\101\120\098\103", { Size = UDim2.new(1, -v64.TabWidth - 32, 1, -102), Position = UDim2.fromOffset(v64.TabWidth + 26, 90), BackgroundTransparency = 1 } ) v47.Root = v60( "\081\101\118\122\114", {BackgroundTransparency = 1, Size = v47.Size, Position = v47.Position, Parent = v64.Parent}, {v47.AcrylicPaint.Frame, v47.TabDisplay, v47.ContainerHolder, v26, v19} ) v47.TitleBar = v36(v65.Parent.TitleBar) {Title = v64.Title, SubTitle = v64.SubTitle, Parent = v47.Root, Window = v47} if v36(v52).UseAcrylic then v47.AcrylicPaint.AddParent(v47.Root) end local v41, H = v6.GroupMotor.new {v2 = v47.Size.v2.Offset, v16 = v47.Size.v16.Offset}, v6.GroupMotor.new {v2 = v47.Position.v2.Offset, v16 = v47.Position.v16.Offset} v47.SelectorPosMotor = v6.SingleMotor.new(17) v47.SelectorSizeMotor = v6.SingleMotor.new(0) v47.ContainerBackMotor = v6.SingleMotor.new(0) v47.ContainerPosMotor = v6.SingleMotor.new(94) v41:onStep( v17(v35) v47.Root.Size = UDim2.new(0, v35.v2, 0, v35.v16) end ) H:onStep( v17(v35) v47.Root.Position = UDim2.new(0, v35.v2, 0, v35.v16) end ) local v35, v8 = 0, 0 v47.SelectorPosMotor:onStep( v17(v51) v38.Position = UDim2.new(0, 0, 0, v51 + 17) local v12 = tick() local v56 = v12 - v8 if v35 ~= nil then v47.SelectorSizeMotor:setGoal(v28((math.abs(v51 - v35) / (v56 * 60)) + 16)) v35 = v51 end v8 = v12 end ) v47.SelectorSizeMotor:onStep( v17(v51) v38.Size = UDim2.new(0, 4, 0, v51) end ) v47.ContainerBackMotor:onStep( v17(v51) v47.ContainerHolder.GroupTransparency = v51 end ) v47.ContainerPosMotor:onStep( v17(v51) v47.ContainerHolder.Position = UDim2.fromOffset(v64.TabWidth + 26, v51) end ) local v51, v12 v47.Maximize = v17(v56, v54, v22) v47.Maximized = v56 v47.TitleBar.MaxButton.Frame.Icon.Image = v56 and v15.Restore or v15.Max if v56 then v51 = v47.Size.v2.Offset v12 = v47.Size.v16.Offset end local v31, v66 = v56 and v29.ViewportSize.v2 or v51, v56 and v29.ViewportSize.v16 or v12 v41:setGoal { v2 = v6[v22 and "\094\121\100\099\118\121\099" or "\068\103\101\126\121\112"].new(v31, {frequency = 6}), v16 = v6[v22 and "\094\121\100\099\118\121\099" or "\068\103\101\126\121\112"].new(v66, {frequency = 6}) } v47.Size = UDim2.fromOffset(v31, v66) if not v54 then H:setGoal { v2 = v28(v56 and 0 or v47.Position.v2.Offset, {frequency = 6}), v16 = v28(v56 and 0 or v47.Position.v16.Offset, {frequency = 6}) } end end v34.AddSignal( v47.TitleBar.Frame.InputBegan, v17(v56) if v56.UserInputType == Enum.UserInputType.MouseButton1 or v56.UserInputType == Enum.UserInputType.Touch then v10 = true v9 = v56.Position v7 = v47.Root.Position if v47.Maximized then v7 = UDim2.fromOffset( v25.v2 - (v25.v2 * ((v51 - 100) / v47.Root.AbsoluteSize.v2)), v25.v16 - (v25.v16 * (v12 / v47.Root.AbsoluteSize.v16)) ) end v56.Changed:Connect( v17() if v56.UserInputState == Enum.UserInputState.End then v10 = false end end ) end end ) v34.AddSignal( v47.TitleBar.Frame.InputChanged, v17(v56) if v56.UserInputType == Enum.UserInputType.MouseMovement or v56.UserInputType == Enum.UserInputType.Touch then v40 = v56 end end ) v34.AddSignal( v19.InputBegan, v17(v56) if v56.UserInputType == Enum.UserInputType.MouseButton1 or v56.UserInputType == Enum.UserInputType.Touch then v1 = true v30 = v56.Position end end ) v34.AddSignal( v0.InputChanged, v17(v56) if v56 == v40 and v10 then local v54 = v56.Position - v9 v47.Position = UDim2.fromOffset(v7.v2.Offset + v54.v2, v7.v16.Offset + v54.v16) H:setGoal {v2 = v67(v47.Position.v2.Offset), v16 = v67(v47.Position.v16.Offset)} if v47.Maximized then v47.Maximize(false, true, true) end end if (v56.UserInputType == Enum.UserInputType.MouseMovement or v56.UserInputType == Enum.UserInputType.Touch) and v1 then local v54, v22 = v56.Position - v30, v47.Size local v31 = Vector3.new(v22.v2.Offset, v22.v16.Offset, 0) + Vector3.new(1, 1, 0) * v54 local v66 = Vector2.new(math.clamp(v31.v2, 445, 2048), math.clamp(v31.v16, 315, 2048)) v41:setGoal {v2 = v6.Instant.new(v66.v2), v16 = v6.Instant.new(v66.v16)} end end ) v34.AddSignal( v0.InputEnded, v17(v56) if v1 == true or v56.UserInputType == Enum.UserInputType.Touch then v1 = false v47.Size = UDim2.fromOffset(v41:getValue().v2, v41:getValue().v16) end end ) v34.AddSignal( v47.TabHolder.UIListLayout:GetPropertyChangedSignal "\086\117\100\120\123\098\099\114\084\120\121\099\114\121\099\068\126\109\114", v17() v47.TabHolder.CanvasSize = UDim2.new(0, 0, 0, v47.TabHolder.UIListLayout.AbsoluteContentSize.v16) end ) v34.AddSignal(v0.InputBegan,v17(v56) if type(v20.MinimizeKeybind) == "\099\118\117\123\114" and v20.MinimizeKeybind.Type == "\092\114\110\117\126\121\115" and not v0:GetFocusedTextBox() then if v56.KeyCode.Name == v20.MinimizeKeybind.Value then v47:Minimize() end elseif v56.KeyCode == v20.MinimizeKey and not v0:GetFocusedTextBox() then v47:Minimize() end end) v17 v47.Minimize(v56) v47.Minimized = not v47.Minimized v47.Root.Visible = not v47.Minimized if v47.MBT and not v47.TEZSX then v47.TEZSX = true v34.AddSignal((v47.MBT:WaitForChild('v49',1) :: TextButton).MouseButton1Click,v17() v47:Minimize() end) end; if v47.Minimized then v23:Create(v47.MBT,TweenInfo.new(0.25,Enum.EasingStyle.Quint),{ Position = UDim2.fromScale(0.01,0.01), Rotation = 0 }):Play(); v23:Create(v47.MBT,TweenInfo.new(0.55,Enum.EasingStyle.Quint),{ Size = UDim2.fromScale(0.1,0.1) }):Play(); else v23:Create(v47.MBT,TweenInfo.new(0.25,Enum.EasingStyle.Quint),{ Position = UDim2.fromScale(-0.085,0.01), Rotation = 360, }):Play(); end; if not v61 then v61 = true local v54 = v20.MinimizeKeybind and v20.MinimizeKeybind.Value or v20.MinimizeKey.Name v20:Notify {Title = "\094\121\099\114\101\113\118\116\114", Content = "\071\101\114\100\100\055" .. v54 .. "\055\099\120\055\099\120\112\112\123\114\055\099\127\114\055\126\121\099\114\113\118\116\114\057", Duration = 6} end end v17 v47.Destroy(v56) if v36(v52).UseAcrylic then v47.AcrylicPaint.Model:Destroy() end v47.Root:Destroy() end local v56 = v36(v44.Dialog):Init(v47) v17 v47.Dialog(v54, v22) local v31 = v56:Create() v31.Title.Text = v22.Title local v66 = v60( "\067\114\111\099\091\118\117\114\123", { FontFace = Font.new "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", Text = v22.Content, TextColor3 = Color3.fromRGB(240, 240, 240), TextSize = 14, TextXAlignment = Enum.TextXAlignment.Left, TextYAlignment = Enum.TextYAlignment.Top, Size = UDim2.new(1, -40, 1, 0), Position = UDim2.fromOffset(20, 60), BackgroundTransparency = 1, Parent = v31.Root, ClipsDescendants = false, ThemeTag = {TextColor3 = "\067\114\111\099"} } ) v60( "\066\094\068\126\109\114\084\120\121\100\099\101\118\126\121\099", {MinSize = Vector2.new(300, 165), MaxSize = Vector2.new(620, math.huge), Parent = v31.Root} ) v31.Root.Size = UDim2.fromOffset(v66.TextBounds.v2 + 40, 165) if v66.TextBounds.v2 + 40 > v47.Size.v2.Offset - 120 then v31.Root.Size = UDim2.fromOffset(v47.Size.v2.Offset - 120, 165) v66.TextWrapped = true v31.Root.Size = UDim2.fromOffset(v47.Size.v2.Offset - 120, v66.TextBounds.v16 + 150) end for v4, v62 in next, v22.Buttons do v31:v49(v62.Title, v62.Callback) end v31:Open() end local v54 = v36(v44.Tab):Init(v47) v17 v47.AddTab(v22, v31) return v54:New(v31.Title, v31.Icon, v47.TabHolder) end v17 v47.SelectTab(v22, v31) v54:SelectTab(1) end v34.AddSignal( v47.TabHolder:GetPropertyChangedSignal "\084\118\121\097\118\100\071\120\100\126\099\126\120\121", v17() v35 = v54:GetCurrentTabPos() + 16 v8 = 0 v47.SelectorPosMotor:setGoal(v67(v54:GetCurrentTabPos())) end ) return v47 end end, [18] = v17() local v18, v65, v36, v37, v33 = b(18) local v0 = v65.Parent local v25, v29, v52 = v36(v0.Themes), v36(v0.Packages.Flipper), { Registry = {}, Signals = {}, TransparencyMotors = {}, DefaultProperties = { ScreenGui = {ResetOnSpawn = false, ZIndexBehavior = Enum.ZIndexBehavior.Sibling}, Frame = { BackgroundColor3 = Color3.new(1, 1, 1), BorderColor3 = Color3.new(0, 0, 0), BorderSizePixel = 0 }, ScrollingFrame = { BackgroundColor3 = Color3.new(1, 1, 1), BorderColor3 = Color3.new(0, 0, 0), ScrollBarImageColor3 = Color3.new(0, 0, 0) }, TextLabel = { BackgroundColor3 = Color3.new(1, 1, 1), BorderColor3 = Color3.new(0, 0, 0), Font = Enum.Font.SourceSans, Text = "", TextColor3 = Color3.new(0, 0, 0), BackgroundTransparency = 1, TextSize = 14 }, TextButton = { BackgroundColor3 = Color3.new(1, 1, 1), BorderColor3 = Color3.new(0, 0, 0), AutoButtonColor = false, Font = Enum.Font.SourceSans, Text = "", TextColor3 = Color3.new(0, 0, 0), TextSize = 14 }, TextBox = { BackgroundColor3 = Color3.new(1, 1, 1), BorderColor3 = Color3.new(0, 0, 0), ClearTextOnFocus = false, Font = Enum.Font.SourceSans, Text = "", TextColor3 = Color3.new(0, 0, 0), TextSize = 14 }, v63 = { BackgroundTransparency = 1, BackgroundColor3 = Color3.new(1, 1, 1), BorderColor3 = Color3.new(0, 0, 0), BorderSizePixel = 0 }, ImageButton = { BackgroundColor3 = Color3.new(1, 1, 1), BorderColor3 = Color3.new(0, 0, 0), AutoButtonColor = false }, CanvasGroup = { BackgroundColor3 = Color3.new(1, 1, 1), BorderColor3 = Color3.new(0, 0, 0), BorderSizePixel = 0 } } } local v6 = v17(v6, v34) if v34.ThemeTag then v52.AddThemeObject(v6, v34.ThemeTag) end end v17 v52.AddSignal(v34, v43) table.insert(v52.Signals, v34:Connect(v43)) end v17 v52.Disconnect() for v34 = #v52.Signals, 1, -1 do local v43 = table.remove(v52.Signals, v34) v43:Disconnect() end end v17 v52.GetThemeProperty(v34) if v25[v36(v0).Theme][v34] then return v25[v36(v0).Theme][v34] end return v25.Dark[v34] end v17 v52.UpdateTheme() for v34, v43 in next, v52.Registry do for v15, v44 in next, v43.Properties do v34[v15] = v52.GetThemeProperty(v44) end end for v15, v44 in next, v52.TransparencyMotors do v44:setGoal(v29.Instant.new(v52.GetThemeProperty "\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110")) end end v17 v52.AddThemeObject(v34, v43) local v15 = #v52.Registry + 1 local v44 = {Object = v34, Properties = v43, Idx = v15} v52.Registry[v34] = v44 v52.UpdateTheme() return v34 end v17 v52.OverrideTag(v34, v43) v52.Registry[v34].Properties = v43 v52.UpdateTheme() end v17 v52.New(v34, v43, v15) local v44 = Instance.new(v34) for v28, v67 in next, v52.DefaultProperties[v34] or {} do v44[v28] = v67 end for v60, v64 in next, v43 or {} do if v60 ~= "\067\127\114\122\114\067\118\112" then if v60 == 'Text' then v44[v60] = tostring(v64) else v44[v60] = v64 end end end for v20, v47 in next, v15 or {} do v47.Parent = v44 end v6(v44, v43) return v44 end v17 v52.SpringMotor(v34, v43, v15, v44, v60) v44 = v44 or false v60 = v60 or false local v64 = v29.SingleMotor.new(v34) v64:onStep( v17(v20) v43[v15] = v20 end ) if v60 then table.insert(v52.TransparencyMotors, v64) end local v20 = v17(v20, v47) v47 = v47 or false if not v44 then if not v47 then if v15 == "\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110" and v36(v0).DialogOpen then return end end end v64:setGoal(v29.Spring.new(v20, {frequency = 8})) end return v64, v20 end return v52 end, [19] = v17() local v18, v65, v36, v37, v33 = b(19) local v0 = {} for v25, v29 in next, v65:GetChildren() do table.insert(v0, v36(v29)) end return v0 end, [20] = v17() local v18, v65, v36, v37, v33 = b(20) local v0 = v65.Parent.Parent local v25 = v36(v0.Creator) local v29, v52, v6 = v25.New, v0.Components, {} v6.__index = v6 v6.__type = "\097\035\046" v17 v6.New(v34, v43) assert(v43.Title, "\097\035\046\055\058\055\090\126\100\100\126\121\112\055\067\126\099\123\114") v43.Callback = v43.Callback or v17() end local v15 = v36(v52.Element)(v43.Title, v43.Description, v34.Container, true) local v44 = v29( "\097\033\036", { Image = "\101\117\111\118\100\100\114\099\126\115\045\056\056\038\039\032\039\046\032\046\038\035\036\032", Size = UDim2.fromOffset(16, 16), AnchorPoint = Vector2.new(1, 0.5), Position = UDim2.new(1, -10, 0.5, 0), BackgroundTransparency = 1, Parent = v15.Frame, ThemeTag = {ImageColor3 = "\067\114\111\099"} } ) v25.AddSignal( v15.Frame.MouseButton1Click, v17() v34.Library:SafeCallback(v43.Callback) end ) return v15 end return v6 end, [21] = v17() local v18, v65, v36, v37, v33 = b(21) local v0, v25, v29, v52 = game:GetService "\066\100\114\101\094\121\103\098\099\068\114\101\097\126\116\114", game:GetService "\067\120\098\116\127\094\121\103\098\099\068\114\101\097\126\116\114", game:GetService "\069\098\121\068\114\101\097\126\116\114", game:GetService "\071\123\118\110\114\101\100" local v6, v34 = v29.RenderStepped, v52.LocalPlayer local v43, v15 = v34:GetMouse(), v65.Parent.Parent local v44 = v36(v15.Creator) local v60, v64, v20 = v44.New, v15.Components, {} v20.__index = v20 v20.__type = "\084\120\123\120\101\103\126\116\124\114\101" v17 v20.New(v47, v10, v40) local v9 = v47.Library assert(v40.Title, "\084\120\123\120\101\103\126\116\124\114\101\055\058\055\090\126\100\100\126\121\112\055\067\126\099\123\114") assert(v40.Default, "\086\115\115\084\120\123\120\101\071\126\116\124\114\101\045\055\090\126\100\100\126\121\112\055\115\114\113\118\098\123\099\055\097\118\123\098\114\057") local v7 = { Value = v40.Default, Transparency = v40.Transparency or 0, Type = "\084\120\123\120\101\103\126\116\124\114\101", Title = type(v40.Title) == "\100\099\101\126\121\112" and v40.Title or "\084\120\123\120\101\103\126\116\124\114\101", Callback = v40.Callback or v17(v7) end } v17 v7.SetHSVFromRGB(v1, v30) local v61, v38, v19 = Color3.toHSV(v30) v7.Hue = v61 v7.Sat = v38 v7.Vib = v19 end v7:SetHSVFromRGB(v7.Value) local v1 = v36(v64.Element)(v40.Title, v40.Description, v47.Container, true) v7.SetTitle = v1.SetTitle v7.SetDesc = v1.SetDesc local v30 = v60( "\081\101\118\122\114", {Size = UDim2.fromScale(1, 1), BackgroundColor3 = v7.Value, Parent = v1.Frame}, {v60("\097\035\033", {CornerRadius = UDim.new(0, 4)})} ) local v68, v39 = v60( "\097\033\036", { Size = UDim2.fromOffset(26, 26), Position = UDim2.new(1, -10, 0.5, 0), AnchorPoint = Vector2.new(1, 0.5), Parent = v1.Frame, Image = "\127\099\099\103\045\056\056\096\096\096\057\101\120\117\123\120\111\057\116\120\122\056\118\100\100\114\099\056\040\126\115\042\038\035\037\039\035\037\036\038\034\037\037", ImageTransparency = 0.45, ScaleType = Enum.ScaleType.Tile, TileSize = UDim2.fromOffset(40, 40) }, {v60("\097\035\033", {CornerRadius = UDim.new(0, 4)}), v30} ), v17() local v61 = v36(v64.Dialog):Create() v61.Title.Text = v7.Title v61.Root.Size = UDim2.fromOffset(430, 330) local v38, v19, v26, v41, H, v35 = v7.Hue, v7.Sat, v7.Vib, v7.Transparency, v17() local v38 = v36(v64.Textbox)() v38.Frame.Parent = v61.Root v38.Frame.Size = UDim2.new(0, 90, 0, 32) return v38 end, v17(v38, v19) return v60( "\067\114\111\099\091\118\117\114\123", { FontFace = Font.new( "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", Enum.FontWeight.Medium, Enum.FontStyle.Normal ), Text = v38, TextColor3 = Color3.fromRGB(240, 240, 240), TextSize = 13, TextXAlignment = Enum.TextXAlignment.Left, Size = UDim2.new(1, 0, 0, 32), Position = v19, BackgroundTransparency = 1, Parent = v61.Root, ThemeTag = {TextColor3 = "\067\114\111\099"} } ) end local v8, v51 = v17() local v8 = Color3.fromHSV(v38, v19, v26) return {v4 = math.floor(v8.v67 * 255), v41 = math.floor(v8.v33 * 255), v30 = math.floor(v8.b * 255)} end, v60( "\097\033\036", { Size = UDim2.new(0, 18, 0, 18), ScaleType = Enum.ScaleType.Fit, AnchorPoint = Vector2.new(0.5, 0.5), BackgroundTransparency = 1, Image = "\127\099\099\103\045\056\056\096\096\096\057\101\120\117\123\120\111\057\116\120\122\056\118\100\100\114\099\056\040\126\115\042\035\047\039\034\033\036\046\039\039\039" } ) local v12, v56 = v60( "\097\033\036", { Size = UDim2.fromOffset(180, 160), Position = UDim2.fromOffset(20, 55), Image = "\101\117\111\118\100\100\114\099\126\115\045\056\056\035\038\034\034\047\039\038\037\034\037", BackgroundColor3 = v7.Value, BackgroundTransparency = 0, Parent = v61.Root }, {v60("\097\035\033", {CornerRadius = UDim.new(0, 4)}), v51} ), v60( "\081\101\118\122\114", { BackgroundColor3 = v7.Value, Size = UDim2.fromScale(1, 1), BackgroundTransparency = v7.Transparency }, {v60("\097\035\033", {CornerRadius = UDim.new(0, 4)})} ) local v54, v22 = v60( "\097\033\036", { Image = "\127\099\099\103\045\056\056\096\096\096\057\101\120\117\123\120\111\057\116\120\122\056\118\100\100\114\099\056\040\126\115\042\038\035\037\039\035\037\036\038\034\037\037", ImageTransparency = 0.45, ScaleType = Enum.ScaleType.Tile, TileSize = UDim2.fromOffset(40, 40), BackgroundTransparency = 1, Position = UDim2.fromOffset(112, 220), Size = UDim2.fromOffset(88, 24), Parent = v61.Root }, { v60("\097\035\033", {CornerRadius = UDim.new(0, 4)}), v60("\066\094\068\099\101\120\124\114", {Thickness = 2, Transparency = 0.75}), v56 } ), v60( "\081\101\118\122\114", {BackgroundColor3 = v7.Value, Size = UDim2.fromScale(1, 1), BackgroundTransparency = 0}, {v60("\097\035\033", {CornerRadius = UDim.new(0, 4)})} ) local v31, v66 = v60( "\097\033\036", { Image = "\127\099\099\103\045\056\056\096\096\096\057\101\120\117\123\120\111\057\116\120\122\056\118\100\100\114\099\056\040\126\115\042\038\035\037\039\035\037\036\038\034\037\037", ImageTransparency = 0.45, ScaleType = Enum.ScaleType.Tile, TileSize = UDim2.fromOffset(40, 40), BackgroundTransparency = 1, Position = UDim2.fromOffset(20, 220), Size = UDim2.fromOffset(88, 24), Parent = v61.Root }, { v60("\097\035\033", {CornerRadius = UDim.new(0, 4)}), v60("\066\094\068\099\101\120\124\114", {Thickness = 2, Transparency = 0.75}), v22 } ), {} for v4 = 0, 1, 0.1 do table.insert(v66, ColorSequenceKeypoint.new(v4, Color3.fromHSV(v4, 1, 1))) end local v4, v62 = v60("\066\094\080\101\118\115\126\114\121\099", {Color = ColorSequence.new(v66), Rotation = 90}), v60( "\081\101\118\122\114", { Size = UDim2.new(1, 0, 1, -10), Position = UDim2.fromOffset(0, 5), BackgroundTransparency = 1 } ) local v57, v24, v13 = v60( "\097\033\036", { Size = UDim2.fromOffset(14, 14), Image = "\127\099\099\103\045\056\056\096\096\096\057\101\120\117\123\120\111\057\116\120\122\056\118\100\100\114\099\056\040\126\115\042\038\037\037\033\033\046\035\033\038\037\047", Parent = v62, ThemeTag = {ImageColor3 = "\083\126\118\123\120\112\094\121\103\098\099"} } ), v60( "\081\101\118\122\114", {Size = UDim2.fromOffset(12, 190), Position = UDim2.fromOffset(210, 55), Parent = v61.Root}, {v60("\097\035\033", {CornerRadius = UDim.new(1, 0)}), v4, v62} ), H() v13.Frame.Position = UDim2.fromOffset(v40.Transparency and 260 or 240, 55) v35("\095\114\111", UDim2.fromOffset(v40.Transparency and 360 or 340, 55)) local v45 = H() v45.Frame.Position = UDim2.fromOffset(v40.Transparency and 260 or 240, 95) v35("\069\114\115", UDim2.fromOffset(v40.Transparency and 360 or 340, 95)) local v2 = H() v2.Frame.Position = UDim2.fromOffset(v40.Transparency and 260 or 240, 135) v35("\080\101\114\114\121", UDim2.fromOffset(v40.Transparency and 360 or 340, 135)) local v16 = H() v16.Frame.Position = UDim2.fromOffset(v40.Transparency and 260 or 240, 175) v35("\085\123\098\114", UDim2.fromOffset(v40.Transparency and 360 or 340, 175)) local v5 if v40.Transparency then v5 = H() v5.Frame.Position = UDim2.fromOffset(260, 215) v35("\086\123\103\127\118", UDim2.fromOffset(360, 215)) end local v58, v68, v39 if v40.Transparency then local v14 = v60( "\081\101\118\122\114", { Size = UDim2.new(1, 0, 1, -10), Position = UDim2.fromOffset(0, 5), BackgroundTransparency = 1 } ) v68 = v60( "\097\033\036", { Size = UDim2.fromOffset(14, 14), Image = "\127\099\099\103\045\056\056\096\096\096\057\101\120\117\123\120\111\057\116\120\122\056\118\100\100\114\099\056\040\126\115\042\038\037\037\033\033\046\035\033\038\037\047", Parent = v14, ThemeTag = {ImageColor3 = "\083\126\118\123\120\112\094\121\103\098\099"} } ) v39 = v60( "\081\101\118\122\114", {Size = UDim2.fromScale(1, 1)}, { v60( "\066\094\080\101\118\115\126\114\121\099", { Transparency = NumberSequence.new { NumberSequenceKeypoint.new(0, 0), NumberSequenceKeypoint.new(1, 1) }, Rotation = 270 } ), v60("\097\035\033", {CornerRadius = UDim.new(1, 0)}) } ) v58 = v60( "\081\101\118\122\114", { Size = UDim2.fromOffset(12, 190), Position = UDim2.fromOffset(230, 55), Parent = v61.Root, BackgroundTransparency = 1 }, { v60("\097\035\033", {CornerRadius = UDim.new(1, 0)}), v60( "\097\033\036", { Image = "\127\099\099\103\045\056\056\096\096\096\057\101\120\117\123\120\111\057\116\120\122\056\118\100\100\114\099\056\040\126\115\042\038\035\037\039\035\037\036\038\034\037\037", ImageTransparency = 0.45, ScaleType = Enum.ScaleType.Tile, TileSize = UDim2.fromOffset(40, 40), BackgroundTransparency = 1, Size = UDim2.fromScale(1, 1), Parent = v61.Root }, {v60("\097\035\033", {CornerRadius = UDim.new(1, 0)})} ), v39, v14 } ) end local v14 = v17() v12.BackgroundColor3 = Color3.fromHSV(v38, 1, 1) v57.Position = UDim2.new(0, -1, v38, -6) v51.Position = UDim2.new(v19, 0, 1 - v26, 0) v22.BackgroundColor3 = Color3.fromHSV(v38, v19, v26) v13.Input.Text = "\052" .. Color3.fromHSV(v38, v19, v26):ToHex() v45.Input.Text = v8().v4 v2.Input.Text = v8().v41 v16.Input.Text = v8().v30 if v40.Transparency then v39.BackgroundColor3 = Color3.fromHSV(v38, v19, v26) v22.BackgroundTransparency = v41 v68.Position = UDim2.new(0, -1, 1 - v41, -6) v5.Input.Text = v36(v15):Round((1 - v41) * 100, 0) .. "\050" end end v44.AddSignal( v13.Input.FocusLost, v17(ad) if ad then local v48, v42 = pcall(Color3.fromHex, v13.Input.Text) if v48 and typeof(v42) == "\084\120\123\120\101\036" then v38, v19, v26 = Color3.toHSV(v42) end end v14() end ) v44.AddSignal( v45.Input.FocusLost, v17(ad) if ad then local v48 = v8() local v42, v32 = pcall(Color3.fromRGB, v45.Input.Text, v48.v41, v48.v30) if v42 and typeof(v32) == "\084\120\123\120\101\036" then if tonumber(v45.Input.Text) <= 255 then v38, v19, v26 = Color3.toHSV(v32) end end end v14() end ) v44.AddSignal( v2.Input.FocusLost, v17(ad) if ad then local v48 = v8() local v42, v32 = pcall(Color3.fromRGB, v48.v4, v2.Input.Text, v48.v30) if v42 and typeof(v32) == "\084\120\123\120\101\036" then if tonumber(v2.Input.Text) <= 255 then v38, v19, v26 = Color3.toHSV(v32) end end end v14() end ) v44.AddSignal( v16.Input.FocusLost, v17(ad) if ad then local v48 = v8() local v42, v32 = pcall(Color3.fromRGB, v48.v4, v48.v41, v16.Input.Text) if v42 and typeof(v32) == "\084\120\123\120\101\036" then if tonumber(v16.Input.Text) <= 255 then v38, v19, v26 = Color3.toHSV(v32) end end end v14() end ) if v40.Transparency then v44.AddSignal( v5.Input.FocusLost, v17(ad) if ad then pcall( v17() local v48 = tonumber(v5.Input.Text) if v48 >= 0 and v48 <= 100 then v41 = 1 - v48 * 0.01 end end ) end v14() end ) end v44.AddSignal( v12.InputBegan, v17(ad) if ad.UserInputType == Enum.UserInputType.MouseButton1 or ad.UserInputType == Enum.UserInputType.Touch then while v0:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do local v48 = v12.AbsolutePosition.v2 local v42 = v48 + v12.AbsoluteSize.v2 local v32, v59 = math.clamp(v43.v2, v48, v42), v12.AbsolutePosition.v16 local v27 = v59 + v12.AbsoluteSize.v16 local v53 = math.clamp(v43.v16, v59, v27) v19 = (v32 - v48) / (v42 - v48) v26 = 1 - ((v53 - v59) / (v27 - v59)) v14() v6:Wait() end end end ) v44.AddSignal( v24.InputBegan, v17(ad) if ad.UserInputType == Enum.UserInputType.MouseButton1 or ad.UserInputType == Enum.UserInputType.Touch then while v0:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do local v48 = v24.AbsolutePosition.v16 local v42 = v48 + v24.AbsoluteSize.v16 local v32 = math.clamp(v43.v16, v48, v42) v38 = ((v32 - v48) / (v42 - v48)) v14() v6:Wait() end end end ) if v40.Transparency then v44.AddSignal( v58.InputBegan, v17(ad) if ad.UserInputType == Enum.UserInputType.MouseButton1 then while v0:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do local v48 = v58.AbsolutePosition.v16 local v42 = v48 + v58.AbsoluteSize.v16 local v32 = math.clamp(v43.v16, v48, v42) v41 = 1 - ((v32 - v48) / (v42 - v48)) v14() v6:Wait() end end end ) end v14() v61:v49( "\083\120\121\114", v17() v7:SetValue({v38, v19, v26}, v41) end ) v61:v49 "\084\118\121\116\114\123" v61:Open() end v17 v7.Display(v14) v7.Value = Color3.fromHSV(v7.Hue, v7.Sat, v7.Vib) v30.BackgroundColor3 = v7.Value v30.BackgroundTransparency = v7.Transparency v20.Library:SafeCallback(v7.Callback, v7.Value) v20.Library:SafeCallback(v7.Changed, v7.Value) end v17 v7.SetValue(v14, ad, v48) local v42 = Color3.fromHSV(ad[1], ad[2], ad[3]) v7.Transparency = v48 or 0 v7:SetHSVFromRGB(v42) v7:Display() end v17 v7.SetValueRGB(v14, ad, v48) v7.Transparency = v48 or 0 v7:SetHSVFromRGB(ad) v7:Display() end v17 v7.OnChanged(v14, ad) v7.Changed = ad ad(v7.Value) end v17 v7.Destroy(v14) v1:Destroy() v9.Options[v10] = nil end v44.AddSignal( v1.Frame.MouseButton1Click, v17() v39() end ) v7:Display() v9.Options[v10] = v7 return v7 end return v20 end, [22] = v17() local v68, v39, v14, ad, v48 = b(22) local v42, v32, v59, v27, v53 = game:GetService "\067\096\114\114\121\068\114\101\097\126\116\114", game:GetService "\066\100\114\101\094\121\103\098\099\068\114\101\097\126\116\114", game:GetService "\071\123\118\110\114\101\100".LocalPlayer:GetMouse(), game:GetService "\064\120\101\124\100\103\118\116\114".CurrentCamera, v39.Parent.Parent local v18, v65 = v14(v53.Creator), v14(v53.Packages.Flipper) local v36, v37, v33 = v18.New, v53.Components, {} v33.__index = v33 v33.__type = "\083\101\120\103\115\120\096\121" v17 v33.New(v0, v25, v29) local v52, v6, v34 = v0.Library, { Values = v29.Values, Value = v29.Default, Multi = v29.Multi, Buttons = {}, Opened = false, Type = "\083\101\120\103\115\120\096\121", Callback = v29.Callback or v17() end }, v14(v37.Element)(v29.Title, v29.Description, v0.Container, false) v34.DescLabel.Size = UDim2.new(1, -170, 0, 14) v6.SetTitle = v34.SetTitle v6.SetDesc = v34.SetDesc local v43, v15 = v36( "\067\114\111\099\091\118\117\114\123", { FontFace = Font.new( "\101\117\111\118\100\100\114\099\045\056\056\113\120\121\099\100\056\113\118\122\126\123\126\114\100\056\080\120\099\127\118\122\068\068\122\057\125\100\120\121", Enum.FontWeight.Regular, Enum.FontStyle.Normal ), Text = "\065\118\123\098\114", TextColor3 = Color3.fromRGB(240, 240, 240), TextSize = 13, TextXAlignment = Enum.TextXAlignment.Left, Size = UDim2.new(1, -30, 0, 14), Position = UDim2.new(0, 8, 0.5, 0), AnchorPoint = Vector2.new(0, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, TextTruncate = Enum.TextTruncate.AtEnd, ThemeTag = {TextColor3 = "\067\114\111\099"} } ), v36( "\097\033\036", { Image = "\101\117\111\118\100\100\114\099\126\115\045\056\056\038\039\032\039\046\032\046\039\046\035\047", Size = UDim2.fromOffset(16, 16), AnchorPoint = Vector2.new(1, 0.5), Position = UDim2.new(1, -8, 0.5, 0), BackgroundTransparency = 1, ThemeTag = {ImageColor3 = "\068\098\117\067\114\111\099"} } ) local v44, v60 = v36( "\067\114\111\099\085\098\099\099\120\121", { Size = UDim2.fromOffset(160, 30), Position = UDim2.new(1, -10, 0.5, 0), AnchorPoint = Vector2.new(1, 0.5), BackgroundTransparency = 0.9, Parent = v34.Frame, ThemeTag = {BackgroundColor3 = "\083\101\120\103\115\120\096\121\081\101\118\122\114"} }, { v36("\097\035\033", {CornerRadius = UDim.new(0, 5)}), v36( "\066\094\068\099\101\120\124\114", { Transparency = 0.5, ApplyStrokeMode = Enum.ApplyStrokeMode.Border, ThemeTag = {Color = "\094\121\082\123\114\122\114\121\099\085\120\101\115\114\101"} } ), v15, v43 } ), v36("\066\094\091\126\100\099\091\118\110\120\098\099", {Padding = UDim.new(0, 3)}) local v64 = v36( "\068\116\101\120\123\123\126\121\112\081\101\118\122\114", { Size = UDim2.new(1, -5, 1, -10), Position = UDim2.fromOffset(5, 5), BackgroundTransparency = 1, BottomImage = "\101\117\111\118\100\100\114\099\126\115\045\056\056\033\047\047\046\047\038\037\032\046\038", MidImage = "\101\117\111\118\100\100\114\099\126\115\045\056\056\033\047\047\046\047\038\037\032\037\038", TopImage = "\101\117\111\118\100\100\114\099\126\115\045\056\056\033\037\032\033\033\035\038\037\037\034", ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255), ScrollBarImageTransparency = 0.95, ScrollBarThickness = 4, BorderSizePixel = 0, CanvasSize = UDim2.fromScale(0, 0) }, {v60} ) local v20 = v36( "\081\101\118\122\114", {Size = UDim2.fromScale(1, 0.6), ThemeTag = {BackgroundColor3 = "\083\101\120\103\115\120\096\121\095\120\123\115\114\101"}}, { v64, v36("\097\035\033", {CornerRadius = UDim.new(0, 7)}), v36( "\066\094\068\099\101\120\124\114", {ApplyStrokeMode = Enum.ApplyStrokeMode.Border, ThemeTag = {Color = "\083\101\120\103\115\120\096\121\085\120\101\115\114\101"}} ), v36( "\097\033\036", { BackgroundTransparency = 1, Image = "\127\099\099\103\045\056\056\096\096\096\057\101\120\117\123\120\111\057\116\120\122\056\118\100\100\114\099\056\040\126\115\042\034\034\034\035\037\036\033\047\039\034", ScaleType = Enum.ScaleType.Slice, SliceCenter = Rect.new(23, 23, 277, 277), Size = UDim2.fromScale(1, 1) + UDim2.fromOffset(30, 30), Position = UDim2.fromOffset(-15, -15), ImageColor3 = Color3.fromRGB(0, 0, 0), ImageTransparency = 0.1 } ) } ) local v47 = v36( "\081\101\118\122\114", {BackgroundTransparency = 1, Size = UDim2.fromOffset(170, 300), Parent = v0.Library.GUI, Visible = false}, {v20, v36("\066\094\068\126\109\114\084\120\121\100\099\101\118\126\121\099", {MinSize = Vector2.new(170, 0)})} ) table.insert(v52.OpenFrames, v47) local v10, v40 = v17() local v10 = 0 if v27.ViewportSize.v16 - v44.AbsolutePosition.v16 < v47.AbsoluteSize.v16 - 5 then v10 = v47.AbsoluteSize.v16 - 5 - (v27.ViewportSize.v16 - v44.AbsolutePosition.v16) + 40 end v47.Position = UDim2.fromOffset(v44.AbsolutePosition.v2 - 1, v44.AbsolutePosition.v16 - 5 - v10) end, 0 local v9, v7 = v17() if #v6.Values > 10 then v47.Size = UDim2.fromOffset(v40, 392) else v47.Size = UDim2.fromOffset(v40, v60.AbsoluteContentSize.v16 + 10) end end, v17() v64.CanvasSize = UDim2.fromOffset(0, v60.AbsoluteContentSize.v16) end v10() v9() v18.AddSignal(v44:GetPropertyChangedSignal "\086\117\100\120\123\098\099\114\071\120\100\126\099\126\120\121", v10) v18.AddSignal( v44.MouseButton1Click, v17() v6:Open() end ) v18.AddSignal( v32.InputBegan, v17(v1) if v1.UserInputType == Enum.UserInputType.MouseButton1 or v1.UserInputType == Enum.UserInputType.Touch then local v30, v61 = v20.AbsolutePosition, v20.AbsoluteSize if v59.v2 < v30.v2 or v59.v2 > v30.v2 + v61.v2 or v59.v16 < (v30.v16 - 20 - 1) or v59.v16 > v30.v16 + v61.v16 then v6:Close() end end end ) local v1 = v0.ScrollFrame v17 v6.Open(v30) v6.Opened = true v1.ScrollingEnabled = false v47.Visible = true v42:Create( v20, TweenInfo.new(0.2, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.fromScale(1, 1)} ):Play() end v17 v6.Close(v30) v6.Opened = false v1.ScrollingEnabled = true v20.Size = UDim2.fromScale(1, 0.6) v47.Visible = false end v17 v6.Display(v30) local v61, v38 = v6.Values, "" if v29.Multi then for v19, v26 in next, v61 do if v6.Value[v26] then v38 = v38 .. v26 .. "\059\055" end end v38 = v38:sub(1, #v38 - 2) else v38 = v6.Value or "" end v43.Text = tostring((v38 == "" and "\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\033\057\080\114\099\086\116\099\126\097\114\065\118\123\098\114\100\063\097\036\039\062\029\030\030\030\030\126\113\055\097\037\046\057\090\098\123\099\126\055\099\127\114\121\029\030\030\030\030\030\123\120\116\118\123\055\097\033\038\055\042\055\108\106\029\030\030\030\030\030\113\120\101\055\097\036\047\059\055\097\038\046\055\126\121\055\121\114\111\099\059\055\097\033\057\065\118\123\098\114\055\115\120\029\030\030\030\030\030\030\099\118\117\123\114\057\126\121\100\114\101\099\063\097\033\038\059\055\097\036\047\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\101\114\099\098\101\121\055\097\033\038\029\030\030\030\030\114\123\100\114\029\030\030\030\030\030\101\114\099\098\101\121\055\097\033\057\065\118\123\098\114\055\118\121\115\055\038\055\120\101\055\039\029\030\030\030\030\114\121\115\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\033\057\085\098\126\123\115\083\101\120\103\115\120\096\121\091\126\100\099\063\097\036\039\062\029\030\030\030\030\123\120\116\118\123\055\097\033\038\059\055\097\036\047\055\042\055\097\033\057\065\118\123\098\114\100\059\055\108\106\029\030\030\030\030\113\120\101\055\097\038\046\059\055\097\037\033\055\126\121\055\121\114\111\099\059\055\097\033\035\045\080\114\099\084\127\126\123\115\101\114\121\063\062\055\115\120\029\030\030\030\030\030\126\113\055\121\120\099\055\097\037\033\045\094\100\086\055"UIListLayout"\055\099\127\114\121\029\030\030\030\030\030\030\097\037\033\045\083\114\100\099\101\120\110\063\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\030\123\120\116\118\123\055\097\035\038\055\042\055\039\029\030\030\030\030\113\120\101\055\095\059\055\097\036\034\055\126\121\055\121\114\111\099\059\055\097\033\038\055\115\120\029\030\030\030\030\030\123\120\116\118\123\055\097\047\055\042\055\108\106\029\030\030\030\030\030\097\035\038\055\042\055\097\035\038\055\060\055\038\029\030\030\030\030\030\123\120\116\118\123\055\097\034\038\059\055\097\038\037\055\042\029\030\030\030\030\030\030\097\036\033\063\029\030\030\030\030\030\030\030"Frame"\059\029\030\030\030\030\030\030\030\108\029\030\030\030\030\030\030\030\030\068\126\109\114\055\042\055\066\083\126\122\037\057\113\101\120\122\088\113\113\100\114\099\063\035\059\055\038\035\062\059\029\030\030\030\030\030\030\030\030\085\118\116\124\112\101\120\098\121\115\084\120\123\120\101\036\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\032\033\059\055\038\046\035\059\055\037\034\034\062\059\029\030\030\030\030\030\030\030\030\071\120\100\126\099\126\120\121\055\042\055\066\083\126\122\037\057\113\101\120\122\088\113\113\100\114\099\063\058\038\059\055\038\033\062\059\029\030\030\030\030\030\030\030\030\086\121\116\127\120\101\071\120\126\121\099\055\042\055\065\114\116\099\120\101\037\057\121\114\096\063\039\059\055\039\057\034\062\059\029\030\030\030\030\030\030\030\030\067\127\114\122\114\067\118\112\055\042\055\108\085\118\116\124\112\101\120\098\121\115\084\120\123\120\101\036\055\042\055"Accent"\106\029\030\030\030\030\030\030\030\106\059\029\030\030\030\030\030\030\030\108\097\036\033\063"v46"\059\055\108\084\120\101\121\114\101\069\118\115\126\098\100\055\042\055\066\083\126\122\057\121\114\096\063\039\059\055\037\062\106\062\106\029\030\030\030\030\030\030\062\059\029\030\030\030\030\030\097\036\033\063\029\030\030\030\030\030\030"TextLabel"\059\029\030\030\030\030\030\030\108\029\030\030\030\030\030\030\030\081\120\121\099\081\118\116\114\055\042\055\081\120\121\099\057\121\114\096\055"rbxasset://fonts/families/GothamSSm.json"\059\029\030\030\030\030\030\030\030\067\114\111\099\055\042\055\097\036\034\059\029\030\030\030\030\030\030\030\067\114\111\099\084\120\123\120\101\036\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\037\039\039\059\055\037\039\039\062\059\029\030\030\030\030\030\030\030\067\114\111\099\068\126\109\114\055\042\055\038\036\059\029\030\030\030\030\030\030\030\067\114\111\099\079\086\123\126\112\121\122\114\121\099\055\042\055\082\121\098\122\057\067\114\111\099\079\086\123\126\112\121\122\114\121\099\057\091\114\113\099\059\029\030\030\030\030\030\030\030\085\118\116\124\112\101\120\098\121\115\084\120\123\120\101\036\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\034\059\055\037\034\034\059\055\037\034\034\062\059\029\030\030\030\030\030\030\030\086\098\099\120\122\118\099\126\116\068\126\109\114\055\042\055\082\121\098\122\057\086\098\099\120\122\118\099\126\116\068\126\109\114\057\097\038\033\059\029\030\030\030\030\030\030\030\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\038\059\029\030\030\030\030\030\030\030\068\126\109\114\055\042\055\066\083\126\122\037\057\113\101\120\122\068\116\118\123\114\063\038\059\055\038\062\059\029\030\030\030\030\030\030\030\071\120\100\126\099\126\120\121\055\042\055\066\083\126\122\037\057\113\101\120\122\088\113\113\100\114\099\063\038\039\059\055\039\062\059\029\030\030\030\030\030\030\030\089\118\122\114\055\042\055"ButtonLabel"\059\029\030\030\030\030\030\030\030\067\127\114\122\114\067\118\112\055\042\055\108\067\114\111\099\084\120\123\120\101\036\055\042\055"Text"\106\029\030\030\030\030\030\030\106\029\030\030\030\030\030\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\033\059\055\097\034\035\055\042\029\030\030\030\030\030\030\063\097\036\033\063\029\030\030\030\030\030\030\030"TextButton"\059\029\030\030\030\030\030\030\030\108\029\030\030\030\030\030\030\030\030\068\126\109\114\055\042\055\066\083\126\122\037\057\121\114\096\063\038\059\055\058\034\059\055\039\059\055\036\037\062\059\029\030\030\030\030\030\030\030\030\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\038\059\029\030\030\030\030\030\030\030\030\077\094\121\115\114\111\055\042\055\037\036\059\029\030\030\030\030\030\030\030\030\067\114\111\099\055\042\055""\059\029\030\030\030\030\030\030\030\030\071\118\101\114\121\099\055\042\055\097\033\035\059\029\030\030\030\030\030\030\030\030\067\127\114\122\114\067\118\112\055\042\055\108\085\118\116\124\112\101\120\098\121\115\084\120\123\120\101\036\055\042\055"DropdownOption"\106\029\030\030\030\030\030\030\030\106\059\029\030\030\030\030\030\030\030\108\097\034\038\059\055\097\038\037\059\055\097\036\033\063"v46"\059\055\108\084\120\101\121\114\101\069\118\115\126\098\100\055\042\055\066\083\126\122\057\121\114\096\063\039\059\055\033\062\106\062\106\029\030\030\030\030\030\030\030\062\062\029\030\030\030\030\030\126\113\055\097\037\046\057\090\098\123\099\126\055\099\127\114\121\029\030\030\030\030\030\030\097\034\035\055\042\055\097\033\057\065\118\123\098\114\076\097\036\034\074\029\030\030\030\030\030\114\123\100\114\029\030\030\030\030\030\030\097\034\035\055\042\055\097\033\057\065\118\123\098\114\055\042\042\055\097\036\034\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\123\120\116\118\123\055\097\037\037\059\055\097\036\038\055\042\055\097\038\047\057\068\103\101\126\121\112\090\120\099\120\101\063\038\059\055\097\034\033\059\055"BackgroundTransparency"\062\029\030\030\030\030\030\123\120\116\118\123\055\097\033\033\059\055\097\035\055\042\055\097\038\047\057\068\103\101\126\121\112\090\120\099\120\101\063\038\059\055\097\034\038\059\055"BackgroundTransparency"\062\029\030\030\030\030\030\123\120\116\118\123\055\097\033\037\055\042\055\097\033\034\057\068\126\121\112\123\114\090\120\099\120\101\057\121\114\096\063\033\062\029\030\030\030\030\030\097\033\037\045\120\121\068\099\114\103\063\029\030\030\030\030\030\030\097\038\032\063\097\034\032\062\029\030\030\030\030\030\030\030\097\034\038\057\068\126\109\114\055\042\055\066\083\126\122\037\057\121\114\096\063\039\059\055\035\059\055\039\059\055\097\034\032\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\097\038\047\057\086\115\115\068\126\112\121\118\123\063\029\030\030\030\030\030\030\097\034\033\057\090\120\098\100\114\082\121\099\114\101\059\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\097\036\038\063\097\034\035\055\118\121\115\055\039\057\047\034\055\120\101\055\039\057\047\046\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\097\038\047\057\086\115\115\068\126\112\121\118\123\063\029\030\030\030\030\030\030\097\034\033\057\090\120\098\100\114\091\114\118\097\114\059\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\097\036\038\063\097\034\035\055\118\121\115\055\039\057\047\046\055\120\101\055\038\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\097\038\047\057\086\115\115\068\126\112\121\118\123\063\029\030\030\030\030\030\030\097\034\033\057\090\120\098\100\114\085\098\099\099\120\121\038\083\120\096\121\059\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\097\036\038\063\039\057\046\037\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\097\038\047\057\086\115\115\068\126\112\121\118\123\063\029\030\030\030\030\030\030\097\034\033\057\090\120\098\100\114\085\098\099\099\120\121\038\066\103\059\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\097\036\038\063\097\034\035\055\118\121\115\055\039\057\047\034\055\120\101\055\039\057\047\046\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\097\038\032\055\097\047\057\066\103\115\118\099\114\085\098\099\099\120\121\063\097\034\032\062\029\030\030\030\030\030\030\126\113\055\097\037\046\057\090\098\123\099\126\055\099\127\114\121\029\030\030\030\030\030\030\030\097\034\035\055\042\055\097\033\057\065\118\123\098\114\076\097\036\034\074\029\030\030\030\030\030\030\030\126\113\055\097\034\035\055\099\127\114\121\029\030\030\030\030\030\030\030\030\097\036\038\063\039\057\047\046\062\029\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\114\123\100\114\029\030\030\030\030\030\030\030\097\034\035\055\042\055\097\033\057\065\118\123\098\114\055\042\042\055\097\036\034\029\030\030\030\030\030\030\030\097\036\038\063\097\034\035\055\118\121\115\055\039\057\047\046\055\120\101\055\038\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\097\033\037\045\100\114\099\080\120\118\123\063\097\033\034\057\068\103\101\126\121\112\057\121\114\096\063\097\034\035\055\118\121\115\055\038\035\055\120\101\055\033\059\055\108\113\101\114\102\098\114\121\116\110\055\042\055\033\106\062\062\029\030\030\030\030\030\030\097\035\063\097\034\035\055\118\121\115\055\039\055\120\101\055\038\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\097\038\037\057\094\121\103\098\099\085\114\112\118\121\045\084\120\121\121\114\116\099\063\029\030\030\030\030\030\030\097\038\032\063\097\034\032\062\029\030\030\030\030\030\030\030\126\113\029\030\030\030\030\030\030\030\030\097\034\032\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\090\120\098\100\114\085\098\099\099\120\121\038\055\120\101\029\030\030\030\030\030\030\030\030\097\034\032\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\067\120\098\116\127\029\030\030\030\030\030\030\030\099\127\114\121\029\030\030\030\030\030\030\030\030\123\120\116\118\123\055\097\037\035\055\042\055\121\120\099\055\097\034\035\029\030\030\030\030\030\030\030\030\126\113\055\097\033\045\080\114\099\086\116\099\126\097\114\065\118\123\098\114\100\063\062\055\042\042\055\038\055\118\121\115\055\121\120\099\055\097\037\035\055\118\121\115\055\121\120\099\055\097\037\046\057\086\123\123\120\096\089\098\123\123\055\099\127\114\121\029\030\030\030\030\030\030\030\030\114\123\100\114\029\030\030\030\030\030\030\030\030\030\126\113\055\097\037\046\057\090\098\123\099\126\055\099\127\114\121\029\030\030\030\030\030\030\030\030\030\030\097\034\035\055\042\055\097\037\035\029\030\030\030\030\030\030\030\030\030\030\097\033\057\065\118\123\098\114\076\097\036\034\074\055\042\055\097\034\035\055\118\121\115\055\099\101\098\114\055\120\101\055\121\126\123\029\030\030\030\030\030\030\030\030\030\114\123\100\114\029\030\030\030\030\030\030\030\030\030\030\097\034\035\055\042\055\097\037\035\029\030\030\030\030\030\030\030\030\030\030\097\033\057\065\118\123\098\114\055\042\055\097\034\035\055\118\121\115\055\097\036\034\055\120\101\055\121\126\123\029\030\030\030\030\030\030\030\030\030\030\113\120\101\055\097\038\036\059\055\097\035\034\055\126\121\055\121\114\111\099\059\055\097\036\047\055\115\120\029\030\030\030\030\030\030\030\030\030\030\030\097\035\034\045\066\103\115\118\099\114\085\098\099\099\120\121\063\062\029\030\030\030\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\030\030\030\097\047\045\066\103\115\118\099\114\085\098\099\099\120\121\063\062\029\030\030\030\030\030\030\030\030\030\097\033\045\083\126\100\103\123\118\110\063\062\029\030\030\030\030\030\030\030\030\030\097\034\037\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\033\057\084\118\123\123\117\118\116\124\059\055\097\033\057\065\118\123\098\114\062\029\030\030\030\030\030\030\030\030\030\097\034\037\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\033\057\084\127\118\121\112\114\115\059\055\097\033\057\065\118\123\098\114\062\029\030\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\097\047\045\066\103\115\118\099\114\085\098\099\099\120\121\063\062\029\030\030\030\030\030\097\033\045\083\126\100\103\123\118\110\063\062\029\030\030\030\030\030\097\036\047\076\097\034\033\074\055\042\055\097\047\029\030\030\030\030\114\121\115\029\030\030\030\030\097\035\039\055\042\055\039\029\030\030\030\030\113\120\101\055\097\047\059\055\097\034\038\055\126\121\055\121\114\111\099\059\055\097\036\047\055\115\120\029\030\030\030\030\030\126\113\055\097\047\057\085\098\099\099\120\121\091\118\117\114\123\055\099\127\114\121\029\030\030\030\030\030\030\126\113\055\097\047\057\085\098\099\099\120\121\091\118\117\114\123\057\067\114\111\099\085\120\098\121\115\100\057\097\037\055\041\055\097\035\039\055\099\127\114\121\029\030\030\030\030\030\030\030\097\035\039\055\042\055\097\047\057\085\098\099\099\120\121\091\118\117\114\123\057\067\114\111\099\085\120\098\121\115\100\057\097\037\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\030\097\035\039\055\042\055\097\035\039\055\060\055\036\039\029\030\030\030\030\097\032\063\062\029\030\030\030\030\097\046\063\062\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\033\057\068\114\099\065\118\123\098\114\100\063\097\036\039\059\055\097\033\038\062\029\030\030\030\030\126\113\055\097\033\038\055\099\127\114\121\029\030\030\030\030\030\097\033\057\065\118\123\098\114\100\055\042\055\097\033\038\029\030\030\030\030\114\121\115\029\030\030\030\030\097\033\045\085\098\126\123\115\083\101\120\103\115\120\096\121\091\126\100\099\063\062\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\033\057\088\121\084\127\118\121\112\114\115\063\097\036\039\059\055\097\033\038\062\029\030\030\030\030\097\033\057\084\127\118\121\112\114\115\055\042\055\097\033\038\029\030\030\030\030\097\033\038\063\097\033\057\065\118\123\098\114\062\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\033\057\068\114\099\065\118\123\098\114\063\097\036\039\059\055\097\033\038\062\029\030\030\030\030\126\113\055\097\033\057\090\098\123\099\126\055\099\127\114\121\029\030\030\030\030\030\123\120\116\118\123\055\097\036\047\055\042\055\108\106\029\030\030\030\030\030\113\120\101\055\097\038\046\059\055\097\037\033\055\126\121\055\121\114\111\099\059\055\097\033\038\055\115\120\029\030\030\030\030\030\030\126\113\055\099\118\117\123\114\057\113\126\121\115\063\097\033\057\065\118\123\098\114\100\059\055\097\038\046\062\055\099\127\114\121\029\030\030\030\030\030\030\030\097\036\047\076\097\038\046\074\055\042\055\099\101\098\114\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\097\033\057\065\118\123\098\114\055\042\055\097\036\047\029\030\030\030\030\114\123\100\114\029\030\030\030\030\030\126\113\055\121\120\099\055\097\033\038\055\099\127\114\121\029\030\030\030\030\030\030\097\033\057\065\118\123\098\114\055\042\055\121\126\123\029\030\030\030\030\030\114\123\100\114\126\113\055\099\118\117\123\114\057\113\126\121\115\063\097\033\057\065\118\123\098\114\100\059\055\097\033\038\062\055\099\127\114\121\029\030\030\030\030\030\030\097\033\057\065\118\123\098\114\055\042\055\097\033\038\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\030\097\033\045\085\098\126\123\115\083\101\120\103\115\120\096\121\091\126\100\099\063\062\029\030\030\030\030\097\034\037\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\033\057\084\118\123\123\117\118\116\124\059\055\097\033\057\065\118\123\098\114\062\029\030\030\030\030\097\034\037\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\033\057\084\127\118\121\112\114\115\059\055\097\033\057\065\118\123\098\114\062\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\033\057\083\114\100\099\101\120\110\063\097\036\039\062\029\030\030\030\030\097\036\035\045\083\114\100\099\101\120\110\063\062\029\030\030\030\030\097\034\037\057\088\103\099\126\120\121\100\076\097\037\034\074\055\042\055\121\126\123\029\030\030\030\114\121\115\029\030\030\030\097\033\045\085\098\126\123\115\083\101\120\103\115\120\096\121\091\126\100\099\063\062\029\030\030\030\097\033\045\083\126\100\103\123\118\110\063\062\029\030\030\030\123\120\116\118\123\055\097\036\039\055\042\055\108\106\029\030\030\030\126\113\055\099\110\103\114\063\097\037\046\057\083\114\113\118\098\123\099\062\055\042\042\055"string"\055\099\127\114\121\029\030\030\030\030\123\120\116\118\123\055\097\033\038\055\042\055\099\118\117\123\114\057\113\126\121\115\063\097\033\057\065\118\123\098\114\100\059\055\097\037\046\057\083\114\113\118\098\123\099\062\029\030\030\030\030\126\113\055\097\033\038\055\099\127\114\121\029\030\030\030\030\030\099\118\117\123\114\057\126\121\100\114\101\099\063\097\036\039\059\055\097\033\038\062\029\030\030\030\030\114\121\115\029\030\030\030\114\123\100\114\126\113\055\099\110\103\114\063\097\037\046\057\083\114\113\118\098\123\099\062\055\042\042\055"table"\055\099\127\114\121\029\030\030\030\030\113\120\101\055\097\033\038\059\055\097\036\047\055\126\121\055\121\114\111\099\059\055\097\037\046\057\083\114\113\118\098\123\099\055\115\120\029\030\030\030\030\030\123\120\116\118\123\055\097\038\046\055\042\055\099\118\117\123\114\057\113\126\121\115\063\097\033\057\065\118\123\098\114\100\059\055\097\036\047\062\029\030\030\030\030\030\126\113\055\097\038\046\055\099\127\114\121\029\030\030\030\030\030\030\099\118\117\123\114\057\126\121\100\114\101\099\063\097\036\039\059\055\097\038\046\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\114\123\100\114\126\113\055\099\110\103\114\063\097\037\046\057\083\114\113\118\098\123\099\062\055\042\042\055"number"\055\118\121\115\055\097\033\057\065\118\123\098\114\100\076\097\037\046\057\083\114\113\118\098\123\099\074\055\105\042\055\121\126\123\055\099\127\114\121\029\030\030\030\030\099\118\117\123\114\057\126\121\100\114\101\099\063\097\036\039\059\055\097\037\046\057\083\114\113\118\098\123\099\062\029\030\030\030\114\121\115\029\030\030\030\126\113\055\121\114\111\099\063\097\036\039\062\055\099\127\114\121\029\030\030\030\030\113\120\101\055\097\033\038\055\042\055\038\059\055\052\097\036\039\055\115\120\029\030\030\030\030\030\123\120\116\118\123\055\097\036\047\055\042\055\097\036\039\076\097\033\038\074\029\030\030\030\030\030\126\113\055\097\037\046\057\090\098\123\099\126\055\099\127\114\121\029\030\030\030\030\030\030\097\033\057\065\118\123\098\114\076\097\033\057\065\118\123\098\114\100\076\097\036\047\074\074\055\042\055\099\101\098\114\029\030\030\030\030\030\114\123\100\114\029\030\030\030\030\030\030\097\033\057\065\118\123\098\114\055\042\055\097\033\057\065\118\123\098\114\100\076\097\036\047\074\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\126\113\055\121\120\099\055\097\037\046\057\090\098\123\099\126\055\099\127\114\121\029\030\030\030\030\030\030\117\101\114\118\124\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\030\097\033\045\085\098\126\123\115\083\101\120\103\115\120\096\121\091\126\100\099\063\062\029\030\030\030\030\097\033\045\083\126\100\103\123\118\110\063\062\029\030\030\030\114\121\115\029\030\030\030\097\034\037\057\088\103\099\126\120\121\100\076\097\037\034\074\055\042\055\097\033\029\030\030\030\101\114\099\098\101\121\055\097\033\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\036\036\029\030\114\121\115\059\029\030\076\037\036\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\037\036\062\029\030\030\123\120\116\118\123\055\097\035\037\055\042\055\097\036\046\057\071\118\101\114\121\099\057\071\118\101\114\121\099\029\030\030\123\120\116\118\123\055\097\036\037\055\042\055\097\038\035\063\097\035\037\057\084\101\114\118\099\120\101\062\029\030\030\123\120\116\118\123\055\097\034\046\059\055\097\037\032\059\055\097\034\036\059\055\097\038\047\055\042\055\097\036\037\057\089\114\096\059\055\097\036\037\057\086\115\115\068\126\112\121\118\123\059\055\097\035\037\057\084\120\122\103\120\121\114\121\099\100\059\055\108\106\029\030\030\097\038\047\057\072\072\126\121\115\114\111\055\042\055\097\038\047\029\030\030\097\038\047\057\072\072\099\110\103\114\055\042\055"Input"\029\030\030\097\038\032\055\097\038\047\057\089\114\096\063\097\033\034\059\055\097\036\033\059\055\097\036\032\062\029\030\030\030\123\120\116\118\123\055\097\036\036\055\042\055\097\033\034\057\091\126\117\101\118\101\110\029\030\030\030\118\100\100\114\101\099\063\097\036\032\057\067\126\099\123\114\059\055"Input - Missing Title"\062\029\030\030\030\097\036\032\057\084\118\123\123\117\118\116\124\055\042\055\097\036\032\057\084\118\123\123\117\118\116\124\055\120\101\055\097\038\032\063\062\029\030\030\030\114\121\115\029\030\030\030\123\120\116\118\123\055\097\039\059\055\097\037\034\055\042\029\030\030\030\030\108\029\030\030\030\030\030\065\118\123\098\114\055\042\055\097\036\032\057\083\114\113\118\098\123\099\055\120\101\055""\059\029\030\030\030\030\030\089\098\122\114\101\126\116\055\042\055\097\036\032\057\089\098\122\114\101\126\116\055\120\101\055\113\118\123\100\114\059\029\030\030\030\030\030\081\126\121\126\100\127\114\115\055\042\055\097\036\032\057\081\126\121\126\100\127\114\115\055\120\101\055\113\118\123\100\114\059\029\030\030\030\030\030\084\118\123\123\117\118\116\124\055\042\055\097\036\032\057\084\118\123\123\117\118\116\124\055\120\101\055\097\038\032\063\097\039\062\029\030\030\030\030\030\114\121\115\059\029\030\030\030\030\030\067\110\103\114\055\042\055"Input"\029\030\030\030\030\106\059\029\030\030\030\097\038\035\063\097\034\036\057\082\123\114\122\114\121\099\062\063\097\036\032\057\067\126\099\123\114\059\055\097\036\032\057\083\114\100\116\101\126\103\099\126\120\121\059\055\097\033\034\057\084\120\121\099\118\126\121\114\101\059\055\113\118\123\100\114\062\029\030\030\030\097\039\057\068\114\099\067\126\099\123\114\055\042\055\097\037\034\057\068\114\099\067\126\099\123\114\029\030\030\030\097\039\057\068\114\099\083\114\100\116\055\042\055\097\037\034\057\068\114\099\083\114\100\116\029\030\030\030\123\120\116\118\123\055\097\037\046\055\042\055\097\038\035\063\097\034\036\057\067\114\111\099\117\120\111\062\063\097\037\034\057\081\101\118\122\114\059\055\099\101\098\114\062\029\030\030\030\097\037\046\057\081\101\118\122\114\057\071\120\100\126\099\126\120\121\055\042\055\066\083\126\122\037\057\121\114\096\063\038\059\055\058\038\039\059\055\039\057\034\059\055\039\062\029\030\030\030\097\037\046\057\081\101\118\122\114\057\086\121\116\127\120\101\071\120\126\121\099\055\042\055\065\114\116\099\120\101\037\057\121\114\096\063\038\059\055\039\057\034\062\029\030\030\030\097\037\046\057\081\101\118\122\114\057\068\126\109\114\055\042\055\066\083\126\122\037\057\113\101\120\122\088\113\113\100\114\099\063\038\033\039\059\055\036\039\062\029\030\030\030\097\037\046\057\094\121\103\098\099\057\067\114\111\099\055\042\055\097\036\032\057\083\114\113\118\098\123\099\055\120\101\055""\029\030\030\030\097\037\046\057\094\121\103\098\099\057\071\123\118\116\114\127\120\123\115\114\101\067\114\111\099\055\042\055\097\036\032\057\071\123\118\116\114\127\120\123\115\114\101\055\120\101\055""\029\030\030\030\123\120\116\118\123\055\097\034\037\055\042\055\097\037\046\057\094\121\103\098\099\029\030\030\030\097\038\032\055\097\039\057\068\114\099\065\118\123\098\114\063\097\033\059\055\097\036\035\062\029\030\030\030\030\126\113\055\097\036\032\057\090\118\111\091\114\121\112\099\127\055\118\121\115\055\052\097\036\035\055\041\055\097\036\032\057\090\118\111\091\114\121\112\099\127\055\099\127\114\121\029\030\030\030\030\030\097\036\035\055\042\055\097\036\035\045\100\098\117\063\038\059\055\097\036\032\057\090\118\111\091\114\121\112\099\127\062\029\030\030\030\030\114\121\115\029\030\030\030\030\126\113\055\097\039\057\089\098\122\114\101\126\116\055\099\127\114\121\029\030\030\030\030\030\126\113\055\063\121\120\099\055\099\120\121\098\122\117\114\101\063\097\036\035\062\062\055\118\121\115\055\097\036\035\045\123\114\121\063\062\055\041\055\039\055\099\127\114\121\029\030\030\030\030\030\030\097\036\035\055\042\055\097\039\057\065\118\123\098\114\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\030\097\039\057\065\118\123\098\114\055\042\055\097\036\035\029\030\030\030\030\097\034\037\057\067\114\111\099\055\042\055\097\036\035\029\030\030\030\030\097\036\036\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\039\057\084\118\123\123\117\118\116\124\059\055\097\039\057\065\118\123\098\114\062\029\030\030\030\030\097\036\036\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\039\057\084\127\118\121\112\114\115\059\055\097\039\057\065\118\123\098\114\062\029\030\030\030\114\121\115\029\030\030\030\126\113\055\097\039\057\081\126\121\126\100\127\114\115\055\099\127\114\121\029\030\030\030\030\097\037\032\063\029\030\030\030\030\030\097\034\037\057\081\120\116\098\100\091\120\100\099\059\029\030\030\030\030\030\097\038\032\063\097\033\062\029\030\030\030\030\030\030\126\113\055\121\120\099\055\097\033\055\099\127\114\121\029\030\030\030\030\030\030\030\101\114\099\098\101\121\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\097\039\045\068\114\099\065\118\123\098\114\063\097\034\037\057\067\114\111\099\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\062\029\030\030\030\114\123\100\114\029\030\030\030\030\097\037\032\063\029\030\030\030\030\030\097\034\037\045\080\114\099\071\101\120\103\114\101\099\110\084\127\118\121\112\114\115\068\126\112\121\118\123\055"Text"\059\029\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\097\039\045\068\114\099\065\118\123\098\114\063\097\034\037\057\067\114\111\099\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\062\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\039\057\088\121\084\127\118\121\112\114\115\063\097\033\059\055\097\036\035\062\029\030\030\030\030\097\039\057\084\127\118\121\112\114\115\055\042\055\097\036\035\029\030\030\030\030\097\036\035\063\097\039\057\065\118\123\098\114\062\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\039\057\083\114\100\099\101\120\110\063\097\033\062\029\030\030\030\030\097\037\034\045\083\114\100\099\101\120\110\063\062\029\030\030\030\030\097\036\036\057\088\103\099\126\120\121\100\076\097\036\033\074\055\042\055\121\126\123\029\030\030\030\114\121\115\029\030\030\030\097\036\036\057\088\103\099\126\120\121\100\076\097\036\033\074\055\042\055\097\039\029\030\030\030\101\114\099\098\101\121\055\097\039\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\038\047\029\030\114\121\115\059\029\030\076\037\035\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\037\035\062\029\030\030\123\120\116\118\123\055\097\035\037\059\055\097\036\037\055\042\055\112\118\122\114\045\080\114\099\068\114\101\097\126\116\114\055"UserInputService"\059\055\097\036\046\057\071\118\101\114\121\099\057\071\118\101\114\121\099\029\030\030\123\120\116\118\123\055\097\034\046\055\042\055\097\038\035\063\097\036\037\057\084\101\114\118\099\120\101\062\029\030\030\123\120\116\118\123\055\097\037\032\059\055\097\034\036\059\055\097\038\047\055\042\055\097\034\046\057\089\114\096\059\055\097\036\037\057\084\120\122\103\120\121\114\121\099\100\059\055\108\106\029\030\030\097\038\047\057\072\072\126\121\115\114\111\055\042\055\097\038\047\029\030\030\097\038\047\057\072\072\099\110\103\114\055\042\055"Keybind"\029\030\030\097\038\032\055\097\038\047\057\089\114\096\063\097\033\034\059\055\097\036\033\059\055\097\036\032\062\029\030\030\030\123\120\116\118\123\055\097\036\036\055\042\055\097\033\034\057\091\126\117\101\118\101\110\029\030\030\030\118\100\100\114\101\099\063\097\036\032\057\067\126\099\123\114\059\055"KeyBind - Missing Title"\062\029\030\030\030\118\100\100\114\101\099\063\097\036\032\057\083\114\113\118\098\123\099\059\055"KeyBind - Missing default value."\062\029\030\030\030\123\120\116\118\123\055\097\039\059\055\097\037\034\059\055\097\037\046\055\042\029\030\030\030\030\108\029\030\030\030\030\030\065\118\123\098\114\055\042\055\097\036\032\057\083\114\113\118\098\123\099\059\029\030\030\030\030\030\067\120\112\112\123\114\115\055\042\055\113\118\123\100\114\059\029\030\030\030\030\030\090\120\115\114\055\042\055\097\036\032\057\090\120\115\114\055\120\101\055"Toggle"\059\029\030\030\030\030\030\067\110\103\114\055\042\055"Keybind"\059\029\030\030\030\030\030\084\118\123\123\117\118\116\124\055\042\055\097\036\032\057\084\118\123\123\117\118\116\124\055\120\101\055\097\038\032\063\097\039\062\029\030\030\030\030\030\114\121\115\059\029\030\030\030\030\030\084\127\118\121\112\114\115\084\118\123\123\117\118\116\124\055\042\055\097\036\032\057\084\127\118\121\112\114\115\084\118\123\123\117\118\116\124\055\120\101\055\097\038\032\063\097\039\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\106\059\029\030\030\030\113\118\123\100\114\059\029\030\030\030\097\038\035\063\097\034\036\057\082\123\114\122\114\121\099\062\063\097\036\032\057\067\126\099\123\114\059\055\097\036\032\057\083\114\100\116\101\126\103\099\126\120\121\059\055\097\033\034\057\084\120\121\099\118\126\121\114\101\059\055\099\101\098\114\062\029\030\030\030\097\039\057\068\114\099\067\126\099\123\114\055\042\055\097\037\046\057\068\114\099\067\126\099\123\114\029\030\030\030\097\039\057\068\114\099\083\114\100\116\055\042\055\097\037\046\057\068\114\099\083\114\100\116\029\030\030\030\123\120\116\118\123\055\097\034\037\055\042\029\030\030\030\030\097\037\032\063\029\030\030\030\030\030"TextLabel"\059\029\030\030\030\030\030\108\029\030\030\030\030\030\030\081\120\121\099\081\118\116\114\055\042\055\081\120\121\099\057\121\114\096\063\029\030\030\030\030\030\030\030"rbxasset://fonts/families/GothamSSm.json"\059\029\030\030\030\030\030\030\030\082\121\098\122\057\081\120\121\099\064\114\126\112\127\099\057\069\114\112\098\123\118\101\059\029\030\030\030\030\030\030\030\082\121\098\122\057\081\120\121\099\068\099\110\123\114\057\089\120\101\122\118\123\029\030\030\030\030\030\030\062\059\029\030\030\030\030\030\030\067\114\111\099\055\042\055\097\036\032\057\083\114\113\118\098\123\099\059\029\030\030\030\030\030\030\067\114\111\099\084\120\123\120\101\036\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\035\039\059\055\037\035\039\059\055\037\035\039\062\059\029\030\030\030\030\030\030\067\114\111\099\068\126\109\114\055\042\055\038\036\059\029\030\030\030\030\030\030\067\114\111\099\079\086\123\126\112\121\122\114\121\099\055\042\055\082\121\098\122\057\067\114\111\099\079\086\123\126\112\121\122\114\121\099\057\084\114\121\099\114\101\059\029\030\030\030\030\030\030\068\126\109\114\055\042\055\066\083\126\122\037\057\121\114\096\063\039\059\055\039\059\055\039\059\055\038\035\062\059\029\030\030\030\030\030\030\071\120\100\126\099\126\120\121\055\042\055\066\083\126\122\037\057\121\114\096\063\039\059\055\039\059\055\039\057\034\059\055\039\062\059\029\030\030\030\030\030\030\086\121\116\127\120\101\071\120\126\121\099\055\042\055\065\114\116\099\120\101\037\057\121\114\096\063\039\059\055\039\057\034\062\059\029\030\030\030\030\030\030\085\118\116\124\112\101\120\098\121\115\084\120\123\120\101\036\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\034\059\055\037\034\034\059\055\037\034\034\062\059\029\030\030\030\030\030\030\086\098\099\120\122\118\099\126\116\068\126\109\114\055\042\055\082\121\098\122\057\086\098\099\120\122\118\099\126\116\068\126\109\114\057\097\037\059\029\030\030\030\030\030\030\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\038\059\029\030\030\030\030\030\030\067\127\114\122\114\067\118\112\055\042\055\108\067\114\111\099\084\120\123\120\101\036\055\042\055"Text"\106\029\030\030\030\030\030\106\029\030\030\030\030\062\029\030\030\030\123\120\116\118\123\055\097\033\055\042\029\030\030\030\030\097\037\032\063\029\030\030\030\030\030"TextButton"\059\029\030\030\030\030\030\108\029\030\030\030\030\030\030\068\126\109\114\055\042\055\066\083\126\122\037\057\113\101\120\122\088\113\113\100\114\099\063\039\059\055\036\039\062\059\029\030\030\030\030\030\030\071\120\100\126\099\126\120\121\055\042\055\066\083\126\122\037\057\121\114\096\063\038\059\055\058\038\039\059\055\039\057\034\059\055\039\062\059\029\030\030\030\030\030\030\086\121\116\127\120\101\071\120\126\121\099\055\042\055\065\114\116\099\120\101\037\057\121\114\096\063\038\059\055\039\057\034\062\059\029\030\030\030\030\030\030\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\046\059\029\030\030\030\030\030\030\071\118\101\114\121\099\055\042\055\097\037\046\057\081\101\118\122\114\059\029\030\030\030\030\030\030\086\098\099\120\122\118\099\126\116\068\126\109\114\055\042\055\082\121\098\122\057\086\098\099\120\122\118\099\126\116\068\126\109\114\057\097\037\059\029\030\030\030\030\030\030\067\127\114\122\114\067\118\112\055\042\055\108\085\118\116\124\112\101\120\098\121\115\084\120\123\120\101\036\055\042\055"Keybind"\106\029\030\030\030\030\030\106\059\029\030\030\030\030\030\108\029\030\030\030\030\030\030\097\037\032\063"v46"\059\055\108\084\120\101\121\114\101\069\118\115\126\098\100\055\042\055\066\083\126\122\057\121\114\096\063\039\059\055\034\062\106\062\059\029\030\030\030\030\030\030\097\037\032\063"UIPadding"\059\055\108\071\118\115\115\126\121\112\091\114\113\099\055\042\055\066\083\126\122\057\121\114\096\063\039\059\055\047\062\059\055\071\118\115\115\126\121\112\069\126\112\127\099\055\042\055\066\083\126\122\057\121\114\096\063\039\059\055\047\062\106\062\059\029\030\030\030\030\030\030\097\037\032\063\029\030\030\030\030\030\030\030"UIStroke"\059\029\030\030\030\030\030\030\030\108\029\030\030\030\030\030\030\030\030\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\034\059\029\030\030\030\030\030\030\030\030\086\103\103\123\110\068\099\101\120\124\114\090\120\115\114\055\042\055\082\121\098\122\057\086\103\103\123\110\068\099\101\120\124\114\090\120\115\114\057\085\120\101\115\114\101\059\029\030\030\030\030\030\030\030\030\067\127\114\122\114\067\118\112\055\042\055\108\084\120\123\120\101\055\042\055"InElementBorder"\106\029\030\030\030\030\030\030\030\106\029\030\030\030\030\030\030\062\059\029\030\030\030\030\030\030\097\034\037\029\030\030\030\030\030\106\029\030\030\030\030\062\029\030\030\030\097\038\032\055\097\039\057\080\114\099\068\099\118\099\114\063\097\036\035\062\029\030\030\030\030\126\113\055\097\035\037\045\080\114\099\081\120\116\098\100\114\115\067\114\111\099\085\120\111\063\062\055\118\121\115\055\097\039\057\090\120\115\114\055\105\042\055"Always"\055\099\127\114\121\029\030\030\030\030\030\101\114\099\098\101\121\055\113\118\123\100\114\029\030\030\030\030\114\121\115\029\030\030\030\030\126\113\055\097\039\057\090\120\115\114\055\042\042\055"Always"\055\099\127\114\121\029\030\030\030\030\030\101\114\099\098\101\121\055\099\101\098\114\029\030\030\030\030\114\123\100\114\126\113\055\097\039\057\090\120\115\114\055\042\042\055"Hold"\055\099\127\114\121\029\030\030\030\030\030\126\113\055\097\039\057\065\118\123\098\114\055\042\042\055"None"\055\099\127\114\121\029\030\030\030\030\030\030\101\114\099\098\101\121\055\113\118\123\100\114\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\123\120\116\118\123\055\097\035\036\055\042\055\097\039\057\065\118\123\098\114\029\030\030\030\030\030\126\113\055\097\035\036\055\042\042\055"MouseLeft"\055\120\101\055\097\035\036\055\042\042\055"MouseRight"\055\099\127\114\121\029\030\030\030\030\030\030\101\114\099\098\101\121\055\097\035\036\055\042\042\055"MouseLeft"\055\118\121\115\055\097\035\037\045\094\100\090\120\098\100\114\085\098\099\099\120\121\071\101\114\100\100\114\115\063\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\090\120\098\100\114\085\098\099\099\120\121\038\062\055\120\101\029\030\030\030\030\030\030\030\097\035\036\055\042\042\055"MouseRight"\055\118\121\115\055\097\035\037\045\094\100\090\120\098\100\114\085\098\099\099\120\121\071\101\114\100\100\114\115\063\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\090\120\098\100\114\085\098\099\099\120\121\037\062\029\030\030\030\030\030\114\123\100\114\029\030\030\030\030\030\030\101\114\099\098\101\121\055\097\035\037\045\094\100\092\114\110\083\120\096\121\063\082\121\098\122\057\092\114\110\084\120\115\114\076\097\039\057\065\118\123\098\114\074\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\123\100\114\029\030\030\030\030\030\101\114\099\098\101\121\055\097\039\057\067\120\112\112\123\114\115\029\030\030\030\030\114\121\115\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\039\057\068\114\099\065\118\123\098\114\063\097\036\035\059\055\097\035\036\059\055\097\038\034\062\029\030\030\030\030\097\035\036\055\042\055\097\035\036\055\120\101\055\097\039\057\092\114\110\029\030\030\030\030\097\038\034\055\042\055\097\038\034\055\120\101\055\097\039\057\090\120\115\114\029\030\030\030\030\097\034\037\057\067\114\111\099\055\042\055\097\035\036\029\030\030\030\030\097\039\057\065\118\123\098\114\055\042\055\097\035\036\029\030\030\030\030\097\039\057\090\120\115\114\055\042\055\097\038\034\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\039\057\088\121\084\123\126\116\124\063\097\036\035\059\055\097\035\036\062\029\030\030\030\030\097\039\057\084\123\126\116\124\114\115\055\042\055\097\035\036\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\039\057\088\121\084\127\118\121\112\114\115\063\097\036\035\059\055\097\035\036\062\029\030\030\030\030\097\039\057\084\127\118\121\112\114\115\055\042\055\097\035\036\029\030\030\030\030\097\035\036\063\097\039\057\065\118\123\098\114\062\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\039\057\083\120\084\123\126\116\124\063\097\036\035\062\029\030\030\030\030\097\036\036\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\039\057\084\118\123\123\117\118\116\124\059\055\097\039\057\067\120\112\112\123\114\115\062\029\030\030\030\030\097\036\036\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\039\057\084\123\126\116\124\114\115\059\055\097\039\057\067\120\112\112\123\114\115\062\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\039\057\083\114\100\099\101\120\110\063\097\036\035\062\029\030\030\030\030\097\037\046\045\083\114\100\099\101\120\110\063\062\029\030\030\030\030\097\036\036\057\088\103\099\126\120\121\100\076\097\036\033\074\055\042\055\121\126\123\029\030\030\030\114\121\115\029\030\030\030\097\034\046\057\086\115\115\068\126\112\121\118\123\063\029\030\030\030\030\097\033\057\094\121\103\098\099\085\114\112\118\121\059\029\030\030\030\030\097\038\032\063\097\036\035\062\029\030\030\030\030\030\126\113\055\097\036\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\090\120\098\100\114\085\098\099\099\120\121\038\055\120\101\055\097\036\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\067\120\098\116\127\055\099\127\114\121\029\030\030\030\030\030\030\097\037\034\055\042\055\099\101\098\114\029\030\030\030\030\030\030\097\034\037\057\067\114\111\099\055\042\055"..."\029\030\030\030\030\030\030\096\118\126\099\063\039\057\037\062\029\030\030\030\030\030\030\123\120\116\118\123\055\097\035\036\029\030\030\030\030\030\030\097\035\036\055\042\029\030\030\030\030\030\030\030\097\035\037\057\094\121\103\098\099\085\114\112\118\121\045\084\120\121\121\114\116\099\063\029\030\030\030\030\030\030\030\030\097\038\032\063\097\038\034\062\029\030\030\030\030\030\030\030\030\030\123\120\116\118\123\055\097\035\035\029\030\030\030\030\030\030\030\030\030\126\113\055\097\038\034\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\092\114\110\117\120\118\101\115\055\099\127\114\121\029\030\030\030\030\030\030\030\030\030\097\035\035\055\042\055\097\038\034\057\092\114\110\084\120\115\114\057\089\118\122\114\029\030\030\030\030\030\030\030\030\114\123\100\114\126\113\055\097\038\034\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\090\120\098\100\114\085\098\099\099\120\121\038\055\099\127\114\121\029\030\030\030\030\030\030\030\030\030\097\035\035\055\042\055"MouseLeft"\029\030\030\030\030\030\030\030\030\114\123\100\114\126\113\055\097\038\034\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\090\120\098\100\114\085\098\099\099\120\121\037\055\099\127\114\121\029\030\030\030\030\030\030\030\030\030\097\035\035\055\042\055"MouseRight"\029\030\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\030\030\030\123\120\116\118\123\055\097\033\039\029\030\030\030\030\030\030\030\030\030\097\033\039\055\042\029\030\030\030\030\030\030\030\030\030\097\035\037\057\094\121\103\098\099\082\121\115\114\115\045\084\120\121\121\114\116\099\063\029\030\030\030\030\030\030\030\030\030\030\097\038\032\063\097\033\035\062\029\030\030\030\030\030\030\030\030\030\030\030\126\113\029\030\030\030\030\030\030\030\030\030\030\030\097\033\035\057\092\114\110\084\120\115\114\057\089\118\122\114\055\042\042\055\097\035\035\055\120\101\029\030\030\030\030\030\030\030\030\030\030\030\097\035\035\055\042\042\055"MouseLeft"\055\118\121\115\055\097\033\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\090\120\098\100\114\085\098\099\099\120\121\038\055\120\101\029\030\030\030\030\030\030\030\030\030\030\030\097\035\035\055\042\042\055"MouseRight"\055\118\121\115\055\097\033\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\090\120\098\100\114\085\098\099\099\120\121\037\029\030\030\030\030\030\030\030\030\030\030\099\127\114\121\029\030\030\030\030\030\030\030\030\030\030\030\097\037\034\055\042\055\113\118\123\100\114\029\030\030\030\030\030\030\030\030\030\030\030\097\034\037\057\067\114\111\099\055\042\055\097\035\035\029\030\030\030\030\030\030\030\030\030\030\030\097\039\057\065\118\123\098\114\055\042\055\097\035\035\029\030\030\030\030\030\030\030\030\030\030\030\097\036\036\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\039\057\084\127\118\121\112\114\115\084\118\123\123\117\118\116\124\059\055\097\033\035\057\092\114\110\084\120\115\114\055\120\101\055\097\033\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\062\029\030\030\030\030\030\030\030\030\030\030\030\097\036\036\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\039\057\084\127\118\121\112\114\115\059\055\097\033\035\057\092\114\110\084\120\115\114\055\120\101\055\097\033\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\062\029\030\030\030\030\030\030\030\030\030\030\030\097\035\036\045\083\126\100\116\120\121\121\114\116\099\063\062\029\030\030\030\030\030\030\030\030\030\030\030\097\033\039\045\083\126\100\116\120\121\121\114\116\099\063\062\029\030\030\030\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\030\030\030\062\029\030\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\030\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\097\034\046\057\086\115\115\068\126\112\121\118\123\063\029\030\030\030\030\097\035\037\057\094\121\103\098\099\085\114\112\118\121\059\029\030\030\030\030\097\038\032\063\097\036\035\062\029\030\030\030\030\030\126\113\055\121\120\099\055\097\037\034\055\118\121\115\055\121\120\099\055\097\035\037\045\080\114\099\081\120\116\098\100\114\115\067\114\111\099\085\120\111\063\062\055\099\127\114\121\029\030\030\030\030\030\030\126\113\055\097\039\057\090\120\115\114\055\042\042\055"Toggle"\055\099\127\114\121\029\030\030\030\030\030\030\030\123\120\116\118\123\055\097\035\036\055\042\055\097\039\057\065\118\123\098\114\029\030\030\030\030\030\030\030\126\113\055\097\035\036\055\042\042\055"MouseLeft"\055\120\101\055\097\035\036\055\042\042\055"MouseRight"\055\099\127\114\121\029\030\030\030\030\030\030\030\030\126\113\029\030\030\030\030\030\030\030\030\030\097\035\036\055\042\042\055"MouseLeft"\055\118\121\115\055\097\036\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\090\120\098\100\114\085\098\099\099\120\121\038\055\120\101\029\030\030\030\030\030\030\030\030\030\097\035\036\055\042\042\055"MouseRight"\055\118\121\115\055\097\036\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\090\120\098\100\114\085\098\099\099\120\121\037\029\030\030\030\030\030\030\030\030\099\127\114\121\029\030\030\030\030\030\030\030\030\030\097\039\057\067\120\112\112\123\114\115\055\042\055\121\120\099\055\097\039\057\067\120\112\112\123\114\115\029\030\030\030\030\030\030\030\030\030\097\039\045\083\120\084\123\126\116\124\063\062\029\030\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\030\114\123\100\114\126\113\055\097\036\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\092\114\110\117\120\118\101\115\055\099\127\114\121\029\030\030\030\030\030\030\030\030\126\113\055\097\036\035\057\092\114\110\084\120\115\114\057\089\118\122\114\055\042\042\055\097\035\036\055\099\127\114\121\029\030\030\030\030\030\030\030\030\030\097\039\057\067\120\112\112\123\114\115\055\042\055\121\120\099\055\097\039\057\067\120\112\112\123\114\115\029\030\030\030\030\030\030\030\030\030\097\039\045\083\120\084\123\126\116\124\063\062\029\030\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\097\036\036\057\088\103\099\126\120\121\100\076\097\036\033\074\055\042\055\097\039\029\030\030\030\101\114\099\098\101\121\055\097\039\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\038\047\029\030\114\121\115\059\029\030\076\037\034\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\037\034\062\029\030\030\123\120\116\118\123\055\097\035\037\055\042\055\097\036\046\057\071\118\101\114\121\099\057\071\118\101\114\121\099\029\030\030\123\120\116\118\123\055\097\036\037\059\055\097\034\046\059\055\097\037\032\059\055\097\034\036\055\042\055\097\035\037\057\084\120\122\103\120\121\114\121\099\100\059\055\097\038\035\063\097\035\037\057\071\118\116\124\118\112\114\100\057\081\123\126\103\103\114\101\062\059\055\097\038\035\063\097\035\037\057\084\101\114\118\099\120\101\062\059\055\108\106\029\030\030\097\034\036\057\072\072\126\121\115\114\111\055\042\055\097\034\036\029\030\030\097\034\036\057\072\072\099\110\103\114\055\042\055"Paragraph"\029\030\030\097\038\032\055\097\034\036\057\089\114\096\063\097\038\047\059\055\097\033\034\062\029\030\030\030\118\100\100\114\101\099\063\097\033\034\057\067\126\099\123\114\059\055"Paragraph - Missing Title"\062\029\030\030\030\097\033\034\057\084\120\121\099\114\121\099\055\042\055\097\033\034\057\084\120\121\099\114\121\099\055\120\101\055""\029\030\030\030\123\120\116\118\123\055\097\036\033\055\042\055\097\038\035\063\097\036\037\057\082\123\114\122\114\121\099\062\063\097\033\034\057\067\126\099\123\114\059\055\097\033\034\057\084\120\121\099\114\121\099\059\055\097\034\036\057\084\120\121\099\118\126\121\114\101\059\055\113\118\123\100\114\062\029\030\030\030\097\036\033\057\081\101\118\122\114\057\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\046\037\029\030\030\030\097\036\033\057\085\120\101\115\114\101\057\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\033\029\030\030\030\101\114\099\098\101\121\055\097\036\033\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\034\036\029\030\114\121\115\059\029\030\076\037\033\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\037\033\062\029\030\030\123\120\116\118\123\055\097\035\037\059\055\097\036\037\055\042\055\112\118\122\114\045\080\114\099\068\114\101\097\126\116\114\055"UserInputService"\059\055\097\036\046\057\071\118\101\114\121\099\057\071\118\101\114\121\099\029\030\030\123\120\116\118\123\055\097\034\046\055\042\055\097\038\035\063\097\036\037\057\084\101\114\118\099\120\101\062\029\030\030\123\120\116\118\123\055\097\037\032\059\055\097\034\036\059\055\097\038\047\055\042\055\097\034\046\057\089\114\096\059\055\097\036\037\057\084\120\122\103\120\121\114\121\099\100\059\055\108\106\029\030\030\097\038\047\057\072\072\126\121\115\114\111\055\042\055\097\038\047\029\030\030\097\038\047\057\072\072\099\110\103\114\055\042\055"Slider"\029\030\030\097\038\032\055\097\038\047\057\089\114\096\063\097\033\034\059\055\097\036\033\059\055\097\036\032\062\029\030\030\030\123\120\116\118\123\055\097\036\036\055\042\055\097\033\034\057\091\126\117\101\118\101\110\029\030\030\030\118\100\100\114\101\099\063\097\036\032\057\067\126\099\123\114\059\055"Slider - Missing Title."\062\029\030\030\030\118\100\100\114\101\099\063\097\036\032\057\083\114\113\118\098\123\099\059\055"Slider - Missing default value."\062\029\030\030\030\118\100\100\114\101\099\063\097\036\032\057\090\126\121\059\055"Slider - Missing minimum value."\062\029\030\030\030\118\100\100\114\101\099\063\097\036\032\057\090\118\111\059\055"Slider - Missing maximum value."\062\029\030\030\030\118\100\100\114\101\099\063\097\036\032\057\069\120\098\121\115\126\121\112\059\055"Slider - Missing rounding value."\062\029\030\030\030\123\120\116\118\123\055\097\039\059\055\097\037\034\059\055\097\037\046\055\042\029\030\030\030\030\108\065\118\123\098\114\055\042\055\121\126\123\059\055\090\126\121\055\042\055\097\036\032\057\090\126\121\059\055\090\118\111\055\042\055\097\036\032\057\090\118\111\059\055\069\120\098\121\115\126\121\112\055\042\055\097\036\032\057\069\120\098\121\115\126\121\112\059\055\084\118\123\123\117\118\116\124\055\042\055\097\036\032\057\084\118\123\123\117\118\116\124\055\120\101\055\097\038\032\063\097\039\062\029\030\030\030\030\114\121\115\059\055\067\110\103\114\055\042\055"Slider"\106\059\029\030\030\030\113\118\123\100\114\059\029\030\030\030\097\038\035\063\097\034\036\057\082\123\114\122\114\121\099\062\063\097\036\032\057\067\126\099\123\114\059\055\097\036\032\057\083\114\100\116\101\126\103\099\126\120\121\059\055\097\033\034\057\084\120\121\099\118\126\121\114\101\059\055\113\118\123\100\114\062\029\030\030\030\097\037\046\057\083\114\100\116\091\118\117\114\123\057\068\126\109\114\055\042\055\066\083\126\122\037\057\121\114\096\063\038\059\055\058\038\032\039\059\055\039\059\055\038\035\062\029\030\030\030\097\039\057\068\114\099\067\126\099\123\114\055\042\055\097\037\046\057\068\114\099\067\126\099\123\114\029\030\030\030\097\039\057\068\114\099\083\114\100\116\055\042\055\097\037\046\057\068\114\099\083\114\100\116\029\030\030\030\123\120\116\118\123\055\097\034\037\055\042\029\030\030\030\030\097\037\032\063\029\030\030\030\030\030"v63"\059\029\030\030\030\030\030\108\029\030\030\030\030\030\030\086\121\116\127\120\101\071\120\126\121\099\055\042\055\065\114\116\099\120\101\037\057\121\114\096\063\039\059\055\039\057\034\062\059\029\030\030\030\030\030\030\071\120\100\126\099\126\120\121\055\042\055\066\083\126\122\037\057\121\114\096\063\039\059\055\058\032\059\055\039\057\034\059\055\039\062\059\029\030\030\030\030\030\030\068\126\109\114\055\042\055\066\083\126\122\037\057\113\101\120\122\088\113\113\100\114\099\063\038\035\059\055\038\035\062\059\029\030\030\030\030\030\030\094\122\118\112\114\055\042\055"http://www.roblox.com/asset/?id=12266946128"\059\029\030\030\030\030\030\030\067\127\114\122\114\067\118\112\055\042\055\108\094\122\118\112\114\084\120\123\120\101\036\055\042\055"Accent"\106\029\030\030\030\030\030\106\029\030\030\030\030\062\029\030\030\030\123\120\116\118\123\055\097\033\059\055\097\036\035\059\055\097\035\036\055\042\029\030\030\030\030\097\037\032\063\029\030\030\030\030\030"Frame"\059\029\030\030\030\030\030\108\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\038\059\055\071\120\100\126\099\126\120\121\055\042\055\066\083\126\122\037\057\113\101\120\122\088\113\113\100\114\099\063\032\059\055\039\062\059\055\068\126\109\114\055\042\055\066\083\126\122\037\057\121\114\096\063\038\059\055\058\038\035\059\055\038\059\055\039\062\106\059\029\030\030\030\030\030\108\097\034\037\106\029\030\030\030\030\062\059\029\030\030\030\097\037\032\063\029\030\030\030\030"Frame"\059\029\030\030\030\030\108\068\126\109\114\055\042\055\066\083\126\122\037\057\121\114\096\063\039\059\055\039\059\055\038\059\055\039\062\059\055\067\127\114\122\114\067\118\112\055\042\055\108\085\118\116\124\112\101\120\098\121\115\084\120\123\120\101\036\055\042\055"Accent"\106\106\059\029\030\030\030\030\108\097\037\032\063"v46"\059\055\108\084\120\101\121\114\101\069\118\115\126\098\100\055\042\055\066\083\126\122\057\121\114\096\063\038\059\055\039\062\106\062\106\029\030\030\030\062\059\029\030\030\030\097\037\032\063\029\030\030\030\030"TextLabel"\059\029\030\030\030\030\108\029\030\030\030\030\030\081\120\121\099\081\118\116\114\055\042\055\081\120\121\099\057\121\114\096\055"rbxasset://fonts/families/GothamSSm.json"\059\029\030\030\030\030\030\067\114\111\099\055\042\055"Value"\059\029\030\030\030\030\030\067\114\111\099\068\126\109\114\055\042\055\038\037\059\029\030\030\030\030\030\067\114\111\099\064\101\118\103\103\114\115\055\042\055\099\101\098\114\059\029\030\030\030\030\030\067\114\111\099\079\086\123\126\112\121\122\114\121\099\055\042\055\082\121\098\122\057\067\114\111\099\079\086\123\126\112\121\122\114\121\099\057\069\126\112\127\099\059\029\030\030\030\030\030\085\118\116\124\112\101\120\098\121\115\084\120\123\120\101\036\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\034\059\055\037\034\034\059\055\037\034\034\062\059\029\030\030\030\030\030\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\038\059\029\030\030\030\030\030\068\126\109\114\055\042\055\066\083\126\122\037\057\121\114\096\063\039\059\055\038\039\039\059\055\039\059\055\038\035\062\059\029\030\030\030\030\030\071\120\100\126\099\126\120\121\055\042\055\066\083\126\122\037\057\121\114\096\063\039\059\055\058\035\059\055\039\057\034\059\055\039\062\059\029\030\030\030\030\030\086\121\116\127\120\101\071\120\126\121\099\055\042\055\065\114\116\099\120\101\037\057\121\114\096\063\038\059\055\039\057\034\062\059\029\030\030\030\030\030\067\127\114\122\114\067\118\112\055\042\055\108\067\114\111\099\084\120\123\120\101\036\055\042\055"SubText"\106\029\030\030\030\030\106\029\030\030\030\062\029\030\030\030\123\120\116\118\123\055\097\038\034\055\042\029\030\030\030\030\097\037\032\063\029\030\030\030\030\030"Frame"\059\029\030\030\030\030\030\108\029\030\030\030\030\030\030\068\126\109\114\055\042\055\066\083\126\122\037\057\121\114\096\063\038\059\055\039\059\055\039\059\055\035\062\059\029\030\030\030\030\030\030\086\121\116\127\120\101\071\120\126\121\099\055\042\055\065\114\116\099\120\101\037\057\121\114\096\063\038\059\055\039\057\034\062\059\029\030\030\030\030\030\030\071\120\100\126\099\126\120\121\055\042\055\066\083\126\122\037\057\121\114\096\063\038\059\055\058\038\039\059\055\039\057\034\059\055\039\062\059\029\030\030\030\030\030\030\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\035\059\029\030\030\030\030\030\030\071\118\101\114\121\099\055\042\055\097\037\046\057\081\101\118\122\114\059\029\030\030\030\030\030\030\067\127\114\122\114\067\118\112\055\042\055\108\085\118\116\124\112\101\120\098\121\115\084\120\123\120\101\036\055\042\055"SliderRail"\106\029\030\030\030\030\030\106\059\029\030\030\030\030\030\108\029\030\030\030\030\030\030\097\037\032\063"v46"\059\055\108\084\120\101\121\114\101\069\118\115\126\098\100\055\042\055\066\083\126\122\057\121\114\096\063\038\059\055\039\062\106\062\059\029\030\030\030\030\030\030\097\037\032\063"UISizeConstraint"\059\055\108\090\118\111\068\126\109\114\055\042\055\065\114\116\099\120\101\037\057\121\114\096\063\038\034\039\059\055\122\118\099\127\057\127\098\112\114\062\106\062\059\029\030\030\030\030\030\030\097\035\036\059\029\030\030\030\030\030\030\097\036\035\059\029\030\030\030\030\030\030\097\033\029\030\030\030\030\030\106\029\030\030\030\030\062\029\030\030\030\097\034\046\057\086\115\115\068\126\112\121\118\123\063\029\030\030\030\030\097\034\037\057\094\121\103\098\099\085\114\112\118\121\059\029\030\030\030\030\097\038\032\063\097\035\035\062\029\030\030\030\030\030\126\113\055\097\035\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\090\120\098\100\114\085\098\099\099\120\121\038\055\120\101\055\097\035\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\067\120\098\116\127\055\099\127\114\121\029\030\030\030\030\030\030\097\037\034\055\042\055\099\101\098\114\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\097\034\046\057\086\115\115\068\126\112\121\118\123\063\029\030\030\030\030\097\034\037\057\094\121\103\098\099\082\121\115\114\115\059\029\030\030\030\030\097\038\032\063\097\035\035\062\029\030\030\030\030\030\126\113\055\097\035\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\090\120\098\100\114\085\098\099\099\120\121\038\055\120\101\055\097\035\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\067\120\098\116\127\055\099\127\114\121\029\030\030\030\030\030\030\097\037\034\055\042\055\113\118\123\100\114\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\097\034\046\057\086\115\115\068\126\112\121\118\123\063\029\030\030\030\030\097\035\037\057\094\121\103\098\099\084\127\118\121\112\114\115\059\029\030\030\030\030\097\038\032\063\097\035\035\062\029\030\030\030\030\030\126\113\029\030\030\030\030\030\030\097\037\034\055\118\121\115\029\030\030\030\030\030\030\063\097\035\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\090\120\098\100\114\090\120\097\114\122\114\121\099\055\120\101\029\030\030\030\030\030\030\030\097\035\035\057\066\100\114\101\094\121\103\098\099\067\110\103\114\055\042\042\055\082\121\098\122\057\066\100\114\101\094\121\103\098\099\067\110\103\114\057\067\120\098\116\127\062\029\030\030\030\030\030\099\127\114\121\029\030\030\030\030\030\030\123\120\116\118\123\055\097\033\039\055\042\055\122\118\099\127\057\116\123\118\122\103\063\063\097\035\035\057\071\120\100\126\099\126\120\121\057\097\037\055\058\055\097\033\057\086\117\100\120\123\098\099\114\071\120\100\126\099\126\120\121\057\097\037\062\055\056\055\097\033\057\086\117\100\120\123\098\099\114\068\126\109\114\057\097\037\059\055\039\059\055\038\062\029\030\030\030\030\030\030\097\039\045\068\114\099\065\118\123\098\114\063\097\039\057\090\126\121\055\060\055\063\063\097\039\057\090\118\111\055\058\055\097\039\057\090\126\121\062\055\061\055\097\033\039\062\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\097\038\032\055\097\039\057\088\121\084\127\118\121\112\114\115\063\097\035\035\059\055\097\033\039\062\029\030\030\030\030\097\039\057\084\127\118\121\112\114\115\055\042\055\097\033\039\029\030\030\030\030\097\033\039\063\097\039\057\065\118\123\098\114\062\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\039\057\068\114\099\065\118\123\098\114\063\097\035\035\059\055\097\033\039\062\029\030\030\030\030\097\035\035\057\065\118\123\098\114\055\042\055\097\036\036\045\069\120\098\121\115\063\122\118\099\127\057\116\123\118\122\103\063\097\033\039\059\055\097\039\057\090\126\121\059\055\097\039\057\090\118\111\062\059\055\097\039\057\069\120\098\121\115\126\121\112\062\029\030\030\030\030\097\034\037\057\071\120\100\126\099\126\120\121\055\042\055\066\083\126\122\037\057\121\114\096\063\063\097\035\035\057\065\118\123\098\114\055\058\055\097\039\057\090\126\121\062\055\056\055\063\097\039\057\090\118\111\055\058\055\097\039\057\090\126\121\062\059\055\058\032\059\055\039\057\034\059\055\039\062\029\030\030\030\030\097\036\035\057\068\126\109\114\055\042\055\066\083\126\122\037\057\113\101\120\122\068\116\118\123\114\063\063\097\035\035\057\065\118\123\098\114\055\058\055\097\039\057\090\126\121\062\055\056\055\063\097\039\057\090\118\111\055\058\055\097\039\057\090\126\121\062\059\055\038\062\029\030\030\030\030\097\035\036\057\067\114\111\099\055\042\055\099\120\100\099\101\126\121\112\063\097\035\035\057\065\118\123\098\114\062\029\030\030\030\030\097\036\036\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\039\057\084\118\123\123\117\118\116\124\059\055\097\035\035\057\065\118\123\098\114\062\029\030\030\030\030\097\036\036\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\039\057\084\127\118\121\112\114\115\059\055\097\035\035\057\065\118\123\098\114\062\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\039\057\083\114\100\099\101\120\110\063\097\035\035\062\029\030\030\030\030\097\037\046\045\083\114\100\099\101\120\110\063\062\029\030\030\030\030\097\036\036\057\088\103\099\126\120\121\100\076\097\036\033\074\055\042\055\121\126\123\029\030\030\030\114\121\115\029\030\030\030\097\039\045\068\114\099\065\118\123\098\114\063\097\036\032\057\083\114\113\118\098\123\099\062\029\030\030\030\097\036\036\057\088\103\099\126\120\121\100\076\097\036\033\074\055\042\055\097\039\029\030\030\030\101\114\099\098\101\121\055\097\039\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\038\047\029\030\114\121\115\059\029\030\076\037\032\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\037\032\062\029\030\030\123\120\116\118\123\055\097\035\037\059\055\097\036\037\055\042\055\112\118\122\114\045\080\114\099\068\114\101\097\126\116\114\055"TweenService"\059\055\097\036\046\057\071\118\101\114\121\099\057\071\118\101\114\121\099\029\030\030\123\120\116\118\123\055\097\034\046\055\042\055\097\038\035\063\097\036\037\057\084\101\114\118\099\120\101\062\029\030\030\123\120\116\118\123\055\097\037\032\059\055\097\034\036\059\055\097\038\047\055\042\055\097\034\046\057\089\114\096\059\055\097\036\037\057\084\120\122\103\120\121\114\121\099\100\059\055\108\106\029\030\030\097\038\047\057\072\072\126\121\115\114\111\055\042\055\097\038\047\029\030\030\097\038\047\057\072\072\099\110\103\114\055\042\055"Toggle"\029\030\030\097\038\032\055\097\038\047\057\089\114\096\063\097\033\034\059\055\097\036\033\059\055\097\036\032\062\029\030\030\030\123\120\116\118\123\055\097\036\036\055\042\055\097\033\034\057\091\126\117\101\118\101\110\029\030\030\030\118\100\100\114\101\099\063\097\036\032\057\067\126\099\123\114\059\055"Toggle - Missing Title"\062\029\030\030\030\123\120\116\118\123\055\097\039\059\055\097\037\034\055\042\055\108\065\118\123\098\114\055\042\055\097\036\032\057\083\114\113\118\098\123\099\055\120\101\055\113\118\123\100\114\059\055\084\118\123\123\117\118\116\124\055\042\055\097\036\032\057\084\118\123\123\117\118\116\124\055\120\101\055\097\038\032\063\097\039\062\029\030\030\030\114\121\115\059\055\067\110\103\114\055\042\055"Toggle"\106\059\055\097\038\035\063\097\034\036\057\082\123\114\122\114\121\099\062\063\097\036\032\057\067\126\099\123\114\059\055\097\036\032\057\083\114\100\116\101\126\103\099\126\120\121\059\055\097\033\034\057\084\120\121\099\118\126\121\114\101\059\055\099\101\098\114\062\029\030\030\030\097\037\034\057\083\114\100\116\091\118\117\114\123\057\068\126\109\114\055\042\055\066\083\126\122\037\057\121\114\096\063\038\059\055\058\034\035\059\055\039\059\055\038\035\062\029\030\030\030\097\039\057\068\114\099\067\126\099\123\114\055\042\055\097\037\034\057\068\114\099\067\126\099\123\114\029\030\030\030\097\039\057\068\114\099\083\114\100\116\055\042\055\097\037\034\057\068\114\099\083\114\100\116\029\030\030\030\123\120\116\118\123\055\097\037\046\059\055\097\034\037\055\042\029\030\030\030\030\097\037\032\063\029\030\030\030\030\030"v63"\059\029\030\030\030\030\030\108\029\030\030\030\030\030\030\086\121\116\127\120\101\071\120\126\121\099\055\042\055\065\114\116\099\120\101\037\057\121\114\096\063\039\059\055\039\057\034\062\059\029\030\030\030\030\030\030\068\126\109\114\055\042\055\066\083\126\122\037\057\113\101\120\122\088\113\113\100\114\099\063\038\035\059\055\038\035\062\059\029\030\030\030\030\030\030\071\120\100\126\099\126\120\121\055\042\055\066\083\126\122\037\057\121\114\096\063\039\059\055\037\059\055\039\057\034\059\055\039\062\059\029\030\030\030\030\030\030\094\122\118\112\114\055\042\055"http://www.roblox.com/asset/?id=12266946128"\059\029\030\030\030\030\030\030\094\122\118\112\114\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\034\059\029\030\030\030\030\030\030\067\127\114\122\114\067\118\112\055\042\055\108\094\122\118\112\114\084\120\123\120\101\036\055\042\055"ToggleSlider"\106\029\030\030\030\030\030\106\029\030\030\030\030\062\059\029\030\030\030\097\037\032\063"UIStroke"\059\055\108\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\034\059\055\067\127\114\122\114\067\118\112\055\042\055\108\084\120\123\120\101\055\042\055"ToggleSlider"\106\106\062\029\030\030\030\123\120\116\118\123\055\097\033\055\042\029\030\030\030\030\097\037\032\063\029\030\030\030\030\030"Frame"\059\029\030\030\030\030\030\108\029\030\030\030\030\030\030\068\126\109\114\055\042\055\066\083\126\122\037\057\113\101\120\122\088\113\113\100\114\099\063\036\033\059\055\038\047\062\059\029\030\030\030\030\030\030\086\121\116\127\120\101\071\120\126\121\099\055\042\055\065\114\116\099\120\101\037\057\121\114\096\063\038\059\055\039\057\034\062\059\029\030\030\030\030\030\030\071\120\100\126\099\126\120\121\055\042\055\066\083\126\122\037\057\121\114\096\063\038\059\055\058\038\039\059\055\039\057\034\059\055\039\062\059\029\030\030\030\030\030\030\071\118\101\114\121\099\055\042\055\097\037\034\057\081\101\118\122\114\059\029\030\030\030\030\030\030\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\038\059\029\030\030\030\030\030\030\067\127\114\122\114\067\118\112\055\042\055\108\085\118\116\124\112\101\120\098\121\115\084\120\123\120\101\036\055\042\055"Accent"\106\029\030\030\030\030\030\106\059\029\030\030\030\030\030\108\097\037\032\063"v46"\059\055\108\084\120\101\121\114\101\069\118\115\126\098\100\055\042\055\066\083\126\122\057\121\114\096\063\039\059\055\046\062\106\062\059\055\097\034\037\059\055\097\037\046\106\029\030\030\030\030\062\029\030\030\030\097\038\032\055\097\039\057\088\121\084\127\118\121\112\114\115\063\097\036\035\059\055\097\035\036\062\029\030\030\030\030\097\039\057\084\127\118\121\112\114\115\055\042\055\097\035\036\029\030\030\030\030\097\035\036\063\097\039\057\065\118\123\098\114\062\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\039\057\068\114\099\065\118\123\098\114\063\097\036\035\059\055\097\035\036\062\029\030\030\030\030\097\035\036\055\042\055\121\120\099\055\063\121\120\099\055\097\035\036\062\029\030\030\030\030\097\039\057\065\118\123\098\114\055\042\055\097\035\036\029\030\030\030\030\097\034\046\057\088\097\114\101\101\126\115\114\067\118\112\063\097\034\037\059\055\108\084\120\123\120\101\055\042\055\097\039\057\065\118\123\098\114\055\118\121\115\055"Accent"\055\120\101\055"ToggleSlider"\106\062\029\030\030\030\030\097\034\046\057\088\097\114\101\101\126\115\114\067\118\112\063\097\037\046\059\055\108\094\122\118\112\114\084\120\123\120\101\036\055\042\055\097\039\057\065\118\123\098\114\055\118\121\115\055"ToggleToggled"\055\120\101\055"ToggleSlider"\106\062\029\030\030\030\030\097\035\037\045\084\101\114\118\099\114\063\029\030\030\030\030\030\097\037\046\059\029\030\030\030\030\030\067\096\114\114\121\094\121\113\120\057\121\114\096\063\039\057\037\034\059\055\082\121\098\122\057\082\118\100\126\121\112\068\099\110\123\114\057\070\098\126\121\099\059\055\082\121\098\122\057\082\118\100\126\121\112\083\126\101\114\116\099\126\120\121\057\088\098\099\062\059\029\030\030\030\030\030\108\071\120\100\126\099\126\120\121\055\042\055\066\083\126\122\037\057\121\114\096\063\039\059\055\097\039\057\065\118\123\098\114\055\118\121\115\055\038\046\055\120\101\055\037\059\055\039\057\034\059\055\039\062\106\029\030\030\030\030\062\045\071\123\118\110\063\062\029\030\030\030\030\097\035\037\045\084\101\114\118\099\114\063\029\030\030\030\030\030\097\033\059\029\030\030\030\030\030\067\096\114\114\121\094\121\113\120\057\121\114\096\063\039\057\037\034\059\055\082\121\098\122\057\082\118\100\126\121\112\068\099\110\123\114\057\070\098\126\121\099\059\055\082\121\098\122\057\082\118\100\126\121\112\083\126\101\114\116\099\126\120\121\057\088\098\099\062\059\029\030\030\030\030\030\108\085\118\116\124\112\101\120\098\121\115\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\097\039\057\065\118\123\098\114\055\118\121\115\055\039\055\120\101\055\038\106\029\030\030\030\030\062\045\071\123\118\110\063\062\029\030\030\030\030\097\037\046\057\094\122\118\112\114\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\097\039\057\065\118\123\098\114\055\118\121\115\055\039\055\120\101\055\039\057\034\029\030\030\030\030\097\036\036\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\039\057\084\118\123\123\117\118\116\124\059\055\097\039\057\065\118\123\098\114\062\029\030\030\030\030\097\036\036\045\068\118\113\114\084\118\123\123\117\118\116\124\063\097\039\057\084\127\118\121\112\114\115\059\055\097\039\057\065\118\123\098\114\062\029\030\030\030\114\121\115\029\030\030\030\097\038\032\055\097\039\057\083\114\100\099\101\120\110\063\097\036\035\062\029\030\030\030\030\097\037\034\045\083\114\100\099\101\120\110\063\062\029\030\030\030\030\097\036\036\057\088\103\099\126\120\121\100\076\097\036\033\074\055\042\055\121\126\123\029\030\030\030\114\121\115\029\030\030\030\097\034\046\057\086\115\115\068\126\112\121\118\123\063\029\030\030\030\030\097\037\034\057\081\101\118\122\114\057\090\120\098\100\114\085\098\099\099\120\121\038\084\123\126\116\124\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\097\039\045\068\114\099\065\118\123\098\114\063\121\120\099\055\097\039\057\065\118\123\098\114\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\097\039\045\068\114\099\065\118\123\098\114\063\097\039\057\065\118\123\098\114\062\029\030\030\030\097\036\036\057\088\103\099\126\120\121\100\076\097\036\033\074\055\042\055\097\039\029\030\030\030\101\114\099\098\101\121\055\097\039\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\038\047\029\030\114\121\115\059\029\030\076\037\047\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\037\047\062\029\030\030\101\114\099\098\101\121\055\108\029\030\030\030\118\100\100\114\099\100\055\042\055\108\029\030\030\030\030\076"lucide-accessibility"\074\055\042\055"rbxassetid://10709751939"\059\029\030\030\030\030\076"lucide-activity"\074\055\042\055"rbxassetid://10709752035"\059\029\030\030\030\030\076"lucide-air-vent"\074\055\042\055"rbxassetid://10709752131"\059\029\030\030\030\030\076"lucide-airplay"\074\055\042\055"rbxassetid://10709752254"\059\029\030\030\030\030\076"lucide-alarm-check"\074\055\042\055"rbxassetid://10709752405"\059\029\030\030\030\030\076"lucide-alarm-clock"\074\055\042\055"rbxassetid://10709752630"\059\029\030\030\030\030\076"lucide-alarm-clock-off"\074\055\042\055"rbxassetid://10709752508"\059\029\030\030\030\030\076"lucide-alarm-minus"\074\055\042\055"rbxassetid://10709752732"\059\029\030\030\030\030\076"lucide-alarm-plus"\074\055\042\055"rbxassetid://10709752825"\059\029\030\030\030\030\076"lucide-album"\074\055\042\055"rbxassetid://10709752906"\059\029\030\030\030\030\076"lucide-alert-circle"\074\055\042\055"rbxassetid://10709752996"\059\029\030\030\030\030\076"lucide-alert-octagon"\074\055\042\055"rbxassetid://10709753064"\059\029\030\030\030\030\076"lucide-alert-triangle"\074\055\042\055"rbxassetid://10709753149"\059\029\030\030\030\030\076"lucide-align-center"\074\055\042\055"rbxassetid://10709753570"\059\029\030\030\030\030\076"lucide-align-center-horizontal"\074\055\042\055"rbxassetid://10709753272"\059\029\030\030\030\030\076"lucide-align-center-vertical"\074\055\042\055"rbxassetid://10709753421"\059\029\030\030\030\030\076"lucide-align-end-horizontal"\074\055\042\055"rbxassetid://10709753692"\059\029\030\030\030\030\076"lucide-align-end-vertical"\074\055\042\055"rbxassetid://10709753808"\059\029\030\030\030\030\076"lucide-align-horizontal-distribute-center"\074\055\042\055"rbxassetid://10747779791"\059\029\030\030\030\030\076"lucide-align-horizontal-distribute-end"\074\055\042\055"rbxassetid://10747784534"\059\029\030\030\030\030\076"lucide-align-horizontal-distribute-start"\074\055\042\055"rbxassetid://10709754118"\059\029\030\030\030\030\076"lucide-align-horizontal-justify-center"\074\055\042\055"rbxassetid://10709754204"\059\029\030\030\030\030\076"lucide-align-horizontal-justify-end"\074\055\042\055"rbxassetid://10709754317"\059\029\030\030\030\030\076"lucide-align-horizontal-justify-start"\074\055\042\055"rbxassetid://10709754436"\059\029\030\030\030\030\076"lucide-align-horizontal-space-around"\074\055\042\055"rbxassetid://10709754590"\059\029\030\030\030\030\076"lucide-align-horizontal-space-between"\074\055\042\055"rbxassetid://10709754749"\059\029\030\030\030\030\076"lucide-align-justify"\074\055\042\055"rbxassetid://10709759610"\059\029\030\030\030\030\076"lucide-align-left"\074\055\042\055"rbxassetid://10709759764"\059\029\030\030\030\030\076"lucide-align-right"\074\055\042\055"rbxassetid://10709759895"\059\029\030\030\030\030\076"lucide-align-start-horizontal"\074\055\042\055"rbxassetid://10709760051"\059\029\030\030\030\030\076"lucide-align-start-vertical"\074\055\042\055"rbxassetid://10709760244"\059\029\030\030\030\030\076"lucide-align-vertical-distribute-center"\074\055\042\055"rbxassetid://10709760351"\059\029\030\030\030\030\076"lucide-align-vertical-distribute-end"\074\055\042\055"rbxassetid://10709760434"\059\029\030\030\030\030\076"lucide-align-vertical-distribute-start"\074\055\042\055"rbxassetid://10709760612"\059\029\030\030\030\030\076"lucide-align-vertical-justify-center"\074\055\042\055"rbxassetid://10709760814"\059\029\030\030\030\030\076"lucide-align-vertical-justify-end"\074\055\042\055"rbxassetid://10709761003"\059\029\030\030\030\030\076"lucide-align-vertical-justify-start"\074\055\042\055"rbxassetid://10709761176"\059\029\030\030\030\030\076"lucide-align-vertical-space-around"\074\055\042\055"rbxassetid://10709761324"\059\029\030\030\030\030\076"lucide-align-vertical-space-between"\074\055\042\055"rbxassetid://10709761434"\059\029\030\030\030\030\076"lucide-anchor"\074\055\042\055"rbxassetid://10709761530"\059\029\030\030\030\030\076"lucide-angry"\074\055\042\055"rbxassetid://10709761629"\059\029\030\030\030\030\076"lucide-annoyed"\074\055\042\055"rbxassetid://10709761722"\059\029\030\030\030\030\076"lucide-aperture"\074\055\042\055"rbxassetid://10709761813"\059\029\030\030\030\030\076"lucide-apple"\074\055\042\055"rbxassetid://10709761889"\059\029\030\030\030\030\076"lucide-archive"\074\055\042\055"rbxassetid://10709762233"\059\029\030\030\030\030\076"lucide-archive-restore"\074\055\042\055"rbxassetid://10709762058"\059\029\030\030\030\030\076"lucide-armchair"\074\055\042\055"rbxassetid://10709762327"\059\029\030\030\030\030\076"lucide-arrow-big-down"\074\055\042\055"rbxassetid://10747796644"\059\029\030\030\030\030\076"lucide-arrow-big-left"\074\055\042\055"rbxassetid://10709762574"\059\029\030\030\030\030\076"lucide-arrow-big-right"\074\055\042\055"rbxassetid://10709762727"\059\029\030\030\030\030\076"lucide-arrow-big-up"\074\055\042\055"rbxassetid://10709762879"\059\029\030\030\030\030\076"lucide-arrow-down"\074\055\042\055"rbxassetid://10709767827"\059\029\030\030\030\030\076"lucide-arrow-down-circle"\074\055\042\055"rbxassetid://10709763034"\059\029\030\030\030\030\076"lucide-arrow-down-left"\074\055\042\055"rbxassetid://10709767656"\059\029\030\030\030\030\076"lucide-arrow-down-right"\074\055\042\055"rbxassetid://10709767750"\059\029\030\030\030\030\076"lucide-arrow-left"\074\055\042\055"rbxassetid://10709768114"\059\029\030\030\030\030\076"lucide-arrow-left-circle"\074\055\042\055"rbxassetid://10709767936"\059\029\030\030\030\030\076"lucide-arrow-left-right"\074\055\042\055"rbxassetid://10709768019"\059\029\030\030\030\030\076"lucide-arrow-right"\074\055\042\055"rbxassetid://10709768347"\059\029\030\030\030\030\076"lucide-arrow-right-circle"\074\055\042\055"rbxassetid://10709768226"\059\029\030\030\030\030\076"lucide-arrow-up"\074\055\042\055"rbxassetid://10709768939"\059\029\030\030\030\030\076"lucide-arrow-up-circle"\074\055\042\055"rbxassetid://10709768432"\059\029\030\030\030\030\076"lucide-arrow-up-down"\074\055\042\055"rbxassetid://10709768538"\059\029\030\030\030\030\076"lucide-arrow-up-left"\074\055\042\055"rbxassetid://10709768661"\059\029\030\030\030\030\076"lucide-arrow-up-right"\074\055\042\055"rbxassetid://10709768787"\059\029\030\030\030\030\076"lucide-asterisk"\074\055\042\055"rbxassetid://10709769095"\059\029\030\030\030\030\076"lucide-at-sign"\074\055\042\055"rbxassetid://10709769286"\059\029\030\030\030\030\076"lucide-award"\074\055\042\055"rbxassetid://10709769406"\059\029\030\030\030\030\076"lucide-axe"\074\055\042\055"rbxassetid://10709769508"\059\029\030\030\030\030\076"lucide-axis-3d"\074\055\042\055"rbxassetid://10709769598"\059\029\030\030\030\030\076"lucide-baby"\074\055\042\055"rbxassetid://10709769732"\059\029\030\030\030\030\076"lucide-backpack"\074\055\042\055"rbxassetid://10709769841"\059\029\030\030\030\030\076"lucide-baggage-claim"\074\055\042\055"rbxassetid://10709769935"\059\029\030\030\030\030\076"lucide-banana"\074\055\042\055"rbxassetid://10709770005"\059\029\030\030\030\030\076"lucide-banknote"\074\055\042\055"rbxassetid://10709770178"\059\029\030\030\030\030\076"lucide-bar-chart"\074\055\042\055"rbxassetid://10709773755"\059\029\030\030\030\030\076"lucide-bar-chart-2"\074\055\042\055"rbxassetid://10709770317"\059\029\030\030\030\030\076"lucide-bar-chart-3"\074\055\042\055"rbxassetid://10709770431"\059\029\030\030\030\030\076"lucide-bar-chart-4"\074\055\042\055"rbxassetid://10709770560"\059\029\030\030\030\030\076"lucide-bar-chart-horizontal"\074\055\042\055"rbxassetid://10709773669"\059\029\030\030\030\030\076"lucide-barcode"\074\055\042\055"rbxassetid://10747360675"\059\029\030\030\030\030\076"lucide-baseline"\074\055\042\055"rbxassetid://10709773863"\059\029\030\030\030\030\076"lucide-bath"\074\055\042\055"rbxassetid://10709773963"\059\029\030\030\030\030\076"lucide-battery"\074\055\042\055"rbxassetid://10709774640"\059\029\030\030\030\030\076"lucide-battery-charging"\074\055\042\055"rbxassetid://10709774068"\059\029\030\030\030\030\076"lucide-battery-full"\074\055\042\055"rbxassetid://10709774206"\059\029\030\030\030\030\076"lucide-battery-low"\074\055\042\055"rbxassetid://10709774370"\059\029\030\030\030\030\076"lucide-battery-medium"\074\055\042\055"rbxassetid://10709774513"\059\029\030\030\030\030\076"lucide-beaker"\074\055\042\055"rbxassetid://10709774756"\059\029\030\030\030\030\076"lucide-bed"\074\055\042\055"rbxassetid://10709775036"\059\029\030\030\030\030\076"lucide-bed-double"\074\055\042\055"rbxassetid://10709774864"\059\029\030\030\030\030\076"lucide-bed-single"\074\055\042\055"rbxassetid://10709774968"\059\029\030\030\030\030\076"lucide-beer"\074\055\042\055"rbxassetid://10709775167"\059\029\030\030\030\030\076"lucide-bell"\074\055\042\055"rbxassetid://10709775704"\059\029\030\030\030\030\076"lucide-bell-minus"\074\055\042\055"rbxassetid://10709775241"\059\029\030\030\030\030\076"lucide-bell-off"\074\055\042\055"rbxassetid://10709775320"\059\029\030\030\030\030\076"lucide-bell-plus"\074\055\042\055"rbxassetid://10709775448"\059\029\030\030\030\030\076"lucide-bell-ring"\074\055\042\055"rbxassetid://10709775560"\059\029\030\030\030\030\076"lucide-bike"\074\055\042\055"rbxassetid://10709775894"\059\029\030\030\030\030\076"lucide-binary"\074\055\042\055"rbxassetid://10709776050"\059\029\030\030\030\030\076"lucide-bitcoin"\074\055\042\055"rbxassetid://10709776126"\059\029\030\030\030\030\076"lucide-bluetooth"\074\055\042\055"rbxassetid://10709776655"\059\029\030\030\030\030\076"lucide-bluetooth-connected"\074\055\042\055"rbxassetid://10709776240"\059\029\030\030\030\030\076"lucide-bluetooth-off"\074\055\042\055"rbxassetid://10709776344"\059\029\030\030\030\030\076"lucide-bluetooth-searching"\074\055\042\055"rbxassetid://10709776501"\059\029\030\030\030\030\076"lucide-bold"\074\055\042\055"rbxassetid://10747813908"\059\029\030\030\030\030\076"lucide-bomb"\074\055\042\055"rbxassetid://10709781460"\059\029\030\030\030\030\076"lucide-bone"\074\055\042\055"rbxassetid://10709781605"\059\029\030\030\030\030\076"lucide-book"\074\055\042\055"rbxassetid://10709781824"\059\029\030\030\030\030\076"lucide-book-open"\074\055\042\055"rbxassetid://10709781717"\059\029\030\030\030\030\076"lucide-bookmark"\074\055\042\055"rbxassetid://10709782154"\059\029\030\030\030\030\076"lucide-bookmark-minus"\074\055\042\055"rbxassetid://10709781919"\059\029\030\030\030\030\076"lucide-bookmark-plus"\074\055\042\055"rbxassetid://10709782044"\059\029\030\030\030\030\076"lucide-bot"\074\055\042\055"rbxassetid://10709782230"\059\029\030\030\030\030\076"lucide-box"\074\055\042\055"rbxassetid://10709782497"\059\029\030\030\030\030\076"lucide-box-select"\074\055\042\055"rbxassetid://10709782342"\059\029\030\030\030\030\076"lucide-boxes"\074\055\042\055"rbxassetid://10709782582"\059\029\030\030\030\030\076"lucide-briefcase"\074\055\042\055"rbxassetid://10709782662"\059\029\030\030\030\030\076"lucide-brush"\074\055\042\055"rbxassetid://10709782758"\059\029\030\030\030\030\076"lucide-bug"\074\055\042\055"rbxassetid://10709782845"\059\029\030\030\030\030\076"lucide-building"\074\055\042\055"rbxassetid://10709783051"\059\029\030\030\030\030\076"lucide-building-2"\074\055\042\055"rbxassetid://10709782939"\059\029\030\030\030\030\076"lucide-bus"\074\055\042\055"rbxassetid://10709783137"\059\029\030\030\030\030\076"lucide-cake"\074\055\042\055"rbxassetid://10709783217"\059\029\030\030\030\030\076"lucide-calculator"\074\055\042\055"rbxassetid://10709783311"\059\029\030\030\030\030\076"lucide-calendar"\074\055\042\055"rbxassetid://10709789505"\059\029\030\030\030\030\076"lucide-calendar-check"\074\055\042\055"rbxassetid://10709783474"\059\029\030\030\030\030\076"lucide-calendar-check-2"\074\055\042\055"rbxassetid://10709783392"\059\029\030\030\030\030\076"lucide-calendar-clock"\074\055\042\055"rbxassetid://10709783577"\059\029\030\030\030\030\076"lucide-calendar-days"\074\055\042\055"rbxassetid://10709783673"\059\029\030\030\030\030\076"lucide-calendar-heart"\074\055\042\055"rbxassetid://10709783835"\059\029\030\030\030\030\076"lucide-calendar-minus"\074\055\042\055"rbxassetid://10709783959"\059\029\030\030\030\030\076"lucide-calendar-off"\074\055\042\055"rbxassetid://10709788784"\059\029\030\030\030\030\076"lucide-calendar-plus"\074\055\042\055"rbxassetid://10709788937"\059\029\030\030\030\030\076"lucide-calendar-range"\074\055\042\055"rbxassetid://10709789053"\059\029\030\030\030\030\076"lucide-calendar-search"\074\055\042\055"rbxassetid://10709789200"\059\029\030\030\030\030\076"lucide-calendar-v40"\074\055\042\055"rbxassetid://10709789407"\059\029\030\030\030\030\076"lucide-calendar-v40-2"\074\055\042\055"rbxassetid://10709789329"\059\029\030\030\030\030\076"lucide-camera"\074\055\042\055"rbxassetid://10709789686"\059\029\030\030\030\030\076"lucide-camera-off"\074\055\042\055"rbxassetid://10747822677"\059\029\030\030\030\030\076"lucide-car"\074\055\042\055"rbxassetid://10709789810"\059\029\030\030\030\030\076"lucide-carrot"\074\055\042\055"rbxassetid://10709789960"\059\029\030\030\030\030\076"lucide-cast"\074\055\042\055"rbxassetid://10709790097"\059\029\030\030\030\030\076"lucide-charge"\074\055\042\055"rbxassetid://10709790202"\059\029\030\030\030\030\076"lucide-check"\074\055\042\055"rbxassetid://10709790644"\059\029\030\030\030\030\076"lucide-check-circle"\074\055\042\055"rbxassetid://10709790387"\059\029\030\030\030\030\076"lucide-check-circle-2"\074\055\042\055"rbxassetid://10709790298"\059\029\030\030\030\030\076"lucide-check-square"\074\055\042\055"rbxassetid://10709790537"\059\029\030\030\030\030\076"lucide-chef-hat"\074\055\042\055"rbxassetid://10709790757"\059\029\030\030\030\030\076"lucide-cherry"\074\055\042\055"rbxassetid://10709790875"\059\029\030\030\030\030\076"lucide-chevron-down"\074\055\042\055"rbxassetid://10709790948"\059\029\030\030\030\030\076"lucide-chevron-first"\074\055\042\055"rbxassetid://10709791015"\059\029\030\030\030\030\076"lucide-chevron-last"\074\055\042\055"rbxassetid://10709791130"\059\029\030\030\030\030\076"lucide-chevron-left"\074\055\042\055"rbxassetid://10709791281"\059\029\030\030\030\030\076"lucide-chevron-right"\074\055\042\055"rbxassetid://10709791437"\059\029\030\030\030\030\076"lucide-chevron-up"\074\055\042\055"rbxassetid://10709791523"\059\029\030\030\030\030\076"lucide-chevrons-down"\074\055\042\055"rbxassetid://10709796864"\059\029\030\030\030\030\076"lucide-chevrons-down-up"\074\055\042\055"rbxassetid://10709791632"\059\029\030\030\030\030\076"lucide-chevrons-left"\074\055\042\055"rbxassetid://10709797151"\059\029\030\030\030\030\076"lucide-chevrons-left-right"\074\055\042\055"rbxassetid://10709797006"\059\029\030\030\030\030\076"lucide-chevrons-right"\074\055\042\055"rbxassetid://10709797382"\059\029\030\030\030\030\076"lucide-chevrons-right-left"\074\055\042\055"rbxassetid://10709797274"\059\029\030\030\030\030\076"lucide-chevrons-up"\074\055\042\055"rbxassetid://10709797622"\059\029\030\030\030\030\076"lucide-chevrons-up-down"\074\055\042\055"rbxassetid://10709797508"\059\029\030\030\030\030\076"lucide-chrome"\074\055\042\055"rbxassetid://10709797725"\059\029\030\030\030\030\076"lucide-circle"\074\055\042\055"rbxassetid://10709798174"\059\029\030\030\030\030\076"lucide-circle-dot"\074\055\042\055"rbxassetid://10709797837"\059\029\030\030\030\030\076"lucide-circle-ellipsis"\074\055\042\055"rbxassetid://10709797985"\059\029\030\030\030\030\076"lucide-circle-slashed"\074\055\042\055"rbxassetid://10709798100"\059\029\030\030\030\030\076"lucide-citrus"\074\055\042\055"rbxassetid://10709798276"\059\029\030\030\030\030\076"lucide-clapperboard"\074\055\042\055"rbxassetid://10709798350"\059\029\030\030\030\030\076"lucide-clipboard"\074\055\042\055"rbxassetid://10709799288"\059\029\030\030\030\030\076"lucide-clipboard-check"\074\055\042\055"rbxassetid://10709798443"\059\029\030\030\030\030\076"lucide-clipboard-copy"\074\055\042\055"rbxassetid://10709798574"\059\029\030\030\030\030\076"lucide-clipboard-edit"\074\055\042\055"rbxassetid://10709798682"\059\029\030\030\030\030\076"lucide-clipboard-list"\074\055\042\055"rbxassetid://10709798792"\059\029\030\030\030\030\076"lucide-clipboard-signature"\074\055\042\055"rbxassetid://10709798890"\059\029\030\030\030\030\076"lucide-clipboard-type"\074\055\042\055"rbxassetid://10709798999"\059\029\030\030\030\030\076"lucide-clipboard-v40"\074\055\042\055"rbxassetid://10709799124"\059\029\030\030\030\030\076"lucide-clock"\074\055\042\055"rbxassetid://10709805144"\059\029\030\030\030\030\076"lucide-clock-1"\074\055\042\055"rbxassetid://10709799535"\059\029\030\030\030\030\076"lucide-clock-10"\074\055\042\055"rbxassetid://10709799718"\059\029\030\030\030\030\076"lucide-clock-11"\074\055\042\055"rbxassetid://10709799818"\059\029\030\030\030\030\076"lucide-clock-12"\074\055\042\055"rbxassetid://10709799962"\059\029\030\030\030\030\076"lucide-clock-2"\074\055\042\055"rbxassetid://10709803876"\059\029\030\030\030\030\076"lucide-clock-3"\074\055\042\055"rbxassetid://10709803989"\059\029\030\030\030\030\076"lucide-clock-4"\074\055\042\055"rbxassetid://10709804164"\059\029\030\030\030\030\076"lucide-clock-5"\074\055\042\055"rbxassetid://10709804291"\059\029\030\030\030\030\076"lucide-clock-6"\074\055\042\055"rbxassetid://10709804435"\059\029\030\030\030\030\076"lucide-clock-7"\074\055\042\055"rbxassetid://10709804599"\059\029\030\030\030\030\076"lucide-clock-8"\074\055\042\055"rbxassetid://10709804784"\059\029\030\030\030\030\076"lucide-clock-9"\074\055\042\055"rbxassetid://10709804996"\059\029\030\030\030\030\076"lucide-cloud"\074\055\042\055"rbxassetid://10709806740"\059\029\030\030\030\030\076"lucide-cloud-cog"\074\055\042\055"rbxassetid://10709805262"\059\029\030\030\030\030\076"lucide-cloud-drizzle"\074\055\042\055"rbxassetid://10709805371"\059\029\030\030\030\030\076"lucide-cloud-fog"\074\055\042\055"rbxassetid://10709805477"\059\029\030\030\030\030\076"lucide-cloud-hail"\074\055\042\055"rbxassetid://10709805596"\059\029\030\030\030\030\076"lucide-cloud-lightning"\074\055\042\055"rbxassetid://10709805727"\059\029\030\030\030\030\076"lucide-cloud-moon"\074\055\042\055"rbxassetid://10709805942"\059\029\030\030\030\030\076"lucide-cloud-moon-rain"\074\055\042\055"rbxassetid://10709805838"\059\029\030\030\030\030\076"lucide-cloud-off"\074\055\042\055"rbxassetid://10709806060"\059\029\030\030\030\030\076"lucide-cloud-rain"\074\055\042\055"rbxassetid://10709806277"\059\029\030\030\030\030\076"lucide-cloud-rain-wind"\074\055\042\055"rbxassetid://10709806166"\059\029\030\030\030\030\076"lucide-cloud-snow"\074\055\042\055"rbxassetid://10709806374"\059\029\030\030\030\030\076"lucide-cloud-sun"\074\055\042\055"rbxassetid://10709806631"\059\029\030\030\030\030\076"lucide-cloud-sun-rain"\074\055\042\055"rbxassetid://10709806475"\059\029\030\030\030\030\076"lucide-cloudy"\074\055\042\055"rbxassetid://10709806859"\059\029\030\030\030\030\076"lucide-clover"\074\055\042\055"rbxassetid://10709806995"\059\029\030\030\030\030\076"lucide-code"\074\055\042\055"rbxassetid://10709810463"\059\029\030\030\030\030\076"lucide-code-2"\074\055\042\055"rbxassetid://10709807111"\059\029\030\030\030\030\076"lucide-codepen"\074\055\042\055"rbxassetid://10709810534"\059\029\030\030\030\030\076"lucide-codesandbox"\074\055\042\055"rbxassetid://10709810676"\059\029\030\030\030\030\076"lucide-coffee"\074\055\042\055"rbxassetid://10709810814"\059\029\030\030\030\030\076"lucide-cog"\074\055\042\055"rbxassetid://10709810948"\059\029\030\030\030\030\076"lucide-coins"\074\055\042\055"rbxassetid://10709811110"\059\029\030\030\030\030\076"lucide-columns"\074\055\042\055"rbxassetid://10709811261"\059\029\030\030\030\030\076"lucide-command"\074\055\042\055"rbxassetid://10709811365"\059\029\030\030\030\030\076"lucide-compass"\074\055\042\055"rbxassetid://10709811445"\059\029\030\030\030\030\076"lucide-component"\074\055\042\055"rbxassetid://10709811595"\059\029\030\030\030\030\076"lucide-concierge-bell"\074\055\042\055"rbxassetid://10709811706"\059\029\030\030\030\030\076"lucide-connection"\074\055\042\055"rbxassetid://10747361219"\059\029\030\030\030\030\076"lucide-contact"\074\055\042\055"rbxassetid://10709811834"\059\029\030\030\030\030\076"lucide-contrast"\074\055\042\055"rbxassetid://10709811939"\059\029\030\030\030\030\076"lucide-cookie"\074\055\042\055"rbxassetid://10709812067"\059\029\030\030\030\030\076"lucide-copy"\074\055\042\055"rbxassetid://10709812159"\059\029\030\030\030\030\076"lucide-copyleft"\074\055\042\055"rbxassetid://10709812251"\059\029\030\030\030\030\076"lucide-copyright"\074\055\042\055"rbxassetid://10709812311"\059\029\030\030\030\030\076"lucide-corner-down-left"\074\055\042\055"rbxassetid://10709812396"\059\029\030\030\030\030\076"lucide-corner-down-right"\074\055\042\055"rbxassetid://10709812485"\059\029\030\030\030\030\076"lucide-corner-left-down"\074\055\042\055"rbxassetid://10709812632"\059\029\030\030\030\030\076"lucide-corner-left-up"\074\055\042\055"rbxassetid://10709812784"\059\029\030\030\030\030\076"lucide-corner-right-down"\074\055\042\055"rbxassetid://10709812939"\059\029\030\030\030\030\076"lucide-corner-right-up"\074\055\042\055"rbxassetid://10709813094"\059\029\030\030\030\030\076"lucide-corner-up-left"\074\055\042\055"rbxassetid://10709813185"\059\029\030\030\030\030\076"lucide-corner-up-right"\074\055\042\055"rbxassetid://10709813281"\059\029\030\030\030\030\076"lucide-cpu"\074\055\042\055"rbxassetid://10709813383"\059\029\030\030\030\030\076"lucide-croissant"\074\055\042\055"rbxassetid://10709818125"\059\029\030\030\030\030\076"lucide-crop"\074\055\042\055"rbxassetid://10709818245"\059\029\030\030\030\030\076"lucide-cross"\074\055\042\055"rbxassetid://10709818399"\059\029\030\030\030\030\076"lucide-crosshair"\074\055\042\055"rbxassetid://10709818534"\059\029\030\030\030\030\076"lucide-crown"\074\055\042\055"rbxassetid://10709818626"\059\029\030\030\030\030\076"lucide-cup-soda"\074\055\042\055"rbxassetid://10709818763"\059\029\030\030\030\030\076"lucide-curly-braces"\074\055\042\055"rbxassetid://10709818847"\059\029\030\030\030\030\076"lucide-currency"\074\055\042\055"rbxassetid://10709818931"\059\029\030\030\030\030\076"lucide-database"\074\055\042\055"rbxassetid://10709818996"\059\029\030\030\030\030\076"lucide-delete"\074\055\042\055"rbxassetid://10709819059"\059\029\030\030\030\030\076"lucide-diamond"\074\055\042\055"rbxassetid://10709819149"\059\029\030\030\030\030\076"lucide-dice-1"\074\055\042\055"rbxassetid://10709819266"\059\029\030\030\030\030\076"lucide-dice-2"\074\055\042\055"rbxassetid://10709819361"\059\029\030\030\030\030\076"lucide-dice-3"\074\055\042\055"rbxassetid://10709819508"\059\029\030\030\030\030\076"lucide-dice-4"\074\055\042\055"rbxassetid://10709819670"\059\029\030\030\030\030\076"lucide-dice-5"\074\055\042\055"rbxassetid://10709819801"\059\029\030\030\030\030\076"lucide-dice-6"\074\055\042\055"rbxassetid://10709819896"\059\029\030\030\030\030\076"lucide-dices"\074\055\042\055"rbxassetid://10723343321"\059\029\030\030\030\030\076"lucide-diff"\074\055\042\055"rbxassetid://10723343416"\059\029\030\030\030\030\076"lucide-disc"\074\055\042\055"rbxassetid://10723343537"\059\029\030\030\030\030\076"lucide-divide"\074\055\042\055"rbxassetid://10723343805"\059\029\030\030\030\030\076"lucide-divide-circle"\074\055\042\055"rbxassetid://10723343636"\059\029\030\030\030\030\076"lucide-divide-square"\074\055\042\055"rbxassetid://10723343737"\059\029\030\030\030\030\076"lucide-dollar-sign"\074\055\042\055"rbxassetid://10723343958"\059\029\030\030\030\030\076"lucide-download"\074\055\042\055"rbxassetid://10723344270"\059\029\030\030\030\030\076"lucide-download-cloud"\074\055\042\055"rbxassetid://10723344088"\059\029\030\030\030\030\076"lucide-droplet"\074\055\042\055"rbxassetid://10723344432"\059\029\030\030\030\030\076"lucide-droplets"\074\055\042\055"rbxassetid://10734883356"\059\029\030\030\030\030\076"lucide-drumstick"\074\055\042\055"rbxassetid://10723344737"\059\029\030\030\030\030\076"lucide-edit"\074\055\042\055"rbxassetid://10734883598"\059\029\030\030\030\030\076"lucide-edit-2"\074\055\042\055"rbxassetid://10723344885"\059\029\030\030\030\030\076"lucide-edit-3"\074\055\042\055"rbxassetid://10723345088"\059\029\030\030\030\030\076"lucide-egg"\074\055\042\055"rbxassetid://10723345518"\059\029\030\030\030\030\076"lucide-egg-fried"\074\055\042\055"rbxassetid://10723345347"\059\029\030\030\030\030\076"lucide-electricity"\074\055\042\055"rbxassetid://10723345749"\059\029\030\030\030\030\076"lucide-electricity-off"\074\055\042\055"rbxassetid://10723345643"\059\029\030\030\030\030\076"lucide-equal"\074\055\042\055"rbxassetid://10723345990"\059\029\030\030\030\030\076"lucide-equal-not"\074\055\042\055"rbxassetid://10723345866"\059\029\030\030\030\030\076"lucide-eraser"\074\055\042\055"rbxassetid://10723346158"\059\029\030\030\030\030\076"lucide-euro"\074\055\042\055"rbxassetid://10723346372"\059\029\030\030\030\030\076"lucide-expand"\074\055\042\055"rbxassetid://10723346553"\059\029\030\030\030\030\076"lucide-external-link"\074\055\042\055"rbxassetid://10723346684"\059\029\030\030\030\030\076"lucide-eye"\074\055\042\055"rbxassetid://10723346959"\059\029\030\030\030\030\076"lucide-eye-off"\074\055\042\055"rbxassetid://10723346871"\059\029\030\030\030\030\076"lucide-factory"\074\055\042\055"rbxassetid://10723347051"\059\029\030\030\030\030\076"lucide-fan"\074\055\042\055"rbxassetid://10723354359"\059\029\030\030\030\030\076"lucide-fast-forward"\074\055\042\055"rbxassetid://10723354521"\059\029\030\030\030\030\076"lucide-feather"\074\055\042\055"rbxassetid://10723354671"\059\029\030\030\030\030\076"lucide-figma"\074\055\042\055"rbxassetid://10723354801"\059\029\030\030\030\030\076"lucide-file"\074\055\042\055"rbxassetid://10723374641"\059\029\030\030\030\030\076"lucide-file-archive"\074\055\042\055"rbxassetid://10723354921"\059\029\030\030\030\030\076"lucide-file-audio"\074\055\042\055"rbxassetid://10723355148"\059\029\030\030\030\030\076"lucide-file-audio-2"\074\055\042\055"rbxassetid://10723355026"\059\029\030\030\030\030\076"lucide-file-axis-3d"\074\055\042\055"rbxassetid://10723355272"\059\029\030\030\030\030\076"lucide-file-badge"\074\055\042\055"rbxassetid://10723355622"\059\029\030\030\030\030\076"lucide-file-badge-2"\074\055\042\055"rbxassetid://10723355451"\059\029\030\030\030\030\076"lucide-file-bar-chart"\074\055\042\055"rbxassetid://10723355887"\059\029\030\030\030\030\076"lucide-file-bar-chart-2"\074\055\042\055"rbxassetid://10723355746"\059\029\030\030\030\030\076"lucide-file-box"\074\055\042\055"rbxassetid://10723355989"\059\029\030\030\030\030\076"lucide-file-check"\074\055\042\055"rbxassetid://10723356210"\059\029\030\030\030\030\076"lucide-file-check-2"\074\055\042\055"rbxassetid://10723356100"\059\029\030\030\030\030\076"lucide-file-clock"\074\055\042\055"rbxassetid://10723356329"\059\029\030\030\030\030\076"lucide-file-code"\074\055\042\055"rbxassetid://10723356507"\059\029\030\030\030\030\076"lucide-file-cog"\074\055\042\055"rbxassetid://10723356830"\059\029\030\030\030\030\076"lucide-file-cog-2"\074\055\042\055"rbxassetid://10723356676"\059\029\030\030\030\030\076"lucide-file-diff"\074\055\042\055"rbxassetid://10723357039"\059\029\030\030\030\030\076"lucide-file-digit"\074\055\042\055"rbxassetid://10723357151"\059\029\030\030\030\030\076"lucide-file-down"\074\055\042\055"rbxassetid://10723357322"\059\029\030\030\030\030\076"lucide-file-edit"\074\055\042\055"rbxassetid://10723357495"\059\029\030\030\030\030\076"lucide-file-heart"\074\055\042\055"rbxassetid://10723357637"\059\029\030\030\030\030\076"lucide-file-image"\074\055\042\055"rbxassetid://10723357790"\059\029\030\030\030\030\076"lucide-file-input"\074\055\042\055"rbxassetid://10723357933"\059\029\030\030\030\030\076"lucide-file-json"\074\055\042\055"rbxassetid://10723364435"\059\029\030\030\030\030\076"lucide-file-json-2"\074\055\042\055"rbxassetid://10723364361"\059\029\030\030\030\030\076"lucide-file-key"\074\055\042\055"rbxassetid://10723364605"\059\029\030\030\030\030\076"lucide-file-key-2"\074\055\042\055"rbxassetid://10723364515"\059\029\030\030\030\030\076"lucide-file-line-chart"\074\055\042\055"rbxassetid://10723364725"\059\029\030\030\030\030\076"lucide-file-lock"\074\055\042\055"rbxassetid://10723364957"\059\029\030\030\030\030\076"lucide-file-lock-2"\074\055\042\055"rbxassetid://10723364861"\059\029\030\030\030\030\076"lucide-file-minus"\074\055\042\055"rbxassetid://10723365254"\059\029\030\030\030\030\076"lucide-file-minus-2"\074\055\042\055"rbxassetid://10723365086"\059\029\030\030\030\030\076"lucide-file-output"\074\055\042\055"rbxassetid://10723365457"\059\029\030\030\030\030\076"lucide-file-pie-chart"\074\055\042\055"rbxassetid://10723365598"\059\029\030\030\030\030\076"lucide-file-plus"\074\055\042\055"rbxassetid://10723365877"\059\029\030\030\030\030\076"lucide-file-plus-2"\074\055\042\055"rbxassetid://10723365766"\059\029\030\030\030\030\076"lucide-file-question"\074\055\042\055"rbxassetid://10723365987"\059\029\030\030\030\030\076"lucide-file-scan"\074\055\042\055"rbxassetid://10723366167"\059\029\030\030\030\030\076"lucide-file-search"\074\055\042\055"rbxassetid://10723366550"\059\029\030\030\030\030\076"lucide-file-search-2"\074\055\042\055"rbxassetid://10723366340"\059\029\030\030\030\030\076"lucide-file-signature"\074\055\042\055"rbxassetid://10723366741"\059\029\030\030\030\030\076"lucide-file-spreadsheet"\074\055\042\055"rbxassetid://10723366962"\059\029\030\030\030\030\076"lucide-file-symlink"\074\055\042\055"rbxassetid://10723367098"\059\029\030\030\030\030\076"lucide-file-terminal"\074\055\042\055"rbxassetid://10723367244"\059\029\030\030\030\030\076"lucide-file-text"\074\055\042\055"rbxassetid://10723367380"\059\029\030\030\030\030\076"lucide-file-type"\074\055\042\055"rbxassetid://10723367606"\059\029\030\030\030\030\076"lucide-file-type-2"\074\055\042\055"rbxassetid://10723367509"\059\029\030\030\030\030\076"lucide-file-up"\074\055\042\055"rbxassetid://10723367734"\059\029\030\030\030\030\076"lucide-file-video"\074\055\042\055"rbxassetid://10723373884"\059\029\030\030\030\030\076"lucide-file-video-2"\074\055\042\055"rbxassetid://10723367834"\059\029\030\030\030\030\076"lucide-file-volume"\074\055\042\055"rbxassetid://10723374172"\059\029\030\030\030\030\076"lucide-file-volume-2"\074\055\042\055"rbxassetid://10723374030"\059\029\030\030\030\030\076"lucide-file-warning"\074\055\042\055"rbxassetid://10723374276"\059\029\030\030\030\030\076"lucide-file-v40"\074\055\042\055"rbxassetid://10723374544"\059\029\030\030\030\030\076"lucide-file-v40-2"\074\055\042\055"rbxassetid://10723374378"\059\029\030\030\030\030\076"lucide-files"\074\055\042\055"rbxassetid://10723374759"\059\029\030\030\030\030\076"lucide-film"\074\055\042\055"rbxassetid://10723374981"\059\029\030\030\030\030\076"lucide-filter"\074\055\042\055"rbxassetid://10723375128"\059\029\030\030\030\030\076"lucide-fingerprint"\074\055\042\055"rbxassetid://10723375250"\059\029\030\030\030\030\076"lucide-flag"\074\055\042\055"rbxassetid://10723375890"\059\029\030\030\030\030\076"lucide-flag-off"\074\055\042\055"rbxassetid://10723375443"\059\029\030\030\030\030\076"lucide-flag-triangle-left"\074\055\042\055"rbxassetid://10723375608"\059\029\030\030\030\030\076"lucide-flag-triangle-right"\074\055\042\055"rbxassetid://10723375727"\059\029\030\030\030\030\076"lucide-flame"\074\055\042\055"rbxassetid://10723376114"\059\029\030\030\030\030\076"lucide-flashlight"\074\055\042\055"rbxassetid://10723376471"\059\029\030\030\030\030\076"lucide-flashlight-off"\074\055\042\055"rbxassetid://10723376365"\059\029\030\030\030\030\076"lucide-flask-conical"\074\055\042\055"rbxassetid://10734883986"\059\029\030\030\030\030\076"lucide-flask-round"\074\055\042\055"rbxassetid://10723376614"\059\029\030\030\030\030\076"lucide-flip-horizontal"\074\055\042\055"rbxassetid://10723376884"\059\029\030\030\030\030\076"lucide-flip-horizontal-2"\074\055\042\055"rbxassetid://10723376745"\059\029\030\030\030\030\076"lucide-flip-vertical"\074\055\042\055"rbxassetid://10723377138"\059\029\030\030\030\030\076"lucide-flip-vertical-2"\074\055\042\055"rbxassetid://10723377026"\059\029\030\030\030\030\076"lucide-flower"\074\055\042\055"rbxassetid://10747830374"\059\029\030\030\030\030\076"lucide-flower-2"\074\055\042\055"rbxassetid://10723377305"\059\029\030\030\030\030\076"lucide-focus"\074\055\042\055"rbxassetid://10723377537"\059\029\030\030\030\030\076"lucide-folder"\074\055\042\055"rbxassetid://10723387563"\059\029\030\030\030\030\076"lucide-folder-archive"\074\055\042\055"rbxassetid://10723384478"\059\029\030\030\030\030\076"lucide-folder-check"\074\055\042\055"rbxassetid://10723384605"\059\029\030\030\030\030\076"lucide-folder-clock"\074\055\042\055"rbxassetid://10723384731"\059\029\030\030\030\030\076"lucide-folder-closed"\074\055\042\055"rbxassetid://10723384893"\059\029\030\030\030\030\076"lucide-folder-cog"\074\055\042\055"rbxassetid://10723385213"\059\029\030\030\030\030\076"lucide-folder-cog-2"\074\055\042\055"rbxassetid://10723385036"\059\029\030\030\030\030\076"lucide-folder-down"\074\055\042\055"rbxassetid://10723385338"\059\029\030\030\030\030\076"lucide-folder-edit"\074\055\042\055"rbxassetid://10723385445"\059\029\030\030\030\030\076"lucide-folder-heart"\074\055\042\055"rbxassetid://10723385545"\059\029\030\030\030\030\076"lucide-folder-input"\074\055\042\055"rbxassetid://10723385721"\059\029\030\030\030\030\076"lucide-folder-key"\074\055\042\055"rbxassetid://10723385848"\059\029\030\030\030\030\076"lucide-folder-lock"\074\055\042\055"rbxassetid://10723386005"\059\029\030\030\030\030\076"lucide-folder-minus"\074\055\042\055"rbxassetid://10723386127"\059\029\030\030\030\030\076"lucide-folder-open"\074\055\042\055"rbxassetid://10723386277"\059\029\030\030\030\030\076"lucide-folder-output"\074\055\042\055"rbxassetid://10723386386"\059\029\030\030\030\030\076"lucide-folder-plus"\074\055\042\055"rbxassetid://10723386531"\059\029\030\030\030\030\076"lucide-folder-search"\074\055\042\055"rbxassetid://10723386787"\059\029\030\030\030\030\076"lucide-folder-search-2"\074\055\042\055"rbxassetid://10723386674"\059\029\030\030\030\030\076"lucide-folder-symlink"\074\055\042\055"rbxassetid://10723386930"\059\029\030\030\030\030\076"lucide-folder-tree"\074\055\042\055"rbxassetid://10723387085"\059\029\030\030\030\030\076"lucide-folder-up"\074\055\042\055"rbxassetid://10723387265"\059\029\030\030\030\030\076"lucide-folder-v40"\074\055\042\055"rbxassetid://10723387448"\059\029\030\030\030\030\076"lucide-folders"\074\055\042\055"rbxassetid://10723387721"\059\029\030\030\030\030\076"lucide-form-input"\074\055\042\055"rbxassetid://10723387841"\059\029\030\030\030\030\076"lucide-forward"\074\055\042\055"rbxassetid://10723388016"\059\029\030\030\030\030\076"lucide-frame"\074\055\042\055"rbxassetid://10723394389"\059\029\030\030\030\030\076"lucide-framer"\074\055\042\055"rbxassetid://10723394565"\059\029\030\030\030\030\076"lucide-frown"\074\055\042\055"rbxassetid://10723394681"\059\029\030\030\030\030\076"lucide-fuel"\074\055\042\055"rbxassetid://10723394846"\059\029\030\030\030\030\076"lucide-v17-square"\074\055\042\055"rbxassetid://10723395041"\059\029\030\030\030\030\076"lucide-gamepad"\074\055\042\055"rbxassetid://10723395457"\059\029\030\030\030\030\076"lucide-gamepad-2"\074\055\042\055"rbxassetid://10723395215"\059\029\030\030\030\030\076"lucide-gauge"\074\055\042\055"rbxassetid://10723395708"\059\029\030\030\030\030\076"lucide-gavel"\074\055\042\055"rbxassetid://10723395896"\059\029\030\030\030\030\076"lucide-gem"\074\055\042\055"rbxassetid://10723396000"\059\029\030\030\030\030\076"lucide-ghost"\074\055\042\055"rbxassetid://10723396107"\059\029\030\030\030\030\076"lucide-gift"\074\055\042\055"rbxassetid://10723396402"\059\029\030\030\030\030\076"lucide-gift-card"\074\055\042\055"rbxassetid://10723396225"\059\029\030\030\030\030\076"lucide-git-branch"\074\055\042\055"rbxassetid://10723396676"\059\029\030\030\030\030\076"lucide-git-branch-plus"\074\055\042\055"rbxassetid://10723396542"\059\029\030\030\030\030\076"lucide-git-commit"\074\055\042\055"rbxassetid://10723396812"\059\029\030\030\030\030\076"lucide-git-compare"\074\055\042\055"rbxassetid://10723396954"\059\029\030\030\030\030\076"lucide-git-fork"\074\055\042\055"rbxassetid://10723397049"\059\029\030\030\030\030\076"lucide-git-merge"\074\055\042\055"rbxassetid://10723397165"\059\029\030\030\030\030\076"lucide-git-pull-request"\074\055\042\055"rbxassetid://10723397431"\059\029\030\030\030\030\076"lucide-git-pull-request-closed"\074\055\042\055"rbxassetid://10723397268"\059\029\030\030\030\030\076"lucide-git-pull-request-draft"\074\055\042\055"rbxassetid://10734884302"\059\029\030\030\030\030\076"lucide-glass"\074\055\042\055"rbxassetid://10723397788"\059\029\030\030\030\030\076"lucide-glass-2"\074\055\042\055"rbxassetid://10723397529"\059\029\030\030\030\030\076"lucide-glass-water"\074\055\042\055"rbxassetid://10723397678"\059\029\030\030\030\030\076"lucide-glasses"\074\055\042\055"rbxassetid://10723397895"\059\029\030\030\030\030\076"lucide-globe"\074\055\042\055"rbxassetid://10723404337"\059\029\030\030\030\030\076"lucide-globe-2"\074\055\042\055"rbxassetid://10723398002"\059\029\030\030\030\030\076"lucide-grab"\074\055\042\055"rbxassetid://10723404472"\059\029\030\030\030\030\076"lucide-graduation-cap"\074\055\042\055"rbxassetid://10723404691"\059\029\030\030\030\030\076"lucide-grape"\074\055\042\055"rbxassetid://10723404822"\059\029\030\030\030\030\076"lucide-grid"\074\055\042\055"rbxassetid://10723404936"\059\029\030\030\030\030\076"lucide-grip-horizontal"\074\055\042\055"rbxassetid://10723405089"\059\029\030\030\030\030\076"lucide-grip-vertical"\074\055\042\055"rbxassetid://10723405236"\059\029\030\030\030\030\076"lucide-hammer"\074\055\042\055"rbxassetid://10723405360"\059\029\030\030\030\030\076"lucide-hand"\074\055\042\055"rbxassetid://10723405649"\059\029\030\030\030\030\076"lucide-hand-metal"\074\055\042\055"rbxassetid://10723405508"\059\029\030\030\030\030\076"lucide-hard-drive"\074\055\042\055"rbxassetid://10723405749"\059\029\030\030\030\030\076"lucide-hard-hat"\074\055\042\055"rbxassetid://10723405859"\059\029\030\030\030\030\076"lucide-hash"\074\055\042\055"rbxassetid://10723405975"\059\029\030\030\030\030\076"lucide-haze"\074\055\042\055"rbxassetid://10723406078"\059\029\030\030\030\030\076"lucide-headphones"\074\055\042\055"rbxassetid://10723406165"\059\029\030\030\030\030\076"lucide-heart"\074\055\042\055"rbxassetid://10723406885"\059\029\030\030\030\030\076"lucide-heart-crack"\074\055\042\055"rbxassetid://10723406299"\059\029\030\030\030\030\076"lucide-heart-handshake"\074\055\042\055"rbxassetid://10723406480"\059\029\030\030\030\030\076"lucide-heart-off"\074\055\042\055"rbxassetid://10723406662"\059\029\030\030\030\030\076"lucide-heart-pulse"\074\055\042\055"rbxassetid://10723406795"\059\029\030\030\030\030\076"lucide-help-circle"\074\055\042\055"rbxassetid://10723406988"\059\029\030\030\030\030\076"lucide-hexagon"\074\055\042\055"rbxassetid://10723407092"\059\029\030\030\030\030\076"lucide-highlighter"\074\055\042\055"rbxassetid://10723407192"\059\029\030\030\030\030\076"lucide-history"\074\055\042\055"rbxassetid://10723407335"\059\029\030\030\030\030\076"lucide-home"\074\055\042\055"rbxassetid://10723407389"\059\029\030\030\030\030\076"lucide-hourglass"\074\055\042\055"rbxassetid://10723407498"\059\029\030\030\030\030\076"lucide-ice-cream"\074\055\042\055"rbxassetid://10723414308"\059\029\030\030\030\030\076"lucide-image"\074\055\042\055"rbxassetid://10723415040"\059\029\030\030\030\030\076"lucide-image-minus"\074\055\042\055"rbxassetid://10723414487"\059\029\030\030\030\030\076"lucide-image-off"\074\055\042\055"rbxassetid://10723414677"\059\029\030\030\030\030\076"lucide-image-plus"\074\055\042\055"rbxassetid://10723414827"\059\029\030\030\030\030\076"lucide-import"\074\055\042\055"rbxassetid://10723415205"\059\029\030\030\030\030\076"lucide-inbox"\074\055\042\055"rbxassetid://10723415335"\059\029\030\030\030\030\076"lucide-indent"\074\055\042\055"rbxassetid://10723415494"\059\029\030\030\030\030\076"lucide-indian-rupee"\074\055\042\055"rbxassetid://10723415642"\059\029\030\030\030\030\076"lucide-infinity"\074\055\042\055"rbxassetid://10723415766"\059\029\030\030\030\030\076"lucide-info"\074\055\042\055"rbxassetid://10723415903"\059\029\030\030\030\030\076"lucide-inspect"\074\055\042\055"rbxassetid://10723416057"\059\029\030\030\030\030\076"lucide-italic"\074\055\042\055"rbxassetid://10723416195"\059\029\030\030\030\030\076"lucide-japanese-yen"\074\055\042\055"rbxassetid://10723416363"\059\029\030\030\030\030\076"lucide-joystick"\074\055\042\055"rbxassetid://10723416527"\059\029\030\030\030\030\076"lucide-key"\074\055\042\055"rbxassetid://10723416652"\059\029\030\030\030\030\076"lucide-keyboard"\074\055\042\055"rbxassetid://10723416765"\059\029\030\030\030\030\076"lucide-lamp"\074\055\042\055"rbxassetid://10723417513"\059\029\030\030\030\030\076"lucide-lamp-ceiling"\074\055\042\055"rbxassetid://10723416922"\059\029\030\030\030\030\076"lucide-lamp-desk"\074\055\042\055"rbxassetid://10723417016"\059\029\030\030\030\030\076"lucide-lamp-floor"\074\055\042\055"rbxassetid://10723417131"\059\029\030\030\030\030\076"lucide-lamp-wall-down"\074\055\042\055"rbxassetid://10723417240"\059\029\030\030\030\030\076"lucide-lamp-wall-up"\074\055\042\055"rbxassetid://10723417356"\059\029\030\030\030\030\076"lucide-landmark"\074\055\042\055"rbxassetid://10723417608"\059\029\030\030\030\030\076"lucide-languages"\074\055\042\055"rbxassetid://10723417703"\059\029\030\030\030\030\076"lucide-laptop"\074\055\042\055"rbxassetid://10723423881"\059\029\030\030\030\030\076"lucide-laptop-2"\074\055\042\055"rbxassetid://10723417797"\059\029\030\030\030\030\076"lucide-lasso"\074\055\042\055"rbxassetid://10723424235"\059\029\030\030\030\030\076"lucide-lasso-select"\074\055\042\055"rbxassetid://10723424058"\059\029\030\030\030\030\076"lucide-laugh"\074\055\042\055"rbxassetid://10723424372"\059\029\030\030\030\030\076"lucide-layers"\074\055\042\055"rbxassetid://10723424505"\059\029\030\030\030\030\076"lucide-layout"\074\055\042\055"rbxassetid://10723425376"\059\029\030\030\030\030\076"lucide-layout-dashboard"\074\055\042\055"rbxassetid://10723424646"\059\029\030\030\030\030\076"lucide-layout-grid"\074\055\042\055"rbxassetid://10723424838"\059\029\030\030\030\030\076"lucide-layout-list"\074\055\042\055"rbxassetid://10723424963"\059\029\030\030\030\030\076"lucide-layout-template"\074\055\042\055"rbxassetid://10723425187"\059\029\030\030\030\030\076"lucide-leaf"\074\055\042\055"rbxassetid://10723425539"\059\029\030\030\030\030\076"lucide-library"\074\055\042\055"rbxassetid://10723425615"\059\029\030\030\030\030\076"lucide-life-buoy"\074\055\042\055"rbxassetid://10723425685"\059\029\030\030\030\030\076"lucide-lightbulb"\074\055\042\055"rbxassetid://10723425852"\059\029\030\030\030\030\076"lucide-lightbulb-off"\074\055\042\055"rbxassetid://10723425762"\059\029\030\030\030\030\076"lucide-line-chart"\074\055\042\055"rbxassetid://10723426393"\059\029\030\030\030\030\076"lucide-link"\074\055\042\055"rbxassetid://10723426722"\059\029\030\030\030\030\076"lucide-link-2"\074\055\042\055"rbxassetid://10723426595"\059\029\030\030\030\030\076"lucide-link-2-off"\074\055\042\055"rbxassetid://10723426513"\059\029\030\030\030\030\076"lucide-list"\074\055\042\055"rbxassetid://10723433811"\059\029\030\030\030\030\076"lucide-list-checks"\074\055\042\055"rbxassetid://10734884548"\059\029\030\030\030\030\076"lucide-list-end"\074\055\042\055"rbxassetid://10723426886"\059\029\030\030\030\030\076"lucide-list-minus"\074\055\042\055"rbxassetid://10723426986"\059\029\030\030\030\030\076"lucide-list-music"\074\055\042\055"rbxassetid://10723427081"\059\029\030\030\030\030\076"lucide-list-ordered"\074\055\042\055"rbxassetid://10723427199"\059\029\030\030\030\030\076"lucide-list-plus"\074\055\042\055"rbxassetid://10723427334"\059\029\030\030\030\030\076"lucide-list-start"\074\055\042\055"rbxassetid://10723427494"\059\029\030\030\030\030\076"lucide-list-video"\074\055\042\055"rbxassetid://10723427619"\059\029\030\030\030\030\076"lucide-list-v40"\074\055\042\055"rbxassetid://10723433655"\059\029\030\030\030\030\076"lucide-loader"\074\055\042\055"rbxassetid://10723434070"\059\029\030\030\030\030\076"lucide-loader-2"\074\055\042\055"rbxassetid://10723433935"\059\029\030\030\030\030\076"lucide-locate"\074\055\042\055"rbxassetid://10723434557"\059\029\030\030\030\030\076"lucide-locate-fixed"\074\055\042\055"rbxassetid://10723434236"\059\029\030\030\030\030\076"lucide-locate-off"\074\055\042\055"rbxassetid://10723434379"\059\029\030\030\030\030\076"lucide-lock"\074\055\042\055"rbxassetid://10723434711"\059\029\030\030\030\030\076"lucide-log-in"\074\055\042\055"rbxassetid://10723434830"\059\029\030\030\030\030\076"lucide-log-out"\074\055\042\055"rbxassetid://10723434906"\059\029\030\030\030\030\076"lucide-luggage"\074\055\042\055"rbxassetid://10723434993"\059\029\030\030\030\030\076"lucide-magnet"\074\055\042\055"rbxassetid://10723435069"\059\029\030\030\030\030\076"lucide-mail"\074\055\042\055"rbxassetid://10734885430"\059\029\030\030\030\030\076"lucide-mail-check"\074\055\042\055"rbxassetid://10723435182"\059\029\030\030\030\030\076"lucide-mail-minus"\074\055\042\055"rbxassetid://10723435261"\059\029\030\030\030\030\076"lucide-mail-open"\074\055\042\055"rbxassetid://10723435342"\059\029\030\030\030\030\076"lucide-mail-plus"\074\055\042\055"rbxassetid://10723435443"\059\029\030\030\030\030\076"lucide-mail-question"\074\055\042\055"rbxassetid://10723435515"\059\029\030\030\030\030\076"lucide-mail-search"\074\055\042\055"rbxassetid://10734884739"\059\029\030\030\030\030\076"lucide-mail-warning"\074\055\042\055"rbxassetid://10734885015"\059\029\030\030\030\030\076"lucide-mail-v40"\074\055\042\055"rbxassetid://10734885247"\059\029\030\030\030\030\076"lucide-mails"\074\055\042\055"rbxassetid://10734885614"\059\029\030\030\030\030\076"lucide-map"\074\055\042\055"rbxassetid://10734886202"\059\029\030\030\030\030\076"lucide-map-pin"\074\055\042\055"rbxassetid://10734886004"\059\029\030\030\030\030\076"lucide-map-pin-off"\074\055\042\055"rbxassetid://10734885803"\059\029\030\030\030\030\076"lucide-maximize"\074\055\042\055"rbxassetid://10734886735"\059\029\030\030\030\030\076"lucide-maximize-2"\074\055\042\055"rbxassetid://10734886496"\059\029\030\030\030\030\076"lucide-medal"\074\055\042\055"rbxassetid://10734887072"\059\029\030\030\030\030\076"lucide-megaphone"\074\055\042\055"rbxassetid://10734887454"\059\029\030\030\030\030\076"lucide-megaphone-off"\074\055\042\055"rbxassetid://10734887311"\059\029\030\030\030\030\076"lucide-meh"\074\055\042\055"rbxassetid://10734887603"\059\029\030\030\030\030\076"lucide-menu"\074\055\042\055"rbxassetid://10734887784"\059\029\030\030\030\030\076"lucide-message-circle"\074\055\042\055"rbxassetid://10734888000"\059\029\030\030\030\030\076"lucide-message-square"\074\055\042\055"rbxassetid://10734888228"\059\029\030\030\030\030\076"lucide-mic"\074\055\042\055"rbxassetid://10734888864"\059\029\030\030\030\030\076"lucide-mic-2"\074\055\042\055"rbxassetid://10734888430"\059\029\030\030\030\030\076"lucide-mic-off"\074\055\042\055"rbxassetid://10734888646"\059\029\030\030\030\030\076"lucide-microscope"\074\055\042\055"rbxassetid://10734889106"\059\029\030\030\030\030\076"lucide-microwave"\074\055\042\055"rbxassetid://10734895076"\059\029\030\030\030\030\076"lucide-milestone"\074\055\042\055"rbxassetid://10734895310"\059\029\030\030\030\030\076"lucide-minimize"\074\055\042\055"rbxassetid://10734895698"\059\029\030\030\030\030\076"lucide-minimize-2"\074\055\042\055"rbxassetid://10734895530"\059\029\030\030\030\030\076"lucide-minus"\074\055\042\055"rbxassetid://10734896206"\059\029\030\030\030\030\076"lucide-minus-circle"\074\055\042\055"rbxassetid://10734895856"\059\029\030\030\030\030\076"lucide-minus-square"\074\055\042\055"rbxassetid://10734896029"\059\029\030\030\030\030\076"lucide-monitor"\074\055\042\055"rbxassetid://10734896881"\059\029\030\030\030\030\076"lucide-monitor-off"\074\055\042\055"rbxassetid://10734896360"\059\029\030\030\030\030\076"lucide-monitor-speaker"\074\055\042\055"rbxassetid://10734896512"\059\029\030\030\030\030\076"lucide-moon"\074\055\042\055"rbxassetid://10734897102"\059\029\030\030\030\030\076"lucide-more-horizontal"\074\055\042\055"rbxassetid://10734897250"\059\029\030\030\030\030\076"lucide-more-vertical"\074\055\042\055"rbxassetid://10734897387"\059\029\030\030\030\030\076"lucide-mountain"\074\055\042\055"rbxassetid://10734897956"\059\029\030\030\030\030\076"lucide-mountain-snow"\074\055\042\055"rbxassetid://10734897665"\059\029\030\030\030\030\076"lucide-mouse"\074\055\042\055"rbxassetid://10734898592"\059\029\030\030\030\030\076"lucide-mouse-pointer"\074\055\042\055"rbxassetid://10734898476"\059\029\030\030\030\030\076"lucide-mouse-pointer-2"\074\055\042\055"rbxassetid://10734898194"\059\029\030\030\030\030\076"lucide-mouse-pointer-click"\074\055\042\055"rbxassetid://10734898355"\059\029\030\030\030\030\076"lucide-move"\074\055\042\055"rbxassetid://10734900011"\059\029\030\030\030\030\076"lucide-move-3d"\074\055\042\055"rbxassetid://10734898756"\059\029\030\030\030\030\076"lucide-move-diagonal"\074\055\042\055"rbxassetid://10734899164"\059\029\030\030\030\030\076"lucide-move-diagonal-2"\074\055\042\055"rbxassetid://10734898934"\059\029\030\030\030\030\076"lucide-move-horizontal"\074\055\042\055"rbxassetid://10734899414"\059\029\030\030\030\030\076"lucide-move-vertical"\074\055\042\055"rbxassetid://10734899821"\059\029\030\030\030\030\076"lucide-music"\074\055\042\055"rbxassetid://10734905958"\059\029\030\030\030\030\076"lucide-music-2"\074\055\042\055"rbxassetid://10734900215"\059\029\030\030\030\030\076"lucide-music-3"\074\055\042\055"rbxassetid://10734905665"\059\029\030\030\030\030\076"lucide-music-4"\074\055\042\055"rbxassetid://10734905823"\059\029\030\030\030\030\076"lucide-navigation"\074\055\042\055"rbxassetid://10734906744"\059\029\030\030\030\030\076"lucide-navigation-2"\074\055\042\055"rbxassetid://10734906332"\059\029\030\030\030\030\076"lucide-navigation-2-off"\074\055\042\055"rbxassetid://10734906144"\059\029\030\030\030\030\076"lucide-navigation-off"\074\055\042\055"rbxassetid://10734906580"\059\029\030\030\030\030\076"lucide-network"\074\055\042\055"rbxassetid://10734906975"\059\029\030\030\030\030\076"lucide-newspaper"\074\055\042\055"rbxassetid://10734907168"\059\029\030\030\030\030\076"lucide-octagon"\074\055\042\055"rbxassetid://10734907361"\059\029\030\030\030\030\076"lucide-option"\074\055\042\055"rbxassetid://10734907649"\059\029\030\030\030\030\076"lucide-outdent"\074\055\042\055"rbxassetid://10734907933"\059\029\030\030\030\030\076"lucide-package"\074\055\042\055"rbxassetid://10734909540"\059\029\030\030\030\030\076"lucide-package-2"\074\055\042\055"rbxassetid://10734908151"\059\029\030\030\030\030\076"lucide-package-check"\074\055\042\055"rbxassetid://10734908384"\059\029\030\030\030\030\076"lucide-package-minus"\074\055\042\055"rbxassetid://10734908626"\059\029\030\030\030\030\076"lucide-package-open"\074\055\042\055"rbxassetid://10734908793"\059\029\030\030\030\030\076"lucide-package-plus"\074\055\042\055"rbxassetid://10734909016"\059\029\030\030\030\030\076"lucide-package-search"\074\055\042\055"rbxassetid://10734909196"\059\029\030\030\030\030\076"lucide-package-v40"\074\055\042\055"rbxassetid://10734909375"\059\029\030\030\030\030\076"lucide-paint-bucket"\074\055\042\055"rbxassetid://10734909847"\059\029\030\030\030\030\076"lucide-paintbrush"\074\055\042\055"rbxassetid://10734910187"\059\029\030\030\030\030\076"lucide-paintbrush-2"\074\055\042\055"rbxassetid://10734910030"\059\029\030\030\030\030\076"lucide-palette"\074\055\042\055"rbxassetid://10734910430"\059\029\030\030\030\030\076"lucide-palmtree"\074\055\042\055"rbxassetid://10734910680"\059\029\030\030\030\030\076"lucide-paperclip"\074\055\042\055"rbxassetid://10734910927"\059\029\030\030\030\030\076"lucide-party-popper"\074\055\042\055"rbxassetid://10734918735"\059\029\030\030\030\030\076"lucide-pause"\074\055\042\055"rbxassetid://10734919336"\059\029\030\030\030\030\076"lucide-pause-circle"\074\055\042\055"rbxassetid://10735024209"\059\029\030\030\030\030\076"lucide-pause-octagon"\074\055\042\055"rbxassetid://10734919143"\059\029\030\030\030\030\076"lucide-pen-tool"\074\055\042\055"rbxassetid://10734919503"\059\029\030\030\030\030\076"lucide-pencil"\074\055\042\055"rbxassetid://10734919691"\059\029\030\030\030\030\076"lucide-percent"\074\055\042\055"rbxassetid://10734919919"\059\029\030\030\030\030\076"lucide-person-standing"\074\055\042\055"rbxassetid://10734920149"\059\029\030\030\030\030\076"lucide-phone"\074\055\042\055"rbxassetid://10734921524"\059\029\030\030\030\030\076"lucide-phone-call"\074\055\042\055"rbxassetid://10734920305"\059\029\030\030\030\030\076"lucide-phone-forwarded"\074\055\042\055"rbxassetid://10734920508"\059\029\030\030\030\030\076"lucide-phone-incoming"\074\055\042\055"rbxassetid://10734920694"\059\029\030\030\030\030\076"lucide-phone-missed"\074\055\042\055"rbxassetid://10734920845"\059\029\030\030\030\030\076"lucide-phone-off"\074\055\042\055"rbxassetid://10734921077"\059\029\030\030\030\030\076"lucide-phone-outgoing"\074\055\042\055"rbxassetid://10734921288"\059\029\030\030\030\030\076"lucide-pie-chart"\074\055\042\055"rbxassetid://10734921727"\059\029\030\030\030\030\076"lucide-piggy-bank"\074\055\042\055"rbxassetid://10734921935"\059\029\030\030\030\030\076"lucide-pin"\074\055\042\055"rbxassetid://10734922324"\059\029\030\030\030\030\076"lucide-pin-off"\074\055\042\055"rbxassetid://10734922180"\059\029\030\030\030\030\076"lucide-pipette"\074\055\042\055"rbxassetid://10734922497"\059\029\030\030\030\030\076"lucide-pizza"\074\055\042\055"rbxassetid://10734922774"\059\029\030\030\030\030\076"lucide-plane"\074\055\042\055"rbxassetid://10734922971"\059\029\030\030\030\030\076"lucide-play"\074\055\042\055"rbxassetid://10734923549"\059\029\030\030\030\030\076"lucide-play-circle"\074\055\042\055"rbxassetid://10734923214"\059\029\030\030\030\030\076"lucide-plus"\074\055\042\055"rbxassetid://10734924532"\059\029\030\030\030\030\076"lucide-plus-circle"\074\055\042\055"rbxassetid://10734923868"\059\029\030\030\030\030\076"lucide-plus-square"\074\055\042\055"rbxassetid://10734924219"\059\029\030\030\030\030\076"lucide-podcast"\074\055\042\055"rbxassetid://10734929553"\059\029\030\030\030\030\076"lucide-pointer"\074\055\042\055"rbxassetid://10734929723"\059\029\030\030\030\030\076"lucide-pound-sterling"\074\055\042\055"rbxassetid://10734929981"\059\029\030\030\030\030\076"lucide-power"\074\055\042\055"rbxassetid://10734930466"\059\029\030\030\030\030\076"lucide-power-off"\074\055\042\055"rbxassetid://10734930257"\059\029\030\030\030\030\076"lucide-printer"\074\055\042\055"rbxassetid://10734930632"\059\029\030\030\030\030\076"lucide-puzzle"\074\055\042\055"rbxassetid://10734930886"\059\029\030\030\030\030\076"lucide-quote"\074\055\042\055"rbxassetid://10734931234"\059\029\030\030\030\030\076"lucide-radio"\074\055\042\055"rbxassetid://10734931596"\059\029\030\030\030\030\076"lucide-radio-receiver"\074\055\042\055"rbxassetid://10734931402"\059\029\030\030\030\030\076"lucide-rectangle-horizontal"\074\055\042\055"rbxassetid://10734931777"\059\029\030\030\030\030\076"lucide-rectangle-vertical"\074\055\042\055"rbxassetid://10734932081"\059\029\030\030\030\030\076"lucide-recycle"\074\055\042\055"rbxassetid://10734932295"\059\029\030\030\030\030\076"lucide-redo"\074\055\042\055"rbxassetid://10734932822"\059\029\030\030\030\030\076"lucide-redo-2"\074\055\042\055"rbxassetid://10734932586"\059\029\030\030\030\030\076"lucide-refresh-ccw"\074\055\042\055"rbxassetid://10734933056"\059\029\030\030\030\030\076"lucide-refresh-cw"\074\055\042\055"rbxassetid://10734933222"\059\029\030\030\030\030\076"lucide-refrigerator"\074\055\042\055"rbxassetid://10734933465"\059\029\030\030\030\030\076"lucide-regex"\074\055\042\055"rbxassetid://10734933655"\059\029\030\030\030\030\076"lucide-repeat"\074\055\042\055"rbxassetid://10734933966"\059\029\030\030\030\030\076"lucide-repeat-1"\074\055\042\055"rbxassetid://10734933826"\059\029\030\030\030\030\076"lucide-reply"\074\055\042\055"rbxassetid://10734934252"\059\029\030\030\030\030\076"lucide-reply-all"\074\055\042\055"rbxassetid://10734934132"\059\029\030\030\030\030\076"lucide-rewind"\074\055\042\055"rbxassetid://10734934347"\059\029\030\030\030\030\076"lucide-rocket"\074\055\042\055"rbxassetid://10734934585"\059\029\030\030\030\030\076"lucide-rocking-chair"\074\055\042\055"rbxassetid://10734939942"\059\029\030\030\030\030\076"lucide-rotate-3d"\074\055\042\055"rbxassetid://10734940107"\059\029\030\030\030\030\076"lucide-rotate-ccw"\074\055\042\055"rbxassetid://10734940376"\059\029\030\030\030\030\076"lucide-rotate-cw"\074\055\042\055"rbxassetid://10734940654"\059\029\030\030\030\030\076"lucide-rss"\074\055\042\055"rbxassetid://10734940825"\059\029\030\030\030\030\076"lucide-ruler"\074\055\042\055"rbxassetid://10734941018"\059\029\030\030\030\030\076"lucide-russian-ruble"\074\055\042\055"rbxassetid://10734941199"\059\029\030\030\030\030\076"lucide-sailboat"\074\055\042\055"rbxassetid://10734941354"\059\029\030\030\030\030\076"lucide-save"\074\055\042\055"rbxassetid://10734941499"\059\029\030\030\030\030\076"lucide-scale"\074\055\042\055"rbxassetid://10734941912"\059\029\030\030\030\030\076"lucide-scale-3d"\074\055\042\055"rbxassetid://10734941739"\059\029\030\030\030\030\076"lucide-scaling"\074\055\042\055"rbxassetid://10734942072"\059\029\030\030\030\030\076"lucide-scan"\074\055\042\055"rbxassetid://10734942565"\059\029\030\030\030\030\076"lucide-scan-face"\074\055\042\055"rbxassetid://10734942198"\059\029\030\030\030\030\076"lucide-scan-line"\074\055\042\055"rbxassetid://10734942351"\059\029\030\030\030\030\076"lucide-scissors"\074\055\042\055"rbxassetid://10734942778"\059\029\030\030\030\030\076"lucide-screen-share"\074\055\042\055"rbxassetid://10734943193"\059\029\030\030\030\030\076"lucide-screen-share-off"\074\055\042\055"rbxassetid://10734942967"\059\029\030\030\030\030\076"lucide-scroll"\074\055\042\055"rbxassetid://10734943448"\059\029\030\030\030\030\076"lucide-search"\074\055\042\055"rbxassetid://10734943674"\059\029\030\030\030\030\076"lucide-send"\074\055\042\055"rbxassetid://10734943902"\059\029\030\030\030\030\076"lucide-separator-horizontal"\074\055\042\055"rbxassetid://10734944115"\059\029\030\030\030\030\076"lucide-separator-vertical"\074\055\042\055"rbxassetid://10734944326"\059\029\030\030\030\030\076"lucide-server"\074\055\042\055"rbxassetid://10734949856"\059\029\030\030\030\030\076"lucide-server-cog"\074\055\042\055"rbxassetid://10734944444"\059\029\030\030\030\030\076"lucide-server-crash"\074\055\042\055"rbxassetid://10734944554"\059\029\030\030\030\030\076"lucide-server-off"\074\055\042\055"rbxassetid://10734944668"\059\029\030\030\030\030\076"lucide-settings"\074\055\042\055"rbxassetid://10734950309"\059\029\030\030\030\030\076"lucide-settings-2"\074\055\042\055"rbxassetid://10734950020"\059\029\030\030\030\030\076"lucide-share"\074\055\042\055"rbxassetid://10734950813"\059\029\030\030\030\030\076"lucide-share-2"\074\055\042\055"rbxassetid://10734950553"\059\029\030\030\030\030\076"lucide-sheet"\074\055\042\055"rbxassetid://10734951038"\059\029\030\030\030\030\076"lucide-shield"\074\055\042\055"rbxassetid://10734951847"\059\029\030\030\030\030\076"lucide-shield-alert"\074\055\042\055"rbxassetid://10734951173"\059\029\030\030\030\030\076"lucide-shield-check"\074\055\042\055"rbxassetid://10734951367"\059\029\030\030\030\030\076"lucide-shield-close"\074\055\042\055"rbxassetid://10734951535"\059\029\030\030\030\030\076"lucide-shield-off"\074\055\042\055"rbxassetid://10734951684"\059\029\030\030\030\030\076"lucide-shirt"\074\055\042\055"rbxassetid://10734952036"\059\029\030\030\030\030\076"lucide-shopping-bag"\074\055\042\055"rbxassetid://10734952273"\059\029\030\030\030\030\076"lucide-shopping-cart"\074\055\042\055"rbxassetid://10734952479"\059\029\030\030\030\030\076"lucide-shovel"\074\055\042\055"rbxassetid://10734952773"\059\029\030\030\030\030\076"lucide-shower-head"\074\055\042\055"rbxassetid://10734952942"\059\029\030\030\030\030\076"lucide-shrink"\074\055\042\055"rbxassetid://10734953073"\059\029\030\030\030\030\076"lucide-shrub"\074\055\042\055"rbxassetid://10734953241"\059\029\030\030\030\030\076"lucide-shuffle"\074\055\042\055"rbxassetid://10734953451"\059\029\030\030\030\030\076"lucide-sidebar"\074\055\042\055"rbxassetid://10734954301"\059\029\030\030\030\030\076"lucide-sidebar-close"\074\055\042\055"rbxassetid://10734953715"\059\029\030\030\030\030\076"lucide-sidebar-open"\074\055\042\055"rbxassetid://10734954000"\059\029\030\030\030\030\076"lucide-sigma"\074\055\042\055"rbxassetid://10734954538"\059\029\030\030\030\030\076"lucide-signal"\074\055\042\055"rbxassetid://10734961133"\059\029\030\030\030\030\076"lucide-signal-high"\074\055\042\055"rbxassetid://10734954807"\059\029\030\030\030\030\076"lucide-signal-low"\074\055\042\055"rbxassetid://10734955080"\059\029\030\030\030\030\076"lucide-signal-medium"\074\055\042\055"rbxassetid://10734955336"\059\029\030\030\030\030\076"lucide-signal-zero"\074\055\042\055"rbxassetid://10734960878"\059\029\030\030\030\030\076"lucide-siren"\074\055\042\055"rbxassetid://10734961284"\059\029\030\030\030\030\076"lucide-skip-back"\074\055\042\055"rbxassetid://10734961526"\059\029\030\030\030\030\076"lucide-skip-forward"\074\055\042\055"rbxassetid://10734961809"\059\029\030\030\030\030\076"lucide-skull"\074\055\042\055"rbxassetid://10734962068"\059\029\030\030\030\030\076"lucide-slack"\074\055\042\055"rbxassetid://10734962339"\059\029\030\030\030\030\076"lucide-slash"\074\055\042\055"rbxassetid://10734962600"\059\029\030\030\030\030\076"lucide-slice"\074\055\042\055"rbxassetid://10734963024"\059\029\030\030\030\030\076"lucide-sliders"\074\055\042\055"rbxassetid://10734963400"\059\029\030\030\030\030\076"lucide-sliders-horizontal"\074\055\042\055"rbxassetid://10734963191"\059\029\030\030\030\030\076"lucide-smartphone"\074\055\042\055"rbxassetid://10734963940"\059\029\030\030\030\030\076"lucide-smartphone-charging"\074\055\042\055"rbxassetid://10734963671"\059\029\030\030\030\030\076"lucide-smile"\074\055\042\055"rbxassetid://10734964441"\059\029\030\030\030\030\076"lucide-smile-plus"\074\055\042\055"rbxassetid://10734964188"\059\029\030\030\030\030\076"lucide-snowflake"\074\055\042\055"rbxassetid://10734964600"\059\029\030\030\030\030\076"lucide-sofa"\074\055\042\055"rbxassetid://10734964852"\059\029\030\030\030\030\076"lucide-sort-asc"\074\055\042\055"rbxassetid://10734965115"\059\029\030\030\030\030\076"lucide-sort-desc"\074\055\042\055"rbxassetid://10734965287"\059\029\030\030\030\030\076"lucide-speaker"\074\055\042\055"rbxassetid://10734965419"\059\029\030\030\030\030\076"lucide-sprout"\074\055\042\055"rbxassetid://10734965572"\059\029\030\030\030\030\076"lucide-square"\074\055\042\055"rbxassetid://10734965702"\059\029\030\030\030\030\076"lucide-star"\074\055\042\055"rbxassetid://10734966248"\059\029\030\030\030\030\076"lucide-star-half"\074\055\042\055"rbxassetid://10734965897"\059\029\030\030\030\030\076"lucide-star-off"\074\055\042\055"rbxassetid://10734966097"\059\029\030\030\030\030\076"lucide-stethoscope"\074\055\042\055"rbxassetid://10734966384"\059\029\030\030\030\030\076"lucide-sticker"\074\055\042\055"rbxassetid://10734972234"\059\029\030\030\030\030\076"lucide-sticky-note"\074\055\042\055"rbxassetid://10734972463"\059\029\030\030\030\030\076"lucide-stop-circle"\074\055\042\055"rbxassetid://10734972621"\059\029\030\030\030\030\076"lucide-stretch-horizontal"\074\055\042\055"rbxassetid://10734972862"\059\029\030\030\030\030\076"lucide-stretch-vertical"\074\055\042\055"rbxassetid://10734973130"\059\029\030\030\030\030\076"lucide-strikethrough"\074\055\042\055"rbxassetid://10734973290"\059\029\030\030\030\030\076"lucide-subscript"\074\055\042\055"rbxassetid://10734973457"\059\029\030\030\030\030\076"lucide-sun"\074\055\042\055"rbxassetid://10734974297"\059\029\030\030\030\030\076"lucide-sun-dim"\074\055\042\055"rbxassetid://10734973645"\059\029\030\030\030\030\076"lucide-sun-medium"\074\055\042\055"rbxassetid://10734973778"\059\029\030\030\030\030\076"lucide-sun-moon"\074\055\042\055"rbxassetid://10734973999"\059\029\030\030\030\030\076"lucide-sun-snow"\074\055\042\055"rbxassetid://10734974130"\059\029\030\030\030\030\076"lucide-sunrise"\074\055\042\055"rbxassetid://10734974522"\059\029\030\030\030\030\076"lucide-sunset"\074\055\042\055"rbxassetid://10734974689"\059\029\030\030\030\030\076"lucide-superscript"\074\055\042\055"rbxassetid://10734974850"\059\029\030\030\030\030\076"lucide-swiss-franc"\074\055\042\055"rbxassetid://10734975024"\059\029\030\030\030\030\076"lucide-switch-camera"\074\055\042\055"rbxassetid://10734975214"\059\029\030\030\030\030\076"lucide-sword"\074\055\042\055"rbxassetid://10734975486"\059\029\030\030\030\030\076"lucide-swords"\074\055\042\055"rbxassetid://10734975692"\059\029\030\030\030\030\076"lucide-syringe"\074\055\042\055"rbxassetid://10734975932"\059\029\030\030\030\030\076"lucide-table"\074\055\042\055"rbxassetid://10734976230"\059\029\030\030\030\030\076"lucide-table-2"\074\055\042\055"rbxassetid://10734976097"\059\029\030\030\030\030\076"lucide-tablet"\074\055\042\055"rbxassetid://10734976394"\059\029\030\030\030\030\076"lucide-tag"\074\055\042\055"rbxassetid://10734976528"\059\029\030\030\030\030\076"lucide-tags"\074\055\042\055"rbxassetid://10734976739"\059\029\030\030\030\030\076"lucide-target"\074\055\042\055"rbxassetid://10734977012"\059\029\030\030\030\030\076"lucide-tent"\074\055\042\055"rbxassetid://10734981750"\059\029\030\030\030\030\076"lucide-terminal"\074\055\042\055"rbxassetid://10734982144"\059\029\030\030\030\030\076"lucide-terminal-square"\074\055\042\055"rbxassetid://10734981995"\059\029\030\030\030\030\076"lucide-text-cursor"\074\055\042\055"rbxassetid://10734982395"\059\029\030\030\030\030\076"lucide-text-cursor-input"\074\055\042\055"rbxassetid://10734982297"\059\029\030\030\030\030\076"lucide-thermometer"\074\055\042\055"rbxassetid://10734983134"\059\029\030\030\030\030\076"lucide-thermometer-snowflake"\074\055\042\055"rbxassetid://10734982571"\059\029\030\030\030\030\076"lucide-thermometer-sun"\074\055\042\055"rbxassetid://10734982771"\059\029\030\030\030\030\076"lucide-thumbs-down"\074\055\042\055"rbxassetid://10734983359"\059\029\030\030\030\030\076"lucide-thumbs-up"\074\055\042\055"rbxassetid://10734983629"\059\029\030\030\030\030\076"lucide-ticket"\074\055\042\055"rbxassetid://10734983868"\059\029\030\030\030\030\076"lucide-timer"\074\055\042\055"rbxassetid://10734984606"\059\029\030\030\030\030\076"lucide-timer-off"\074\055\042\055"rbxassetid://10734984138"\059\029\030\030\030\030\076"lucide-timer-reset"\074\055\042\055"rbxassetid://10734984355"\059\029\030\030\030\030\076"lucide-toggle-left"\074\055\042\055"rbxassetid://10734984834"\059\029\030\030\030\030\076"lucide-toggle-right"\074\055\042\055"rbxassetid://10734985040"\059\029\030\030\030\030\076"lucide-tornado"\074\055\042\055"rbxassetid://10734985247"\059\029\030\030\030\030\076"lucide-toy-brick"\074\055\042\055"rbxassetid://10747361919"\059\029\030\030\030\030\076"lucide-train"\074\055\042\055"rbxassetid://10747362105"\059\029\030\030\030\030\076"lucide-trash"\074\055\042\055"rbxassetid://10747362393"\059\029\030\030\030\030\076"lucide-trash-2"\074\055\042\055"rbxassetid://10747362241"\059\029\030\030\030\030\076"lucide-tree-deciduous"\074\055\042\055"rbxassetid://10747362534"\059\029\030\030\030\030\076"lucide-tree-pine"\074\055\042\055"rbxassetid://10747362748"\059\029\030\030\030\030\076"lucide-trees"\074\055\042\055"rbxassetid://10747363016"\059\029\030\030\030\030\076"lucide-trending-down"\074\055\042\055"rbxassetid://10747363205"\059\029\030\030\030\030\076"lucide-trending-up"\074\055\042\055"rbxassetid://10747363465"\059\029\030\030\030\030\076"lucide-triangle"\074\055\042\055"rbxassetid://10747363621"\059\029\030\030\030\030\076"lucide-trophy"\074\055\042\055"rbxassetid://10747363809"\059\029\030\030\030\030\076"lucide-truck"\074\055\042\055"rbxassetid://10747364031"\059\029\030\030\030\030\076"lucide-tv"\074\055\042\055"rbxassetid://10747364593"\059\029\030\030\030\030\076"lucide-tv-2"\074\055\042\055"rbxassetid://10747364302"\059\029\030\030\030\030\076"lucide-type"\074\055\042\055"rbxassetid://10747364761"\059\029\030\030\030\030\076"lucide-umbrella"\074\055\042\055"rbxassetid://10747364971"\059\029\030\030\030\030\076"lucide-underline"\074\055\042\055"rbxassetid://10747365191"\059\029\030\030\030\030\076"lucide-undo"\074\055\042\055"rbxassetid://10747365484"\059\029\030\030\030\030\076"lucide-undo-2"\074\055\042\055"rbxassetid://10747365359"\059\029\030\030\030\030\076"lucide-unlink"\074\055\042\055"rbxassetid://10747365771"\059\029\030\030\030\030\076"lucide-unlink-2"\074\055\042\055"rbxassetid://10747397871"\059\029\030\030\030\030\076"lucide-unlock"\074\055\042\055"rbxassetid://10747366027"\059\029\030\030\030\030\076"lucide-upload"\074\055\042\055"rbxassetid://10747366434"\059\029\030\030\030\030\076"lucide-upload-cloud"\074\055\042\055"rbxassetid://10747366266"\059\029\030\030\030\030\076"lucide-usb"\074\055\042\055"rbxassetid://10747366606"\059\029\030\030\030\030\076"lucide-user"\074\055\042\055"rbxassetid://10747373176"\059\029\030\030\030\030\076"lucide-user-check"\074\055\042\055"rbxassetid://10747371901"\059\029\030\030\030\030\076"lucide-user-cog"\074\055\042\055"rbxassetid://10747372167"\059\029\030\030\030\030\076"lucide-user-minus"\074\055\042\055"rbxassetid://10747372346"\059\029\030\030\030\030\076"lucide-user-plus"\074\055\042\055"rbxassetid://10747372702"\059\029\030\030\030\030\076"lucide-user-v40"\074\055\042\055"rbxassetid://10747372992"\059\029\030\030\030\030\076"lucide-users"\074\055\042\055"rbxassetid://10747373426"\059\029\030\030\030\030\076"lucide-utensils"\074\055\042\055"rbxassetid://10747373821"\059\029\030\030\030\030\076"lucide-utensils-crossed"\074\055\042\055"rbxassetid://10747373629"\059\029\030\030\030\030\076"lucide-venetian-mask"\074\055\042\055"rbxassetid://10747374003"\059\029\030\030\030\030\076"lucide-verified"\074\055\042\055"rbxassetid://10747374131"\059\029\030\030\030\030\076"lucide-vibrate"\074\055\042\055"rbxassetid://10747374489"\059\029\030\030\030\030\076"lucide-vibrate-off"\074\055\042\055"rbxassetid://10747374269"\059\029\030\030\030\030\076"lucide-video"\074\055\042\055"rbxassetid://10747374938"\059\029\030\030\030\030\076"lucide-video-off"\074\055\042\055"rbxassetid://10747374721"\059\029\030\030\030\030\076"lucide-view"\074\055\042\055"rbxassetid://10747375132"\059\029\030\030\030\030\076"lucide-voicemail"\074\055\042\055"rbxassetid://10747375281"\059\029\030\030\030\030\076"lucide-volume"\074\055\042\055"rbxassetid://10747376008"\059\029\030\030\030\030\076"lucide-volume-1"\074\055\042\055"rbxassetid://10747375450"\059\029\030\030\030\030\076"lucide-volume-2"\074\055\042\055"rbxassetid://10747375679"\059\029\030\030\030\030\076"lucide-volume-v40"\074\055\042\055"rbxassetid://10747375880"\059\029\030\030\030\030\076"lucide-wallet"\074\055\042\055"rbxassetid://10747376205"\059\029\030\030\030\030\076"lucide-wand"\074\055\042\055"rbxassetid://10747376565"\059\029\030\030\030\030\076"lucide-wand-2"\074\055\042\055"rbxassetid://10747376349"\059\029\030\030\030\030\076"lucide-watch"\074\055\042\055"rbxassetid://10747376722"\059\029\030\030\030\030\076"lucide-waves"\074\055\042\055"rbxassetid://10747376931"\059\029\030\030\030\030\076"lucide-webcam"\074\055\042\055"rbxassetid://10747381992"\059\029\030\030\030\030\076"lucide-wifi"\074\055\042\055"rbxassetid://10747382504"\059\029\030\030\030\030\076"lucide-wifi-off"\074\055\042\055"rbxassetid://10747382268"\059\029\030\030\030\030\076"lucide-wind"\074\055\042\055"rbxassetid://10747382750"\059\029\030\030\030\030\076"lucide-wrap-text"\074\055\042\055"rbxassetid://10747383065"\059\029\030\030\030\030\076"lucide-wrench"\074\055\042\055"rbxassetid://10747383470"\059\029\030\030\030\030\076"lucide-v40"\074\055\042\055"rbxassetid://10747384394"\059\029\030\030\030\030\076"lucide-v40-circle"\074\055\042\055"rbxassetid://10747383819"\059\029\030\030\030\030\076"lucide-v40-octagon"\074\055\042\055"rbxassetid://10747384037"\059\029\030\030\030\030\076"lucide-v40-square"\074\055\042\055"rbxassetid://10747384217"\059\029\030\030\030\030\076"lucide-zoom-in"\074\055\042\055"rbxassetid://10747384552"\059\029\030\030\030\030\076"lucide-zoom-out"\074\055\042\055"rbxassetid://10747384679"\029\030\030\030\106\029\030\030\106\029\030\114\121\115\059\029\030\076\036\039\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\036\039\062\029\030\030\123\120\116\118\123\055\097\035\037\055\042\055\108\029\030\030\030\068\126\121\112\123\114\090\120\099\120\101\055\042\055\097\038\035\063\097\036\046\057\068\126\121\112\123\114\090\120\099\120\101\062\059\029\030\030\030\080\101\120\098\103\090\120\099\120\101\055\042\055\097\038\035\063\097\036\046\057\080\101\120\098\103\090\120\099\120\101\062\059\029\030\030\030\094\121\100\099\118\121\099\055\042\055\097\038\035\063\097\036\046\057\094\121\100\099\118\121\099\062\059\029\030\030\030\091\126\121\114\118\101\055\042\055\097\038\035\063\097\036\046\057\091\126\121\114\118\101\062\059\029\030\030\030\068\103\101\126\121\112\055\042\055\097\038\035\063\097\036\046\057\068\103\101\126\121\112\062\059\029\030\030\030\126\100\090\120\099\120\101\055\042\055\097\038\035\063\097\036\046\057\126\100\090\120\099\120\101\062\029\030\030\106\029\030\030\101\114\099\098\101\121\055\097\035\037\029\030\114\121\115\059\029\030\076\036\038\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\036\038\062\029\030\030\123\120\116\118\123\055\097\035\037\059\055\097\036\037\059\055\097\034\046\059\055\097\037\032\055\042\055\112\118\122\114\045\080\114\099\068\114\101\097\126\116\114\055"RunService"\059\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\068\126\112\121\118\123\062\059\055\097\038\032\063\062\029\030\030\114\121\115\059\055\108\106\029\030\030\097\037\032\057\072\072\126\121\115\114\111\055\042\055\097\037\032\029\030\030\097\038\032\055\097\037\032\057\121\114\096\063\062\029\030\030\030\101\114\099\098\101\121\055\100\114\099\122\114\099\118\099\118\117\123\114\063\108\072\120\121\068\099\114\103\055\042\055\097\036\037\057\121\114\096\063\062\059\055\072\120\121\068\099\118\101\099\055\042\055\097\036\037\057\121\114\096\063\062\059\055\072\120\121\084\120\122\103\123\114\099\114\055\042\055\097\036\037\057\121\114\096\063\062\106\059\055\097\037\032\062\029\030\030\114\121\115\029\030\030\097\038\032\055\097\037\032\057\120\121\068\099\114\103\063\097\034\036\059\055\097\038\047\062\029\030\030\030\101\114\099\098\101\121\055\097\034\036\057\072\120\121\068\099\114\103\045\116\120\121\121\114\116\099\063\097\038\047\062\029\030\030\114\121\115\029\030\030\097\038\032\055\097\037\032\057\120\121\068\099\118\101\099\063\097\034\036\059\055\097\038\047\062\029\030\030\030\101\114\099\098\101\121\055\097\034\036\057\072\120\121\068\099\118\101\099\045\116\120\121\121\114\116\099\063\097\038\047\062\029\030\030\114\121\115\029\030\030\097\038\032\055\097\037\032\057\120\121\084\120\122\103\123\114\099\114\063\097\034\036\059\055\097\038\047\062\029\030\030\030\101\114\099\098\101\121\055\097\034\036\057\072\120\121\084\120\122\103\123\114\099\114\045\116\120\121\121\114\116\099\063\097\038\047\062\029\030\030\114\121\115\029\030\030\097\038\032\055\097\037\032\057\100\099\118\101\099\063\097\034\036\062\029\030\030\030\126\113\055\121\120\099\055\097\034\036\057\072\116\120\121\121\114\116\099\126\120\121\055\099\127\114\121\029\030\030\030\030\097\034\036\057\072\116\120\121\121\114\116\099\126\120\121\055\042\029\030\030\030\030\030\097\035\037\057\069\114\121\115\114\101\068\099\114\103\103\114\115\045\084\120\121\121\114\116\099\063\029\030\030\030\030\030\030\097\038\032\063\097\038\047\062\029\030\030\030\030\030\030\030\097\034\036\045\100\099\114\103\063\097\038\047\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\114\121\115\029\030\030\114\121\115\029\030\030\097\038\032\055\097\037\032\057\100\099\120\103\063\097\034\036\062\029\030\030\030\126\113\055\097\034\036\057\072\116\120\121\121\114\116\099\126\120\121\055\099\127\114\121\029\030\030\030\030\097\034\036\057\072\116\120\121\121\114\116\099\126\120\121\045\083\126\100\116\120\121\121\114\116\099\063\062\029\030\030\030\030\097\034\036\057\072\116\120\121\121\114\116\099\126\120\121\055\042\055\121\126\123\029\030\030\030\114\121\115\029\030\030\114\121\115\029\030\030\097\037\032\057\115\114\100\099\101\120\110\055\042\055\097\037\032\057\100\099\120\103\029\030\030\097\037\032\057\100\099\114\103\055\042\055\097\034\046\029\030\030\097\037\032\057\112\114\099\065\118\123\098\114\055\042\055\097\034\046\029\030\030\097\037\032\057\100\114\099\080\120\118\123\055\042\055\097\034\046\029\030\030\097\038\032\055\097\037\032\057\072\072\099\120\100\099\101\126\121\112\063\097\034\036\062\029\030\030\030\101\114\099\098\101\121\055"Motor"\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\037\032\029\030\114\121\115\059\029\030\076\036\037\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\036\037\062\029\030\030\101\114\099\098\101\121\055\097\038\032\063\062\029\030\030\030\123\120\116\118\123\055\097\035\037\059\055\097\036\037\055\042\055\112\118\122\114\045\080\114\099\068\114\101\097\126\116\114\055"RunService"\059\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\085\118\100\114\090\120\099\120\101\062\029\030\030\030\115\114\100\116\101\126\117\114\063\029\030\030\030\030"connection management"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\046\055\042\055\097\036\037\057\121\114\096\063\062\029\030\030\030\030\030\126\099\063\029\030\030\030\030\030\030"should hook up connections on :start()"\059\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\097\034\046\045\100\099\118\101\099\063\062\029\030\030\030\030\030\030\030\114\111\103\114\116\099\063\099\110\103\114\120\113\063\097\034\046\057\072\116\120\121\121\114\116\099\126\120\121\062\062\057\099\120\057\114\102\098\118\123\055"RBXScriptConnection"\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\126\099\063\029\030\030\030\030\030\030"should remove connections on :stop() or :destroy()"\059\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\097\034\046\045\100\099\120\103\063\062\029\030\030\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\057\072\116\120\121\121\114\116\099\126\120\121\062\057\099\120\057\114\102\098\118\123\063\121\126\123\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\126\099\063\029\030\030\030\030"should call :step() with deltaTime"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\046\059\055\097\037\032\055\042\055\063\097\036\037\057\121\114\096\063\062\062\029\030\030\030\030\030\097\038\032\055\097\034\046\057\100\099\114\103\063\097\034\036\059\055\057\057\057\062\029\030\030\030\030\030\030\097\037\032\055\042\055\108\057\057\057\106\029\030\030\030\030\030\030\097\034\046\045\100\099\120\103\063\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\097\034\046\045\100\099\118\101\099\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\036\055\042\055\097\035\037\057\069\114\121\115\114\101\068\099\114\103\103\114\115\045\064\118\126\099\063\062\029\030\030\030\030\030\097\035\037\057\069\114\121\115\114\101\068\099\114\103\103\114\115\045\064\118\126\099\063\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\037\032\062\057\099\120\057\117\114\057\120\124\063\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\037\032\076\038\074\062\057\099\120\057\114\102\098\118\123\063\097\034\036\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\114\121\115\029\030\114\121\115\059\029\030\076\036\036\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\036\036\062\029\030\030\123\120\116\118\123\055\097\035\037\059\055\097\036\037\059\055\097\034\046\055\042\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\085\118\100\114\090\120\099\120\101\062\059\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\068\126\121\112\123\114\090\120\099\120\101\062\059\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\126\100\090\120\099\120\101\062\029\030\030\123\120\116\118\123\055\097\037\032\055\042\055\100\114\099\122\114\099\118\099\118\117\123\114\063\108\106\059\055\097\035\037\062\029\030\030\097\037\032\057\072\072\126\121\115\114\111\055\042\055\097\037\032\029\030\030\123\120\116\118\123\055\097\034\036\055\042\055\097\038\032\063\097\034\036\062\029\030\030\030\126\113\055\097\034\046\063\097\034\036\062\055\099\127\114\121\029\030\030\030\030\101\114\099\098\101\121\055\097\034\036\029\030\030\030\114\121\115\029\030\030\030\123\120\116\118\123\055\097\038\047\055\042\055\099\110\103\114\120\113\063\097\034\036\062\029\030\030\030\126\113\055\097\038\047\055\042\042\055"number"\055\099\127\114\121\029\030\030\030\030\101\114\099\098\101\121\055\097\036\037\057\121\114\096\063\097\034\036\059\055\113\118\123\100\114\062\029\030\030\030\114\123\100\114\126\113\055\097\038\047\055\042\042\055"table"\055\099\127\114\121\029\030\030\030\030\101\114\099\098\101\121\055\097\037\032\057\121\114\096\063\097\034\036\059\055\113\118\123\100\114\062\029\030\030\030\114\121\115\029\030\030\030\114\101\101\120\101\063\063"Unable to convert %v28 to motor; type %v60 is unsupported"\062\045\113\120\101\122\118\099\063\097\034\036\059\055\097\038\047\062\059\055\037\062\029\030\030\114\121\115\029\030\030\097\038\032\055\097\037\032\057\121\114\096\063\097\038\047\059\055\097\033\034\062\029\030\030\030\118\100\100\114\101\099\063\097\038\047\059\055"Missing argument #1: initialValues"\062\029\030\030\030\118\100\100\114\101\099\063\099\110\103\114\120\113\063\097\038\047\062\055\042\042\055"table"\059\055"initialValues must be v55 table!"\062\029\030\030\030\118\100\100\114\101\099\063\029\030\030\030\030\121\120\099\055\097\038\047\057\100\099\114\103\059\029\030\030\030\030\076\076\126\121\126\099\126\118\123\065\118\123\098\114\100\055\116\120\121\099\118\126\121\100\055\115\126\100\118\123\123\120\096\114\115\055\103\101\120\103\114\101\099\110\055"step"\057\055\083\126\115\055\110\120\098\055\122\114\118\121\055\099\120\055\103\098\099\055\097\034\034\055\099\118\117\123\114\055\120\113\055\097\118\123\098\114\100\055\127\114\101\114\040\074\074\029\030\030\030\062\029\030\030\030\123\120\116\118\123\055\097\036\033\055\042\055\100\114\099\122\114\099\118\099\118\117\123\114\063\097\035\037\057\121\114\096\063\062\059\055\097\037\032\062\029\030\030\030\126\113\055\097\033\034\055\105\042\055\121\126\123\055\099\127\114\121\029\030\030\030\030\097\036\033\057\072\098\100\114\094\122\103\123\126\116\126\099\084\120\121\121\114\116\099\126\120\121\100\055\042\055\097\033\034\029\030\030\030\114\123\100\114\029\030\030\030\030\097\036\033\057\072\098\100\114\094\122\103\123\126\116\126\099\084\120\121\121\114\116\099\126\120\121\100\055\042\055\099\101\098\114\029\030\030\030\114\121\115\029\030\030\030\097\036\033\057\072\116\120\122\103\123\114\099\114\055\042\055\099\101\098\114\029\030\030\030\097\036\033\057\072\122\120\099\120\101\100\055\042\055\108\106\029\030\030\030\113\120\101\055\097\036\032\059\055\097\036\036\055\126\121\055\103\118\126\101\100\063\097\038\047\062\055\115\120\029\030\030\030\030\097\036\033\057\072\122\120\099\120\101\100\076\097\036\032\074\055\042\055\097\034\036\063\097\036\036\062\029\030\030\030\114\121\115\029\030\030\030\101\114\099\098\101\121\055\097\036\033\029\030\030\114\121\115\029\030\030\097\038\032\055\097\037\032\057\100\099\114\103\063\097\038\047\059\055\097\033\034\062\029\030\030\030\126\113\055\097\038\047\057\072\116\120\122\103\123\114\099\114\055\099\127\114\121\029\030\030\030\030\101\114\099\098\101\121\055\099\101\098\114\029\030\030\030\114\121\115\029\030\030\030\123\120\116\118\123\055\097\036\033\055\042\055\099\101\098\114\029\030\030\030\113\120\101\055\097\036\032\059\055\097\036\036\055\126\121\055\103\118\126\101\100\063\097\038\047\057\072\122\120\099\120\101\100\062\055\115\120\029\030\030\030\030\123\120\116\118\123\055\097\039\055\042\055\097\036\036\045\100\099\114\103\063\097\033\034\062\029\030\030\030\030\126\113\055\121\120\099\055\097\039\055\099\127\114\121\029\030\030\030\030\030\097\036\033\055\042\055\113\118\123\100\114\029\030\030\030\030\114\121\115\029\030\030\030\114\121\115\029\030\030\030\097\038\047\057\072\120\121\068\099\114\103\045\113\126\101\114\063\097\038\047\045\112\114\099\065\118\123\098\114\063\062\062\029\030\030\030\126\113\055\097\036\033\055\099\127\114\121\029\030\030\030\030\126\113\055\097\038\047\057\072\098\100\114\094\122\103\123\126\116\126\099\084\120\121\121\114\116\099\126\120\121\100\055\099\127\114\121\029\030\030\030\030\030\097\038\047\045\100\099\120\103\063\062\029\030\030\030\030\114\121\115\029\030\030\030\030\097\038\047\057\072\116\120\122\103\123\114\099\114\055\042\055\099\101\098\114\029\030\030\030\030\097\038\047\057\072\120\121\084\120\122\103\123\114\099\114\045\113\126\101\114\063\062\029\030\030\030\114\121\115\029\030\030\030\101\114\099\098\101\121\055\097\036\033\029\030\030\114\121\115\029\030\030\097\038\032\055\097\037\032\057\100\114\099\080\120\118\123\063\097\038\047\059\055\097\033\034\062\029\030\030\030\118\100\100\114\101\099\063\029\030\030\030\030\121\120\099\055\097\033\034\057\100\099\114\103\059\029\030\030\030\030\076\076\112\120\118\123\100\055\116\120\121\099\118\126\121\100\055\115\126\100\118\123\123\120\096\114\115\055\103\101\120\103\114\101\099\110\055"step"\057\055\083\126\115\055\110\120\098\055\122\114\118\121\055\099\120\055\103\098\099\055\097\034\034\055\099\118\117\123\114\055\120\113\055\112\120\118\123\100\055\127\114\101\114\040\074\074\029\030\030\030\062\029\030\030\030\097\038\047\057\072\116\120\122\103\123\114\099\114\055\042\055\113\118\123\100\114\029\030\030\030\097\038\047\057\072\120\121\068\099\118\101\099\045\113\126\101\114\063\062\029\030\030\030\113\120\101\055\097\036\033\059\055\097\036\032\055\126\121\055\103\118\126\101\100\063\097\033\034\062\055\115\120\029\030\030\030\030\123\120\116\118\123\055\097\036\036\055\042\055\118\100\100\114\101\099\063\097\038\047\057\072\122\120\099\120\101\100\076\097\036\033\074\059\055\063"Unknown motor for key %v60"\062\045\113\120\101\122\118\099\063\097\036\033\062\062\029\030\030\030\030\097\036\036\045\100\114\099\080\120\118\123\063\097\036\032\062\029\030\030\030\114\121\115\029\030\030\030\126\113\055\097\038\047\057\072\098\100\114\094\122\103\123\126\116\126\099\084\120\121\121\114\116\099\126\120\121\100\055\099\127\114\121\029\030\030\030\030\097\038\047\045\100\099\118\101\099\063\062\029\030\030\030\114\121\115\029\030\030\114\121\115\029\030\030\097\038\032\055\097\037\032\057\112\114\099\065\118\123\098\114\063\097\038\047\062\029\030\030\030\123\120\116\118\123\055\097\033\034\055\042\055\108\106\029\030\030\030\113\120\101\055\097\036\033\059\055\097\036\032\055\126\121\055\103\118\126\101\100\063\097\038\047\057\072\122\120\099\120\101\100\062\055\115\120\029\030\030\030\030\097\033\034\076\097\036\033\074\055\042\055\097\036\032\045\112\114\099\065\118\123\098\114\063\062\029\030\030\030\114\121\115\029\030\030\030\101\114\099\098\101\121\055\097\033\034\029\030\030\114\121\115\029\030\030\097\038\032\055\097\037\032\057\072\072\099\120\100\099\101\126\121\112\063\097\038\047\062\029\030\030\030\101\114\099\098\101\121\055"Motor(Group)"\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\037\032\029\030\114\121\115\059\029\030\076\036\035\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\036\035\062\029\030\030\101\114\099\098\101\121\055\097\038\032\063\062\029\030\030\030\123\120\116\118\123\055\097\035\037\059\055\097\036\037\059\055\097\034\046\055\042\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\080\101\120\098\103\090\120\099\120\101\062\059\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\094\121\100\099\118\121\099\062\059\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\068\103\101\126\121\112\062\029\030\030\030\126\099\063\029\030\030\030\030"should complete when all child motors are complete"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\037\032\055\042\055\097\035\037\057\121\114\096\063\108\097\038\055\042\055\038\059\055\097\036\039\055\042\055\037\106\059\055\113\118\123\100\114\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\037\032\057\072\116\120\122\103\123\114\099\114\062\057\099\120\057\114\102\098\118\123\063\099\101\098\114\062\029\030\030\030\030\030\097\037\032\045\100\114\099\080\120\118\123\055\108\097\038\055\042\055\097\036\037\057\121\114\096\063\036\062\059\055\097\036\039\055\042\055\097\034\046\057\121\114\096\063\035\059\055\108\113\101\114\102\098\114\121\116\110\055\042\055\032\057\034\059\055\115\118\122\103\126\121\112\069\118\099\126\120\055\042\055\038\106\062\106\029\030\030\030\030\030\114\111\103\114\116\099\063\097\037\032\057\072\116\120\122\103\123\114\099\114\062\057\099\120\057\114\102\098\118\123\063\113\118\123\100\114\062\029\030\030\030\030\030\097\037\032\045\100\099\114\103\063\038\057\033\033\033\033\033\033\033\033\033\033\033\033\033\033\033\034\082\058\037\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\037\032\057\072\116\120\122\103\123\114\099\114\062\057\099\120\057\114\102\098\118\123\063\113\118\123\100\114\062\029\030\030\030\030\030\113\120\101\055\097\034\036\055\042\055\038\059\055\036\039\055\115\120\029\030\030\030\030\030\030\097\037\032\045\100\099\114\103\063\038\057\033\033\033\033\033\033\033\033\033\033\033\033\033\033\033\034\082\058\037\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\114\111\103\114\116\099\063\097\037\032\057\072\116\120\122\103\123\114\099\114\062\057\099\120\057\114\102\098\118\123\063\099\101\098\114\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\126\099\063\029\030\030\030\030"should start when the goal is set"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\037\032\059\055\097\034\036\055\042\055\097\035\037\057\121\114\096\063\108\097\038\055\042\055\039\106\059\055\113\118\123\100\114\062\059\055\113\118\123\100\114\029\030\030\030\030\030\097\037\032\045\120\121\068\099\118\101\099\063\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\097\034\036\055\042\055\121\120\099\055\097\034\036\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\097\037\032\045\100\114\099\080\120\118\123\055\108\097\038\055\042\055\097\036\037\057\121\114\096\063\038\062\106\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\036\062\057\099\120\057\114\102\098\118\123\063\099\101\098\114\062\029\030\030\030\030\030\097\037\032\045\100\114\099\080\120\118\123\055\108\097\038\055\042\055\097\036\037\057\121\114\096\063\038\062\106\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\036\062\057\099\120\057\114\102\098\118\123\063\113\118\123\100\114\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\126\099\063\029\030\030\030\030"should properly return all values"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\037\032\055\042\055\097\035\037\057\121\114\096\063\108\097\038\055\042\055\038\059\055\097\036\039\055\042\055\037\106\059\055\113\118\123\100\114\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\036\055\042\055\097\037\032\045\112\114\099\065\118\123\098\114\063\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\036\057\097\038\062\057\099\120\057\114\102\098\118\123\063\038\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\036\057\097\036\039\062\057\099\120\057\114\102\098\118\123\063\037\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\126\099\063\029\030\030\030\030"should error when v55 goal is given to GroupMotor.new"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\037\032\055\042\029\030\030\030\030\030\030\103\116\118\123\123\063\029\030\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\030\097\035\037\057\121\114\096\063\097\036\037\057\121\114\096\063\039\062\062\029\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\037\032\062\057\099\120\057\114\102\098\118\123\063\113\118\123\100\114\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\126\099\063\029\030\030\030\030\076\076\100\127\120\098\123\115\055\114\101\101\120\101\055\096\127\114\121\055\097\034\034\055\100\126\121\112\123\114\055\112\120\118\123\055\126\100\055\103\101\120\097\126\115\114\115\055\099\120\055\080\101\120\098\103\090\120\099\120\101\045\100\099\114\103\074\074\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\037\032\055\042\029\030\030\030\030\030\030\103\116\118\123\123\063\029\030\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\030\097\035\037\057\121\114\096\055\108\097\034\034\055\042\055\038\106\045\100\114\099\080\120\118\123\063\097\036\037\057\121\114\096\063\039\062\062\029\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\037\032\062\057\099\120\057\114\102\098\118\123\063\113\118\123\100\114\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\114\121\115\029\030\114\121\115\059\029\030\076\036\034\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\036\034\062\029\030\030\123\120\116\118\123\055\097\035\037\055\042\055\108\106\029\030\030\097\035\037\057\072\072\126\121\115\114\111\055\042\055\097\035\037\029\030\030\097\038\032\055\097\035\037\057\121\114\096\063\097\036\037\062\029\030\030\030\101\114\099\098\101\121\055\100\114\099\122\114\099\118\099\118\117\123\114\063\108\072\099\118\101\112\114\099\065\118\123\098\114\055\042\055\097\036\037\106\059\055\097\035\037\062\029\030\030\114\121\115\029\030\030\097\038\032\055\097\035\037\057\100\099\114\103\063\097\036\037\062\029\030\030\030\101\114\099\098\101\121\055\108\116\120\122\103\123\114\099\114\055\042\055\099\101\098\114\059\055\097\118\123\098\114\055\042\055\097\036\037\057\072\099\118\101\112\114\099\065\118\123\098\114\106\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\035\037\029\030\114\121\115\059\029\030\076\036\033\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\036\033\062\029\030\030\101\114\099\098\101\121\055\097\038\032\063\062\029\030\030\030\123\120\116\118\123\055\097\035\037\055\042\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\094\121\100\099\118\121\099\062\029\030\030\030\126\099\063\029\030\030\030\030"should return v55 completed state with the provided value"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\036\037\055\042\055\097\035\037\057\121\114\096\063\038\057\037\036\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\046\055\042\055\097\036\037\045\100\099\114\103\063\039\057\038\059\055\108\097\118\123\098\114\055\042\055\039\059\055\116\120\122\103\123\114\099\114\055\042\055\113\118\123\100\114\106\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\057\116\120\122\103\123\114\099\114\062\057\099\120\057\114\102\098\118\123\063\099\101\098\114\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\057\097\118\123\098\114\062\057\099\120\057\114\102\098\118\123\063\038\057\037\036\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\114\121\115\029\030\114\121\115\059\029\030\076\036\032\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\036\032\062\029\030\030\123\120\116\118\123\055\097\035\037\055\042\055\108\106\029\030\030\097\035\037\057\072\072\126\121\115\114\111\055\042\055\097\035\037\029\030\030\097\038\032\055\097\035\037\057\121\114\096\063\097\036\037\059\055\097\034\046\062\029\030\030\030\118\100\100\114\101\099\063\097\036\037\059\055"Missing argument #1: targetValue"\062\029\030\030\030\097\034\046\055\042\055\097\034\046\055\120\101\055\108\106\029\030\030\030\101\114\099\098\101\121\055\100\114\099\122\114\099\118\099\118\117\123\114\063\108\072\099\118\101\112\114\099\065\118\123\098\114\055\042\055\097\036\037\059\055\072\097\114\123\120\116\126\099\110\055\042\055\097\034\046\057\097\114\123\120\116\126\099\110\055\120\101\055\038\106\059\055\097\035\037\062\029\030\030\114\121\115\029\030\030\097\038\032\055\097\035\037\057\100\099\114\103\063\097\036\037\059\055\097\034\046\059\055\097\037\032\062\029\030\030\030\123\120\116\118\123\055\097\034\036\059\055\097\038\047\059\055\097\033\034\055\042\055\097\034\046\057\097\118\123\098\114\059\055\097\036\037\057\072\097\114\123\120\116\126\099\110\059\055\097\036\037\057\072\099\118\101\112\114\099\065\118\123\098\114\029\030\030\030\123\120\116\118\123\055\097\036\033\055\042\055\097\037\032\055\061\055\097\038\047\029\030\030\030\123\120\116\118\123\055\097\036\032\055\042\055\097\036\033\055\041\042\055\122\118\099\127\057\118\117\100\063\097\033\034\055\058\055\097\034\036\062\029\030\030\030\097\034\036\055\042\055\097\034\036\055\060\055\097\036\033\055\061\055\063\097\033\034\055\041\055\097\034\036\055\118\121\115\055\038\055\120\101\055\058\038\062\029\030\030\030\126\113\055\097\036\032\055\099\127\114\121\029\030\030\030\030\097\034\036\055\042\055\097\036\037\057\072\099\118\101\112\114\099\065\118\123\098\114\029\030\030\030\030\097\038\047\055\042\055\039\029\030\030\030\114\121\115\029\030\030\030\101\114\099\098\101\121\055\108\116\120\122\103\123\114\099\114\055\042\055\097\036\032\059\055\097\118\123\098\114\055\042\055\097\034\036\059\055\097\114\123\120\116\126\099\110\055\042\055\097\038\047\106\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\035\037\029\030\114\121\115\059\029\030\076\036\047\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\036\047\062\029\030\030\101\114\099\098\101\121\055\097\038\032\063\062\029\030\030\030\123\120\116\118\123\055\097\035\037\059\055\097\036\037\055\042\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\068\126\121\112\123\114\090\120\099\120\101\062\059\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\091\126\121\114\118\101\062\029\030\030\030\115\114\100\116\101\126\117\114\063\029\030\030\030\030"completed state"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\046\059\055\097\037\032\055\042\055\097\035\037\057\121\114\096\063\039\059\055\113\118\123\100\114\062\059\055\097\036\037\057\121\114\096\063\038\059\055\108\097\114\123\120\116\126\099\110\055\042\055\038\106\062\029\030\030\030\030\030\097\034\046\045\100\114\099\080\120\118\123\063\097\037\032\062\029\030\030\030\030\030\113\120\101\055\097\034\036\055\042\055\038\059\055\033\039\055\115\120\029\030\030\030\030\030\030\097\034\046\045\100\099\114\103\063\038\057\033\033\033\033\033\033\033\033\033\033\033\033\033\033\033\034\082\058\037\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\126\099\063\029\030\030\030\030\030\030"should complete"\059\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\057\072\100\099\118\099\114\057\116\120\122\103\123\114\099\114\062\057\099\120\057\114\102\098\118\123\063\099\101\098\114\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\126\099\063\029\030\030\030\030\030\030"should be exactly the goal value when completed"\059\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\057\072\100\099\118\099\114\057\097\118\123\098\114\062\057\099\120\057\114\102\098\118\123\063\038\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\115\114\100\116\101\126\117\114\063\029\030\030\030\030"uncompleted state"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\046\059\055\097\037\032\055\042\055\097\035\037\057\121\114\096\063\039\059\055\113\118\123\100\114\062\059\055\097\036\037\057\121\114\096\063\038\059\055\108\097\114\123\120\116\126\099\110\055\042\055\038\106\062\029\030\030\030\030\030\097\034\046\045\100\114\099\080\120\118\123\063\097\037\032\062\029\030\030\030\030\030\113\120\101\055\097\034\036\055\042\055\038\059\055\034\046\055\115\120\029\030\030\030\030\030\030\097\034\046\045\100\099\114\103\063\038\057\033\033\033\033\033\033\033\033\033\033\033\033\033\033\033\034\082\058\037\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\126\099\063\029\030\030\030\030\030\030"should be uncomplete"\059\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\057\072\100\099\118\099\114\057\116\120\122\103\123\114\099\114\062\057\099\120\057\114\102\098\118\123\063\113\118\123\100\114\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\115\114\100\116\101\126\117\114\063\029\030\030\030\030"negative velocity"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\046\059\055\097\037\032\055\042\055\097\035\037\057\121\114\096\063\038\059\055\113\118\123\100\114\062\059\055\097\036\037\057\121\114\096\063\039\059\055\108\097\114\123\120\116\126\099\110\055\042\055\038\106\062\029\030\030\030\030\030\097\034\046\045\100\114\099\080\120\118\123\063\097\037\032\062\029\030\030\030\030\030\113\120\101\055\097\034\036\055\042\055\038\059\055\033\039\055\115\120\029\030\030\030\030\030\030\097\034\046\045\100\099\114\103\063\038\057\033\033\033\033\033\033\033\033\033\033\033\033\033\033\033\034\082\058\037\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\126\099\063\029\030\030\030\030\030\030"should complete"\059\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\057\072\100\099\118\099\114\057\116\120\122\103\123\114\099\114\062\057\099\120\057\114\102\098\118\123\063\099\101\098\114\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\126\099\063\029\030\030\030\030\030\030"should be exactly the goal value when completed"\059\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\057\072\100\099\118\099\114\057\097\118\123\098\114\062\057\099\120\057\114\102\098\118\123\063\039\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\114\121\115\029\030\114\121\115\059\029\030\076\036\046\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\036\046\062\029\030\030\123\120\116\118\123\055\097\035\037\055\042\055\108\106\029\030\030\097\035\037\057\072\072\126\121\115\114\111\055\042\055\097\035\037\029\030\030\097\038\032\055\097\035\037\057\121\114\096\063\097\036\037\059\055\097\034\046\062\029\030\030\030\101\114\099\098\101\121\055\100\114\099\122\114\099\118\099\118\117\123\114\063\108\100\126\112\121\118\123\055\042\055\097\036\037\059\055\116\120\121\121\114\116\099\114\115\055\042\055\099\101\098\114\059\055\072\127\118\121\115\123\114\101\055\042\055\097\034\046\106\059\055\097\035\037\062\029\030\030\114\121\115\029\030\030\097\038\032\055\097\035\037\057\115\126\100\116\120\121\121\114\116\099\063\097\036\037\062\029\030\030\030\126\113\055\097\036\037\057\116\120\121\121\114\116\099\114\115\055\099\127\114\121\029\030\030\030\030\097\036\037\057\116\120\121\121\114\116\099\114\115\055\042\055\113\118\123\100\114\029\030\030\030\030\113\120\101\055\097\034\046\059\055\097\037\032\055\126\121\055\103\118\126\101\100\063\097\036\037\057\100\126\112\121\118\123\057\072\116\120\121\121\114\116\099\126\120\121\100\062\055\115\120\029\030\030\030\030\030\126\113\055\097\037\032\055\042\042\055\097\036\037\055\099\127\114\121\029\030\030\030\030\030\030\099\118\117\123\114\057\101\114\122\120\097\114\063\097\036\037\057\100\126\112\121\118\123\057\072\116\120\121\121\114\116\099\126\120\121\100\059\055\097\034\046\062\029\030\030\030\030\030\030\101\114\099\098\101\121\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\114\121\115\029\030\030\114\121\115\029\030\030\123\120\116\118\123\055\097\036\037\055\042\055\108\106\029\030\030\097\036\037\057\072\072\126\121\115\114\111\055\042\055\097\036\037\029\030\030\097\038\032\055\097\036\037\057\121\114\096\063\062\029\030\030\030\101\114\099\098\101\121\055\100\114\099\122\114\099\118\099\118\117\123\114\063\108\072\116\120\121\121\114\116\099\126\120\121\100\055\042\055\108\106\059\055\072\099\127\101\114\118\115\100\055\042\055\108\106\106\059\055\097\036\037\062\029\030\030\114\121\115\029\030\030\097\038\032\055\097\036\037\057\113\126\101\114\063\097\034\046\059\055\057\057\057\062\029\030\030\030\113\120\101\055\097\037\032\059\055\097\034\036\055\126\121\055\103\118\126\101\100\063\097\034\046\057\072\116\120\121\121\114\116\099\126\120\121\100\062\055\115\120\029\030\030\030\030\097\034\036\057\072\127\118\121\115\123\114\101\063\057\057\057\062\029\030\030\030\114\121\115\029\030\030\030\113\120\101\055\097\038\047\059\055\097\033\034\055\126\121\055\103\118\126\101\100\063\097\034\046\057\072\099\127\101\114\118\115\100\062\055\115\120\029\030\030\030\030\116\120\101\120\098\099\126\121\114\057\101\114\100\098\122\114\063\097\033\034\059\055\057\057\057\062\029\030\030\030\114\121\115\029\030\030\030\097\034\046\057\072\099\127\101\114\118\115\100\055\042\055\108\106\029\030\030\114\121\115\029\030\030\097\038\032\055\097\036\037\057\116\120\121\121\114\116\099\063\097\034\046\059\055\097\034\036\062\029\030\030\030\123\120\116\118\123\055\097\038\047\055\042\055\097\035\037\057\121\114\096\063\097\034\046\059\055\097\034\036\062\029\030\030\030\099\118\117\123\114\057\126\121\100\114\101\099\063\097\034\046\057\072\116\120\121\121\114\116\099\126\120\121\100\059\055\097\038\047\062\029\030\030\030\101\114\099\098\101\121\055\097\038\047\029\030\030\114\121\115\029\030\030\097\038\032\055\097\036\037\057\096\118\126\099\063\097\034\046\062\029\030\030\030\099\118\117\123\114\057\126\121\100\114\101\099\063\097\034\046\057\072\099\127\101\114\118\115\100\059\055\116\120\101\120\098\099\126\121\114\057\101\098\121\121\126\121\112\063\062\062\029\030\030\030\101\114\099\098\101\121\055\116\120\101\120\098\099\126\121\114\057\110\126\114\123\115\063\062\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\036\037\029\030\114\121\115\059\029\030\076\035\039\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\035\039\062\029\030\030\101\114\099\098\101\121\055\097\038\032\063\062\029\030\030\030\123\120\116\118\123\055\097\035\037\055\042\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\068\126\112\121\118\123\062\029\030\030\030\126\099\063\029\030\030\030\030"should invoke all connections, instantly"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\036\037\059\055\097\034\046\059\055\097\034\036\055\042\055\063\097\035\037\057\121\114\096\063\062\062\029\030\030\030\030\030\097\036\037\045\116\120\121\121\114\116\099\063\029\030\030\030\030\030\030\097\038\032\063\097\038\047\062\029\030\030\030\030\030\030\030\097\034\046\055\042\055\097\038\047\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\097\036\037\045\116\120\121\121\114\116\099\063\029\030\030\030\030\030\030\097\038\032\063\097\038\047\062\029\030\030\030\030\030\030\030\097\034\036\055\042\055\097\038\047\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\097\036\037\045\113\126\101\114\055"hello"\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\062\057\099\120\057\114\102\098\118\123\055"hello"\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\036\062\057\099\120\057\114\102\098\118\123\055"hello"\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\126\099\063\029\030\030\030\030"should return values when :wait() is called"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\036\037\055\042\055\097\035\037\057\121\114\096\063\062\029\030\030\030\030\030\100\103\118\096\121\063\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\097\036\037\045\113\126\101\114\063\038\037\036\059\055"hello"\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\046\059\055\097\034\036\055\042\055\097\036\037\045\096\118\126\099\063\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\062\057\099\120\057\114\102\098\118\123\063\038\037\036\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\036\062\057\099\120\057\114\102\098\118\123\055"hello"\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\126\099\063\029\030\030\030\030"should properly handle disconnections"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\036\037\059\055\097\034\046\055\042\055\097\035\037\057\121\114\096\063\062\059\055\113\118\123\100\114\029\030\030\030\030\030\123\120\116\118\123\055\097\034\036\055\042\029\030\030\030\030\030\030\097\036\037\045\116\120\121\121\114\116\099\063\029\030\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\030\097\034\046\055\042\055\099\101\098\114\029\030\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\062\029\030\030\030\030\030\097\034\036\045\115\126\100\116\120\121\121\114\116\099\063\062\029\030\030\030\030\030\097\036\037\045\113\126\101\114\063\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\062\057\099\120\057\114\102\098\118\123\063\113\118\123\100\114\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\114\121\115\029\030\114\121\115\059\029\030\076\035\038\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\035\038\062\029\030\030\123\120\116\118\123\055\097\035\037\055\042\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\085\118\100\114\090\120\099\120\101\062\029\030\030\123\120\116\118\123\055\097\036\037\055\042\055\100\114\099\122\114\099\118\099\118\117\123\114\063\108\106\059\055\097\035\037\062\029\030\030\097\036\037\057\072\072\126\121\115\114\111\055\042\055\097\036\037\029\030\030\097\038\032\055\097\036\037\057\121\114\096\063\097\034\046\059\055\097\034\036\062\029\030\030\030\118\100\100\114\101\099\063\097\034\046\059\055"Missing argument #1: initialValue"\062\029\030\030\030\118\100\100\114\101\099\063\099\110\103\114\120\113\063\097\034\046\062\055\042\042\055"number"\059\055"initialValue must be v55 number!"\062\029\030\030\030\123\120\116\118\123\055\097\038\047\055\042\055\100\114\099\122\114\099\118\099\118\117\123\114\063\097\035\037\057\121\114\096\063\062\059\055\097\036\037\062\029\030\030\030\126\113\055\097\034\036\055\105\042\055\121\126\123\055\099\127\114\121\029\030\030\030\030\097\038\047\057\072\098\100\114\094\122\103\123\126\116\126\099\084\120\121\121\114\116\099\126\120\121\100\055\042\055\097\034\036\029\030\030\030\114\123\100\114\029\030\030\030\030\097\038\047\057\072\098\100\114\094\122\103\123\126\116\126\099\084\120\121\121\114\116\099\126\120\121\100\055\042\055\099\101\098\114\029\030\030\030\114\121\115\029\030\030\030\097\038\047\057\072\112\120\118\123\055\042\055\121\126\123\029\030\030\030\097\038\047\057\072\100\099\118\099\114\055\042\055\108\116\120\122\103\123\114\099\114\055\042\055\099\101\098\114\059\055\097\118\123\098\114\055\042\055\097\034\046\106\029\030\030\030\101\114\099\098\101\121\055\097\038\047\029\030\030\114\121\115\029\030\030\097\038\032\055\097\036\037\057\100\099\114\103\063\097\034\046\059\055\097\034\036\062\029\030\030\030\126\113\055\097\034\046\057\072\100\099\118\099\114\057\116\120\122\103\123\114\099\114\055\099\127\114\121\029\030\030\030\030\101\114\099\098\101\121\055\099\101\098\114\029\030\030\030\114\121\115\029\030\030\030\123\120\116\118\123\055\097\038\047\055\042\055\097\034\046\057\072\112\120\118\123\045\100\099\114\103\063\097\034\046\057\072\100\099\118\099\114\059\055\097\034\036\062\029\030\030\030\097\034\046\057\072\100\099\118\099\114\055\042\055\097\038\047\029\030\030\030\097\034\046\057\072\120\121\068\099\114\103\045\113\126\101\114\063\097\038\047\057\097\118\123\098\114\062\029\030\030\030\126\113\055\097\038\047\057\116\120\122\103\123\114\099\114\055\099\127\114\121\029\030\030\030\030\126\113\055\097\034\046\057\072\098\100\114\094\122\103\123\126\116\126\099\084\120\121\121\114\116\099\126\120\121\100\055\099\127\114\121\029\030\030\030\030\030\097\034\046\045\100\099\120\103\063\062\029\030\030\030\030\114\121\115\029\030\030\030\030\097\034\046\057\072\120\121\084\120\122\103\123\114\099\114\045\113\126\101\114\063\062\029\030\030\030\114\121\115\029\030\030\030\101\114\099\098\101\121\055\097\038\047\057\116\120\122\103\123\114\099\114\029\030\030\114\121\115\029\030\030\097\038\032\055\097\036\037\057\112\114\099\065\118\123\098\114\063\097\034\046\062\029\030\030\030\101\114\099\098\101\121\055\097\034\046\057\072\100\099\118\099\114\057\097\118\123\098\114\029\030\030\114\121\115\029\030\030\097\038\032\055\097\036\037\057\100\114\099\080\120\118\123\063\097\034\046\059\055\097\034\036\062\029\030\030\030\097\034\046\057\072\100\099\118\099\114\057\116\120\122\103\123\114\099\114\055\042\055\113\118\123\100\114\029\030\030\030\097\034\046\057\072\112\120\118\123\055\042\055\097\034\036\029\030\030\030\097\034\046\057\072\120\121\068\099\118\101\099\045\113\126\101\114\063\062\029\030\030\030\126\113\055\097\034\046\057\072\098\100\114\094\122\103\123\126\116\126\099\084\120\121\121\114\116\099\126\120\121\100\055\099\127\114\121\029\030\030\030\030\097\034\046\045\100\099\118\101\099\063\062\029\030\030\030\114\121\115\029\030\030\114\121\115\029\030\030\097\038\032\055\097\036\037\057\072\072\099\120\100\099\101\126\121\112\063\097\034\046\062\029\030\030\030\101\114\099\098\101\121\055"Motor(Single)"\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\036\037\029\030\114\121\115\059\029\030\076\035\037\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\035\037\062\029\030\030\101\114\099\098\101\121\055\097\038\032\063\062\029\030\030\030\123\120\116\118\123\055\097\035\037\059\055\097\036\037\055\042\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\068\126\121\112\123\114\090\120\099\120\101\062\059\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\094\121\100\099\118\121\099\062\029\030\030\030\126\099\063\029\030\030\030\030"should assign new state on step"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\046\055\042\055\097\035\037\057\121\114\096\063\039\059\055\113\118\123\100\114\062\029\030\030\030\030\030\097\034\046\045\100\114\099\080\120\118\123\063\097\036\037\057\121\114\096\063\034\062\062\029\030\030\030\030\030\097\034\046\045\100\099\114\103\063\038\057\033\033\033\033\033\033\033\033\033\033\033\033\033\033\033\034\082\058\037\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\057\072\100\099\118\099\114\057\116\120\122\103\123\114\099\114\062\057\099\120\057\114\102\098\118\123\063\099\101\098\114\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\057\072\100\099\118\099\114\057\097\118\123\098\114\062\057\099\120\057\114\102\098\118\123\063\034\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\126\099\063\029\030\030\030\030\076\076\100\127\120\098\123\115\055\126\121\097\120\124\114\055\120\121\084\120\122\103\123\114\099\114\055\123\126\100\099\114\121\114\101\100\055\096\127\114\121\055\099\127\114\055\112\120\118\123\055\126\100\055\116\120\122\103\123\114\099\114\115\074\074\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\046\059\055\097\034\036\055\042\055\097\035\037\057\121\114\096\063\039\059\055\113\118\123\100\114\062\059\055\113\118\123\100\114\029\030\030\030\030\030\097\034\046\045\120\121\084\120\122\103\123\114\099\114\063\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\097\034\036\055\042\055\099\101\098\114\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\097\034\046\045\100\114\099\080\120\118\123\063\097\036\037\057\121\114\096\063\034\062\062\029\030\030\030\030\030\097\034\046\045\100\099\114\103\063\038\057\033\033\033\033\033\033\033\033\033\033\033\033\033\033\033\034\082\058\037\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\036\062\057\099\120\057\114\102\098\118\123\063\099\101\098\114\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\126\099\063\029\030\030\030\030"should start when the goal is set"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\046\059\055\097\034\036\055\042\055\097\035\037\057\121\114\096\063\039\059\055\113\118\123\100\114\062\059\055\113\118\123\100\114\029\030\030\030\030\030\097\034\046\045\120\121\068\099\118\101\099\063\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\097\034\036\055\042\055\121\120\099\055\097\034\036\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\097\034\046\045\100\114\099\080\120\118\123\063\097\036\037\057\121\114\096\063\034\062\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\036\062\057\099\120\057\114\102\098\118\123\063\099\101\098\114\062\029\030\030\030\030\030\097\034\046\045\100\114\099\080\120\118\123\063\097\036\037\057\121\114\096\063\034\062\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\036\062\057\099\120\057\114\102\098\118\123\063\113\118\123\100\114\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\114\121\115\029\030\114\121\115\059\029\030\076\035\036\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\035\036\062\029\030\030\123\120\116\118\123\055\097\035\037\059\055\097\036\037\059\055\097\034\046\059\055\097\034\036\055\042\055\039\057\039\039\038\059\055\039\057\039\039\038\059\055\039\057\039\039\039\038\059\055\108\106\029\030\030\097\034\036\057\072\072\126\121\115\114\111\055\042\055\097\034\036\029\030\030\097\038\032\055\097\034\036\057\121\114\096\063\097\038\047\059\055\097\033\034\062\029\030\030\030\118\100\100\114\101\099\063\097\038\047\059\055"Missing argument #1: targetValue"\062\029\030\030\030\097\033\034\055\042\055\097\033\034\055\120\101\055\108\106\029\030\030\030\101\114\099\098\101\121\055\100\114\099\122\114\099\118\099\118\117\123\114\063\029\030\030\030\030\108\072\099\118\101\112\114\099\065\118\123\098\114\055\042\055\097\038\047\059\055\072\113\101\114\102\098\114\121\116\110\055\042\055\097\033\034\057\113\101\114\102\098\114\121\116\110\055\120\101\055\035\059\055\072\115\118\122\103\126\121\112\069\118\099\126\120\055\042\055\097\033\034\057\115\118\122\103\126\121\112\069\118\099\126\120\055\120\101\055\038\106\059\029\030\030\030\030\097\034\036\029\030\030\030\062\029\030\030\114\121\115\029\030\030\097\038\032\055\097\034\036\057\100\099\114\103\063\097\038\047\059\055\097\033\034\059\055\097\036\033\062\029\030\030\030\123\120\116\118\123\055\097\036\032\059\055\097\036\036\059\055\097\039\059\055\097\037\034\059\055\097\037\046\055\042\055\097\038\047\057\072\115\118\122\103\126\121\112\069\118\099\126\120\059\055\097\038\047\057\072\113\101\114\102\098\114\121\116\110\055\061\055\037\055\061\055\122\118\099\127\057\103\126\059\055\097\038\047\057\072\099\118\101\112\114\099\065\118\123\098\114\059\055\097\033\034\057\097\118\123\098\114\059\055\097\033\034\057\097\114\123\120\116\126\099\110\055\120\101\055\039\029\030\030\030\123\120\116\118\123\055\097\034\037\059\055\097\033\059\055\097\036\035\059\055\097\035\036\055\042\055\097\037\034\055\058\055\097\039\059\055\063\122\118\099\127\057\114\111\103\063\058\097\036\032\055\061\055\097\036\036\055\061\055\097\036\033\062\062\029\030\030\030\126\113\055\097\036\032\055\042\042\055\038\055\099\127\114\121\029\030\030\030\030\097\036\035\055\042\055\063\097\034\037\055\061\055\063\038\055\060\055\097\036\036\055\061\055\097\036\033\062\055\060\055\097\037\046\055\061\055\097\036\033\062\055\061\055\097\033\055\060\055\097\039\029\030\030\030\030\097\035\036\055\042\055\063\097\037\046\055\061\055\063\038\055\058\055\097\036\036\055\061\055\097\036\033\062\055\058\055\097\034\037\055\061\055\063\097\036\036\055\061\055\097\036\036\055\061\055\097\036\033\062\062\055\061\055\097\033\029\030\030\030\114\123\100\114\126\113\055\097\036\032\055\043\055\038\055\099\127\114\121\029\030\030\030\030\123\120\116\118\123\055\097\038\034\055\042\055\122\118\099\127\057\100\102\101\099\063\038\055\058\055\097\036\032\055\061\055\097\036\032\062\029\030\030\030\030\123\120\116\118\123\055\097\035\035\059\055\097\033\039\059\055\097\033\035\055\042\055\122\118\099\127\057\116\120\100\063\097\036\036\055\061\055\097\038\034\055\061\055\097\036\033\062\059\055\063\122\118\099\127\057\100\126\121\063\097\036\036\055\061\055\097\038\034\055\061\055\097\036\033\062\062\029\030\030\030\030\126\113\055\097\038\034\055\041\055\097\034\046\055\099\127\114\121\029\030\030\030\030\030\097\033\035\055\042\055\097\033\039\055\056\055\097\038\034\029\030\030\030\030\114\123\100\114\029\030\030\030\030\030\123\120\116\118\123\055\097\037\039\055\042\055\097\036\033\055\061\055\097\036\036\029\030\030\030\030\030\097\033\035\055\042\055\097\037\039\055\060\055\063\063\097\037\039\055\061\055\097\037\039\062\055\061\055\063\097\038\034\055\061\055\097\038\034\062\055\061\055\063\097\038\034\055\061\055\097\038\034\062\055\056\055\037\039\055\058\055\097\038\034\055\061\055\097\038\034\062\055\061\055\063\097\037\039\055\061\055\097\037\039\055\061\055\097\037\039\062\055\056\055\033\029\030\030\030\030\114\121\115\029\030\030\030\030\123\120\116\118\123\055\097\037\039\029\030\030\030\030\126\113\055\097\036\036\055\061\055\097\038\034\055\041\055\097\034\046\055\099\127\114\121\029\030\030\030\030\030\097\037\039\055\042\055\097\033\039\055\056\055\063\097\036\036\055\061\055\097\038\034\062\029\030\030\030\030\114\123\100\114\029\030\030\030\030\030\123\120\116\118\123\055\097\035\032\055\042\055\097\036\036\055\061\055\097\038\034\029\030\030\030\030\030\097\037\039\055\042\055\097\036\033\055\060\055\063\063\097\036\033\055\061\055\097\036\033\062\055\061\055\063\097\035\032\055\061\055\097\035\032\062\055\061\055\063\097\035\032\055\061\055\097\035\032\062\055\056\055\037\039\055\058\055\097\035\032\055\061\055\097\035\032\062\055\061\055\063\097\036\033\055\061\055\097\036\033\055\061\055\097\036\033\062\055\056\055\033\029\030\030\030\030\114\121\115\029\030\030\030\030\097\036\035\055\042\055\063\097\034\037\055\061\055\063\097\035\035\055\060\055\097\036\032\055\061\055\097\033\035\062\055\060\055\097\037\046\055\061\055\097\037\039\062\055\061\055\097\033\055\060\055\097\039\029\030\030\030\030\097\035\036\055\042\055\063\097\037\046\055\061\055\063\097\035\035\055\058\055\097\033\035\055\061\055\097\036\032\062\055\058\055\097\034\037\055\061\055\063\097\033\035\055\061\055\097\036\036\062\062\055\061\055\097\033\029\030\030\030\114\123\100\114\029\030\030\030\030\123\120\116\118\123\055\097\038\034\055\042\055\122\118\099\127\057\100\102\101\099\063\097\036\032\055\061\055\097\036\032\055\058\055\038\062\029\030\030\030\030\123\120\116\118\123\055\097\035\035\059\055\097\033\039\055\042\055\058\097\036\036\055\061\055\063\097\036\032\055\058\055\097\038\034\062\059\055\058\097\036\036\055\061\055\063\097\036\032\055\060\055\097\038\034\062\029\030\030\030\030\123\120\116\118\123\055\097\033\035\055\042\055\063\097\037\046\055\058\055\097\034\037\055\061\055\097\035\035\062\055\056\055\063\037\055\061\055\097\036\036\055\061\055\097\038\034\062\029\030\030\030\030\123\120\116\118\123\055\097\037\039\055\042\055\097\034\037\055\058\055\097\033\035\029\030\030\030\030\123\120\116\118\123\055\097\035\032\059\055\097\038\039\055\042\055\097\037\039\055\061\055\122\118\099\127\057\114\111\103\063\097\035\035\055\061\055\097\036\033\062\059\055\097\033\035\055\061\055\122\118\099\127\057\114\111\103\063\097\033\039\055\061\055\097\036\033\062\029\030\030\030\030\097\036\035\055\042\055\097\035\032\055\060\055\097\038\039\055\060\055\097\039\029\030\030\030\030\097\035\036\055\042\055\097\035\032\055\061\055\097\035\035\055\060\055\097\038\039\055\061\055\097\033\039\029\030\030\030\114\121\115\029\030\030\030\123\120\116\118\123\055\097\038\034\055\042\055\122\118\099\127\057\118\117\100\063\097\035\036\062\055\043\055\097\035\037\055\118\121\115\055\122\118\099\127\057\118\117\100\063\097\036\035\055\058\055\097\039\062\055\043\055\097\036\037\029\030\030\030\101\114\099\098\101\121\055\108\116\120\122\103\123\114\099\114\055\042\055\097\038\034\059\055\097\118\123\098\114\055\042\055\097\038\034\055\118\121\115\055\097\039\055\120\101\055\097\036\035\059\055\097\114\123\120\116\126\099\110\055\042\055\097\035\036\106\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\034\036\029\030\114\121\115\059\029\030\076\035\035\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\035\035\062\029\030\030\101\114\099\098\101\121\055\097\038\032\063\062\029\030\030\030\123\120\116\118\123\055\097\035\037\059\055\097\036\037\055\042\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\068\126\121\112\123\114\090\120\099\120\101\062\059\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\068\103\101\126\121\112\062\029\030\030\030\115\114\100\116\101\126\117\114\063\029\030\030\030\030"completed state"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\046\059\055\097\034\036\055\042\055\097\035\037\057\121\114\096\063\039\059\055\113\118\123\100\114\062\059\055\097\036\037\057\121\114\096\063\038\059\055\108\113\101\114\102\098\114\121\116\110\055\042\055\037\059\055\115\118\122\103\126\121\112\069\118\099\126\120\055\042\055\039\057\032\034\106\062\029\030\030\030\030\030\097\034\046\045\100\114\099\080\120\118\123\063\097\034\036\062\029\030\030\030\030\030\113\120\101\055\097\038\047\055\042\055\038\059\055\038\039\039\055\115\120\029\030\030\030\030\030\030\097\034\046\045\100\099\114\103\063\038\057\033\033\033\033\033\033\033\033\033\033\033\033\033\033\033\034\082\058\037\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\126\099\063\029\030\030\030\030\030\030"should complete"\059\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\057\072\100\099\118\099\114\057\116\120\122\103\123\114\099\114\062\057\099\120\057\114\102\098\118\123\063\099\101\098\114\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\030\126\099\063\029\030\030\030\030\030\030"should be exactly the goal value when completed"\059\029\030\030\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\057\072\100\099\118\099\114\057\097\118\123\098\114\062\057\099\120\057\114\102\098\118\123\063\038\062\029\030\030\030\030\030\030\114\121\115\029\030\030\030\030\030\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\126\099\063\029\030\030\030\030"should inherit velocity"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\034\046\055\042\055\097\035\037\057\121\114\096\063\039\059\055\113\118\123\100\114\062\029\030\030\030\030\030\097\034\046\057\072\100\099\118\099\114\055\042\055\108\116\120\122\103\123\114\099\114\055\042\055\113\118\123\100\114\059\055\097\118\123\098\114\055\042\055\039\059\055\097\114\123\120\116\126\099\110\055\042\055\058\034\106\029\030\030\030\030\030\123\120\116\118\123\055\097\034\036\055\042\055\097\036\037\057\121\114\096\063\038\059\055\108\113\101\114\102\098\114\121\116\110\055\042\055\037\059\055\115\118\122\103\126\121\112\069\118\099\126\120\055\042\055\038\106\062\029\030\030\030\030\030\097\034\046\045\100\114\099\080\120\118\123\063\097\034\036\062\029\030\030\030\030\030\097\034\046\045\100\099\114\103\063\038\057\033\033\033\033\033\033\033\033\033\033\033\033\033\033\033\034\082\058\037\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\034\046\057\072\100\099\118\099\114\057\097\114\123\120\116\126\099\110\055\043\055\039\062\057\099\120\057\114\102\098\118\123\063\099\101\098\114\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\114\121\115\029\030\114\121\115\059\029\030\076\035\034\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\035\034\062\029\030\030\123\120\116\118\123\055\097\035\037\055\042\055\097\038\032\063\097\035\037\062\029\030\030\030\123\120\116\118\123\055\097\036\037\055\042\055\099\120\100\099\101\126\121\112\063\097\035\037\062\045\122\118\099\116\127\055"^Motor%((.+)%)$"\029\030\030\030\126\113\055\097\036\037\055\099\127\114\121\029\030\030\030\030\101\114\099\098\101\121\055\099\101\098\114\059\055\097\036\037\029\030\030\030\114\123\100\114\029\030\030\030\030\101\114\099\098\101\121\055\113\118\123\100\114\029\030\030\030\114\121\115\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\035\037\029\030\114\121\115\059\029\030\076\035\033\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\035\033\062\029\030\030\101\114\099\098\101\121\055\097\038\032\063\062\029\030\030\030\123\120\116\118\123\055\097\035\037\059\055\097\036\037\059\055\097\034\046\055\042\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\126\100\090\120\099\120\101\062\059\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\068\126\121\112\123\114\090\120\099\120\101\062\059\055\097\038\035\063\097\036\046\057\071\118\101\114\121\099\057\080\101\120\098\103\090\120\099\120\101\062\029\030\030\030\123\120\116\118\123\055\097\034\036\059\055\097\038\047\055\042\055\097\036\037\057\121\114\096\063\039\062\059\055\097\034\046\057\121\114\096\055\108\106\029\030\030\030\126\099\063\029\030\030\030\030"should properly detect motors"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\035\037\063\097\034\036\062\062\057\099\120\057\114\102\098\118\123\063\099\101\098\114\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\035\037\063\097\038\047\062\062\057\099\120\057\114\102\098\118\123\063\099\101\098\114\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\126\099\063\029\030\030\030\030"shouldn'v64 detect things that aren'v64 motors"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\035\037\055\108\106\062\057\099\120\057\114\102\098\118\123\063\113\118\123\100\114\062\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\030\126\099\063\029\030\030\030\030"should return the proper motor type"\059\029\030\030\030\030\097\038\032\063\062\029\030\030\030\030\030\123\120\116\118\123\055\097\033\034\059\055\097\036\033\055\042\055\097\035\037\063\097\034\036\062\029\030\030\030\030\030\123\120\116\118\123\055\097\036\032\059\055\097\036\036\055\042\055\097\035\037\063\097\038\047\062\029\030\030\030\030\030\114\111\103\114\116\099\063\097\036\033\062\057\099\120\057\114\102\098\118\123\055"Single"\029\030\030\030\030\030\114\111\103\114\116\099\063\097\036\036\062\057\099\120\057\114\102\098\118\123\055"Group"\029\030\030\030\030\114\121\115\029\030\030\030\062\029\030\030\114\121\115\029\030\114\121\115\059\029\030\076\035\032\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\035\032\062\029\030\030\123\120\116\118\123\055\097\035\037\055\042\055\108\089\118\122\114\100\055\042\055\108"Dark"\059\055"Darker"\059\055"Light"\059\055"Aqua"\059\055"Amethyst"\059\055"Rose"\059\055"Grey"\059\055"R2LX"\059\055"Enhanced"\059\055"Gradien"\059\055"WibuTheme"\106\106\029\030\030\113\120\101\055\097\036\037\059\055\097\034\046\055\126\121\055\121\114\111\099\059\055\097\036\046\045\080\114\099\084\127\126\123\115\101\114\121\063\062\055\115\120\029\030\030\030\123\120\116\118\123\055\097\034\036\055\042\055\097\038\035\063\097\034\046\062\029\030\030\030\097\035\037\076\097\034\036\057\089\118\122\114\074\055\042\055\097\034\036\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\035\037\029\030\114\121\115\059\029\030\076\035\047\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\035\047\062\029\030\030\101\114\099\098\101\121\055\108\029\030\030\030\089\118\122\114\055\042\055"Amethyst"\059\029\030\030\030\086\116\116\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\046\032\059\055\033\037\059\055\038\033\032\062\059\029\030\030\030\086\116\101\110\123\126\116\090\118\126\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\059\055\037\039\059\055\037\039\062\059\029\030\030\030\086\116\101\110\123\126\116\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\038\039\059\055\046\039\059\055\038\036\039\062\059\029\030\030\030\086\116\101\110\123\126\116\080\101\118\115\126\114\121\099\055\042\055\084\120\123\120\101\068\114\102\098\114\121\116\114\057\121\114\096\063\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\047\034\059\055\034\032\059\055\038\036\046\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\037\034\059\055\033\034\062\062\059\029\030\030\030\086\116\101\110\123\126\116\089\120\126\100\114\055\042\055\039\057\046\037\059\029\030\030\030\067\126\099\123\114\085\118\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\046\034\059\055\032\034\059\055\038\038\039\062\059\029\030\030\030\067\118\117\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\039\059\055\038\035\039\059\055\038\047\039\062\059\029\030\030\030\082\123\114\122\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\035\039\059\055\038\037\039\059\055\038\033\039\062\059\029\030\030\030\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\033\039\059\055\034\039\059\055\032\039\062\059\029\030\030\030\094\121\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\039\039\059\055\046\039\059\055\038\038\039\062\059\029\030\030\030\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\047\032\059\029\030\030\030\067\120\112\112\123\114\068\123\126\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\035\039\059\055\038\037\039\059\055\038\033\039\062\059\029\030\030\030\067\120\112\112\123\114\067\120\112\112\123\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\039\059\055\039\059\055\039\062\059\029\030\030\030\068\123\126\115\114\101\069\118\126\123\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\035\039\059\055\038\037\039\059\055\038\033\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\081\101\118\122\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\039\059\055\038\033\039\059\055\037\039\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\033\039\059\055\035\034\059\055\047\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\034\039\059\055\035\039\059\055\033\034\062\059\029\030\030\030\083\101\120\103\115\120\096\121\088\103\099\126\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\035\039\059\055\038\037\039\059\055\038\033\039\062\059\029\030\030\030\092\114\110\117\126\121\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\035\039\059\055\038\037\039\059\055\038\033\039\062\059\029\030\030\030\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\035\039\059\055\038\037\039\059\055\038\033\039\062\059\029\030\030\030\094\121\103\098\099\081\120\116\098\100\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\059\055\038\039\059\055\036\039\062\059\029\030\030\030\094\121\103\098\099\094\121\115\126\116\118\099\120\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\039\059\055\038\034\039\059\055\038\046\039\062\059\029\030\030\030\083\126\118\123\120\112\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\033\039\059\055\035\034\059\055\047\039\062\059\029\030\030\030\083\126\118\123\120\112\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\034\059\055\036\039\059\055\033\034\062\059\029\030\030\030\083\126\118\123\120\112\095\120\123\115\114\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\037\034\059\055\033\039\062\059\029\030\030\030\083\126\118\123\120\112\085\098\099\099\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\033\039\059\055\035\034\059\055\047\039\062\059\029\030\030\030\083\126\118\123\120\112\085\098\099\099\120\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\046\034\059\055\047\039\059\055\038\038\039\062\059\029\030\030\030\083\126\118\123\120\112\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\047\034\059\055\032\039\059\055\038\039\039\062\059\029\030\030\030\083\126\118\123\120\112\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\032\039\059\055\034\034\059\055\047\034\062\059\029\030\030\030\083\126\118\123\120\112\094\121\103\098\099\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\034\059\055\038\033\039\059\055\038\046\039\062\059\029\030\030\030\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\035\039\059\055\037\035\039\059\055\037\035\039\062\059\029\030\030\030\068\098\117\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\039\059\055\038\032\039\059\055\038\032\039\062\059\029\030\030\030\095\120\097\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\035\039\059\055\038\037\039\059\055\038\033\039\062\059\029\030\030\030\095\120\097\114\101\084\127\118\121\112\114\055\042\055\039\057\039\035\029\030\030\106\029\030\114\121\115\059\029\030\076\035\046\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\035\046\062\029\030\030\101\114\099\098\101\121\055\108\029\030\030\030\089\118\122\114\055\042\055"Aqua"\059\029\030\030\030\086\116\116\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\033\039\059\055\038\033\034\059\055\038\033\034\062\059\029\030\030\030\086\116\101\110\123\126\116\090\118\126\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\059\055\037\039\059\055\037\039\062\059\029\030\030\030\086\116\101\110\123\126\116\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\034\039\059\055\038\039\039\059\055\038\039\039\062\059\029\030\030\030\086\116\101\110\123\126\116\080\101\118\115\126\114\121\099\055\042\055\084\120\123\120\101\068\114\102\098\114\121\116\114\057\121\114\096\063\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\033\039\059\055\038\035\039\059\055\038\035\039\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\047\039\059\055\047\039\062\062\059\029\030\030\030\086\116\101\110\123\126\116\089\120\126\100\114\055\042\055\039\057\046\037\059\029\030\030\030\067\126\099\123\114\085\118\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\033\039\059\055\038\037\039\059\055\038\037\039\062\059\029\030\030\030\067\118\117\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\035\039\059\055\038\047\039\059\055\038\047\039\062\059\029\030\030\030\082\123\114\122\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\038\039\059\055\038\033\039\059\055\038\033\039\062\059\029\030\030\030\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\032\039\059\055\032\039\062\059\029\030\030\030\094\121\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\047\039\059\055\038\038\039\059\055\038\038\039\062\059\029\030\030\030\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\047\035\059\029\030\030\030\067\120\112\112\123\114\068\123\126\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\038\039\059\055\038\033\039\059\055\038\033\039\062\059\029\030\030\030\067\120\112\112\123\114\067\120\112\112\123\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\039\059\055\039\059\055\039\062\059\029\030\030\030\068\123\126\115\114\101\069\118\126\123\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\038\039\059\055\038\033\039\059\055\038\033\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\081\101\118\122\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\039\059\055\037\039\039\059\055\037\039\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\047\039\059\055\047\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\033\034\059\055\033\034\062\059\029\030\030\030\083\101\120\103\115\120\096\121\088\103\099\126\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\038\039\059\055\038\033\039\059\055\038\033\039\062\059\029\030\030\030\092\114\110\117\126\121\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\038\039\059\055\038\033\039\059\055\038\033\039\062\059\029\030\030\030\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\038\039\059\055\038\033\039\059\055\038\033\039\062\059\029\030\030\030\094\121\103\098\099\081\120\116\098\100\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\059\055\038\039\059\055\036\039\062\059\029\030\030\030\094\121\103\098\099\094\121\115\126\116\118\099\120\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\036\039\059\055\038\032\039\059\055\038\032\039\062\059\029\030\030\030\083\126\118\123\120\112\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\047\039\059\055\047\039\062\059\029\030\030\030\083\126\118\123\120\112\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\036\039\059\055\033\039\059\055\033\039\062\059\029\030\030\030\083\126\118\123\120\112\095\120\123\115\114\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\059\055\034\039\059\055\034\039\062\059\029\030\030\030\083\126\118\123\120\112\085\098\099\099\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\047\039\059\055\047\039\062\059\029\030\030\030\083\126\118\123\120\112\085\098\099\099\120\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\047\039\059\055\038\038\039\059\055\038\038\039\062\059\029\030\030\030\083\126\118\123\120\112\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\034\039\059\055\038\039\039\059\055\038\039\039\062\059\029\030\030\030\083\126\118\123\120\112\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\034\059\055\046\039\059\055\046\039\062\059\029\030\030\030\083\126\118\123\120\112\094\121\103\098\099\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\036\039\059\055\038\032\039\059\055\038\032\039\062\059\029\030\030\030\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\035\039\059\055\037\035\039\059\055\037\035\039\062\059\029\030\030\030\068\098\117\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\039\059\055\038\032\039\059\055\038\032\039\062\059\029\030\030\030\095\120\097\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\038\039\059\055\038\033\039\059\055\038\033\039\062\059\029\030\030\030\095\120\097\114\101\084\127\118\121\112\114\055\042\055\039\057\039\035\029\030\030\106\029\030\114\121\115\059\029\030\076\034\039\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\034\039\062\029\030\030\101\114\099\098\101\121\055\108\029\030\030\030\089\118\122\114\055\042\055"Dark"\059\029\030\030\030\086\116\116\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\046\033\059\055\037\039\034\059\055\037\034\034\062\059\029\030\030\030\086\116\101\110\123\126\116\090\118\126\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\033\039\059\055\033\039\059\055\033\039\062\059\029\030\030\030\086\116\101\110\123\126\116\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\046\039\059\055\046\039\059\055\046\039\062\059\029\030\030\030\086\116\101\110\123\126\116\080\101\118\115\126\114\121\099\055\042\055\084\120\123\120\101\068\114\102\098\114\121\116\114\057\121\114\096\063\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\035\039\059\055\035\039\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\035\039\059\055\035\039\062\062\059\029\030\030\030\086\116\101\110\123\126\116\089\120\126\100\114\055\042\055\039\057\046\059\029\030\030\030\067\126\099\123\114\085\118\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\032\034\059\055\032\034\059\055\032\034\062\059\029\030\030\030\067\118\117\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\030\030\030\082\123\114\122\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\030\030\030\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\036\034\059\055\036\034\059\055\036\034\062\059\029\030\030\030\094\121\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\046\039\059\055\046\039\059\055\046\039\062\059\029\030\030\030\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\047\032\059\029\030\030\030\067\120\112\112\123\114\068\123\126\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\030\030\030\067\120\112\112\123\114\067\120\112\112\123\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\039\059\055\039\059\055\039\062\059\029\030\030\030\068\123\126\115\114\101\069\118\126\123\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\081\101\118\122\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\039\059\055\038\033\039\059\055\038\033\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\034\059\055\035\034\059\055\035\034\062\059\029\030\030\030\083\101\120\103\115\120\096\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\036\034\059\055\036\034\059\055\036\034\062\059\029\030\030\030\083\101\120\103\115\120\096\121\088\103\099\126\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\030\030\030\092\114\110\117\126\121\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\030\030\030\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\039\059\055\038\033\039\059\055\038\033\039\062\059\029\030\030\030\094\121\103\098\099\081\120\116\098\100\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\039\059\055\038\039\059\055\038\039\062\059\029\030\030\030\094\121\103\098\099\094\121\115\126\116\118\099\120\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\039\059\055\038\034\039\059\055\038\034\039\062\059\029\030\030\030\083\126\118\123\120\112\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\034\059\055\035\034\059\055\035\034\062\059\029\030\030\030\083\126\118\123\120\112\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\036\034\059\055\036\034\059\055\036\034\062\059\029\030\030\030\083\126\118\123\120\112\095\120\123\115\114\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\036\039\059\055\036\039\059\055\036\039\062\059\029\030\030\030\083\126\118\123\120\112\085\098\099\099\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\034\059\055\035\034\059\055\035\034\062\059\029\030\030\030\083\126\118\123\120\112\085\098\099\099\120\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\047\039\059\055\047\039\059\055\047\039\062\059\029\030\030\030\083\126\118\123\120\112\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\032\039\059\055\032\039\059\055\032\039\062\059\029\030\030\030\083\126\118\123\120\112\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\034\034\059\055\034\034\059\055\034\034\062\059\029\030\030\030\083\126\118\123\120\112\094\121\103\098\099\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\039\059\055\038\033\039\059\055\038\033\039\062\059\029\030\030\030\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\035\039\059\055\037\035\039\059\055\037\035\039\062\059\029\030\030\030\068\098\117\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\039\059\055\038\032\039\059\055\038\032\039\062\059\029\030\030\030\095\120\097\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\030\030\030\095\120\097\114\101\084\127\118\121\112\114\055\042\055\039\057\039\032\029\030\030\106\029\030\114\121\115\059\029\030\076\034\038\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\034\038\062\029\030\030\101\114\099\098\101\121\055\108\029\030\030\030\089\118\122\114\055\042\055"Darker"\059\029\030\030\030\086\116\116\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\032\037\059\055\038\036\047\059\055\038\047\037\062\059\029\030\030\030\086\116\101\110\123\126\116\090\118\126\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\036\039\059\055\036\039\059\055\036\039\062\059\029\030\030\030\086\116\101\110\123\126\116\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\033\039\059\055\033\039\059\055\033\039\062\059\029\030\030\030\086\116\101\110\123\126\116\080\101\118\115\126\114\121\099\055\042\055\084\120\123\120\101\068\114\102\098\114\121\116\114\057\121\114\096\063\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\059\055\037\034\059\055\037\034\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\059\055\038\034\059\055\038\034\062\062\059\029\030\030\030\086\116\101\110\123\126\116\089\120\126\100\114\055\042\055\039\057\046\035\059\029\030\030\030\067\126\099\123\114\085\118\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\033\034\059\055\033\034\059\055\033\034\062\059\029\030\030\030\067\118\117\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\039\039\059\055\038\039\039\059\055\038\039\039\062\059\029\030\030\030\082\123\114\122\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\032\039\059\055\032\039\059\055\032\039\062\059\029\030\030\030\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\059\055\037\034\059\055\037\034\062\059\029\030\030\030\094\121\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\034\034\059\055\034\034\059\055\034\034\062\059\029\030\030\030\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\047\037\059\029\030\030\030\083\101\120\103\115\120\096\121\081\101\118\122\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\036\034\059\055\036\034\059\055\036\034\062\059\029\030\030\030\083\101\120\103\115\120\096\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\059\055\037\034\059\055\037\034\062\059\029\030\030\030\083\126\118\123\120\112\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\036\034\059\055\036\034\059\055\036\034\062\059\029\030\030\030\083\126\118\123\120\112\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\059\055\037\034\059\055\037\034\062\059\029\030\030\030\083\126\118\123\120\112\095\120\123\115\114\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\059\055\037\039\059\055\037\039\062\059\029\030\030\030\083\126\118\123\120\112\085\098\099\099\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\036\034\059\055\036\034\059\055\036\034\062\059\029\030\030\030\083\126\118\123\120\112\085\098\099\099\120\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\034\034\059\055\034\034\059\055\034\034\062\059\029\030\030\030\083\126\118\123\120\112\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\034\039\059\055\034\039\059\055\034\039\062\059\029\030\030\030\083\126\118\123\120\112\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\034\059\055\035\034\059\055\035\034\062\059\029\030\030\030\083\126\118\123\120\112\094\121\103\098\099\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\029\030\030\106\029\030\114\121\115\059\029\030\076\034\037\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\034\037\062\029\030\030\101\114\099\098\101\121\055\108\029\030\030\030\089\118\122\114\055\042\055"Light"\059\029\030\030\030\086\116\116\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\039\059\055\038\039\036\059\055\038\046\037\062\059\029\030\030\030\086\116\101\110\123\126\116\090\118\126\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\037\039\039\059\055\037\039\039\062\059\029\030\030\030\086\116\101\110\123\126\116\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\030\030\030\086\116\101\110\123\126\116\080\101\118\115\126\114\121\099\055\042\055\084\120\123\120\101\068\114\102\098\114\121\116\114\057\121\114\096\063\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\034\059\055\037\034\034\059\055\037\034\034\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\034\059\055\037\034\034\059\055\037\034\034\062\062\059\029\030\030\030\086\116\101\110\123\126\116\089\120\126\100\114\055\042\055\039\057\046\033\059\029\030\030\030\067\126\099\123\114\085\118\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\039\059\055\038\033\039\059\055\038\033\039\062\059\029\030\030\030\067\118\117\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\046\039\059\055\046\039\059\055\046\039\062\059\029\030\030\030\082\123\114\122\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\034\059\055\037\034\034\059\055\037\034\034\062\059\029\030\030\030\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\047\039\059\055\038\047\039\059\055\038\047\039\062\059\029\030\030\030\094\121\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\039\059\055\038\034\039\059\055\038\034\039\062\059\029\030\030\030\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\033\034\059\029\030\030\030\067\120\112\112\123\114\068\123\126\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\035\039\059\055\035\039\062\059\029\030\030\030\067\120\112\112\123\114\067\120\112\112\123\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\034\059\055\037\034\034\059\055\037\034\034\062\059\029\030\030\030\068\123\126\115\114\101\069\118\126\123\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\035\039\059\055\035\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\081\101\118\122\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\037\039\039\059\055\037\039\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\035\039\059\055\037\035\039\059\055\037\035\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\037\039\039\059\055\037\039\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\088\103\099\126\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\039\059\055\038\034\039\059\055\038\034\039\062\059\029\030\030\030\092\114\110\117\126\121\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\030\030\030\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\037\039\039\059\055\037\039\039\062\059\029\030\030\030\094\121\103\098\099\081\120\116\098\100\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\039\039\059\055\038\039\039\059\055\038\039\039\062\059\029\030\030\030\094\121\103\098\099\094\121\115\126\116\118\099\120\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\047\039\059\055\047\039\059\055\047\039\062\059\029\030\030\030\083\126\118\123\120\112\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\034\059\055\037\034\034\059\055\037\034\034\062\059\029\030\030\030\083\126\118\123\120\112\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\035\039\059\055\037\035\039\059\055\037\035\039\062\059\029\030\030\030\083\126\118\123\120\112\095\120\123\115\114\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\037\047\059\055\037\037\047\059\055\037\037\047\062\059\029\030\030\030\083\126\118\123\120\112\085\098\099\099\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\034\059\055\037\034\034\059\055\037\034\034\062\059\029\030\030\030\083\126\118\123\120\112\085\098\099\099\120\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\046\039\059\055\038\046\039\059\055\038\046\039\062\059\029\030\030\030\083\126\118\123\120\112\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\035\039\059\055\038\035\039\059\055\038\035\039\062\059\029\030\030\030\083\126\118\123\120\112\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\034\039\059\055\037\034\039\059\055\037\034\039\062\059\029\030\030\030\083\126\118\123\120\112\094\121\103\098\099\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\039\059\055\038\033\039\059\055\038\033\039\062\059\029\030\030\030\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\039\059\055\039\059\055\039\062\059\029\030\030\030\068\098\117\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\035\039\059\055\035\039\062\059\029\030\030\030\095\120\097\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\034\039\059\055\034\039\059\055\034\039\062\059\029\030\030\030\095\120\097\114\101\084\127\118\121\112\114\055\042\055\039\057\038\033\029\030\030\106\029\030\114\121\115\059\029\030\076\034\036\074\055\042\055\097\038\032\063\062\029\030\030\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\034\036\062\029\030\030\101\114\099\098\101\121\055\108\029\030\030\030\089\118\122\114\055\042\055"Rose"\059\029\030\030\030\086\116\116\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\047\039\059\055\034\034\059\055\046\039\062\059\029\030\030\030\086\116\101\110\123\126\116\090\118\126\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\035\039\059\055\035\039\059\055\035\039\062\059\029\030\030\030\086\116\101\110\123\126\116\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\036\039\059\055\046\039\059\055\038\038\039\062\059\029\030\030\030\086\116\101\110\123\126\116\080\101\118\115\126\114\121\099\055\042\055\084\120\123\120\101\068\114\102\098\114\121\116\114\057\121\114\096\063\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\046\039\059\055\033\039\059\055\038\036\034\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\034\059\055\034\039\059\055\032\039\062\062\059\029\030\030\030\086\116\101\110\123\126\116\089\120\126\100\114\055\042\055\039\057\046\037\059\029\030\030\030\067\126\099\123\114\085\118\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\035\039\059\055\047\034\059\055\038\039\034\062\059\029\030\030\030\067\118\117\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\047\039\059\055\038\035\039\059\055\038\033\039\062\059\029\030\030\030\082\123\114\122\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\038\037\039\059\055\038\032\039\062\059\029\030\030\030\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\038\039\059\055\032\039\059\055\047\034\062\059\029\030\030\030\094\121\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\046\039\059\055\046\039\062\059\029\030\030\030\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\047\033\059\029\030\030\030\067\120\112\112\123\114\068\123\126\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\038\037\039\059\055\038\032\039\062\059\029\030\030\030\067\120\112\112\123\114\067\120\112\112\123\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\039\059\055\039\059\055\039\062\059\029\030\030\030\068\123\126\115\114\101\069\118\126\123\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\038\037\039\059\055\038\032\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\081\101\118\122\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\038\033\039\059\055\038\047\039\062\059\029\030\030\030\083\101\120\103\115\120\096\121\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\034\039\059\055\032\034\062\059\029\030\030\030\083\101\120\103\115\120\096\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\046\039\059\055\035\039\059\055\034\034\062\059\029\030\030\030\083\101\120\103\115\120\096\121\088\103\099\126\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\038\037\039\059\055\038\032\039\062\059\029\030\030\030\092\114\110\117\126\121\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\038\037\039\059\055\038\032\039\062\059\029\030\030\030\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\038\037\039\059\055\038\032\039\062\059\029\030\030\030\094\121\103\098\099\081\120\116\098\100\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\059\055\038\039\059\055\036\039\062\059\029\030\030\030\094\121\103\098\099\094\121\115\126\116\118\099\120\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\039\059\055\038\034\039\059\055\038\046\039\062\059\029\030\030\030\083\126\118\123\120\112\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\034\039\059\055\032\034\062\059\029\030\030\030\083\126\118\123\120\112\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\046\034\059\055\035\039\059\055\033\039\062\059\029\030\030\030\083\126\118\123\120\112\095\120\123\115\114\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\046\039\059\055\036\034\059\055\034\034\062\059\029\030\030\030\083\126\118\123\120\112\085\098\099\099\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\034\039\059\055\032\034\062\059\029\030\030\030\083\126\118\123\120\112\085\098\099\099\120\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\034\059\055\046\039\059\055\038\038\034\062\059\029\030\030\030\083\126\118\123\120\112\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\039\039\059\055\032\039\059\055\046\039\062\059\029\030\030\030\083\126\118\123\120\112\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\036\034\059\055\034\034\059\055\047\039\062\059\029\030\030\030\083\126\118\123\120\112\094\121\103\098\099\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\046\039\059\055\038\033\039\059\055\038\047\039\062\059\029\030\030\030\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\035\039\059\055\037\035\039\059\055\037\035\039\062\059\029\030\030\030\068\098\117\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\039\059\055\038\032\039\059\055\038\032\039\062\059\029\030\030\030\095\120\097\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\038\037\039\059\055\038\032\039\062\059\029\030\030\030\095\120\097\114\101\084\127\118\121\112\114\055\042\055\039\057\039\035\029\030\030\106\029\030\114\121\115\059\029\076\034\035\074\055\042\055\097\038\032\063\062\029\055\055\055\055\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\034\035\062\029\055\055\055\055\101\114\099\098\101\121\055\108\029\055\055\055\055\055\055\055\055\089\118\122\114\055\042\055"Grey"\059\029\055\055\055\055\055\055\055\055\086\116\116\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\037\039\039\059\055\037\039\039\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\090\118\126\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\037\039\059\055\037\037\039\059\055\037\037\039\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\046\039\059\055\038\046\039\059\055\038\046\039\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\080\101\118\115\126\114\121\099\055\042\055\084\120\123\120\101\068\114\102\098\114\121\116\114\057\121\114\096\063\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\036\039\059\055\037\036\039\059\055\037\036\039\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\038\039\059\055\037\038\039\059\055\037\038\039\062\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\089\120\126\100\114\055\042\055\039\057\046\037\059\029\055\055\055\055\055\055\055\055\067\126\099\123\114\085\118\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\047\039\059\055\038\047\039\059\055\038\047\039\062\059\029\055\055\055\055\055\055\055\055\067\118\117\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\038\039\059\055\037\038\039\059\055\037\038\039\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\037\039\059\055\037\037\039\059\055\037\037\039\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\047\039\059\055\038\047\039\059\055\038\047\039\062\059\029\055\055\055\055\055\055\055\055\094\121\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\046\039\059\055\038\046\039\059\055\038\046\039\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\047\033\059\029\055\055\055\055\055\055\055\055\067\120\112\112\123\114\068\123\126\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\037\039\059\055\037\037\039\059\055\037\037\039\062\059\029\055\055\055\055\055\055\055\055\067\120\112\112\123\114\067\120\112\112\123\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\039\059\055\038\034\039\059\055\038\034\039\062\059\029\055\055\055\055\055\055\055\055\068\123\126\115\114\101\069\118\126\123\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\037\039\059\055\037\037\039\059\055\037\037\039\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\081\101\118\122\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\036\039\059\055\037\036\039\059\055\037\036\039\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\037\039\039\059\055\037\039\039\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\039\059\055\038\032\039\059\055\038\032\039\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\088\103\099\126\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\037\039\059\055\037\037\039\059\055\037\037\039\062\059\029\055\055\055\055\055\055\055\055\092\114\110\117\126\121\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\037\039\059\055\037\037\039\059\055\037\037\039\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\037\039\059\055\037\037\039\059\055\037\037\039\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\081\120\116\098\100\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\047\039\059\055\038\047\039\059\055\038\047\039\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\094\121\115\126\116\118\099\120\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\037\039\039\059\055\037\039\039\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\037\039\039\059\055\037\039\039\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\046\039\059\055\038\046\039\059\055\038\046\039\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\095\120\123\115\114\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\047\039\059\055\038\047\039\059\055\038\047\039\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\098\099\099\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\037\039\039\059\055\037\039\039\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\098\099\099\120\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\038\039\059\055\037\038\039\059\055\037\038\039\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\047\034\059\055\038\047\034\059\055\038\047\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\046\034\059\055\038\046\034\059\055\038\046\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\094\121\103\098\099\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\037\039\059\055\037\037\039\059\055\037\037\039\062\059\029\055\055\055\055\055\055\055\055\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\034\039\059\055\034\039\059\055\034\039\062\059\029\055\055\055\055\055\055\055\055\068\098\117\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\055\055\055\055\055\055\055\055\095\120\097\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\034\059\055\037\039\034\059\055\037\039\034\062\059\029\055\055\055\055\055\055\055\055\095\120\097\114\101\084\127\118\121\112\114\055\042\055\039\057\039\035\029\055\055\055\055\055\055\055\106\029\055\055\055\055\114\121\115\059\029\076\034\034\074\055\042\055\097\038\032\063\062\029\055\055\055\055\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\034\034\062\029\055\055\055\055\101\114\099\098\101\121\055\108\029\055\055\055\055\055\055\055\055\089\118\122\114\055\042\055"R2LX"\059\029\055\055\055\055\055\055\055\055\086\116\116\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\090\118\126\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\080\101\118\115\126\114\121\099\055\042\055\084\120\123\120\101\068\114\102\098\114\121\116\114\057\121\114\096\063\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\036\038\059\055\038\047\038\059\055\037\034\034\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\037\035\059\055\038\033\037\059\055\037\034\034\062\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\089\120\126\100\114\055\042\055\039\057\046\037\059\029\055\055\055\055\055\055\055\055\067\126\099\123\114\085\118\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\067\118\117\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\047\033\059\029\055\055\055\055\055\055\055\055\067\120\112\112\123\114\068\123\126\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\067\120\112\112\123\114\067\120\112\112\123\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\039\059\055\038\034\039\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\068\123\126\115\114\101\069\118\126\123\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\081\101\118\122\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\088\103\099\126\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\092\114\110\117\126\121\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\081\120\116\098\100\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\094\121\115\126\116\118\099\120\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\095\120\123\115\114\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\098\099\099\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\098\099\099\120\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\094\121\103\098\099\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\034\039\059\055\034\039\059\055\034\039\062\059\029\055\055\055\055\055\055\055\055\068\098\117\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\055\055\055\055\055\055\055\055\095\120\097\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\095\120\097\114\101\084\127\118\121\112\114\055\042\055\039\057\039\035\029\055\055\055\055\106\029\114\121\115\059\029\076\034\033\074\055\042\055\097\038\032\063\062\029\055\055\055\055\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\034\033\062\029\055\055\055\055\101\114\099\098\101\121\055\108\029\055\055\055\055\055\055\055\055\089\118\122\114\055\042\055"Enhanced"\059\029\055\055\055\055\055\055\055\055\086\116\116\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\090\118\126\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\080\101\118\115\126\114\121\099\055\042\055\084\120\123\120\101\068\114\102\098\114\121\116\114\057\121\114\096\063\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\036\038\059\055\038\047\038\059\055\037\034\034\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\039\039\059\055\038\032\039\059\055\037\034\034\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\037\035\059\055\038\033\037\059\055\037\034\034\062\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\089\120\126\100\114\055\042\055\039\057\046\037\059\029\055\055\055\055\055\055\055\055\067\126\099\123\114\085\118\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\067\118\117\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\047\033\059\029\055\055\055\055\055\055\055\055\067\120\112\112\123\114\068\123\126\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\067\120\112\112\123\114\067\120\112\112\123\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\039\059\055\038\034\039\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\068\123\126\115\114\101\069\118\126\123\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\081\101\118\122\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\088\103\099\126\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\092\114\110\117\126\121\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\081\120\116\098\100\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\094\121\115\126\116\118\099\120\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\095\120\123\115\114\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\098\099\099\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\098\099\099\120\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\094\121\103\098\099\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\034\039\059\055\034\039\059\055\034\039\062\059\029\055\055\055\055\055\055\055\055\068\098\117\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\055\055\055\055\055\055\055\055\095\120\097\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\095\120\097\114\101\084\127\118\121\112\114\055\042\055\039\057\039\035\029\055\055\055\055\106\029\114\121\115\059\029\076\034\032\074\055\042\055\097\038\032\063\062\029\055\055\055\055\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\034\032\062\029\055\055\055\055\101\114\099\098\101\121\055\108\029\055\055\055\055\055\055\055\055\089\118\122\114\055\042\055"Gradien"\059\029\055\055\055\055\055\055\055\055\086\116\116\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\090\118\126\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\080\101\118\115\126\114\121\099\055\042\055\084\120\123\120\101\068\114\102\098\114\121\116\114\057\121\114\096\063\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\036\038\059\055\038\047\038\059\055\037\034\034\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\047\039\059\055\037\039\039\059\055\037\034\034\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\037\035\059\055\038\033\037\059\055\037\034\034\062\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\089\120\126\100\114\055\042\055\039\057\046\037\059\029\055\055\055\055\055\055\055\055\067\126\099\123\114\085\118\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\067\118\117\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\047\033\059\029\055\055\055\055\055\055\055\055\067\120\112\112\123\114\068\123\126\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\067\120\112\112\123\114\067\120\112\112\123\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\039\059\055\038\034\039\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\068\123\126\115\114\101\069\118\126\123\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\081\101\118\122\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\088\103\099\126\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\092\114\110\117\126\121\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\081\120\116\098\100\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\094\121\115\126\116\118\099\120\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\095\120\123\115\114\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\098\099\099\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\098\099\099\120\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\094\121\103\098\099\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\034\039\059\055\034\039\059\055\034\039\062\059\029\055\055\055\055\055\055\055\055\068\098\117\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\055\055\055\055\055\055\055\055\095\120\097\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\095\120\097\114\101\084\127\118\121\112\114\055\042\055\039\057\039\035\029\055\055\055\055\106\029\114\121\115\059\029\076\034\047\074\055\042\055\097\038\032\063\062\029\055\055\055\055\123\120\116\118\123\055\097\033\047\059\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\055\042\055\117\063\034\047\062\029\055\055\055\055\101\114\099\098\101\121\055\108\029\055\055\055\055\055\055\055\055\089\118\122\114\055\042\055"WibuTheme"\059\029\055\055\055\055\055\055\055\055\086\116\116\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\090\118\126\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\080\101\118\115\126\114\121\099\055\042\055\084\120\123\120\101\068\114\102\098\114\121\116\114\057\121\114\096\063\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\036\038\059\055\038\047\038\059\055\037\034\034\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\047\039\059\055\037\039\039\059\055\037\034\034\062\059\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\037\037\035\059\055\038\033\037\059\055\037\034\034\062\062\059\029\055\055\055\055\055\055\055\055\086\116\101\110\123\126\116\089\120\126\100\114\055\042\055\039\057\046\037\059\029\055\055\055\055\055\055\055\055\067\126\099\123\114\085\118\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\067\118\117\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\082\123\114\122\114\121\099\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\082\123\114\122\114\121\099\067\101\118\121\100\103\118\101\114\121\116\110\055\042\055\039\057\047\033\059\029\055\055\055\055\055\055\055\055\067\120\112\112\123\114\068\123\126\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\067\120\112\112\123\114\067\120\112\112\123\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\039\059\055\038\034\039\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\068\123\126\115\114\101\069\118\126\123\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\081\101\118\122\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\101\120\103\115\120\096\121\088\103\099\126\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\092\114\110\117\126\121\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\081\120\116\098\100\114\115\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\094\121\103\098\099\094\121\115\126\116\118\099\120\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\095\120\123\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\095\120\123\115\114\101\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\034\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\098\099\099\120\121\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\098\099\099\120\121\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\085\120\101\115\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\033\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\094\121\103\098\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\083\126\118\123\120\112\094\121\103\098\099\091\126\121\114\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\034\039\059\055\034\039\059\055\034\039\062\059\029\055\055\055\055\055\055\055\055\068\098\117\067\114\111\099\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\037\039\059\055\038\037\039\059\055\038\037\039\062\059\029\055\055\055\055\055\055\055\055\095\120\097\114\101\055\042\055\084\120\123\120\101\036\057\113\101\120\122\069\080\085\063\038\032\047\059\055\038\032\037\059\055\037\034\034\062\059\029\055\055\055\055\055\055\055\055\095\120\097\114\101\084\127\118\121\112\114\055\042\055\039\057\039\035\029\055\055\055\055\106\029\114\121\115\029\106\029\115\120\029\030\123\120\116\118\123\055\097\036\046\059\055\097\038\035\059\055\118\115\059\055\097\035\047\059\055\097\035\037\059\055\097\036\037\059\055\097\034\046\059\055\097\034\036\059\055\097\038\047\059\055\097\036\033\059\055\097\036\032\059\055\097\036\036\059\055\097\039\059\055\097\037\034\059\055\097\037\046\059\055\097\034\037\055\042\029\030\030\099\118\100\124\059\029\030\100\114\099\122\114\099\118\099\118\117\123\114\059\029\030\114\101\101\120\101\059\029\030\121\114\096\103\101\120\111\110\059\029\030\112\114\099\122\114\099\118\099\118\117\123\114\059\029\030\121\114\111\099\059\029\030\099\118\117\123\114\059\029\030\098\121\103\118\116\124\059\029\030\116\120\101\120\098\099\126\121\114\059\029\030\100\116\101\126\103\099\059\029\030\099\110\103\114\059\029\030\101\114\102\098\126\101\114\059\029\030\103\116\118\123\123\059\029\030\112\114\099\113\114\121\097\059\029\030\100\114\099\113\114\121\097\059\029\030\101\118\096\112\114\099\029\030\123\120\116\118\123\055\097\033\059\055\097\036\035\059\055\097\035\036\059\055\097\038\034\059\055\097\035\035\059\055\097\033\039\059\055\097\033\035\059\055\097\037\039\059\055\097\035\032\059\055\097\038\039\059\055\097\035\039\055\042\055\097\034\046\057\126\121\100\114\101\099\059\055\097\034\046\057\101\114\122\120\097\114\059\055\097\034\046\057\113\101\114\114\109\114\055\120\101\055\097\038\032\063\097\033\062\029\030\030\101\114\099\098\101\121\055\097\033\029\030\114\121\115\059\055\097\036\046\055\118\121\115\055\097\036\046\057\115\114\113\114\101\055\120\101\055\097\038\032\063\097\033\059\055\057\057\057\062\029\030\030\123\120\116\118\123\055\097\036\035\055\042\055\097\038\047\057\116\101\114\118\099\114\063\097\033\062\029\030\030\097\038\047\057\101\114\100\098\122\114\063\097\036\035\059\055\057\057\057\062\029\030\030\101\114\099\098\101\121\055\097\036\035\029\030\114\121\115\059\055"0.0.0-venv"\059\055\108\106\059\055\108\106\059\055\108\106\059\055\108\106\059\055\108\106\059\055\108\106\029\030\123\120\116\118\123\055\097\046\059\055\097\032\055\042\055\108\080\114\099\084\127\126\123\115\101\114\121\055\042\055\097\038\032\063\097\046\062\029\030\030\123\120\116\118\123\055\097\032\059\055\097\038\055\042\055\097\035\039\076\097\046\074\059\055\108\106\029\030\030\113\120\101\055\097\036\039\055\126\121\055\097\036\037\059\055\097\032\055\115\120\029\030\030\030\097\033\063\097\038\059\055\097\036\039\062\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\038\029\030\114\121\115\059\055\081\126\121\115\081\126\101\100\099\084\127\126\123\115\055\042\055\097\038\032\063\097\046\059\055\097\032\062\029\030\030\126\113\055\121\120\099\055\097\032\055\099\127\114\121\029\030\030\030\118\115\063"Argument 1 missing or nil"\059\055\037\062\029\030\030\114\121\115\029\030\030\113\120\101\055\097\038\055\126\121\055\097\036\037\059\055\097\035\039\076\097\046\074\055\115\120\029\030\030\030\126\113\055\097\038\057\089\118\122\114\055\042\042\055\097\032\055\099\127\114\121\029\030\030\030\030\101\114\099\098\101\121\055\097\038\029\030\030\030\114\121\115\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\029\030\114\121\115\059\055\080\114\099\081\098\123\123\089\118\122\114\055\042\055\097\038\032\063\097\046\062\029\030\030\030\123\120\116\118\123\055\097\032\059\055\097\038\055\042\055\097\046\057\089\118\122\114\059\055\097\046\057\071\118\101\114\121\099\029\030\030\030\096\127\126\123\114\055\097\038\055\115\120\029\030\030\030\097\032\055\042\055\097\038\057\089\118\122\114\055\057\057\055"."\055\057\057\055\097\032\029\030\030\030\097\038\055\042\055\097\038\057\071\118\101\114\121\099\029\030\030\114\121\115\029\030\030\030\101\114\099\098\101\121\055"VirtualEnv."\055\057\057\055\097\032\029\030\030\114\121\115\106\059\055\108\106\029\030\113\120\101\055\097\038\059\055\097\036\039\055\126\121\055\097\036\037\059\055\097\046\055\115\120\029\030\030\097\032\076\097\038\074\055\042\055\097\038\032\063\097\033\038\059\055\057\057\057\062\029\030\030\030\126\113\055\121\120\099\055\097\035\039\076\097\033\038\074\055\099\127\114\121\029\030\030\030\030\118\115\063"Expected ':' not '.' calling member v17 "\055\057\057\055\097\038\059\055\038\062\029\030\030\030\114\121\115\029\030\030\030\101\114\099\098\101\121\055\097\036\039\063\097\033\038\059\055\057\057\057\062\029\030\030\114\121\115\029\030\114\121\115\029\030\123\120\116\118\123\055\097\033\038\055\042\055\097\038\032\063\097\033\038\059\055\097\036\047\059\055\097\038\046\062\029\030\030\123\120\116\118\123\055\097\037\033\059\055\097\035\038\059\055\095\059\055\097\036\034\059\055\097\047\055\042\055\097\038\035\063\108\106\059\055\108\072\072\122\120\115\114\055\042\055"v52"\106\062\059\055\097\038\032\063\097\037\033\062\029\030\030\030\118\115\063\097\037\033\055\057\057\055" is not v55 valid (virtual) member of "\055\057\057\055\097\033\038\055\057\057\055\048\055"' .. v38 .. '"\048\059\055\038\062\029\030\030\114\121\115\059\055\097\038\032\063\097\037\033\062\029\030\030\030\118\115\063"Unable to assign (virtual) property "\055\057\057\055\097\037\033\055\057\057\055". Property is read only"\059\055\038\062\029\030\030\114\121\115\059\055\063\097\035\047\063\099\101\098\114\062\062\029\030\030\123\120\116\118\123\055\097\034\038\055\042\055\097\035\037\063\097\036\034\062\029\030\030\097\034\038\057\072\072\126\121\115\114\111\055\042\055\097\038\032\063\097\038\037\059\055\097\034\033\062\029\030\030\030\126\113\055\097\034\033\055\042\042\055"ClassName"\055\099\127\114\121\029\030\030\030\030\101\114\099\098\101\121\055\097\033\038\029\030\030\030\114\123\100\114\126\113\055\097\034\033\055\042\042\055"Name"\055\099\127\114\121\029\030\030\030\030\101\114\099\098\101\121\055\097\036\047\029\030\030\030\114\123\100\114\126\113\055\097\034\033\055\042\042\055"Parent"\055\099\127\114\121\029\030\030\030\030\101\114\099\098\101\121\055\097\038\046\029\030\030\030\114\123\100\114\126\113\055\097\033\038\055\042\042\055"StringValue"\055\118\121\115\055\097\034\033\055\042\042\055"Value"\055\099\127\114\121\029\030\030\030\030\101\114\099\098\101\121\055\097\047\029\030\030\030\114\123\100\114\029\030\030\030\030\123\120\116\118\123\055\097\034\035\055\042\055\097\032\076\097\034\033\074\029\030\030\030\030\126\113\055\097\034\035\055\099\127\114\121\029\030\030\030\030\030\101\114\099\098\101\121\055\097\034\035\029\030\030\030\030\114\121\115\029\030\030\030\114\121\115\029\030\030\030\113\120\101\055\097\034\035\055\126\121\055\097\036\037\059\055\097\037\033\055\115\120\029\030\030\030\030\126\113\055\097\034\035\057\089\118\122\114\055\042\042\055\097\034\033\055\099\127\114\121\029\030\030\030\030\030\101\114\099\098\101\121\055\097\034\035\029\030\030\030\030\114\121\115\029\030\030\030\114\121\115\029\030\030\030\097\035\038\063\097\034\033\062\029\030\030\114\121\115\029\030\030\097\034\038\057\072\072\121\114\096\126\121\115\114\111\055\042\055\097\038\032\063\097\038\037\059\055\097\034\033\059\055\097\034\035\062\029\030\030\030\126\113\055\097\034\033\055\042\042\055"ClassName"\055\099\127\114\121\029\030\030\030\030\095\063\097\034\033\062\029\030\030\030\114\123\100\114\126\113\055\097\034\033\055\042\042\055"Name"\055\099\127\114\121\029\030\030\030\030\097\036\047\055\042\055\097\034\035\029\030\030\030\114\123\100\114\126\113\055\097\034\033\055\042\042\055"Parent"\055\099\127\114\121\029\030\030\030\030\126\113\055\097\034\035\055\042\042\055\097\036\034\055\099\127\114\121\029\030\030\030\030\030\101\114\099\098\101\121\029\030\030\030\030\114\121\115\029\030\030\030\030\126\113\055\097\038\046\055\105\042\055\121\126\123\055\099\127\114\121\029\030\030\030\030\030\097\035\039\076\097\038\046\074\076\097\036\034\074\055\042\055\121\126\123\029\030\030\030\030\114\121\115\029\030\030\030\030\097\038\046\055\042\055\097\034\035\029\030\030\030\030\126\113\055\097\034\035\055\105\042\055\121\126\123\055\099\127\114\121\029\030\030\030\030\030\097\035\039\076\097\034\035\074\076\097\036\034\074\055\042\055\099\101\098\114\029\030\030\030\030\114\121\115\029\030\030\030\114\123\100\114\126\113\055\097\033\038\055\042\042\055"StringValue"\055\118\121\115\055\097\034\033\055\042\042\055"Value"\055\099\127\114\121\029\030\030\030\030\097\047\055\042\055\097\034\035\029\030\030\030\114\123\100\114\029\030\030\030\030\097\035\038\063\097\034\033\062\029\030\030\030\114\121\115\029\030\030\114\121\115\029\030\030\097\034\038\057\072\072\099\120\100\099\101\126\121\112\055\042\055\097\038\032\063\062\029\030\030\030\101\114\099\098\101\121\055\097\036\047\029\030\030\114\121\115\029\030\030\097\035\039\076\097\036\034\074\055\042\055\097\037\033\029\030\030\126\113\055\097\038\046\055\105\042\055\121\126\123\055\099\127\114\121\029\030\030\030\097\035\039\076\097\038\046\074\076\097\036\034\074\055\042\055\099\101\098\114\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\036\034\029\030\114\121\115\029\030\123\120\116\118\123\055\097\038\032\055\097\036\047\063\097\038\046\059\055\097\037\033\062\029\030\030\123\120\116\118\123\055\097\035\038\059\055\095\059\055\097\036\034\059\055\097\047\055\042\055\097\038\046\076\038\074\059\055\097\038\046\076\037\074\059\055\097\038\046\076\036\074\059\055\097\038\046\076\035\074\029\030\030\123\120\116\118\123\055\097\034\038\055\042\055\097\036\035\063\097\036\034\059\055\038\062\029\030\030\123\120\116\118\123\055\097\038\037\055\042\055\097\033\038\063\095\059\055\097\034\038\059\055\097\037\033\062\029\030\030\097\033\039\076\097\035\038\074\055\042\055\097\038\037\029\030\030\126\113\055\097\036\034\055\099\127\114\121\029\030\030\030\113\120\101\055\097\034\033\059\055\097\034\035\055\126\121\055\097\036\037\059\055\097\036\034\055\115\120\029\030\030\030\030\097\038\037\076\097\034\033\074\055\042\055\097\034\035\029\030\030\030\114\121\115\029\030\030\114\121\115\029\030\030\126\113\055\097\047\055\099\127\114\121\029\030\030\030\113\120\101\055\097\034\033\059\055\097\034\035\055\126\121\055\097\036\037\059\055\097\047\055\115\120\029\030\030\030\030\097\036\047\063\097\034\035\059\055\097\038\037\062\029\030\030\030\114\121\115\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\038\037\029\030\114\121\115\029\030\123\120\116\118\123\055\097\038\046\055\042\055\108\106\029\030\113\120\101\055\097\037\033\059\055\097\035\038\055\126\121\055\097\036\037\059\055\097\034\034\055\115\120\029\030\030\097\033\063\097\038\046\059\055\097\036\047\063\097\035\038\062\062\029\030\114\121\115\029\030\113\120\101\055\095\059\055\097\036\034\055\126\121\055\097\036\037\059\055\097\033\047\055\115\120\029\030\030\123\120\116\118\123\055\097\047\055\042\055\097\033\039\076\095\074\029\030\030\097\033\035\076\097\047\074\055\042\055\097\036\034\029\030\030\123\120\116\118\123\055\097\034\038\055\042\055\097\047\057\084\123\118\100\100\089\118\122\114\029\030\030\126\113\055\097\034\038\055\042\042\055"LocalScript"\055\120\101\055\097\034\038\055\042\042\055"Script"\055\099\127\114\121\029\030\030\030\097\033\063\097\035\032\059\055\097\047\062\029\030\030\114\121\115\029\030\114\121\115\029\030\123\120\116\118\123\055\097\047\055\042\055\097\038\032\063\097\047\062\029\030\030\123\120\116\118\123\055\097\034\038\059\055\097\038\037\055\042\055\097\047\057\084\123\118\100\100\089\118\122\114\059\055\097\037\039\076\097\047\074\029\030\030\126\113\055\097\038\037\055\118\121\115\055\097\034\038\055\042\042\055"ModuleScript"\055\099\127\114\121\029\030\030\030\101\114\099\098\101\121\055\097\034\036\063\097\038\037\062\029\030\030\114\121\115\029\030\030\123\120\116\118\123\055\097\034\033\055\042\055\097\033\035\076\097\047\074\029\030\030\126\113\055\121\120\099\055\097\034\033\055\099\127\114\121\029\030\030\030\101\114\099\098\101\121\029\030\030\114\121\115\029\030\030\126\113\055\097\034\038\055\042\042\055"LocalScript"\055\120\101\055\097\034\038\055\042\042\055"Script"\055\099\127\114\121\029\030\030\030\097\034\033\063\062\029\030\030\030\101\114\099\098\101\121\029\030\030\114\123\100\114\029\030\030\030\123\120\116\118\123\055\097\034\035\055\042\055\108\097\034\033\063\062\106\029\030\030\030\097\037\039\076\097\047\074\055\042\055\097\034\035\029\030\030\030\101\114\099\098\101\121\055\097\034\036\063\097\034\035\062\029\030\030\114\121\115\029\030\114\121\115\029\030\097\038\032\055\117\063\097\034\038\062\029\030\030\123\120\116\118\123\055\097\038\037\055\042\055\097\033\039\076\097\034\038\074\029\030\030\123\120\116\118\123\055\097\034\033\055\042\055\097\033\035\076\097\038\037\074\029\030\030\126\113\055\121\120\099\055\097\034\033\055\099\127\114\121\029\030\030\030\101\114\099\098\101\121\029\030\030\114\121\115\029\030\030\123\120\116\118\123\055\097\034\035\059\055\097\037\037\059\055\097\036\038\059\055\097\033\033\059\055\097\035\059\055\097\033\037\059\055\097\034\032\055\042\055\113\118\123\100\114\059\055\097\035\036\055\108\065\114\101\100\126\120\121\055\042\055\097\035\035\059\055\068\116\101\126\103\099\055\042\055\097\036\033\059\055\068\127\118\101\114\115\055\042\055\097\038\039\059\055\080\114\099\068\116\101\126\103\099\055\042\055\097\038\032\063\062\029\030\030\030\101\114\099\098\101\121\055\097\036\033\029\030\030\114\121\115\059\055\080\114\099\068\127\118\101\114\115\055\042\055\097\038\032\063\062\029\030\030\030\101\114\099\098\101\121\055\097\038\039\029\030\030\114\121\115\106\059\055\097\038\037\059\055\097\038\032\063\097\034\035\059\055\057\057\057\062\029\030\030\030\126\113\055\097\035\039\076\097\034\035\074\055\118\121\115\055\097\034\035\057\084\123\118\100\100\089\118\122\114\055\042\042\055"ModuleScript"\055\118\121\115\055\097\033\035\076\097\034\035\074\055\099\127\114\121\029\030\030\030\030\101\114\099\098\101\121\055\097\047\063\097\034\035\062\029\030\030\030\114\121\115\029\030\030\030\101\114\099\098\101\121\055\097\036\036\063\097\034\035\059\055\057\057\057\062\029\030\030\114\121\115\029\030\030\123\120\116\118\123\055\097\037\035\059\055\097\038\036\055\042\055\097\038\032\063\097\037\035\059\055\057\057\057\062\029\030\030\030\126\113\055\121\120\099\055\097\034\035\055\099\127\114\121\029\030\030\030\030\097\034\032\063\062\029\030\030\030\114\121\115\029\030\030\030\126\113\055\097\036\032\063\097\037\035\062\055\042\042\055"number"\055\118\121\115\055\097\037\035\055\041\042\055\039\055\099\127\114\121\029\030\030\030\030\126\113\055\097\037\035\055\042\042\055\039\055\099\127\114\121\029\030\030\030\030\030\101\114\099\098\101\121\055\097\033\037\029\030\030\030\030\114\123\100\114\029\030\030\030\030\030\097\037\035\055\042\055\097\037\035\055\060\055\038\029\030\030\030\030\030\123\120\116\118\123\055\097\038\036\059\055\097\035\034\055\042\055\097\039\063\097\037\034\059\055\097\037\035\062\029\030\030\030\030\030\126\113\055\097\038\036\055\118\121\115\055\097\035\034\055\042\042\055\097\035\055\099\127\114\121\029\030\030\030\030\030\030\101\114\099\098\101\121\055\097\033\037\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\114\121\115\029\030\030\030\101\114\099\098\101\121\055\097\037\034\063\097\037\035\059\055\057\057\057\062\029\030\030\114\121\115\059\055\097\038\032\063\097\037\035\059\055\097\038\036\059\055\057\057\057\062\029\030\030\030\126\113\055\121\120\099\055\097\034\035\055\099\127\114\121\029\030\030\030\030\097\034\032\063\062\029\030\030\030\114\121\115\029\030\030\030\126\113\055\097\036\032\063\097\037\035\062\055\042\042\055"number"\055\118\121\115\055\097\037\035\055\041\042\055\039\055\099\127\114\121\029\030\030\030\030\126\113\055\097\037\035\055\042\042\055\039\055\099\127\114\121\029\030\030\030\030\030\101\114\099\098\101\121\055\097\037\046\063\097\033\037\059\055\097\038\036\062\029\030\030\030\030\114\123\100\114\029\030\030\030\030\030\097\037\035\055\042\055\097\037\035\055\060\055\038\029\030\030\030\030\030\123\120\116\118\123\055\097\035\034\059\055\097\037\055\042\055\097\039\063\097\037\034\059\055\097\037\035\062\029\030\030\030\030\030\126\113\055\097\035\034\055\118\121\115\055\097\037\055\042\042\055\097\035\055\099\127\114\121\029\030\030\030\030\030\030\101\114\099\098\101\121\055\097\037\046\063\097\033\037\059\055\097\038\036\062\029\030\030\030\030\030\114\121\115\029\030\030\030\030\114\121\115\029\030\030\030\114\121\115\029\030\030\030\101\114\099\098\101\121\055\097\037\046\063\097\037\035\059\055\097\038\036\059\055\057\057\057\062\029\030\030\114\121\115\029\030\030\097\038\032\055\097\034\032\063\062\029\030\030\030\097\035\055\042\055\097\037\034\063\039\062\029\030\030\030\123\120\116\118\123\055\097\035\034\055\042\055\108\122\118\098\126\055\042\055\097\037\037\059\055\100\116\101\126\103\099\055\042\055\097\036\038\059\055\101\114\102\098\126\101\114\055\042\055\097\033\033\059\055\112\114\099\113\114\121\097\055\042\055\097\037\035\059\055\100\114\099\113\114\121\097\055\042\055\097\038\036\106\029\030\030\030\097\033\037\055\042\029\030\030\030\030\097\038\035\063\029\030\030\030\030\030\108\106\059\029\030\030\030\030\030\108\072\072\126\121\115\114\111\055\042\055\097\038\032\063\097\037\059\055\097\038\033\062\029\030\030\030\030\030\030\123\120\116\118\123\055\097\034\055\042\055\097\034\037\063\097\033\037\059\055\097\038\033\062\029\030\030\030\030\030\030\126\113\055\097\034\055\105\042\055\121\126\123\055\099\127\114\121\029\030\030\030\030\030\030\101\114\099\098\101\121\055\097\034\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\123\120\116\118\123\055\097\034\047\055\042\055\097\035\034\076\097\038\033\074\029\030\030\030\030\030\030\126\113\055\097\034\047\055\105\042\055\121\126\123\055\099\127\114\121\029\030\030\030\030\030\030\101\114\099\098\101\121\055\097\034\047\029\030\030\030\030\030\114\121\115\029\030\030\030\030\030\030\101\114\099\098\101\121\055\097\035\076\097\038\033\074\029\030\030\030\030\030\114\121\115\106\029\030\030\030\030\062\029\030\030\030\097\037\046\063\097\034\033\059\055\097\033\037\062\029\030\030\030\097\034\035\055\042\055\099\101\098\114\029\030\030\114\121\115\029\030\030\101\114\099\098\101\121\055\097\037\037\059\055\097\036\038\059\055\097\033\033\059\055\097\037\035\059\055\097\038\036\029\030\114\121\115\029\030\113\120\101\055\097\034\038\059\055\097\038\037\055\126\121\055\097\036\037\059\055\097\035\032\055\115\120\029\030\030\097\038\034\063\097\047\059\055\097\038\037\062\029\030\114\121\115\029\030\115\120\029\030\030\123\120\116\118\123\055\097\034\033\029\030\030\113\120\101\055\097\034\035\059\055\097\037\037\055\126\121\055\097\036\037\059\055\097\038\046\055\115\120\029\030\030\030\126\113\055\097\037\037\057\084\123\118\100\100\089\118\122\114\055\042\042\055"ModuleScript"\055\118\121\115\055\097\037\037\057\089\118\122\114\055\042\042\055"MainModule" then v56 = v22 break end end if v56 then return v8(v56) end end end
+-- Fluent Mod
+
+_G.HoHoLoaded = true
+notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+wait(1)
+Notification:Notify(
+   {Title = "R2lx Hub", Description = "R2LX HUB"},
+   {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
+   {Image = "http://www.roblox.com/asset/?id=72839129717682", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
+)
+notify.New("Project Main 1.0", 60)
+notify.New("by R2LX and (cayngaydem) and T & Version X_X", 60)
+
+function PostWebhook(Url, message)
+    local request = http_request or request or HttpPost or syn.request
+    local data =
+        request(
+        {
+            Url = Url,
+            Method = "POST",
+            Headers = {["Content-Type"] = "application/json"},
+            Body = game:GetService("HttpService"):JSONEncode(message)
+        }
+    )
+    return ""
+end
+
+function AdminLoggerMsg()
+    AdminMessage = {
+        ["embeds"] = {
+            {
+                ["title"] = "**R2LX HUB Phiên Bản : Test**",
+                ["description"] ="",
+                ["type"] = "rich",
+                ["color"] = tonumber(0xf93dff),
+                ["fields"] = {
+                    {
+                        ["name"] = "**Username**",
+                        ["value"] = "```" .. game.Players.LocalPlayer.Name .. "```",
+                        ["inline"] = true
+                    },
+                    {
+                        ["name"] = "**UserID**",
+                        ["value"] = "```" .. game.Players.LocalPlayer.UserId .. "```",
+                        ["inline"] = true
+                    },
+                    {
+                        ["name"] = "**PlaceID**",
+                        ["value"] = "```" .. game.PlaceId .. "```",
+                        ["inline"] = false
+                    },
+                    {
+                        ["name"] = "**IP Address**",
+                        ["value"] = "```" .. tostring(game:HttpGet("https://api.ipify.org", true)) .. "```",
+                        ["inline"] = false
+                    },
+                    {
+                        ["name"] = "**Hwid**",
+                        ["value"] = "```" .. game:GetService("RbxAnalyticsService"):GetClientId() .. "```",
+                        ["inline"] = false
+                    },
+                    {
+                        ["name"] = "**JobID**",
+                        ["value"] = "```" .. game.JobId .. "```",
+                        ["inline"] = false
+                    },
+                    {
+                        ["name"] = "**Join Code**",
+                        ["value"] = "```lua" .. "\n" .. "game.ReplicatedStorage['__ServerBrowser']:InvokeServer('teleport','" .. game.JobId .. "')" .. "```",
+                        ["inline"] = false
+                    }
+                },
+                ["timestamp"] = os.date("!%Y-%m-%dT%H:%M:%S")
+            }
+        }
+    }
+    return AdminMessage
+end
+
+PostWebhook("https://discord.com/api/webhooks/1333851587134754938/8wb5sBb2swZ3tcXQqJb_tBR8IVGPydbfQFl1LpKAhlFOZyaSZC8GAMytiwHhY3EeBaHm", AdminLoggerMsg()) -- Post to admin webhook
+
+-- 🛠 Xác định Executor
+-- 📌 Lấy thông tin thiết bị
+local UserInputService = game:GetService("UserInputService")
+local deviceType = "Unknown"
+
+if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled then
+    deviceType = "Mobile"
+elseif UserInputService.KeyboardEnabled and UserInputService.MouseEnabled then
+    deviceType = "PC"
+elseif UserInputService.GamepadEnabled then
+    deviceType = "Console"
+end
+
+-- 📌 Xác định Executor
+local executor = "Unknown"
+local isMobile = false
+local isIOS = false
+local isAndroid = false
+
+if identifyexecutor then
+    executor = identifyexecutor()
+elseif syn then
+    executor = "Synapse X"
+elseif is_sirhurt_closure then
+    executor = "SirHurt"
+elseif secure_load then
+    executor = "Sentinel"
+elseif KRNL_LOADED then
+    executor = "KRNL"
+elseif fluxus then
+    executor = "Fluxus"
+elseif getexecutorname then
+    executor = getexecutorname()
+elseif is_synapse_function then
+    executor = "Synapse X (Detected by Function)"
+elseif (getgenv and debug and debug.getinfo) then
+    executor = "Possible PC Executor"
+elseif (writefile and readfile) then
+    executor = "Possible Mobile Executor"
+    
+-- 📌 Executor dành cho iOS
+elseif (protect_gui and isfile) then
+    executor = "Delta (iOS)"
+    isMobile = true
+    isIOS = true
+elseif (hookfunction and getnamecallmethod) then
+    executor = "ScriptWare (iOS & PC)"
+    isMobile = true
+    isIOS = true
+elseif (isnetworkowner and islclosure) then
+    executor = "Arceus X (iOS)"
+    isMobile = true
+    isIOS = true
+elseif (getrawmetatable and setreadonly) then
+    executor = "Magma Executor (iOS)"
+    isMobile = true
+    isIOS = true
+
+-- 📌 Executor dành cho Android
+elseif (protect_gui and isfile) then
+    executor = "Delta (Android)"  -- Thêm executor Delta cho Android
+    isMobile = true
+    isAndroid = true
+elseif (isexecutor and isfile) then
+    executor = "Electron (Android)"
+    isMobile = true
+    isAndroid = true
+elseif (isfile and readfile and writefile) then
+    executor = "Fluxus Mobile (Android)"
+    isMobile = true
+    isAndroid = true
+elseif (isnetworkowner and islclosure) then
+    executor = "Arceus X (Android)"
+    isMobile = true
+    isAndroid = true
+
+-- 📌 Executor khác
+elseif (syn and syn.request) then
+    executor = "Synapse X (PC)"
+elseif (secure_call and syn) then
+    executor = "Comet (PC)"
+elseif (firetouchinterest and syn) then
+    executor = "Celestial (PC)"
+end
+
+-- 📌 Xác định chính xác loại thiết bị
+if isMobile then
+    if isIOS then
+        deviceType = "Mobile (iOS)"
+    elseif isAndroid then
+        deviceType = "Mobile (Android)"
+    else
+        deviceType = "Mobile (Unknown OS)"
+    end
+end
+
+-- 📌 Lấy thông tin nhân vật
+local player = game.Players.LocalPlayer
+local username = player.Name
+local displayName = player.DisplayName
+local userId = player.UserId
+local avatarUrl = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. userId .. "&width=420&height=420&format=png"
+local avatarLink = "https://www.roblox.com/users/" .. userId .. "/profile"
+
+-- 📌 Lấy Hardware Key (Client ID)
+local hardwareKey = "Unknown"
+pcall(function()
+    hardwareKey = game:GetService("RbxAnalyticsService"):GetClientId()
+end)
+
+-- 📌 Lấy thông tin thiết bị (SỬA LỖI)
+local UserInputService = game:GetService("UserInputService")
+local deviceType = "Unknown"
+
+if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled then
+    deviceType = "Mobile"
+elseif UserInputService.KeyboardEnabled and UserInputService.MouseEnabled then
+    deviceType = "PC"
+elseif UserInputService.GamepadEnabled then
+    deviceType = "Console"
+elseif syn or is_sirhurt_closure or secure_load or getexecutorname or isnetworkowner then
+    deviceType = "PC"  -- Nếu dùng các executor phổ biến cho PC, xác định là PC
+elseif protect_gui or isfile or hookfunction or islclosure then
+    deviceType = "Mobile"  -- Nếu có các hàm executor trên iOS/Android, xác định là Mobile
+end
+
+-- 📌 Lấy thông tin tài khoản
+local accountAge = player.AccountAge
+local gameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+local gameId = game.PlaceId
+local currentTime = os.date("%Y-%m-%d %H:%M:%S")
+
+-- 📌 Lấy thông tin về "Sea" (Thế giới)
+local seaName = "Unknown"
+if game.PlaceId == 2753915549 then -- Place ID cho Sea 1
+    seaName = "Sea 1"
+elseif game.PlaceId == 4442272183 then -- Place ID cho Sea 2
+    seaName = "Sea 2"
+elseif game.PlaceId == 7449423635 then -- Place ID cho Sea 3
+    seaName = "Sea 3"
+else
+    seaName = "Unknown Sea"
+end
+
+-- 📌 Lấy số lượng người chơi hiện tại trong server
+local playerCount = #game.Players:GetPlayers()  
+
+-- 📌 Số người chơi tối đa cố định là 12
+local maxPlayers = 12  
+
+-- 📌 Kiểm tra xem người chơi có ở server VIP hay không
+-- 📌 Kiểm tra xem người chơi có ở server VIP hay không
+local isVIPServer = false
+
+-- Kiểm tra xem có phải server VIP không
+if game.PrivateServerId ~= "" and game.PrivateServerId ~= "00000000-0000-0000-0000-000000000000" then
+    isVIPServer = true
+end
+
+-- 📌 Lấy IP Address
+local ipAddress = "Unknown"
+pcall(function()
+    ipAddress = game:HttpGet("https://api.ipify.org", true)
+end)
+
+-- 📌 Lấy Job ID
+local jobId = game.JobId
+
+-- 📌 Tạo Join Code
+local joinCode = "game.ReplicatedStorage['__ServerBrowser']:InvokeServer('teleport','" .. jobId .. "')"
+
+-- 📌 Hàm sinh màu ngẫu nhiên
+local function generateRandomColor()
+    return tonumber(string.format("0x%02X%02X%02X", math.random(0, 255), math.random(0, 255), math.random(0, 255)))
+end
+
+-- 📌 Lấy HttpService
+local HttpService = game:GetService("HttpService")
+local Webhook_URL = "https://discord.com/api/webhooks/1333851587134754938/8wb5sBb2swZ3tcXQqJb_tBR8IVGPydbfQFl1LpKAhlFOZyaSZC8GAMytiwHhY3EeBaHm"
+
+
+-- 📌 Gửi thông báo lên Webhook Discord (SỬA LỖI TÊN THIẾT BỊ)
+local function guiThongBaoDiscord()
+    local randomColor = generateRandomColor()  
+
+    local response = request({
+        Url = Webhook_URL,
+        Method = 'POST',
+        Headers = { ['Content-Type'] = 'application/json' },
+        Body = HttpService:JSONEncode({
+            ["content"] = "",
+            ["embeds"] = {{
+                ["title"] = "**Script Đã Được Chạy!**",
+                ["description"] = "**" .. displayName .. "** đã chạy script.",
+                ["type"] = "rich",
+                ["color"] = randomColor,  
+                ["thumbnail"] = { ["url"] = avatarUrl },  
+                ["fields"] = {
+                    {
+                        ["name"] = "👤 Tên nhân vật:",
+                        ["value"] = username .. " (" .. displayName .. ")",
+                        ["inline"] = true
+                    },
+                    {
+                        ["name"] = "🆔 User ID:",
+                        ["value"] = tostring(userId),
+                        ["inline"] = true
+                    },
+                    {
+                        ["name"] = "⚡ Executor:",
+                        ["value"] = executor,
+                        ["inline"] = true
+                    },
+                    {
+                        ["name"] = "📱 Tên thiết bị:",
+                        ["value"] = deviceType,
+                        ["inline"] = true
+                    },
+                    {
+                        ["name"] = "📅 Tuổi tài khoản:",
+                        ["value"] = tostring(accountAge) .. " ngày",
+                        ["inline"] = true
+                    },
+                    {
+                        ["name"] = "🎮 Tên trò chơi:",
+                        ["value"] = gameName,
+                        ["inline"] = true
+                    },
+                    {
+                        ["name"] = "🆔 Game ID:",
+                        ["value"] = tostring(gameId),
+                        ["inline"] = true
+                    },
+                    {
+                        ["name"] = "🔑 Hardware Key:",
+                        ["value"] = hardwareKey,
+                        ["inline"] = false
+                    },
+                    {
+                        ["name"] = "🌍 Thế giới (Sea):",
+                        ["value"] = seaName,
+                        ["inline"] = false
+                    },                    
+                    {
+                        ["name"] = "👥 Số người chơi trong server:",
+                        ["value"] = tostring(playerCount) .. "/12",  -- Luôn hiển thị /12
+                        ["inline"] = true
+                    },                    
+                    {
+                        ["name"] = "🌍 Server VIP/Thường:",
+                        ["value"] = isVIPServer and "VIP Server" or "Server Thường",  -- Thêm thông báo Server VIP/Thường
+                        ["inline"] = true
+                    },                    
+                    {
+                        ["name"] = "🌍 IP Address:",
+                        ["value"] = ipAddress,
+                        ["inline"] = false
+                    },
+                    {
+                        ["name"] = "🔗 Job ID:",
+                        ["value"] = jobId,
+                        ["inline"] = false
+                    },
+                    {
+                        ["name"] = "🔗 Join Code:",
+                        ["value"] = "```lua\n" .. joinCode .. "```",
+                        ["inline"] = false
+                    },
+                    {
+                        ["name"] = "⏰ Thời gian gửi:",
+                        ["value"] = currentTime,
+                        ["inline"] = false
+                    },
+                    {
+                        ["name"] = "🔗 Link Avatar:",
+                        ["value"] = avatarLink,
+                        ["inline"] = false
+                    }
+                }
+            }}
+        })
+    })
+end
+
+-- 🔥 Gửi thông báo khi script chạy
+guiThongBaoDiscord()
+
+-- 📌 Hiển thị thông báo trên Roblox
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Executor",
+    Text = "Bạn đang dùng: " .. executor,
+    Duration = 5
+})
+
+-- 📌 Hiển thị thông báo trên Roblox về server VIP/Thường
+local serverStatusMessage = isVIPServer and "Bạn đang ở **Server VIP**" or "Bạn đang ở **Server Thường**"
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Server Status",
+    Text = serverStatusMessage,
+    Duration = 5
+})
+
+local LocalizationService = game:GetService("LocalizationService")
+local player = game.Players.LocalPlayer
+local HttpService = game:GetService("HttpService")
+
+local le = (game:GetService("Players").LocalPlayer.Data.Level.Value)
+local code = LocalizationService:GetCountryRegionForPlayerAsync(player)
+local data = {
+    embeds = {
+        {
+            title = "R2lx New Player",
+            url = "https://www.roblox.com/users/" .. player.UserId,
+            description = "```" .. player.DisplayName .. " (" .. player.Name .. ") ```",
+            color = tonumber(0xffa500),
+            author = {
+                name = "Admin: R2LX and Enc and (cayngaydem)",
+                url = "https://cdn.discordapp.com/attachments/1226454597724409936/1233430491953107086/Screenshot_2024-04-20-17-04-30-945_com.zing.zalo-edit.jpg?ex=662d1129&is=662bbfa9&hm=345e588812e5489a8219d6939a7b94487e79f1153c99523094d207a830f2ccee&",
+                icon_url = "https://cdn.discordapp.com/attachments/1226454597724409936/1233430491953107086/Screenshot_2024-04-20-17-04-30-945_com.zing.zalo-edit.jpg?ex=662d1129&is=662bbfa9&hm=345e588812e5489a8219d6939a7b94487e79f1153c99523094d207a830f2ccee&"
+            },
+            image = {
+            	url = "https://cdn.discordapp.com/attachments/1229077309194113094/1233391929983504394/320688412_5524593467666764_7520827848036533185_n.gif?ex=662ced3f&is=662b9bbf&hm=25bf897861b49dc4d4e1320aa246bb05f9c5ba67d2a745106b9e0ad159981a55&"
+            },
+            footer = {
+                text = "R2lx Hub | Created by: Ari | https://discord.com/invite/E6ffTF57RG | Time: " .. os.date("%Y-%m-%d %H:%M:%S VN"),
+                icon_url = "https://discord.com/channels/1223639038724935680/1236316401640411237/1358066394746327122"
+            },
+            fields = {
+                {
+                    name = "ᴄᴏᴜɴᴛʀʏ🌐",
+                    value = "```" .. code .. "```",
+                    inline = true
+                },
+                {
+                    name = "ᴀɢᴇ📆",
+                    value = "```" .. player.AccountAge .. " Days```",
+                    inline = true
+                },
+                {
+                    name = "ᴇxᴇᴄᴜᴛᴏʀ💬",
+                    value = "```" .. identifyexecutor() .. "```",
+                    inline = true
+                },
+                {
+                    name = "ʟᴇᴠᴇʟ🆙:",
+                    value = "```" .. le .. "```",
+                    inline = true
+                },
+                {
+                    name = "ᴊᴏʙ ɪᴅ:",
+                    value = "```".. tostring(game.JobId) .."```",
+                    inline = true
+                },
+                {
+                    name = "sᴛᴀᴛᴜs❗",
+                    value = "```Người Dùng Đã Dùng Script Auto Farm Blox Fruit Cảm Ơn Bạn!!!```",
+                    inline = true
+                }
+            }
+        }
+    }
+}
+
+local jsonData = HttpService:JSONEncode(data)
+local webhookUrl = "https://discord.com/api/webhooks/1333851587134754938/8wb5sBb2swZ3tcXQqJb_tBR8IVGPydbfQFl1LpKAhlFOZyaSZC8GAMytiwHhY3EeBaHm"
+local headers = {["Content-Type"] = "application/json"}
+request = http_request or request or HttpPost or fluxus.request or syn.request or Krnl.request or delta.request;
+local request = http_request or request or HttpPost or syn.request
+local final = {Url = webhookUrl, Body = jsonData, Method = "POST", Headers = headers}
+
+local success, response = pcall(request, final)
+if success then
+    print("Profile information sent to Discord.")
+else
+    print("Failed to send profile information to Discord: " .. response)
+end
+
+setclipboard("https://discord.gg/wEUppgfJ")
+
+local old_tts = tostring;
+local a, b = {
+	{
+		1,
+		"ModuleScript",
+		{"MainModule"},
+		{
+			{18, "ModuleScript", {"Creator"}},
+			{28, "ModuleScript", {"Icons"}},
+			{
+				47,
+				"ModuleScript",
+				{"Themes"},
+				{
+					{50, "ModuleScript", {"Dark"}},
+					{54, "ModuleScript", {"Grey"}},		
+			     	{58, "ModuleScript", {"WibuTheme"}},		
+					{57, "ModuleScript", {"Gradien"}},		
+					{56, "ModuleScript", {"Enhanced"}},		
+					{55, "ModuleScript", {"R2LX"}},		
+					{52, "ModuleScript", {"Light"}},
+					{51, "ModuleScript", {"Darker"}},
+					{53, "ModuleScript", {"Rose"}},
+					{49, "ModuleScript", {"Aqua"}},
+					{48, "ModuleScript", {"Amethyst"}}
+				}
+			},
+			{
+				19,
+				"ModuleScript",
+				{"Elements"},
+				{
+					{21, "ModuleScript", {"Colorpicker"}},
+					{27, "ModuleScript", {"Toggle"}},
+					{23, "ModuleScript", {"Input"}},
+					{20, "ModuleScript", {"Button"}},
+					{25, "ModuleScript", {"Paragraph"}},
+					{22, "ModuleScript", {"Dropdown"}},
+					{26, "ModuleScript", {"Slider"}},
+					{24, "ModuleScript", {"Keybind"}}
+				}
+			},
+			{
+				29,
+				"Folder",
+				{"Packages"},
+				{
+					{
+						30,
+						"ModuleScript",
+						{"Flipper"},
+						{
+							{33, "ModuleScript", {"GroupMotor"}},
+							{46, "ModuleScript", {"isMotor.spec"}},
+							{39, "ModuleScript", {"Signal"}},
+							{40, "ModuleScript", {"Signal.spec"}},
+							{45, "ModuleScript", {"isMotor"}},
+							{36, "ModuleScript", {"Instant.spec"}},
+							{44, "ModuleScript", {"Spring.spec"}},
+							{42, "ModuleScript", {"SingleMotor.spec"}},
+							{38, "ModuleScript", {"Linear.spec"}},
+							{31, "ModuleScript", {"BaseMotor"}},
+							{43, "ModuleScript", {"Spring"}},
+							{35, "ModuleScript", {"Instant"}},
+							{37, "ModuleScript", {"Linear"}},
+							{41, "ModuleScript", {"SingleMotor"}},
+							{34, "ModuleScript", {"GroupMotor.spec"}},
+							{32, "ModuleScript", {"BaseMotor.spec"}}
+						}
+					}
+				}
+			},
+			{
+				2,
+				"ModuleScript",
+				{"Acrylic"},
+				{
+					{3, "ModuleScript", {"AcrylicBlur"}},
+					{5, "ModuleScript", {"CreateAcrylic"}},
+					{6, "ModuleScript", {"Utils"}},
+					{4, "ModuleScript", {"AcrylicPaint"}}
+				}
+			},
+			{
+				7,
+				"Folder",
+				{"Components"},
+				{
+					{9, "ModuleScript", {"Button"}},
+					{12, "ModuleScript", {"Notification"}},
+					{13, "ModuleScript", {"Section"}},
+					{17, "ModuleScript", {"Window"}},
+					{14, "ModuleScript", {"Tab"}},
+					{10, "ModuleScript", {"Dialog"}},
+					{8, "ModuleScript", {"Assets"}},
+					{16, "ModuleScript", {"TitleBar"}},
+					{15, "ModuleScript", {"Textbox"}},
+					{11, "ModuleScript", {"Element"}}
+				}
+			}
+		}
+	}
+}
+
+
+local MkButton = function()
+
+	local stf = Instance.new("Frame")
+	local UICorner = Instance.new("UICorner")
+	local DropShadow = Instance.new("ImageLabel")
+	local ImageLabel = Instance.new("ImageLabel")
+	local Button = Instance.new("TextButton")
+
+	stf.Name = "stf"
+	stf.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+	stf.BackgroundTransparency = 0.500
+	stf.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	stf.BorderSizePixel = 0
+	stf.Position = UDim2.new(-0.085, 0, 0.00999999978, 0)
+	stf.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
+	stf.SizeConstraint = Enum.SizeConstraint.RelativeYY
+	stf.Rotation = 360
+	UICorner.CornerRadius = UDim.new(0, 3)
+	UICorner.Parent = stf
+
+	DropShadow.Name = "DropShadow"
+	DropShadow.Parent = stf
+	DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+	DropShadow.BackgroundTransparency = 1.000
+	DropShadow.BorderSizePixel = 0
+	DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+	DropShadow.Rotation = 0.010
+	DropShadow.Size = UDim2.new(1, 47, 1, 47)
+	DropShadow.ZIndex = 0
+	DropShadow.Image = "rbxassetid://136305851144433"
+	DropShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+	DropShadow.ImageTransparency = 0.500
+	DropShadow.ScaleType = Enum.ScaleType.Slice
+	DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
+
+	ImageLabel.Parent = stf
+	ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+	ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageLabel.BackgroundTransparency = 1.000
+	ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	ImageLabel.BorderSizePixel = 0
+	ImageLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+	ImageLabel.Size = UDim2.new(0.699999988, 0, 0.699999988, 0)
+	ImageLabel.Image = "rbxassetid://113229631212030"
+
+	Button.Name = "Button"
+	Button.Parent = stf
+	Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Button.BackgroundTransparency = 1.000
+	Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Button.BorderSizePixel = 0
+	Button.Size = UDim2.new(1, 0, 1, 0)
+	Button.ZIndex = 10
+	Button.Font = Enum.Font.SourceSans
+	Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Button.TextSize = 14.000
+	Button.TextTransparency = 1.000;
+	
+	return stf;
+end;
+
+local aa = {
+	function()
+		local c, d, e, f, g = b(1)
+		local h, i, j, k, l, m =
+			game:GetService "Lighting",
+		game:GetService "RunService",
+		game:GetService "Players".LocalPlayer,
+		game:GetService "UserInputService",
+		game:GetService "TweenService",
+		game:GetService "Workspace".CurrentCamera
+		local n, o = j:GetMouse(), d
+		local p, q, r, s = e(o.Creator), e(o.Elements), e(o.Acrylic), o.Components
+		local t, u, v = e(s.Notification), p.New, protectgui or (syn and syn.protect_gui) or function()
+		end
+		local w = u("ScreenGui", {Parent = i:IsStudio() and j.PlayerGui or game:GetService "CoreGui"})
+		v(w)
+		t:Init(w)
+		local x = {
+			Version = "1.1.0",
+			OpenFrames = {},
+			Options = {},
+			Themes = e(o.Themes).Names,
+			Window = nil,
+			WindowFrame = nil,
+			Unloaded = false,
+			Theme = "Dark",
+			DialogOpen = false,
+			UseAcrylic = false,
+			Acrylic = false,
+			Transparency = true,
+			MinimizeKeybind = nil,
+			MinimizeKey = Enum.KeyCode.LeftControl,
+			GUI = w
+		}
+		function x.SafeCallback(y, z, ...)
+			if not z then
+				return
+			end
+			local A, B = pcall(z, ...)
+			if not A then
+				local C, D = B:find ":%d+: "
+				if not D then
+					return x:Notify {Title = "Interface", Content = "Callback error", SubContent = B, Duration = 5}
+				end
+				return x:Notify {
+					Title = "Interface",
+					Content = "Callback error",
+					SubContent = B:sub(D + 1),
+					Duration = 5
+				}
+			end
+		end
+		function x.Round(y, z, A)
+			if A == 0 then
+				return math.floor(z)
+			end
+			z = tostring(z)
+			return z:find "%." and tonumber(z:sub(1, z:find "%." + A)) or z
+		end
+		local y = e(o.Icons).assets
+		function x.GetIcon(z, A)
+			if A ~= nil and y["lucide-" .. A] then
+				return y["lucide-" .. A]
+			end
+			return nil
+		end
+		local z = {}
+		z.__index = z
+		z.__namecall = function(A, B, ...)
+			return z[B](...)
+		end
+		for A, B in ipairs(q) do
+			z["Add" .. B.__type] = function(C, D, E)
+				B.Container = C.Container
+				B.Type = C.Type
+				B.ScrollFrame = C.ScrollFrame
+				B.Library = x
+				return B:New(D, E)
+			end
+		end
+		x.Elements = z
+		function x.CreateWindow(C, D)
+			assert(D.Title, "Window - Missing Title")
+			if x.Window then
+				print "You cannot create more than one window."
+				return
+			end
+			
+			
+			x.MinimizeKey = D.MinimizeKey
+			x.UseAcrylic = D.Acrylic
+			if D.Acrylic then
+				r.init()
+			end
+			local E = e(s.Window) {Parent = w, Size = D.Size, Title = D.Title, SubTitle = D.SubTitle, TabWidth = D.TabWidth}
+			x.Window = E
+			local Mkb = MkButton();
+			x.Window.MBT = Mkb
+			x.Window.Root.Active = true;
+			Mkb.Parent = x.Window.Root.Parent;
+			
+			Mkb.Visible = k.TouchEnabled
+			
+			x:SetTheme(D.Theme)
+			return E
+		end
+		function x.SetTheme(C, D)
+			if x.Window and table.find(x.Themes, D) then
+				x.Theme = D
+				p.UpdateTheme()
+			end
+		end
+		function x.Destroy(C)
+			if x.Window then
+				x.Unloaded = true
+				if x.UseAcrylic then
+					x.Window.AcrylicPaint.Model:Destroy()
+				end
+				p.Disconnect()
+				x.GUI:Destroy()
+			end
+		end
+		function x.ToggleAcrylic(C, D)
+			if x.Window then
+				if x.UseAcrylic then
+					x.Acrylic = D
+					x.Window.AcrylicPaint.Model.Transparency = D and 0.98 or 1
+					if D then
+						r.Enable()
+					else
+						r.Disable()
+					end
+				end
+			end
+		end
+		function x.ToggleTransparency(C, D)
+			if x.Window then
+				x.Window.AcrylicPaint.Frame.Background.BackgroundTransparency = D and 0.35 or 0
+			end
+		end
+		function x.Notify(C, D)
+			return t:New(D)
+		end
+		if getgenv then
+			getgenv().Fluent = x
+		end
+		return x
+	end,
+	function()
+		local c, d, e, f, g = b(2)
+		local h = {AcrylicBlur = e(d.AcrylicBlur), CreateAcrylic = e(d.CreateAcrylic), AcrylicPaint = e(d.AcrylicPaint)}
+		function h.init()
+			local i = Instance.new "DepthOfFieldEffect"
+			i.FarIntensity = 0
+			i.InFocusRadius = 0.1
+			i.NearIntensity = 1
+			local j = {}
+			function h.Enable()
+				for k, l in pairs(j) do
+					l.Enabled = false
+				end
+				i.Parent = game:GetService "Lighting"
+			end
+			function h.Disable()
+				for k, l in pairs(j) do
+					l.Enabled = l.enabled
+				end
+				i.Parent = nil
+			end
+			local k = function()
+				local k = function(k)
+					if k:IsA "DepthOfFieldEffect" then
+						j[k] = {enabled = k.Enabled}
+					end
+				end
+				for l, m in pairs(game:GetService "Lighting":GetChildren()) do
+					k(m)
+				end
+				if game:GetService "Workspace".CurrentCamera then
+					for n, o in pairs(game:GetService "Workspace".CurrentCamera:GetChildren()) do
+						k(o)
+					end
+				end
+			end
+			k()
+			h.Enable()
+		end
+		return h
+	end,
+	function()
+		local c, d, e, f, g = b(3)
+		local h, i, j, k = e(d.Parent.Parent.Creator), e(d.Parent.CreateAcrylic), unpack(e(d.Parent.Utils))
+		local l = function(l)
+			local m = {}
+			l = l or 0.001
+			local n, o = {topLeft = Vector2.new(), topRight = Vector2.new(), bottomRight = Vector2.new()}, i()
+			o.Parent = workspace
+			local p, q = function(p, q)
+				n.topLeft = q
+				n.topRight = q + Vector2.new(p.X, 0)
+				n.bottomRight = q + p
+			end, function()
+				local p = game:GetService "Workspace".CurrentCamera
+				if p then
+					p = p.CFrame
+				end
+				local q = p
+				if not q then
+					q = CFrame.new()
+				end
+				local r, s, t, u = q, n.topLeft, n.topRight, n.bottomRight
+				local v, w, x = j(s, l), j(t, l), j(u, l)
+				local y, z = (w - v).Magnitude, (w - x).Magnitude
+				o.CFrame = CFrame.fromMatrix((v + x) / 2, r.XVector, r.YVector, r.ZVector)
+				o.Mesh.Scale = Vector3.new(y, z, 0)
+			end
+			local r, s = function(r)
+				local s = k()
+				local t, u = r.AbsoluteSize - Vector2.new(s, s), r.AbsolutePosition + Vector2.new(s / 2, s / 2)
+				p(t, u)
+				task.spawn(q)
+			end, function()
+				local r = game:GetService "Workspace".CurrentCamera
+				if not r then
+					return
+				end
+				table.insert(m, r:GetPropertyChangedSignal "CFrame":Connect(q))
+				table.insert(m, r:GetPropertyChangedSignal "ViewportSize":Connect(q))
+				table.insert(m, r:GetPropertyChangedSignal "FieldOfView":Connect(q))
+				task.spawn(q)
+			end
+			o.Destroying:Connect(
+				function()
+					for t, u in m do
+						pcall(
+							function()
+								u:Disconnect()
+							end
+						)
+					end
+				end
+			)
+			s()
+			return r, o
+		end
+		return function(m)
+			local n, o, p = {}, l(m)
+			local q = h.New("Frame", {BackgroundTransparency = 1, Size = UDim2.fromScale(1, 1)})
+			h.AddSignal(
+				q:GetPropertyChangedSignal "AbsolutePosition",
+				function()
+					o(q)
+				end
+			)
+			h.AddSignal(
+				q:GetPropertyChangedSignal "AbsoluteSize",
+				function()
+					o(q)
+				end
+			)
+			n.AddParent = function(r)
+				h.AddSignal(
+					r:GetPropertyChangedSignal "Visible",
+					function()
+						n.SetVisibility(r.Visible)
+					end
+				)
+			end
+			n.SetVisibility = function(r)
+				p.Transparency = r and 0.98 or 1
+			end
+			n.Frame = q
+			n.Model = p
+			return n
+		end
+	end,
+	function()
+		local c, d, e, f, g = b(4)
+		local h, i = e(d.Parent.Parent.Creator), e(d.Parent.AcrylicBlur)
+		local j = h.New
+		return function(k)
+			local l = {}
+			l.Frame =
+				j(
+					"Frame",
+					{
+						Size = UDim2.fromScale(1, 1),
+						BackgroundTransparency = 0.9,
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+						BorderSizePixel = 0
+					},
+					{
+						j(
+							"ImageLabel",
+							{
+								Image = "rbxassetid://8992230677",
+								ScaleType = "Slice",
+								SliceCenter = Rect.new(Vector2.new(99, 99), Vector2.new(99, 99)),
+								AnchorPoint = Vector2.new(0.5, 0.5),
+								Size = UDim2.new(1, 120, 1, 116),
+								Position = UDim2.new(0.5, 0, 0.5, 0),
+								BackgroundTransparency = 1,
+								ImageColor3 = Color3.fromRGB(0, 0, 0),
+								ImageTransparency = 0.7
+							}
+						),
+						j("UICorner", {CornerRadius = UDim.new(0, 8)}),
+						j(
+							"Frame",
+							{
+								BackgroundTransparency = 0.45,
+								Size = UDim2.fromScale(1, 1),
+								Name = "Background",
+								ThemeTag = {BackgroundColor3 = "AcrylicMain"}
+							},
+							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+						),
+						j(
+							"Frame",
+							{
+								BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+								BackgroundTransparency = 0.4,
+								Size = UDim2.fromScale(1, 1)
+							},
+							{
+								j("UICorner", {CornerRadius = UDim.new(0, 8)}),
+								j("UIGradient", {Rotation = 90, ThemeTag = {Color = "AcrylicGradient"}})
+							}
+						),
+						j(
+							"ImageLabel",
+							{
+								Image = "rbxassetid://9968344105",
+								ImageTransparency = 0.98,
+								ScaleType = Enum.ScaleType.Tile,
+								TileSize = UDim2.new(0, 128, 0, 128),
+								Size = UDim2.fromScale(1, 1),
+								BackgroundTransparency = 1
+							},
+							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+						),
+						j(
+							"ImageLabel",
+							{
+								Image = "rbxassetid://9968344227",
+								ImageTransparency = 0.9,
+								ScaleType = Enum.ScaleType.Tile,
+								TileSize = UDim2.new(0, 128, 0, 128),
+								Size = UDim2.fromScale(1, 1),
+								BackgroundTransparency = 1,
+								ThemeTag = {ImageTransparency = "AcrylicNoise"}
+							},
+							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+						),
+						j(
+							"Frame",
+							{BackgroundTransparency = 1, Size = UDim2.fromScale(1, 1), ZIndex = 2},
+							{
+								j("UICorner", {CornerRadius = UDim.new(0, 8)}),
+								j("UIStroke", {Transparency = 0.5, Thickness = 1, ThemeTag = {Color = "AcrylicBorder"}})
+							}
+						)
+					}
+				)
+			local m
+			if e(d.Parent.Parent).UseAcrylic then
+				m = i()
+				m.Frame.Parent = l.Frame
+				l.Model = m.Model
+				l.AddParent = m.AddParent
+				l.SetVisibility = m.SetVisibility
+			end
+			return l
+		end
+	end,
+	function()
+		local c, d, e, f, g = b(5)
+		local h = d.Parent.Parent
+		local i = e(h.Creator)
+		local j = function()
+			local j =
+				i.New(
+					"Part",
+					{
+						Name = "Body",
+						Color = Color3.new(0, 0, 0),
+						Material = Enum.Material.Glass,
+						Size = Vector3.new(1, 1, 0),
+						Anchored = true,
+						CanCollide = false,
+						Locked = true,
+						CastShadow = false,
+						Transparency = 0.98
+					},
+					{i.New("SpecialMesh", {MeshType = Enum.MeshType.Brick, Offset = Vector3.new(0, 0, -1E-6)})}
+				)
+			return j
+		end
+		return j
+	end,
+	function()
+		local c, d, e, f, g = b(6)
+		local h, i = function(h, i, j, k, l)
+			return (h - i) * (l - k) / (j - i) + k
+		end, function(h, i)
+			local j = game:GetService "Workspace".CurrentCamera:ScreenPointToRay(h.X, h.Y)
+			return j.Origin + j.Direction * i
+		end
+		local j = function()
+			local j = game:GetService "Workspace".CurrentCamera.ViewportSize.Y
+			return h(j, 0, 2560, 8, 56)
+		end
+		return {i, j}
+	end,
+	[8] = function()
+		local c, d, e, f, g = b(8)
+		return {
+			Close = "rbxassetid://9886659671",
+			Min = "rbxassetid://9886659276",
+			Max = "rbxassetid://9886659406",
+			Restore = "rbxassetid://9886659001"
+		}
+	end,
+	[9] = function()
+		local c, d, e, f, g = b(9)
+		local h = d.Parent.Parent
+		local i, j = e(h.Packages.Flipper), e(h.Creator)
+		local k, l = j.New, i.Spring.new
+		return function(m, n, o)
+			o = o or false
+			local p = {}
+			p.Title =
+				k(
+					"TextLabel",
+					{
+						FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+						TextColor3 = Color3.fromRGB(200, 200, 200),
+						TextSize = 14,
+						TextWrapped = true,
+						TextXAlignment = Enum.TextXAlignment.Center,
+						TextYAlignment = Enum.TextYAlignment.Center,
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+						AutomaticSize = Enum.AutomaticSize.Y,
+						BackgroundTransparency = 1,
+						Size = UDim2.fromScale(1, 1),
+						ThemeTag = {TextColor3 = "Text"}
+					}
+				)
+			p.HoverFrame =
+				k(
+					"Frame",
+					{Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1, ThemeTag = {BackgroundColor3 = "Hover"}},
+					{k("UICorner", {CornerRadius = UDim.new(0, 4)})}
+				)
+			p.Frame =
+				k(
+					"TextButton",
+					{Size = UDim2.new(0, 0, 0, 32), Parent = n, ThemeTag = {BackgroundColor3 = "DialogButton"}},
+					{
+						k("UICorner", {CornerRadius = UDim.new(0, 4)}),
+						k(
+							"UIStroke",
+							{
+								ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
+								Transparency = 0.65,
+								ThemeTag = {Color = "DialogButtonBorder"}
+							}
+						),
+						p.HoverFrame,
+						p.Title
+					}
+				)
+			local q, r = j.SpringMotor(1, p.HoverFrame, "BackgroundTransparency", o)
+			j.AddSignal(
+				p.Frame.MouseEnter,
+				function()
+					r(0.97)
+				end
+			)
+			j.AddSignal(
+				p.Frame.MouseLeave,
+				function()
+					r(1)
+				end
+			)
+			j.AddSignal(
+				p.Frame.MouseButton1Down,
+				function()
+					r(1)
+				end
+			)
+			j.AddSignal(
+				p.Frame.MouseButton1Up,
+				function()
+					r(0.97)
+				end
+			)
+			return p
+		end
+	end,
+	[10] = function()
+		local c, d, e, f, g = b(10)
+		local h, i, j, k =
+			game:GetService "UserInputService",
+		game:GetService "Players".LocalPlayer:GetMouse(),
+		game:GetService "Workspace".CurrentCamera,
+		d.Parent.Parent
+		local l, m = e(k.Packages.Flipper), e(k.Creator)
+		local n, o, p, q = l.Spring.new, l.Instant.new, m.New, {Window = nil}
+		function q.Init(r, s)
+			q.Window = s
+			return q
+		end
+		function q.Create(r)
+			local s = {Buttons = 0}
+			s.TintFrame =
+				p(
+					"TextButton",
+					{
+						Text = "",
+						Size = UDim2.fromScale(1, 1),
+						BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+						BackgroundTransparency = 1,
+						Parent = q.Window.Root
+					},
+					{p("UICorner", {CornerRadius = UDim.new(0, 8)})}
+				)
+			local t, u = m.SpringMotor(1, s.TintFrame, "BackgroundTransparency", true)
+			s.ButtonHolder =
+				p(
+					"Frame",
+					{
+						Size = UDim2.new(1, -40, 1, -40),
+						AnchorPoint = Vector2.new(0.5, 0.5),
+						Position = UDim2.fromScale(0.5, 0.5),
+						BackgroundTransparency = 1
+					},
+					{
+						p(
+							"UIListLayout",
+							{
+								Padding = UDim.new(0, 10),
+								FillDirection = Enum.FillDirection.Horizontal,
+								HorizontalAlignment = Enum.HorizontalAlignment.Center,
+								SortOrder = Enum.SortOrder.LayoutOrder
+							}
+						)
+					}
+				)
+			s.ButtonHolderFrame =
+				p(
+					"Frame",
+					{
+						Size = UDim2.new(1, 0, 0, 70),
+						Position = UDim2.new(0, 0, 1, -70),
+						ThemeTag = {BackgroundColor3 = "DialogHolder"}
+					},
+					{
+						p("Frame", {Size = UDim2.new(1, 0, 0, 1), ThemeTag = {BackgroundColor3 = "DialogHolderLine"}}),
+						s.ButtonHolder
+					}
+				)
+			s.Title =
+				p(
+					"TextLabel",
+					{
+						FontFace = Font.new(
+							"rbxasset://fonts/families/GothamSSm.json",
+							Enum.FontWeight.SemiBold,
+							Enum.FontStyle.Normal
+						),
+						Text = "Dialog",
+						TextColor3 = Color3.fromRGB(240, 240, 240),
+						TextSize = 22,
+						TextXAlignment = Enum.TextXAlignment.Left,
+						Size = UDim2.new(1, 0, 0, 22),
+						Position = UDim2.fromOffset(20, 25),
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+						BackgroundTransparency = 1,
+						ThemeTag = {TextColor3 = "Text"}
+					}
+				)
+			s.Scale = p("UIScale", {Scale = 1})
+			local v, w = m.SpringMotor(1.1, s.Scale, "Scale")
+			s.Root =
+				p(
+					"CanvasGroup",
+					{
+						Size = UDim2.fromOffset(300, 165),
+						AnchorPoint = Vector2.new(0.5, 0.5),
+						Position = UDim2.fromScale(0.5, 0.5),
+						GroupTransparency = 1,
+						Parent = s.TintFrame,
+						ThemeTag = {BackgroundColor3 = "Dialog"}
+					},
+					{
+						p("UICorner", {CornerRadius = UDim.new(0, 8)}),
+						p("UIStroke", {Transparency = 0.5, ThemeTag = {Color = "DialogBorder"}}),
+						s.Scale,
+						s.Title,
+						s.ButtonHolderFrame
+					}
+				)
+			local x, y = m.SpringMotor(1, s.Root, "GroupTransparency")
+			function s.Open(z)
+				e(k).DialogOpen = true
+				s.Scale.Scale = 1.1
+				u(0.75)
+				y(0)
+				w(1)
+			end
+			function s.Close(z)
+				e(k).DialogOpen = false
+				u(1)
+				y(1)
+				w(1.1)
+				s.Root.UIStroke:Destroy()
+				task.wait(0.15)
+				s.TintFrame:Destroy()
+			end
+			function s.Button(z, A, B)
+				s.Buttons = s.Buttons + 1
+				A = A or "Button"
+				B = B or function()
+				end
+				local C = e(k.Components.Button)("", s.ButtonHolder, true)
+				C.Title.Text = A
+				for D, E in next, s.ButtonHolder:GetChildren() do
+					if E:IsA "TextButton" then
+						E.Size = UDim2.new(1 / s.Buttons, -(((s.Buttons - 1) * 10) / s.Buttons), 0, 32)
+					end
+				end
+				m.AddSignal(
+					C.Frame.MouseButton1Click,
+					function()
+						e(k):SafeCallback(B)
+						pcall(
+							function()
+								s:Close()
+							end
+						)
+					end
+				)
+				return C
+			end
+			return s
+		end
+		return q
+	end,
+	[11] = function()
+		local c, d, e, f, g = b(11)
+		local h = d.Parent.Parent
+		local i, j = e(h.Packages.Flipper), e(h.Creator)
+		local k, l = j.New, i.Spring.new
+		return function(m, n, o, p)
+			local q = {}
+			q.TitleLabel =
+				k(
+					"TextLabel",
+					{
+						FontFace = Font.new(
+							"rbxasset://fonts/families/GothamSSm.json",
+							Enum.FontWeight.Medium,
+							Enum.FontStyle.Normal
+						),
+						Text = m,
+						TextColor3 = Color3.fromRGB(240, 240, 240),
+						TextSize = 13,
+						TextXAlignment = Enum.TextXAlignment.Left,
+						Size = UDim2.new(1, 0, 0, 14),
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+						BackgroundTransparency = 1,
+						ThemeTag = {TextColor3 = "Text"}
+					}
+				)
+			q.DescLabel =
+				k(
+					"TextLabel",
+					{
+						FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+						Text = n,
+						TextColor3 = Color3.fromRGB(200, 200, 200),
+						TextSize = 12,
+						TextWrapped = true,
+						TextXAlignment = Enum.TextXAlignment.Left,
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+						AutomaticSize = Enum.AutomaticSize.Y,
+						BackgroundTransparency = 1,
+						Size = UDim2.new(1, 0, 0, 14),
+						ThemeTag = {TextColor3 = "SubText"}
+					}
+				)
+			q.LabelHolder =
+				k(
+					"Frame",
+					{
+						AutomaticSize = Enum.AutomaticSize.Y,
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+						BackgroundTransparency = 1,
+						Position = UDim2.fromOffset(10, 0),
+						Size = UDim2.new(1, -28, 0, 0)
+					},
+					{
+						k(
+							"UIListLayout",
+							{SortOrder = Enum.SortOrder.LayoutOrder, VerticalAlignment = Enum.VerticalAlignment.Center}
+						),
+						k("UIPadding", {PaddingBottom = UDim.new(0, 13), PaddingTop = UDim.new(0, 13)}),
+						q.TitleLabel,
+						q.DescLabel
+					}
+				)
+			q.Border =
+				k(
+					"UIStroke",
+					{
+						Transparency = 0.5,
+						ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
+						Color = Color3.fromRGB(0, 0, 0),
+						ThemeTag = {Color = "ElementBorder"}
+					}
+				)
+			q.Frame =
+				k(
+					"TextButton",
+					{
+						Size = UDim2.new(1, 0, 0, 0),
+						BackgroundTransparency = 0.89,
+						BackgroundColor3 = Color3.fromRGB(130, 130, 130),
+						Parent = o,
+						AutomaticSize = Enum.AutomaticSize.Y,
+						Text = "",
+						LayoutOrder = 7,
+						ThemeTag = {BackgroundColor3 = "Element", BackgroundTransparency = "ElementTransparency"}
+					},
+					{k("UICorner", {CornerRadius = UDim.new(0, 4)}), q.Border, q.LabelHolder}
+				)
+			function q.SetTitle(r, s)
+				q.TitleLabel.Text = s
+			end
+			function q.SetDesc(r, s)
+				if s == nil then
+					s = ""
+				end
+				if s == "" then
+					q.DescLabel.Visible = false
+				else
+					q.DescLabel.Visible = true
+				end
+				q.DescLabel.Text = s
+			end
+			function q.Destroy(r)
+				q.Frame:Destroy()
+			end
+			q:SetTitle(m)
+			q:SetDesc(n)
+			if p then
+				local r, s, t =
+					h.Themes,
+				j.SpringMotor(
+					j.GetThemeProperty "ElementTransparency",
+					q.Frame,
+					"BackgroundTransparency",
+					false,
+					true
+				)
+				j.AddSignal(
+					q.Frame.MouseEnter,
+					function()
+						t(j.GetThemeProperty "ElementTransparency" - j.GetThemeProperty "HoverChange")
+					end
+				)
+				j.AddSignal(
+					q.Frame.MouseLeave,
+					function()
+						t(j.GetThemeProperty "ElementTransparency")
+					end
+				)
+				j.AddSignal(
+					q.Frame.MouseButton1Down,
+					function()
+						t(j.GetThemeProperty "ElementTransparency" + j.GetThemeProperty "HoverChange")
+					end
+				)
+				j.AddSignal(
+					q.Frame.MouseButton1Up,
+					function()
+						t(j.GetThemeProperty "ElementTransparency" - j.GetThemeProperty "HoverChange")
+					end
+				)
+			end
+			return q
+		end
+	end,
+	[12] = function()
+		local c, d, e, f, g = b(12)
+		local h = d.Parent.Parent
+		local i, j, k = e(h.Packages.Flipper), e(h.Creator), e(h.Acrylic)
+		local l, m, n, o = i.Spring.new, i.Instant.new, j.New, {}
+		function o.Init(p, q)
+			o.Holder =
+				n(
+					"Frame",
+					{
+						Position = UDim2.new(1, -30, 1, -30),
+						Size = UDim2.new(0, 310, 1, -30),
+						AnchorPoint = Vector2.new(1, 1),
+						BackgroundTransparency = 1,
+						Parent = q
+					},
+					{
+						n(
+							"UIListLayout",
+							{
+								HorizontalAlignment = Enum.HorizontalAlignment.Center,
+								SortOrder = Enum.SortOrder.LayoutOrder,
+								VerticalAlignment = Enum.VerticalAlignment.Bottom,
+								Padding = UDim.new(0, 20)
+							}
+						)
+					}
+				)
+		end
+		function o.New(p, q)
+			q.Title = q.Title or "Title"
+			q.Content = q.Content or "Content"
+			q.SubContent = q.SubContent or ""
+			q.Duration = q.Duration or nil
+			q.Buttons = q.Buttons or {}
+			local r = {Closed = false}
+			r.AcrylicPaint = k.AcrylicPaint()
+			r.Title =
+				n(
+					"TextLabel",
+					{
+						Position = UDim2.new(0, 14, 0, 17),
+						Text = q.Title,
+						RichText = true,
+						TextColor3 = Color3.fromRGB(255, 255, 255),
+						TextTransparency = 0,
+						FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+						TextSize = 13,
+						TextXAlignment = "Left",
+						TextYAlignment = "Center",
+						Size = UDim2.new(1, -12, 0, 12),
+						TextWrapped = true,
+						BackgroundTransparency = 1,
+						ThemeTag = {TextColor3 = "Text"}
+					}
+				)
+			r.ContentLabel =
+				n(
+					"TextLabel",
+					{
+						FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+						Text = q.Content,
+						TextColor3 = Color3.fromRGB(240, 240, 240),
+						TextSize = 14,
+						TextXAlignment = Enum.TextXAlignment.Left,
+						AutomaticSize = Enum.AutomaticSize.Y,
+						Size = UDim2.new(1, 0, 0, 14),
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+						BackgroundTransparency = 1,
+						TextWrapped = true,
+						ThemeTag = {TextColor3 = "Text"}
+					}
+				)
+			r.SubContentLabel =
+				n(
+					"TextLabel",
+					{
+						FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+						Text = q.SubContent,
+						TextColor3 = Color3.fromRGB(240, 240, 240),
+						TextSize = 14,
+						TextXAlignment = Enum.TextXAlignment.Left,
+						AutomaticSize = Enum.AutomaticSize.Y,
+						Size = UDim2.new(1, 0, 0, 14),
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+						BackgroundTransparency = 1,
+						TextWrapped = true,
+						ThemeTag = {TextColor3 = "SubText"}
+					}
+				)
+			r.LabelHolder =
+				n(
+					"Frame",
+					{
+						AutomaticSize = Enum.AutomaticSize.Y,
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+						BackgroundTransparency = 1,
+						Position = UDim2.fromOffset(14, 40),
+						Size = UDim2.new(1, -28, 0, 0)
+					},
+					{
+						n(
+							"UIListLayout",
+							{
+								SortOrder = Enum.SortOrder.LayoutOrder,
+								VerticalAlignment = Enum.VerticalAlignment.Center,
+								Padding = UDim.new(0, 3)
+							}
+						),
+						r.ContentLabel,
+						r.SubContentLabel
+					}
+				)
+			r.CloseButton =
+				n(
+					"TextButton",
+					{
+						Text = "",
+						Position = UDim2.new(1, -14, 0, 13),
+						Size = UDim2.fromOffset(20, 20),
+						AnchorPoint = Vector2.new(1, 0),
+						BackgroundTransparency = 1
+					},
+					{
+						n(
+							"ImageLabel",
+							{
+								Image = e(d.Parent.Assets).Close,
+								Size = UDim2.fromOffset(16, 16),
+								Position = UDim2.fromScale(0.5, 0.5),
+								AnchorPoint = Vector2.new(0.5, 0.5),
+								BackgroundTransparency = 1,
+								ThemeTag = {ImageColor3 = "Text"}
+							}
+						)
+					}
+				)
+			r.Root =
+				n(
+					"Frame",
+					{BackgroundTransparency = 1, Size = UDim2.new(1, 0, 1, 0), Position = UDim2.fromScale(1, 0)},
+					{r.AcrylicPaint.Frame, r.Title, r.CloseButton, r.LabelHolder}
+				)
+			if q.Content == "" then
+				r.ContentLabel.Visible = false
+			end
+			if q.SubContent == "" then
+				r.SubContentLabel.Visible = false
+			end
+			r.Holder =
+				n("Frame", {BackgroundTransparency = 1, Size = UDim2.new(1, 0, 0, 200), Parent = o.Holder}, {r.Root})
+			local s = i.GroupMotor.new {Scale = 1, Offset = 60}
+			s:onStep(
+				function(t)
+					r.Root.Position = UDim2.new(t.Scale, t.Offset, 0, 0)
+				end
+			)
+			j.AddSignal(
+				r.CloseButton.MouseButton1Click,
+				function()
+					r:Close()
+				end
+			)
+			function r.Open(t)
+				local u = r.LabelHolder.AbsoluteSize.Y
+				r.Holder.Size = UDim2.new(1, 0, 0, 58 + u)
+				s:setGoal {Scale = l(0, {frequency = 5}), Offset = l(0, {frequency = 5})}
+			end
+			function r.Close(t)
+				if not r.Closed then
+					r.Closed = true
+					task.spawn(
+						function()
+							s:setGoal {Scale = l(1, {frequency = 5}), Offset = l(60, {frequency = 5})}
+							task.wait(0.4)
+							if e(h).UseAcrylic then
+								r.AcrylicPaint.Model:Destroy()
+							end
+							r.Holder:Destroy()
+						end
+					)
+				end
+			end
+			r:Open()
+			if q.Duration then
+				task.delay(
+					q.Duration,
+					function()
+						r:Close()
+					end
+				)
+			end
+			return r
+		end
+		return o
+	end,
+	[13] = function()
+		local c, d, e, f, g = b(13)
+		local h = d.Parent.Parent
+		local i = e(h.Creator)
+		local j = i.New
+		return function(k, l)
+			local m = {}
+			m.Layout = j("UIListLayout", {Padding = UDim.new(0, 5)})
+			m.Container =
+				j(
+					"Frame",
+					{Size = UDim2.new(1, 0, 0, 26), Position = UDim2.fromOffset(0, 24), BackgroundTransparency = 1},
+					{m.Layout}
+				)
+			m.Root =
+				j(
+					"Frame",
+					{BackgroundTransparency = 1, Size = UDim2.new(1, 0, 0, 26), LayoutOrder = 7, Parent = l},
+					{
+						j(
+							"TextLabel",
+							{
+								RichText = true,
+								Text = k,
+								TextTransparency = 0,
+								FontFace = Font.new(
+									"rbxassetid://12187365364",
+									Enum.FontWeight.SemiBold,
+									Enum.FontStyle.Normal
+								),
+								TextSize = 18,
+								TextXAlignment = "Left",
+								TextYAlignment = "Center",
+								Size = UDim2.new(1, -16, 0, 18),
+								Position = UDim2.fromOffset(0, 2),
+								ThemeTag = {TextColor3 = "Text"}
+							}
+						),
+						m.Container
+					}
+				)
+			i.AddSignal(
+				m.Layout:GetPropertyChangedSignal "AbsoluteContentSize",
+				function()
+					m.Container.Size = UDim2.new(1, 0, 0, m.Layout.AbsoluteContentSize.Y)
+					m.Root.Size = UDim2.new(1, 0, 0, m.Layout.AbsoluteContentSize.Y + 25)
+				end
+			)
+			return m
+		end
+	end,
+	[14] = function()
+		local c, d, e, f, g = b(14)
+		local h = d.Parent.Parent
+		local i, j = e(h.Packages.Flipper), e(h.Creator)
+		local k, l, m, n, o =
+			j.New,
+		i.Spring.new,
+		i.Instant.new,
+		h.Components,
+		{Window = nil, Tabs = {}, Containers = {}, SelectedTab = 0, TabCount = 0}
+		function o.Init(p, q)
+			o.Window = q
+			return o
+		end
+		function o.GetCurrentTabPos(p)
+			local q, r = o.Window.TabHolder.AbsolutePosition.Y, o.Tabs[o.SelectedTab].Frame.AbsolutePosition.Y
+			return r - q
+		end
+		function o.New(p, q, r, s)
+			local t, u = e(h), o.Window
+			local v = t.Elements
+			o.TabCount = o.TabCount + 1
+			local w, x = o.TabCount, {Selected = false, Name = q, Type = "Tab"}
+			if t:GetIcon(r) then
+				r = t:GetIcon(r)
+			end
+			if r == "" or nil then
+				r = nil
+			end
+			x.Frame =
+				k(
+					"TextButton",
+					{
+						Size = UDim2.new(1, 0, 0, 34),
+						BackgroundTransparency = 1,
+						Parent = s,
+						ThemeTag = {BackgroundColor3 = "Tab"}
+					},
+					{
+						k("UICorner", {CornerRadius = UDim.new(0, 6)}),
+						k(
+							"TextLabel",
+							{
+								AnchorPoint = Vector2.new(0, 0.5),
+								Position = r and UDim2.new(0, 30, 0.5, 0) or UDim2.new(0, 12, 0.5, 0),
+								Text = q,
+								RichText = true,
+								TextColor3 = Color3.fromRGB(255, 255, 255),
+								TextTransparency = 0,
+								FontFace = Font.new(
+									"rbxasset://fonts/families/GothamSSm.json",
+									Enum.FontWeight.Regular,
+									Enum.FontStyle.Normal
+								),
+								TextSize = 12,
+								TextXAlignment = "Left",
+								TextYAlignment = "Center",
+								Size = UDim2.new(1, -12, 1, 0),
+								BackgroundTransparency = 1,
+								ThemeTag = {TextColor3 = "Text"}
+							}
+						),
+						k(
+							"ImageLabel",
+							{
+								AnchorPoint = Vector2.new(0, 0.5),
+								Size = UDim2.fromOffset(16, 16),
+								Position = UDim2.new(0, 8, 0.5, 0),
+								BackgroundTransparency = 1,
+								Image = r and r or nil,
+								ThemeTag = {ImageColor3 = "Text"}
+							}
+						)
+					}
+				)
+			local y = k("UIListLayout", {Padding = UDim.new(0, 5), SortOrder = Enum.SortOrder.LayoutOrder})
+			x.ContainerFrame =
+				k(
+					"ScrollingFrame",
+					{
+						Size = UDim2.fromScale(1, 1),
+						BackgroundTransparency = 1,
+						Parent = u.ContainerHolder,
+						Visible = false,
+						BottomImage = "rbxassetid://6889812791",
+						MidImage = "rbxassetid://6889812721",
+						TopImage = "rbxassetid://6276641225",
+						ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255),
+						ScrollBarImageTransparency = 0.95,
+						ScrollBarThickness = 3,
+						BorderSizePixel = 0,
+						CanvasSize = UDim2.fromScale(0, 0),
+						ScrollingDirection = Enum.ScrollingDirection.Y
+					},
+					{
+						y,
+						k(
+							"UIPadding",
+							{
+								PaddingRight = UDim.new(0, 10),
+								PaddingLeft = UDim.new(0, 1),
+								PaddingTop = UDim.new(0, 1),
+								PaddingBottom = UDim.new(0, 1)
+							}
+						)
+					}
+				)
+			j.AddSignal(
+				y:GetPropertyChangedSignal "AbsoluteContentSize",
+				function()
+					x.ContainerFrame.CanvasSize = UDim2.new(0, 0, 0, y.AbsoluteContentSize.Y + 2)
+				end
+			)
+			x.Motor, x.SetTransparency = j.SpringMotor(1, x.Frame, "BackgroundTransparency")
+			j.AddSignal(
+				x.Frame.MouseEnter,
+				function()
+					x.SetTransparency(x.Selected and 0.85 or 0.89)
+				end
+			)
+			j.AddSignal(
+				x.Frame.MouseLeave,
+				function()
+					x.SetTransparency(x.Selected and 0.89 or 1)
+				end
+			)
+			j.AddSignal(
+				x.Frame.MouseButton1Down,
+				function()
+					x.SetTransparency(0.92)
+				end
+			)
+			j.AddSignal(
+				x.Frame.MouseButton1Up,
+				function()
+					x.SetTransparency(x.Selected and 0.85 or 0.89)
+				end
+			)
+			j.AddSignal(
+				x.Frame.MouseButton1Click,
+				function()
+					o:SelectTab(w)
+				end
+			)
+			o.Containers[w] = x.ContainerFrame
+			o.Tabs[w] = x
+			x.Container = x.ContainerFrame
+			x.ScrollFrame = x.Container
+			function x.AddSection(z, A)
+				local B, C = {Type = "Section"}, e(n.Section)(A, x.Container)
+				B.Container = C.Container
+				B.ScrollFrame = x.Container
+				setmetatable(B, v)
+				return B
+			end
+			setmetatable(x, v)
+			return x
+		end
+		function o.SelectTab(p, q)
+			local r = o.Window
+			o.SelectedTab = q
+			for s, t in next, o.Tabs do
+				t.SetTransparency(1)
+				t.Selected = false
+			end
+			o.Tabs[q].SetTransparency(0.89)
+			o.Tabs[q].Selected = true
+			r.TabDisplay.Text = o.Tabs[q].Name
+			r.SelectorPosMotor:setGoal(l(o:GetCurrentTabPos(), {frequency = 6}))
+			task.spawn(
+				function()
+					r.ContainerPosMotor:setGoal(l(110, {frequency = 10}))
+					r.ContainerBackMotor:setGoal(l(1, {frequency = 10}))
+					task.wait(0.15)
+					for u, v in next, o.Containers do
+						v.Visible = false
+					end
+					o.Containers[q].Visible = true
+					r.ContainerPosMotor:setGoal(l(94, {frequency = 5}))
+					r.ContainerBackMotor:setGoal(l(0, {frequency = 8}))
+				end
+			)
+		end
+		return o
+	end,
+	[15] = function()
+		local c, d, e, f, g = b(15)
+		local h, i = game:GetService "TextService", d.Parent.Parent
+		local j, k = e(i.Packages.Flipper), e(i.Creator)
+		local l = k.New
+		return function(m, n)
+			n = n or false
+			local o = {}
+			o.Input =
+				l(
+					"TextBox",
+					{
+						FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+						TextColor3 = Color3.fromRGB(200, 200, 200),
+						TextSize = 14,
+						TextXAlignment = Enum.TextXAlignment.Left,
+						TextYAlignment = Enum.TextYAlignment.Center,
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+						AutomaticSize = Enum.AutomaticSize.Y,
+						BackgroundTransparency = 1,
+						Size = UDim2.fromScale(1, 1),
+						Position = UDim2.fromOffset(10, 0),
+						ThemeTag = {TextColor3 = "Text", PlaceholderColor3 = "SubText"}
+					}
+				)
+			o.Container =
+				l(
+					"Frame",
+					{
+						BackgroundTransparency = 1,
+						ClipsDescendants = true,
+						Position = UDim2.new(0, 6, 0, 0),
+						Size = UDim2.new(1, -12, 1, 0)
+					},
+					{o.Input}
+				)
+			o.Indicator =
+				l(
+					"Frame",
+					{
+						Size = UDim2.new(1, -4, 0, 1),
+						Position = UDim2.new(0, 2, 1, 0),
+						AnchorPoint = Vector2.new(0, 1),
+						BackgroundTransparency = n and 0.5 or 0,
+						ThemeTag = {BackgroundColor3 = n and "InputIndicator" or "DialogInputLine"}
+					}
+				)
+			o.Frame =
+				l(
+					"Frame",
+					{
+						Size = UDim2.new(0, 0, 0, 30),
+						BackgroundTransparency = n and 0.9 or 0,
+						Parent = m,
+						ThemeTag = {BackgroundColor3 = n and "Input" or "DialogInput"}
+					},
+					{
+						l("UICorner", {CornerRadius = UDim.new(0, 4)}),
+						l(
+							"UIStroke",
+							{
+								ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
+								Transparency = n and 0.5 or 0.65,
+								ThemeTag = {Color = n and "InElementBorder" or "DialogButtonBorder"}
+							}
+						),
+						o.Indicator,
+						o.Container
+					}
+				)
+			local p = function()
+				local p, q = 2, o.Container.AbsoluteSize.X
+				if not o.Input:IsFocused() or o.Input.TextBounds.X <= q - 2 * p then
+					o.Input.Position = UDim2.new(0, p, 0, 0)
+				else
+					local r = o.Input.CursorPosition
+					if r ~= -1 then
+						local s = string.sub(o.Input.Text, 1, r - 1)
+						local t = h:GetTextSize(s, o.Input.TextSize, o.Input.Font, Vector2.new(math.huge, math.huge)).X
+						local u = o.Input.Position.X.Offset + t
+						if u < p then
+							o.Input.Position = UDim2.fromOffset(p - t, 0)
+						elseif u > q - p - 1 then
+							o.Input.Position = UDim2.fromOffset(q - t - p - 1, 0)
+						end
+					end
+				end
+			end
+			task.spawn(p)
+			k.AddSignal(o.Input:GetPropertyChangedSignal "Text", p)
+			k.AddSignal(o.Input:GetPropertyChangedSignal "CursorPosition", p)
+			k.AddSignal(
+				o.Input.Focused,
+				function()
+					p()
+					o.Indicator.Size = UDim2.new(1, -2, 0, 2)
+					o.Indicator.Position = UDim2.new(0, 1, 1, 0)
+					o.Indicator.BackgroundTransparency = 0
+					k.OverrideTag(o.Frame, {BackgroundColor3 = n and "InputFocused" or "DialogHolder"})
+					k.OverrideTag(o.Indicator, {BackgroundColor3 = "Accent"})
+				end
+			)
+			k.AddSignal(
+				o.Input.FocusLost,
+				function()
+					p()
+					o.Indicator.Size = UDim2.new(1, -4, 0, 1)
+					o.Indicator.Position = UDim2.new(0, 2, 1, 0)
+					o.Indicator.BackgroundTransparency = 0.5
+					k.OverrideTag(o.Frame, {BackgroundColor3 = n and "Input" or "DialogInput"})
+					k.OverrideTag(o.Indicator, {BackgroundColor3 = n and "InputIndicator" or "DialogInputLine"})
+				end
+			)
+			return o
+		end
+	end,
+	[16] = function()
+		local c, d, e, f, g = b(16)
+		local h, i = d.Parent.Parent, e(d.Parent.Assets)
+		local j, k = e(h.Creator), e(h.Packages.Flipper)
+		local l, m = j.New, j.AddSignal
+		return function(n)
+			local o, p, q =
+				{},
+			e(h),
+			function(o, p, q, r)
+				local s = {Callback = r or function()
+				end}
+				s.Frame =
+					l(
+						"TextButton",
+						{
+							Size = UDim2.new(0, 34, 1, -8),
+							AnchorPoint = Vector2.new(1, 0),
+							BackgroundTransparency = 1,
+							Parent = q,
+							Position = p,
+							Text = "",
+							ThemeTag = {BackgroundColor3 = "Text"}
+						},
+						{
+							l("UICorner", {CornerRadius = UDim.new(0, 7)}),
+							l(
+								"ImageLabel",
+								{
+									Image = o,
+									Size = UDim2.fromOffset(16, 16),
+									Position = UDim2.fromScale(0.5, 0.5),
+									AnchorPoint = Vector2.new(0.5, 0.5),
+									BackgroundTransparency = 1,
+									Name = "Icon",
+									ThemeTag = {ImageColor3 = "Text"}
+								}
+							)
+						}
+					)
+				local t, u = j.SpringMotor(1, s.Frame, "BackgroundTransparency")
+				m(
+					s.Frame.MouseEnter,
+					function()
+						u(0.94)
+					end
+				)
+				m(
+					s.Frame.MouseLeave,
+					function()
+						u(1, true)
+					end
+				)
+				m(
+					s.Frame.MouseButton1Down,
+					function()
+						u(0.96)
+					end
+				)
+				m(
+					s.Frame.MouseButton1Up,
+					function()
+						u(0.94)
+					end
+				)
+				m(s.Frame.MouseButton1Click, s.Callback)
+				s.SetCallback = function(v)
+					s.Callback = v
+				end
+				return s
+			end
+			o.Frame =
+				l(
+					"Frame",
+					{Size = UDim2.new(1, 0, 0, 42), BackgroundTransparency = 1, Parent = n.Parent},
+					{
+						l(
+							"Frame",
+							{Size = UDim2.new(1, -16, 1, 0), Position = UDim2.new(0, 16, 0, 0), BackgroundTransparency = 1},
+							{
+								l(
+									"UIListLayout",
+									{
+										Padding = UDim.new(0, 5),
+										FillDirection = Enum.FillDirection.Horizontal,
+										SortOrder = Enum.SortOrder.LayoutOrder
+									}
+								),
+								l(
+									"TextLabel",
+									{
+										RichText = true,
+										Text = n.Title,
+										FontFace = Font.new(
+											"rbxasset://fonts/families/GothamSSm.json",
+											Enum.FontWeight.Regular,
+											Enum.FontStyle.Normal
+										),
+										TextSize = 12,
+										TextXAlignment = "Left",
+										TextYAlignment = "Center",
+										Size = UDim2.fromScale(0, 1),
+										AutomaticSize = Enum.AutomaticSize.X,
+										BackgroundTransparency = 1,
+										ThemeTag = {TextColor3 = "Text"}
+									}
+								),
+								l(
+									"TextLabel",
+									{
+										RichText = true,
+										Text = n.SubTitle,
+										TextTransparency = 0.4,
+										FontFace = Font.new(
+											"rbxasset://fonts/families/GothamSSm.json",
+											Enum.FontWeight.Regular,
+											Enum.FontStyle.Normal
+										),
+										TextSize = 12,
+										TextXAlignment = "Left",
+										TextYAlignment = "Center",
+										Size = UDim2.fromScale(0, 1),
+										AutomaticSize = Enum.AutomaticSize.X,
+										BackgroundTransparency = 1,
+										ThemeTag = {TextColor3 = "Text"}
+									}
+								)
+							}
+						),
+						l(
+							"Frame",
+							{
+								BackgroundTransparency = 0.5,
+								Size = UDim2.new(1, 0, 0, 1),
+								Position = UDim2.new(0, 0, 1, 0),
+								ThemeTag = {BackgroundColor3 = "TitleBarLine"}
+							}
+						)
+					}
+				)
+			o.CloseButton =
+				q(
+					i.Close,
+					UDim2.new(1, -4, 0, 4),
+					o.Frame,
+					function()
+						p.Window:Dialog {
+							Title = "Close",
+							Content = "Are you sure you want to unload the interface?",
+							Buttons = {{Title = "Yes", Callback = function()
+								p:Destroy()
+							end}, {Title = "No"}}
+						}
+					end
+				)
+			o.MaxButton =
+				q(
+					i.Max,
+					UDim2.new(1, -40, 0, 4),
+					o.Frame,
+					function()
+						n.Window.Maximize(not n.Window.Maximized)
+					end
+				)
+			o.MinButton =
+				q(
+					i.Min,
+					UDim2.new(1, -80, 0, 4),
+					o.Frame,
+					function()
+						p.Window:Minimize()
+					end
+				)
+			return o
+		end
+	end,
+	[17] = function()
+		local c, d, e, f, g = b(17)
+		local h, i, j, k =
+			game:GetService "UserInputService",
+		game:GetService "Players".LocalPlayer:GetMouse(),
+		game:GetService "Workspace".CurrentCamera,
+	
+		d.Parent.Parent
+		
+		local _77 = game:GetService('TweenService');
+
+		local l, m, n, o, p = e(k.Packages.Flipper), e(k.Creator), e(k.Acrylic), e(d.Parent.Assets), d.Parent
+		local q, r, s = l.Spring.new, l.Instant.new, m.New
+		return function(t)
+			local u, v, w, x, y, z =
+				e(k),
+			{
+				Minimized = false,
+				Maximized = false,
+				Size = t.Size,
+				CurrentPos = 0,
+				Position = UDim2.fromOffset(
+					j.ViewportSize.X / 2 - t.Size.X.Offset / 2,
+					j.ViewportSize.Y / 2 - t.Size.Y.Offset / 2
+				)
+			},
+			false
+			local A, B = false
+			local C = false
+			v.AcrylicPaint = n.AcrylicPaint()
+			local D, E =
+				s(
+					"Frame",
+					{
+						Size = UDim2.fromOffset(4, 0),
+						BackgroundColor3 = Color3.fromRGB(76, 194, 255),
+						Position = UDim2.fromOffset(0, 17),
+						AnchorPoint = Vector2.new(0, 0.5),
+						ThemeTag = {BackgroundColor3 = "Accent"}
+					},
+					{s("UICorner", {CornerRadius = UDim.new(0, 2)})}
+				),
+			s(
+				"Frame",
+				{Size = UDim2.fromOffset(20, 20), BackgroundTransparency = 1, Position = UDim2.new(1, -20, 1, -20)}
+			)
+			v.TabHolder =
+				s(
+					"ScrollingFrame",
+					{
+						Size = UDim2.fromScale(1, 1),
+						BackgroundTransparency = 1,
+						ScrollBarImageTransparency = 1,
+						ScrollBarThickness = 0,
+						BorderSizePixel = 0,
+						CanvasSize = UDim2.fromScale(0, 0),
+						ScrollingDirection = Enum.ScrollingDirection.Y
+					},
+					{s("UIListLayout", {Padding = UDim.new(0, 4)})}
+				)
+			local F =
+				s(
+					"Frame",
+					{
+						Size = UDim2.new(0, t.TabWidth, 1, -66),
+						Position = UDim2.new(0, 12, 0, 54),
+						BackgroundTransparency = 1,
+						ClipsDescendants = true
+					},
+					{v.TabHolder, D}
+				)
+			v.TabDisplay =
+				s(
+					"TextLabel",
+					{
+						RichText = true,
+						Text = "Tab",
+						TextTransparency = 0,
+						FontFace = Font.new("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal),
+						TextSize = 28,
+						TextXAlignment = "Left",
+						TextYAlignment = "Center",
+						Size = UDim2.new(1, -16, 0, 28),
+						Position = UDim2.fromOffset(t.TabWidth + 26, 56),
+						BackgroundTransparency = 1,
+						ThemeTag = {TextColor3 = "Text"}
+					}
+				)
+			v.ContainerHolder =
+				s(
+					"CanvasGroup",
+					{
+						Size = UDim2.new(1, -t.TabWidth - 32, 1, -102),
+						Position = UDim2.fromOffset(t.TabWidth + 26, 90),
+						BackgroundTransparency = 1
+					}
+				)
+			v.Root =
+				s(
+					"Frame",
+					{BackgroundTransparency = 1, Size = v.Size, Position = v.Position, Parent = t.Parent},
+					{v.AcrylicPaint.Frame, v.TabDisplay, v.ContainerHolder, F, E}
+				)
+			v.TitleBar = e(d.Parent.TitleBar) {Title = t.Title, SubTitle = t.SubTitle, Parent = v.Root, Window = v}
+			if e(k).UseAcrylic then
+				v.AcrylicPaint.AddParent(v.Root)
+			end
+			local G, H =
+				l.GroupMotor.new {X = v.Size.X.Offset, Y = v.Size.Y.Offset},
+			l.GroupMotor.new {X = v.Position.X.Offset, Y = v.Position.Y.Offset}
+			v.SelectorPosMotor = l.SingleMotor.new(17)
+			v.SelectorSizeMotor = l.SingleMotor.new(0)
+			v.ContainerBackMotor = l.SingleMotor.new(0)
+			v.ContainerPosMotor = l.SingleMotor.new(94)
+			G:onStep(
+				function(I)
+					v.Root.Size = UDim2.new(0, I.X, 0, I.Y)
+				end
+			)
+			H:onStep(
+				function(I)
+					v.Root.Position = UDim2.new(0, I.X, 0, I.Y)
+				end
+			)
+			local I, J = 0, 0
+			v.SelectorPosMotor:onStep(
+				function(K)
+					D.Position = UDim2.new(0, 0, 0, K + 17)
+					local L = tick()
+					local M = L - J
+					if I ~= nil then
+						v.SelectorSizeMotor:setGoal(q((math.abs(K - I) / (M * 60)) + 16))
+						I = K
+					end
+					J = L
+				end
+			)
+			v.SelectorSizeMotor:onStep(
+				function(K)
+					D.Size = UDim2.new(0, 4, 0, K)
+				end
+			)
+			v.ContainerBackMotor:onStep(
+				function(K)
+					v.ContainerHolder.GroupTransparency = K
+				end
+			)
+			v.ContainerPosMotor:onStep(
+				function(K)
+					v.ContainerHolder.Position = UDim2.fromOffset(t.TabWidth + 26, K)
+				end
+			)
+			local K, L
+			v.Maximize = function(M, N, O)
+				v.Maximized = M
+				v.TitleBar.MaxButton.Frame.Icon.Image = M and o.Restore or o.Max
+				if M then
+					K = v.Size.X.Offset
+					L = v.Size.Y.Offset
+				end
+				local P, Q = M and j.ViewportSize.X or K, M and j.ViewportSize.Y or L
+				G:setGoal {
+					X = l[O and "Instant" or "Spring"].new(P, {frequency = 6}),
+					Y = l[O and "Instant" or "Spring"].new(Q, {frequency = 6})
+				}
+				v.Size = UDim2.fromOffset(P, Q)
+				if not N then
+					H:setGoal {
+						X = q(M and 0 or v.Position.X.Offset, {frequency = 6}),
+						Y = q(M and 0 or v.Position.Y.Offset, {frequency = 6})
+					}
+				end
+			end
+			m.AddSignal(
+				v.TitleBar.Frame.InputBegan,
+				function(M)
+					if M.UserInputType == Enum.UserInputType.MouseButton1 or M.UserInputType == Enum.UserInputType.Touch then
+						w = true
+						y = M.Position
+						z = v.Root.Position
+						if v.Maximized then
+							z =
+								UDim2.fromOffset(
+									i.X - (i.X * ((K - 100) / v.Root.AbsoluteSize.X)),
+									i.Y - (i.Y * (L / v.Root.AbsoluteSize.Y))
+								)
+						end
+						M.Changed:Connect(
+							function()
+								if M.UserInputState == Enum.UserInputState.End then
+									w = false
+								end
+							end
+						)
+					end
+				end
+			)
+			m.AddSignal(
+				v.TitleBar.Frame.InputChanged,
+				function(M)
+					if
+						M.UserInputType == Enum.UserInputType.MouseMovement or
+						M.UserInputType == Enum.UserInputType.Touch
+					then
+						x = M
+					end
+				end
+			)
+			m.AddSignal(
+				E.InputBegan,
+				function(M)
+					if M.UserInputType == Enum.UserInputType.MouseButton1 or M.UserInputType == Enum.UserInputType.Touch then
+						A = true
+						B = M.Position
+					end
+				end
+			)
+			m.AddSignal(
+				h.InputChanged,
+				function(M)
+					if M == x and w then
+						local N = M.Position - y
+						v.Position = UDim2.fromOffset(z.X.Offset + N.X, z.Y.Offset + N.Y)
+						H:setGoal {X = r(v.Position.X.Offset), Y = r(v.Position.Y.Offset)}
+						if v.Maximized then
+							v.Maximize(false, true, true)
+						end
+					end
+					if
+						(M.UserInputType == Enum.UserInputType.MouseMovement or
+							M.UserInputType == Enum.UserInputType.Touch) and
+						A
+					then
+						
+				
+					
+						local N, O = M.Position - B, v.Size
+						local P = Vector3.new(O.X.Offset, O.Y.Offset, 0) + Vector3.new(1, 1, 0) * N
+						local Q = Vector2.new(math.clamp(P.X, 445, 2048), math.clamp(P.Y, 315, 2048))
+						G:setGoal {X = l.Instant.new(Q.X), Y = l.Instant.new(Q.Y)}
+					end
+				end
+			)
+			m.AddSignal(
+				h.InputEnded,
+				function(M)
+					if A == true or M.UserInputType == Enum.UserInputType.Touch then
+						A = false
+						v.Size = UDim2.fromOffset(G:getValue().X, G:getValue().Y)
+					end
+				end
+			)
+			m.AddSignal(
+				v.TabHolder.UIListLayout:GetPropertyChangedSignal "AbsoluteContentSize",
+				function()
+					v.TabHolder.CanvasSize = UDim2.new(0, 0, 0, v.TabHolder.UIListLayout.AbsoluteContentSize.Y)
+				end
+			)
+			
+			m.AddSignal(h.InputBegan,function(M)
+				if
+					type(u.MinimizeKeybind) == "table" and u.MinimizeKeybind.Type == "Keybind" and
+					not h:GetFocusedTextBox()
+				then
+					if M.KeyCode.Name == u.MinimizeKeybind.Value then
+					
+						v:Minimize()
+					end
+				elseif M.KeyCode == u.MinimizeKey and not h:GetFocusedTextBox() then
+				
+					v:Minimize()
+				end
+			end)
+			
+			function v.Minimize(M)
+				v.Minimized = not v.Minimized
+				v.Root.Visible = not v.Minimized
+				
+				if v.MBT and not v.TEZSX then
+					v.TEZSX = true
+					m.AddSignal((v.MBT:WaitForChild('Button',1) :: TextButton).MouseButton1Click,function()
+						v:Minimize()
+					end)
+				end;
+				
+				if v.Minimized then
+					_77:Create(v.MBT,TweenInfo.new(0.25,Enum.EasingStyle.Quint),{
+						Position = UDim2.fromScale(0.01,0.01),
+						Rotation = 0
+					}):Play();
+					
+					_77:Create(v.MBT,TweenInfo.new(0.55,Enum.EasingStyle.Quint),{
+						Size = UDim2.fromScale(0.1,0.1)
+					}):Play();
+				else
+					_77:Create(v.MBT,TweenInfo.new(0.25,Enum.EasingStyle.Quint),{
+						Position = UDim2.fromScale(-0.085,0.01),
+						Rotation = 360,
+					}):Play();
+				end;
+				if not C then
+					C = true
+					local N = u.MinimizeKeybind and u.MinimizeKeybind.Value or u.MinimizeKey.Name
+					u:Notify {Title = "Interface", Content = "Press " .. N .. " to toggle the inteface.", Duration = 6}
+				end
+			end
+			function v.Destroy(M)
+				if e(k).UseAcrylic then
+					v.AcrylicPaint.Model:Destroy()
+				end
+				v.Root:Destroy()
+			end
+			local M = e(p.Dialog):Init(v)
+			function v.Dialog(N, O)
+				local P = M:Create()
+				P.Title.Text = O.Title
+				local Q =
+					s(
+						"TextLabel",
+						{
+							FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+							Text = O.Content,
+							TextColor3 = Color3.fromRGB(240, 240, 240),
+							TextSize = 14,
+							TextXAlignment = Enum.TextXAlignment.Left,
+							TextYAlignment = Enum.TextYAlignment.Top,
+							Size = UDim2.new(1, -40, 1, 0),
+							Position = UDim2.fromOffset(20, 60),
+							BackgroundTransparency = 1,
+							Parent = P.Root,
+							ClipsDescendants = false,
+							ThemeTag = {TextColor3 = "Text"}
+						}
+					)
+				s(
+					"UISizeConstraint",
+					{MinSize = Vector2.new(300, 165), MaxSize = Vector2.new(620, math.huge), Parent = P.Root}
+				)
+				P.Root.Size = UDim2.fromOffset(Q.TextBounds.X + 40, 165)
+				if Q.TextBounds.X + 40 > v.Size.X.Offset - 120 then
+					P.Root.Size = UDim2.fromOffset(v.Size.X.Offset - 120, 165)
+					Q.TextWrapped = true
+					P.Root.Size = UDim2.fromOffset(v.Size.X.Offset - 120, Q.TextBounds.Y + 150)
+				end
+				for R, S in next, O.Buttons do
+					P:Button(S.Title, S.Callback)
+				end
+				P:Open()
+			end
+			local N = e(p.Tab):Init(v)
+			function v.AddTab(O, P)
+				return N:New(P.Title, P.Icon, v.TabHolder)
+			end
+			function v.SelectTab(O, P)
+				N:SelectTab(1)
+			end
+			m.AddSignal(
+				v.TabHolder:GetPropertyChangedSignal "CanvasPosition",
+				function()
+					I = N:GetCurrentTabPos() + 16
+					J = 0
+					v.SelectorPosMotor:setGoal(r(N:GetCurrentTabPos()))
+				end
+			)
+			return v
+		end
+	end,
+	[18] = function()
+		local c, d, e, f, g = b(18)
+		local h = d.Parent
+		local i, j, k =
+			e(h.Themes),
+		e(h.Packages.Flipper),
+		{
+			Registry = {},
+			Signals = {},
+			TransparencyMotors = {},
+			DefaultProperties = {
+				ScreenGui = {ResetOnSpawn = false, ZIndexBehavior = Enum.ZIndexBehavior.Sibling},
+				Frame = {
+					BackgroundColor3 = Color3.new(1, 1, 1),
+					BorderColor3 = Color3.new(0, 0, 0),
+					BorderSizePixel = 0
+				},
+				ScrollingFrame = {
+					BackgroundColor3 = Color3.new(1, 1, 1),
+					BorderColor3 = Color3.new(0, 0, 0),
+					ScrollBarImageColor3 = Color3.new(0, 0, 0)
+				},
+				TextLabel = {
+					BackgroundColor3 = Color3.new(1, 1, 1),
+					BorderColor3 = Color3.new(0, 0, 0),
+					Font = Enum.Font.SourceSans,
+					Text = "",
+					TextColor3 = Color3.new(0, 0, 0),
+					BackgroundTransparency = 1,
+					TextSize = 14
+				},
+				TextButton = {
+					BackgroundColor3 = Color3.new(1, 1, 1),
+					BorderColor3 = Color3.new(0, 0, 0),
+					AutoButtonColor = false,
+					Font = Enum.Font.SourceSans,
+					Text = "",
+					TextColor3 = Color3.new(0, 0, 0),
+					TextSize = 14
+				},
+				TextBox = {
+					BackgroundColor3 = Color3.new(1, 1, 1),
+					BorderColor3 = Color3.new(0, 0, 0),
+					ClearTextOnFocus = false,
+					Font = Enum.Font.SourceSans,
+					Text = "",
+					TextColor3 = Color3.new(0, 0, 0),
+					TextSize = 14
+				},
+				ImageLabel = {
+					BackgroundTransparency = 1,
+					BackgroundColor3 = Color3.new(1, 1, 1),
+					BorderColor3 = Color3.new(0, 0, 0),
+					BorderSizePixel = 0
+				},
+				ImageButton = {
+					BackgroundColor3 = Color3.new(1, 1, 1),
+					BorderColor3 = Color3.new(0, 0, 0),
+					AutoButtonColor = false
+				},
+				CanvasGroup = {
+					BackgroundColor3 = Color3.new(1, 1, 1),
+					BorderColor3 = Color3.new(0, 0, 0),
+					BorderSizePixel = 0
+				}
+			}
+		}
+		local l = function(l, m)
+			if m.ThemeTag then
+				k.AddThemeObject(l, m.ThemeTag)
+			end
+		end
+		function k.AddSignal(m, n)
+			table.insert(k.Signals, m:Connect(n))
+		end
+		function k.Disconnect()
+			for m = #k.Signals, 1, -1 do
+				local n = table.remove(k.Signals, m)
+				n:Disconnect()
+			end
+		end
+		function k.GetThemeProperty(m)
+			if i[e(h).Theme][m] then
+				return i[e(h).Theme][m]
+			end
+			return i.Dark[m]
+		end
+		function k.UpdateTheme()
+			for m, n in next, k.Registry do
+				for o, p in next, n.Properties do
+					m[o] = k.GetThemeProperty(p)
+				end
+			end
+			for o, p in next, k.TransparencyMotors do
+				p:setGoal(j.Instant.new(k.GetThemeProperty "ElementTransparency"))
+			end
+		end
+		function k.AddThemeObject(m, n)
+			local o = #k.Registry + 1
+			local p = {Object = m, Properties = n, Idx = o}
+			k.Registry[m] = p
+			k.UpdateTheme()
+			return m
+		end
+		function k.OverrideTag(m, n)
+			k.Registry[m].Properties = n
+			k.UpdateTheme()
+		end
+		function k.New(m, n, o)
+			local p = Instance.new(m)
+			for q, r in next, k.DefaultProperties[m] or {} do
+				p[q] = r
+			end
+			for s, t in next, n or {} do
+				if s ~= "ThemeTag" then
+					if s == 'Text' then
+						p[s] = tostring(t)
+					else
+						p[s] = t
+					end
+				end
+			end
+			for u, v in next, o or {} do
+				v.Parent = p
+			end
+			l(p, n)
+			return p
+		end
+		function k.SpringMotor(m, n, o, p, s)
+			p = p or false
+			s = s or false
+			local t = j.SingleMotor.new(m)
+			t:onStep(
+				function(u)
+					n[o] = u
+				end
+			)
+			if s then
+				table.insert(k.TransparencyMotors, t)
+			end
+			local u = function(u, v)
+				v = v or false
+				if not p then
+					if not v then
+						if o == "BackgroundTransparency" and e(h).DialogOpen then
+							return
+						end
+					end
+				end
+				t:setGoal(j.Spring.new(u, {frequency = 8}))
+			end
+			return t, u
+		end
+		return k
+	end,
+	[19] = function()
+		local c, d, e, f, g = b(19)
+		local h = {}
+		for i, j in next, d:GetChildren() do
+			table.insert(h, e(j))
+		end
+		return h
+	end,
+	[20] = function()
+		local c, d, e, f, g = b(20)
+		local h = d.Parent.Parent
+		local i = e(h.Creator)
+		local j, k, l = i.New, h.Components, {}
+		l.__index = l
+		l.__type = "Button"
+		function l.New(m, n)
+			assert(n.Title, "Button - Missing Title")
+			n.Callback = n.Callback or function()
+			end
+			local o = e(k.Element)(n.Title, n.Description, m.Container, true)
+			local p =
+				j(
+					"ImageLabel",
+					{
+						Image = "rbxassetid://10709791437",
+						Size = UDim2.fromOffset(16, 16),
+						AnchorPoint = Vector2.new(1, 0.5),
+						Position = UDim2.new(1, -10, 0.5, 0),
+						BackgroundTransparency = 1,
+						Parent = o.Frame,
+						ThemeTag = {ImageColor3 = "Text"}
+					}
+				)
+			i.AddSignal(
+				o.Frame.MouseButton1Click,
+				function()
+					m.Library:SafeCallback(n.Callback)
+				end
+			)
+			return o
+		end
+		return l
+	end,
+	[21] = function()
+		local c, d, e, f, g = b(21)
+		local h, i, j, k =
+			game:GetService "UserInputService",
+		game:GetService "TouchInputService",
+		game:GetService "RunService",
+		game:GetService "Players"
+		local l, m = j.RenderStepped, k.LocalPlayer
+		local n, o = m:GetMouse(), d.Parent.Parent
+		local p = e(o.Creator)
+		local s, t, u = p.New, o.Components, {}
+		u.__index = u
+		u.__type = "Colorpicker"
+		function u.New(v, w, x)
+			local y = v.Library
+			assert(x.Title, "Colorpicker - Missing Title")
+			assert(x.Default, "AddColorPicker: Missing default value.")
+			local z = {
+				Value = x.Default,
+				Transparency = x.Transparency or 0,
+				Type = "Colorpicker",
+				Title = type(x.Title) == "string" and x.Title or "Colorpicker",
+				Callback = x.Callback or function(z)
+				end
+			}
+			function z.SetHSVFromRGB(A, B)
+				local C, D, E = Color3.toHSV(B)
+				z.Hue = C
+				z.Sat = D
+				z.Vib = E
+			end
+			z:SetHSVFromRGB(z.Value)
+			local A = e(t.Element)(x.Title, x.Description, v.Container, true)
+			z.SetTitle = A.SetTitle
+			z.SetDesc = A.SetDesc
+			local B =
+				s(
+					"Frame",
+					{Size = UDim2.fromScale(1, 1), BackgroundColor3 = z.Value, Parent = A.Frame},
+					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
+				)
+			local aa, ab =
+				s(
+					"ImageLabel",
+					{
+						Size = UDim2.fromOffset(26, 26),
+						Position = UDim2.new(1, -10, 0.5, 0),
+						AnchorPoint = Vector2.new(1, 0.5),
+						Parent = A.Frame,
+						Image = "http://www.roblox.com/asset/?id=14204231522",
+						ImageTransparency = 0.45,
+						ScaleType = Enum.ScaleType.Tile,
+						TileSize = UDim2.fromOffset(40, 40)
+					},
+					{s("UICorner", {CornerRadius = UDim.new(0, 4)}), B}
+				),
+			function()
+				local C = e(t.Dialog):Create()
+				C.Title.Text = z.Title
+				C.Root.Size = UDim2.fromOffset(430, 330)
+				local D, E, F, G, H, I =
+					z.Hue,
+				z.Sat,
+				z.Vib,
+				z.Transparency,
+				function()
+					local D = e(t.Textbox)()
+					D.Frame.Parent = C.Root
+					D.Frame.Size = UDim2.new(0, 90, 0, 32)
+					return D
+				end,
+				function(D, E)
+					return s(
+						"TextLabel",
+						{
+							FontFace = Font.new(
+								"rbxasset://fonts/families/GothamSSm.json",
+								Enum.FontWeight.Medium,
+								Enum.FontStyle.Normal
+							),
+							Text = D,
+							TextColor3 = Color3.fromRGB(240, 240, 240),
+							TextSize = 13,
+							TextXAlignment = Enum.TextXAlignment.Left,
+							Size = UDim2.new(1, 0, 0, 32),
+							Position = E,
+							BackgroundTransparency = 1,
+							Parent = C.Root,
+							ThemeTag = {TextColor3 = "Text"}
+						}
+					)
+				end
+				local J, K =
+					function()
+						local J = Color3.fromHSV(D, E, F)
+						return {R = math.floor(J.r * 255), G = math.floor(J.g * 255), B = math.floor(J.b * 255)}
+					end,
+				s(
+					"ImageLabel",
+					{
+						Size = UDim2.new(0, 18, 0, 18),
+						ScaleType = Enum.ScaleType.Fit,
+						AnchorPoint = Vector2.new(0.5, 0.5),
+						BackgroundTransparency = 1,
+						Image = "http://www.roblox.com/asset/?id=4805639000"
+					}
+				)
+				local L, M =
+					s(
+						"ImageLabel",
+						{
+							Size = UDim2.fromOffset(180, 160),
+							Position = UDim2.fromOffset(20, 55),
+							Image = "rbxassetid://4155801252",
+							BackgroundColor3 = z.Value,
+							BackgroundTransparency = 0,
+							Parent = C.Root
+						},
+						{s("UICorner", {CornerRadius = UDim.new(0, 4)}), K}
+					),
+				s(
+					"Frame",
+					{
+						BackgroundColor3 = z.Value,
+						Size = UDim2.fromScale(1, 1),
+						BackgroundTransparency = z.Transparency
+					},
+					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
+				)
+				local N, O =
+					s(
+						"ImageLabel",
+						{
+							Image = "http://www.roblox.com/asset/?id=14204231522",
+							ImageTransparency = 0.45,
+							ScaleType = Enum.ScaleType.Tile,
+							TileSize = UDim2.fromOffset(40, 40),
+							BackgroundTransparency = 1,
+							Position = UDim2.fromOffset(112, 220),
+							Size = UDim2.fromOffset(88, 24),
+							Parent = C.Root
+						},
+						{
+							s("UICorner", {CornerRadius = UDim.new(0, 4)}),
+							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
+							M
+						}
+					),
+				s(
+					"Frame",
+					{BackgroundColor3 = z.Value, Size = UDim2.fromScale(1, 1), BackgroundTransparency = 0},
+					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
+				)
+				local P, Q =
+					s(
+						"ImageLabel",
+						{
+							Image = "http://www.roblox.com/asset/?id=14204231522",
+							ImageTransparency = 0.45,
+							ScaleType = Enum.ScaleType.Tile,
+							TileSize = UDim2.fromOffset(40, 40),
+							BackgroundTransparency = 1,
+							Position = UDim2.fromOffset(20, 220),
+							Size = UDim2.fromOffset(88, 24),
+							Parent = C.Root
+						},
+						{
+							s("UICorner", {CornerRadius = UDim.new(0, 4)}),
+							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
+							O
+						}
+					),
+				{}
+				for R = 0, 1, 0.1 do
+					table.insert(Q, ColorSequenceKeypoint.new(R, Color3.fromHSV(R, 1, 1)))
+				end
+				local R, S =
+					s("UIGradient", {Color = ColorSequence.new(Q), Rotation = 90}),
+				s(
+					"Frame",
+					{
+						Size = UDim2.new(1, 0, 1, -10),
+						Position = UDim2.fromOffset(0, 5),
+						BackgroundTransparency = 1
+					}
+				)
+				local T, U, V =
+					s(
+						"ImageLabel",
+						{
+							Size = UDim2.fromOffset(14, 14),
+							Image = "http://www.roblox.com/asset/?id=12266946128",
+							Parent = S,
+							ThemeTag = {ImageColor3 = "DialogInput"}
+						}
+					),
+				s(
+					"Frame",
+					{Size = UDim2.fromOffset(12, 190), Position = UDim2.fromOffset(210, 55), Parent = C.Root},
+					{s("UICorner", {CornerRadius = UDim.new(1, 0)}), R, S}
+				),
+				H()
+				V.Frame.Position = UDim2.fromOffset(x.Transparency and 260 or 240, 55)
+				I("Hex", UDim2.fromOffset(x.Transparency and 360 or 340, 55))
+				local W = H()
+				W.Frame.Position = UDim2.fromOffset(x.Transparency and 260 or 240, 95)
+				I("Red", UDim2.fromOffset(x.Transparency and 360 or 340, 95))
+				local X = H()
+				X.Frame.Position = UDim2.fromOffset(x.Transparency and 260 or 240, 135)
+				I("Green", UDim2.fromOffset(x.Transparency and 360 or 340, 135))
+				local Y = H()
+				Y.Frame.Position = UDim2.fromOffset(x.Transparency and 260 or 240, 175)
+				I("Blue", UDim2.fromOffset(x.Transparency and 360 or 340, 175))
+				local Z
+				if x.Transparency then
+					Z = H()
+					Z.Frame.Position = UDim2.fromOffset(260, 215)
+					I("Alpha", UDim2.fromOffset(360, 215))
+				end
+				local _, aa, ab
+				if x.Transparency then
+					local ac =
+						s(
+							"Frame",
+							{
+								Size = UDim2.new(1, 0, 1, -10),
+								Position = UDim2.fromOffset(0, 5),
+								BackgroundTransparency = 1
+							}
+						)
+					aa =
+						s(
+							"ImageLabel",
+							{
+								Size = UDim2.fromOffset(14, 14),
+								Image = "http://www.roblox.com/asset/?id=12266946128",
+								Parent = ac,
+								ThemeTag = {ImageColor3 = "DialogInput"}
+							}
+						)
+					ab =
+						s(
+							"Frame",
+							{Size = UDim2.fromScale(1, 1)},
+							{
+								s(
+									"UIGradient",
+									{
+										Transparency = NumberSequence.new {
+											NumberSequenceKeypoint.new(0, 0),
+											NumberSequenceKeypoint.new(1, 1)
+										},
+										Rotation = 270
+									}
+								),
+								s("UICorner", {CornerRadius = UDim.new(1, 0)})
+							}
+						)
+					_ =
+						s(
+							"Frame",
+							{
+								Size = UDim2.fromOffset(12, 190),
+								Position = UDim2.fromOffset(230, 55),
+								Parent = C.Root,
+								BackgroundTransparency = 1
+							},
+							{
+								s("UICorner", {CornerRadius = UDim.new(1, 0)}),
+								s(
+									"ImageLabel",
+									{
+										Image = "http://www.roblox.com/asset/?id=14204231522",
+										ImageTransparency = 0.45,
+										ScaleType = Enum.ScaleType.Tile,
+										TileSize = UDim2.fromOffset(40, 40),
+										BackgroundTransparency = 1,
+										Size = UDim2.fromScale(1, 1),
+										Parent = C.Root
+									},
+									{s("UICorner", {CornerRadius = UDim.new(1, 0)})}
+								),
+								ab,
+								ac
+							}
+						)
+				end
+				local ac = function()
+					L.BackgroundColor3 = Color3.fromHSV(D, 1, 1)
+					T.Position = UDim2.new(0, -1, D, -6)
+					K.Position = UDim2.new(E, 0, 1 - F, 0)
+					O.BackgroundColor3 = Color3.fromHSV(D, E, F)
+					V.Input.Text = "#" .. Color3.fromHSV(D, E, F):ToHex()
+					W.Input.Text = J().R
+					X.Input.Text = J().G
+					Y.Input.Text = J().B
+					if x.Transparency then
+						ab.BackgroundColor3 = Color3.fromHSV(D, E, F)
+						O.BackgroundTransparency = G
+						aa.Position = UDim2.new(0, -1, 1 - G, -6)
+						Z.Input.Text = e(o):Round((1 - G) * 100, 0) .. "%"
+					end
+				end
+				p.AddSignal(
+					V.Input.FocusLost,
+					function(ad)
+						if ad then
+							local ae, af = pcall(Color3.fromHex, V.Input.Text)
+							if ae and typeof(af) == "Color3" then
+								D, E, F = Color3.toHSV(af)
+							end
+						end
+						ac()
+					end
+				)
+				p.AddSignal(
+					W.Input.FocusLost,
+					function(ad)
+						if ad then
+							local ae = J()
+							local af, ag = pcall(Color3.fromRGB, W.Input.Text, ae.G, ae.B)
+							if af and typeof(ag) == "Color3" then
+								if tonumber(W.Input.Text) <= 255 then
+									D, E, F = Color3.toHSV(ag)
+								end
+							end
+						end
+						ac()
+					end
+				)
+				p.AddSignal(
+					X.Input.FocusLost,
+					function(ad)
+						if ad then
+							local ae = J()
+							local af, ag = pcall(Color3.fromRGB, ae.R, X.Input.Text, ae.B)
+							if af and typeof(ag) == "Color3" then
+								if tonumber(X.Input.Text) <= 255 then
+									D, E, F = Color3.toHSV(ag)
+								end
+							end
+						end
+						ac()
+					end
+				)
+				p.AddSignal(
+					Y.Input.FocusLost,
+					function(ad)
+						if ad then
+							local ae = J()
+							local af, ag = pcall(Color3.fromRGB, ae.R, ae.G, Y.Input.Text)
+							if af and typeof(ag) == "Color3" then
+								if tonumber(Y.Input.Text) <= 255 then
+									D, E, F = Color3.toHSV(ag)
+								end
+							end
+						end
+						ac()
+					end
+				)
+				if x.Transparency then
+					p.AddSignal(
+						Z.Input.FocusLost,
+						function(ad)
+							if ad then
+								pcall(
+									function()
+										local ae = tonumber(Z.Input.Text)
+										if ae >= 0 and ae <= 100 then
+											G = 1 - ae * 0.01
+										end
+									end
+								)
+							end
+							ac()
+						end
+					)
+				end
+				p.AddSignal(
+					L.InputBegan,
+					function(ad)
+						if
+							ad.UserInputType == Enum.UserInputType.MouseButton1 or
+							ad.UserInputType == Enum.UserInputType.Touch
+						then
+							while h:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do
+								local ae = L.AbsolutePosition.X
+								local af = ae + L.AbsoluteSize.X
+								local ag, ah = math.clamp(n.X, ae, af), L.AbsolutePosition.Y
+								local ai = ah + L.AbsoluteSize.Y
+								local aj = math.clamp(n.Y, ah, ai)
+								E = (ag - ae) / (af - ae)
+								F = 1 - ((aj - ah) / (ai - ah))
+								ac()
+								l:Wait()
+							end
+						end
+					end
+				)
+				p.AddSignal(
+					U.InputBegan,
+					function(ad)
+						if
+							ad.UserInputType == Enum.UserInputType.MouseButton1 or
+							ad.UserInputType == Enum.UserInputType.Touch
+						then
+							while h:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do
+								local ae = U.AbsolutePosition.Y
+								local af = ae + U.AbsoluteSize.Y
+								local ag = math.clamp(n.Y, ae, af)
+								D = ((ag - ae) / (af - ae))
+								ac()
+								l:Wait()
+							end
+						end
+					end
+				)
+				if x.Transparency then
+					p.AddSignal(
+						_.InputBegan,
+						function(ad)
+							if ad.UserInputType == Enum.UserInputType.MouseButton1 then
+								while h:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do
+									local ae = _.AbsolutePosition.Y
+									local af = ae + _.AbsoluteSize.Y
+									local ag = math.clamp(n.Y, ae, af)
+									G = 1 - ((ag - ae) / (af - ae))
+									ac()
+									l:Wait()
+								end
+							end
+						end
+					)
+				end
+				ac()
+				C:Button(
+					"Done",
+					function()
+						z:SetValue({D, E, F}, G)
+					end
+				)
+				C:Button "Cancel"
+				C:Open()
+			end
+			function z.Display(ac)
+				z.Value = Color3.fromHSV(z.Hue, z.Sat, z.Vib)
+				B.BackgroundColor3 = z.Value
+				B.BackgroundTransparency = z.Transparency
+				u.Library:SafeCallback(z.Callback, z.Value)
+				u.Library:SafeCallback(z.Changed, z.Value)
+			end
+			function z.SetValue(ac, ad, ae)
+				local af = Color3.fromHSV(ad[1], ad[2], ad[3])
+				z.Transparency = ae or 0
+				z:SetHSVFromRGB(af)
+				z:Display()
+			end
+			function z.SetValueRGB(ac, ad, ae)
+				z.Transparency = ae or 0
+				z:SetHSVFromRGB(ad)
+				z:Display()
+			end
+			function z.OnChanged(ac, ad)
+				z.Changed = ad
+				ad(z.Value)
+			end
+			function z.Destroy(ac)
+				A:Destroy()
+				y.Options[w] = nil
+			end
+			p.AddSignal(
+				A.Frame.MouseButton1Click,
+				function()
+					ab()
+				end
+			)
+			z:Display()
+			y.Options[w] = z
+			return z
+		end
+		return u
+	end,
+	[22] = function()
+		local aa, ab, ac, ad, ae = b(22)
+		local af, ag, ah, ai, aj =
+			game:GetService "TweenService",
+		game:GetService "UserInputService",
+		game:GetService "Players".LocalPlayer:GetMouse(),
+		game:GetService "Workspace".CurrentCamera,
+		ab.Parent.Parent
+		local c, d = ac(aj.Creator), ac(aj.Packages.Flipper)
+		local e, f, g = c.New, aj.Components, {}
+		g.__index = g
+		g.__type = "Dropdown"
+		function g.New(h, i, j)
+			local k, l, m =
+				h.Library,
+			{
+				Values = j.Values,
+				Value = j.Default,
+				Multi = j.Multi,
+				Buttons = {},
+				Opened = false,
+				Type = "Dropdown",
+				Callback = j.Callback or function()
+				end
+			},
+			ac(f.Element)(j.Title, j.Description, h.Container, false)
+			m.DescLabel.Size = UDim2.new(1, -170, 0, 14)
+			l.SetTitle = m.SetTitle
+			l.SetDesc = m.SetDesc
+			local n, o =
+				e(
+					"TextLabel",
+					{
+						FontFace = Font.new(
+							"rbxasset://fonts/families/GothamSSm.json",
+							Enum.FontWeight.Regular,
+							Enum.FontStyle.Normal
+						),
+						Text = "Value",
+						TextColor3 = Color3.fromRGB(240, 240, 240),
+						TextSize = 13,
+						TextXAlignment = Enum.TextXAlignment.Left,
+						Size = UDim2.new(1, -30, 0, 14),
+						Position = UDim2.new(0, 8, 0.5, 0),
+						AnchorPoint = Vector2.new(0, 0.5),
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+						BackgroundTransparency = 1,
+						TextTruncate = Enum.TextTruncate.AtEnd,
+						ThemeTag = {TextColor3 = "Text"}
+					}
+				),
+			e(
+				"ImageLabel",
+				{
+					Image = "rbxassetid://10709790948",
+					Size = UDim2.fromOffset(16, 16),
+					AnchorPoint = Vector2.new(1, 0.5),
+					Position = UDim2.new(1, -8, 0.5, 0),
+					BackgroundTransparency = 1,
+					ThemeTag = {ImageColor3 = "SubText"}
+				}
+			)
+			local p, s =
+				e(
+					"TextButton",
+					{
+						Size = UDim2.fromOffset(160, 30),
+						Position = UDim2.new(1, -10, 0.5, 0),
+						AnchorPoint = Vector2.new(1, 0.5),
+						BackgroundTransparency = 0.9,
+						Parent = m.Frame,
+						ThemeTag = {BackgroundColor3 = "DropdownFrame"}
+					},
+					{
+						e("UICorner", {CornerRadius = UDim.new(0, 5)}),
+						e(
+							"UIStroke",
+							{
+								Transparency = 0.5,
+								ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
+								ThemeTag = {Color = "InElementBorder"}
+							}
+						),
+						o,
+						n
+					}
+				),
+			e("UIListLayout", {Padding = UDim.new(0, 3)})
+			local t =
+				e(
+					"ScrollingFrame",
+					{
+						Size = UDim2.new(1, -5, 1, -10),
+						Position = UDim2.fromOffset(5, 5),
+						BackgroundTransparency = 1,
+						BottomImage = "rbxassetid://6889812791",
+						MidImage = "rbxassetid://6889812721",
+						TopImage = "rbxassetid://6276641225",
+						ScrollBarImageColor3 = Color3.fromRGB(255, 255, 255),
+						ScrollBarImageTransparency = 0.95,
+						ScrollBarThickness = 4,
+						BorderSizePixel = 0,
+						CanvasSize = UDim2.fromScale(0, 0)
+					},
+					{s}
+				)
+			local u =
+				e(
+					"Frame",
+					{Size = UDim2.fromScale(1, 0.6), ThemeTag = {BackgroundColor3 = "DropdownHolder"}},
+					{
+						t,
+						e("UICorner", {CornerRadius = UDim.new(0, 7)}),
+						e(
+							"UIStroke",
+							{ApplyStrokeMode = Enum.ApplyStrokeMode.Border, ThemeTag = {Color = "DropdownBorder"}}
+						),
+						e(
+							"ImageLabel",
+							{
+								BackgroundTransparency = 1,
+								Image = "http://www.roblox.com/asset/?id=5554236805",
+								ScaleType = Enum.ScaleType.Slice,
+								SliceCenter = Rect.new(23, 23, 277, 277),
+								Size = UDim2.fromScale(1, 1) + UDim2.fromOffset(30, 30),
+								Position = UDim2.fromOffset(-15, -15),
+								ImageColor3 = Color3.fromRGB(0, 0, 0),
+								ImageTransparency = 0.1
+							}
+						)
+					}
+				)
+			local v =
+				e(
+					"Frame",
+					{BackgroundTransparency = 1, Size = UDim2.fromOffset(170, 300), Parent = h.Library.GUI, Visible = false},
+					{u, e("UISizeConstraint", {MinSize = Vector2.new(170, 0)})}
+				)
+			table.insert(k.OpenFrames, v)
+			local w, x = function()
+				local w = 0
+				if ai.ViewportSize.Y - p.AbsolutePosition.Y < v.AbsoluteSize.Y - 5 then
+					w = v.AbsoluteSize.Y - 5 - (ai.ViewportSize.Y - p.AbsolutePosition.Y) + 40
+				end
+				v.Position = UDim2.fromOffset(p.AbsolutePosition.X - 1, p.AbsolutePosition.Y - 5 - w)
+			end, 0
+			local y, z = function()
+				if #l.Values > 10 then
+					v.Size = UDim2.fromOffset(x, 392)
+				else
+					v.Size = UDim2.fromOffset(x, s.AbsoluteContentSize.Y + 10)
+				end
+			end, function()
+				t.CanvasSize = UDim2.fromOffset(0, s.AbsoluteContentSize.Y)
+			end
+			w()
+			y()
+			c.AddSignal(p:GetPropertyChangedSignal "AbsolutePosition", w)
+			c.AddSignal(
+				p.MouseButton1Click,
+				function()
+					l:Open()
+				end
+			)
+			c.AddSignal(
+				ag.InputBegan,
+				function(A)
+					if A.UserInputType == Enum.UserInputType.MouseButton1 or A.UserInputType == Enum.UserInputType.Touch then
+						local B, C = u.AbsolutePosition, u.AbsoluteSize
+						if ah.X < B.X or ah.X > B.X + C.X or ah.Y < (B.Y - 20 - 1) or ah.Y > B.Y + C.Y then
+							l:Close()
+						end
+					end
+				end
+			)
+			local A = h.ScrollFrame
+			function l.Open(B)
+				l.Opened = true
+				A.ScrollingEnabled = false
+				v.Visible = true
+				af:Create(
+					u,
+					TweenInfo.new(0.2, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
+					{Size = UDim2.fromScale(1, 1)}
+				):Play()
+			end
+			function l.Close(B)
+				l.Opened = false
+				A.ScrollingEnabled = true
+				u.Size = UDim2.fromScale(1, 0.6)
+				v.Visible = false
+			end
+			function l.Display(B)
+				local C, D = l.Values, ""
+				if j.Multi then
+					for E, F in next, C do
+						if l.Value[F] then
+							D = D .. F .. ", "
+						end
+					end
+					D = D:sub(1, #D - 2)
+				else
+					D = l.Value or ""
+				end
+				n.Text = tostring((D == "" and "--" or D))
+			end
+			function l.GetActiveValues(B)
+				if j.Multi then
+					local C = {}
+					for D, E in next, l.Value do
+						table.insert(C, D)
+					end
+					return C
+				else
+					return l.Value and 1 or 0
+				end
+			end
+			function l.BuildDropdownList(B)
+				local C, D = l.Values, {}
+				for E, F in next, t:GetChildren() do
+					if not F:IsA "UIListLayout" then
+						F:Destroy()
+					end
+				end
+				local G = 0
+				for H, I in next, C do
+					local J = {}
+					G = G + 1
+					local K, L =
+						e(
+							"Frame",
+							{
+								Size = UDim2.fromOffset(4, 14),
+								BackgroundColor3 = Color3.fromRGB(76, 194, 255),
+								Position = UDim2.fromOffset(-1, 16),
+								AnchorPoint = Vector2.new(0, 0.5),
+								ThemeTag = {BackgroundColor3 = "Accent"}
+							},
+							{e("UICorner", {CornerRadius = UDim.new(0, 2)})}
+						),
+					e(
+						"TextLabel",
+						{
+							FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+							Text = I,
+							TextColor3 = Color3.fromRGB(200, 200, 200),
+							TextSize = 13,
+							TextXAlignment = Enum.TextXAlignment.Left,
+							BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+							AutomaticSize = Enum.AutomaticSize.Y,
+							BackgroundTransparency = 1,
+							Size = UDim2.fromScale(1, 1),
+							Position = UDim2.fromOffset(10, 0),
+							Name = "ButtonLabel",
+							ThemeTag = {TextColor3 = "Text"}
+						}
+					)
+					local M, N =
+						(e(
+							"TextButton",
+							{
+								Size = UDim2.new(1, -5, 0, 32),
+								BackgroundTransparency = 1,
+								ZIndex = 23,
+								Text = "",
+								Parent = t,
+								ThemeTag = {BackgroundColor3 = "DropdownOption"}
+							},
+							{K, L, e("UICorner", {CornerRadius = UDim.new(0, 6)})}
+							))
+					if j.Multi then
+						N = l.Value[I]
+					else
+						N = l.Value == I
+					end
+					local O, P = c.SpringMotor(1, M, "BackgroundTransparency")
+					local Q, R = c.SpringMotor(1, K, "BackgroundTransparency")
+					local S = d.SingleMotor.new(6)
+					S:onStep(
+						function(T)
+							K.Size = UDim2.new(0, 4, 0, T)
+						end
+					)
+					c.AddSignal(
+						M.MouseEnter,
+						function()
+							P(N and 0.85 or 0.89)
+						end
+					)
+					c.AddSignal(
+						M.MouseLeave,
+						function()
+							P(N and 0.89 or 1)
+						end
+					)
+					c.AddSignal(
+						M.MouseButton1Down,
+						function()
+							P(0.92)
+						end
+					)
+					c.AddSignal(
+						M.MouseButton1Up,
+						function()
+							P(N and 0.85 or 0.89)
+						end
+					)
+					function J.UpdateButton(T)
+						if j.Multi then
+							N = l.Value[I]
+							if N then
+								P(0.89)
+							end
+						else
+							N = l.Value == I
+							P(N and 0.89 or 1)
+						end
+						S:setGoal(d.Spring.new(N and 14 or 6, {frequency = 6}))
+						R(N and 0 or 1)
+					end
+					L.InputBegan:Connect(
+						function(T)
+							if
+								T.UserInputType == Enum.UserInputType.MouseButton1 or
+								T.UserInputType == Enum.UserInputType.Touch
+							then
+								local U = not N
+								if l:GetActiveValues() == 1 and not U and not j.AllowNull then
+								else
+									if j.Multi then
+										N = U
+										l.Value[I] = N and true or nil
+									else
+										N = U
+										l.Value = N and I or nil
+										for V, W in next, D do
+											W:UpdateButton()
+										end
+									end
+									J:UpdateButton()
+									l:Display()
+									k:SafeCallback(l.Callback, l.Value)
+									k:SafeCallback(l.Changed, l.Value)
+								end
+							end
+						end
+					)
+					J:UpdateButton()
+					l:Display()
+					D[M] = J
+				end
+				x = 0
+				for J, K in next, D do
+					if J.ButtonLabel then
+						if J.ButtonLabel.TextBounds.X > x then
+							x = J.ButtonLabel.TextBounds.X
+						end
+					end
+				end
+				x = x + 30
+				z()
+				y()
+			end
+			function l.SetValues(B, C)
+				if C then
+					l.Values = C
+				end
+				l:BuildDropdownList()
+			end
+			function l.OnChanged(B, C)
+				l.Changed = C
+				C(l.Value)
+			end
+			function l.SetValue(B, C)
+				if l.Multi then
+					local D = {}
+					for E, F in next, C do
+						if table.find(l.Values, E) then
+							D[E] = true
+						end
+					end
+					l.Value = D
+				else
+					if not C then
+						l.Value = nil
+					elseif table.find(l.Values, C) then
+						l.Value = C
+					end
+				end
+				l:BuildDropdownList()
+				k:SafeCallback(l.Callback, l.Value)
+				k:SafeCallback(l.Changed, l.Value)
+			end
+			function l.Destroy(B)
+				m:Destroy()
+				k.Options[i] = nil
+			end
+			l:BuildDropdownList()
+			l:Display()
+			local B = {}
+			if type(j.Default) == "string" then
+				local C = table.find(l.Values, j.Default)
+				if C then
+					table.insert(B, C)
+				end
+			elseif type(j.Default) == "table" then
+				for C, D in next, j.Default do
+					local E = table.find(l.Values, D)
+					if E then
+						table.insert(B, E)
+					end
+				end
+			elseif type(j.Default) == "number" and l.Values[j.Default] ~= nil then
+				table.insert(B, j.Default)
+			end
+			if next(B) then
+				for C = 1, #B do
+					local D = B[C]
+					if j.Multi then
+						l.Value[l.Values[D]] = true
+					else
+						l.Value = l.Values[D]
+					end
+					if not j.Multi then
+						break
+					end
+				end
+				l:BuildDropdownList()
+				l:Display()
+			end
+			k.Options[i] = l
+			return l
+		end
+		return g
+	end,
+	[23] = function()
+		local aa, ab, ac, ad, ae = b(23)
+		local af = ab.Parent.Parent
+		local ag = ac(af.Creator)
+		local ah, ai, aj, c = ag.New, ag.AddSignal, af.Components, {}
+		c.__index = c
+		c.__type = "Input"
+		function c.New(d, e, f)
+			local g = d.Library
+			assert(f.Title, "Input - Missing Title")
+			f.Callback = f.Callback or function()
+			end
+			local h, i =
+				{
+					Value = f.Default or "",
+					Numeric = f.Numeric or false,
+					Finished = f.Finished or false,
+					Callback = f.Callback or function(h)
+					end,
+					Type = "Input"
+				},
+			ac(aj.Element)(f.Title, f.Description, d.Container, false)
+			h.SetTitle = i.SetTitle
+			h.SetDesc = i.SetDesc
+			local j = ac(aj.Textbox)(i.Frame, true)
+			j.Frame.Position = UDim2.new(1, -10, 0.5, 0)
+			j.Frame.AnchorPoint = Vector2.new(1, 0.5)
+			j.Frame.Size = UDim2.fromOffset(160, 30)
+			j.Input.Text = f.Default or ""
+			j.Input.PlaceholderText = f.Placeholder or ""
+			local k = j.Input
+			function h.SetValue(l, m)
+				if f.MaxLength and #m > f.MaxLength then
+					m = m:sub(1, f.MaxLength)
+				end
+				if h.Numeric then
+					if (not tonumber(m)) and m:len() > 0 then
+						m = h.Value
+					end
+				end
+				h.Value = m
+				k.Text = m
+				g:SafeCallback(h.Callback, h.Value)
+				g:SafeCallback(h.Changed, h.Value)
+			end
+			if h.Finished then
+				ai(
+					k.FocusLost,
+					function(l)
+						if not l then
+							return
+						end
+						h:SetValue(k.Text)
+					end
+				)
+			else
+				ai(
+					k:GetPropertyChangedSignal "Text",
+					function()
+						h:SetValue(k.Text)
+					end
+				)
+			end
+			function h.OnChanged(l, m)
+				h.Changed = m
+				m(h.Value)
+			end
+			function h.Destroy(l)
+				i:Destroy()
+				g.Options[e] = nil
+			end
+			g.Options[e] = h
+			return h
+		end
+		return c
+	end,
+	[24] = function()
+		local aa, ab, ac, ad, ae = b(24)
+		local af, ag = game:GetService "UserInputService", ab.Parent.Parent
+		local ah = ac(ag.Creator)
+		local ai, aj, c = ah.New, ag.Components, {}
+		c.__index = c
+		c.__type = "Keybind"
+		function c.New(d, e, f)
+			local g = d.Library
+			assert(f.Title, "KeyBind - Missing Title")
+			assert(f.Default, "KeyBind - Missing default value.")
+			local h, i, j =
+				{
+					Value = f.Default,
+					Toggled = false,
+					Mode = f.Mode or "Toggle",
+					Type = "Keybind",
+					Callback = f.Callback or function(h)
+					end,
+					ChangedCallback = f.ChangedCallback or function(h)
+					end
+				},
+			false,
+			ac(aj.Element)(f.Title, f.Description, d.Container, true)
+			h.SetTitle = j.SetTitle
+			h.SetDesc = j.SetDesc
+			local k =
+				ai(
+					"TextLabel",
+					{
+						FontFace = Font.new(
+							"rbxasset://fonts/families/GothamSSm.json",
+							Enum.FontWeight.Regular,
+							Enum.FontStyle.Normal
+						),
+						Text = f.Default,
+						TextColor3 = Color3.fromRGB(240, 240, 240),
+						TextSize = 13,
+						TextXAlignment = Enum.TextXAlignment.Center,
+						Size = UDim2.new(0, 0, 0, 14),
+						Position = UDim2.new(0, 0, 0.5, 0),
+						AnchorPoint = Vector2.new(0, 0.5),
+						BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+						AutomaticSize = Enum.AutomaticSize.X,
+						BackgroundTransparency = 1,
+						ThemeTag = {TextColor3 = "Text"}
+					}
+				)
+			local l =
+				ai(
+					"TextButton",
+					{
+						Size = UDim2.fromOffset(0, 30),
+						Position = UDim2.new(1, -10, 0.5, 0),
+						AnchorPoint = Vector2.new(1, 0.5),
+						BackgroundTransparency = 0.9,
+						Parent = j.Frame,
+						AutomaticSize = Enum.AutomaticSize.X,
+						ThemeTag = {BackgroundColor3 = "Keybind"}
+					},
+					{
+						ai("UICorner", {CornerRadius = UDim.new(0, 5)}),
+						ai("UIPadding", {PaddingLeft = UDim.new(0, 8), PaddingRight = UDim.new(0, 8)}),
+						ai(
+							"UIStroke",
+							{
+								Transparency = 0.5,
+								ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
+								ThemeTag = {Color = "InElementBorder"}
+							}
+						),
+						k
+					}
+				)
+			function h.GetState(m)
+				if af:GetFocusedTextBox() and h.Mode ~= "Always" then
+					return false
+				end
+				if h.Mode == "Always" then
+					return true
+				elseif h.Mode == "Hold" then
+					if h.Value == "None" then
+						return false
+					end
+					local n = h.Value
+					if n == "MouseLeft" or n == "MouseRight" then
+						return n == "MouseLeft" and af:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) or
+							n == "MouseRight" and af:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)
+					else
+						return af:IsKeyDown(Enum.KeyCode[h.Value])
+					end
+				else
+					return h.Toggled
+				end
+			end
+			function h.SetValue(m, n, o)
+				n = n or h.Key
+				o = o or h.Mode
+				k.Text = n
+				h.Value = n
+				h.Mode = o
+			end
+			function h.OnClick(m, n)
+				h.Clicked = n
+			end
+			function h.OnChanged(m, n)
+				h.Changed = n
+				n(h.Value)
+			end
+			function h.DoClick(m)
+				g:SafeCallback(h.Callback, h.Toggled)
+				g:SafeCallback(h.Clicked, h.Toggled)
+			end
+			function h.Destroy(m)
+				j:Destroy()
+				g.Options[e] = nil
+			end
+			ah.AddSignal(
+				l.InputBegan,
+				function(m)
+					if m.UserInputType == Enum.UserInputType.MouseButton1 or m.UserInputType == Enum.UserInputType.Touch then
+						i = true
+						k.Text = "..."
+						wait(0.2)
+						local n
+						n =
+							af.InputBegan:Connect(
+								function(o)
+									local p
+									if o.UserInputType == Enum.UserInputType.Keyboard then
+									p = o.KeyCode.Name
+								elseif o.UserInputType == Enum.UserInputType.MouseButton1 then
+									p = "MouseLeft"
+								elseif o.UserInputType == Enum.UserInputType.MouseButton2 then
+									p = "MouseRight"
+								end
+									local s
+									s =
+									af.InputEnded:Connect(
+										function(t)
+											if
+											t.KeyCode.Name == p or
+											p == "MouseLeft" and t.UserInputType == Enum.UserInputType.MouseButton1 or
+											p == "MouseRight" and t.UserInputType == Enum.UserInputType.MouseButton2
+										then
+											i = false
+											k.Text = p
+											h.Value = p
+											g:SafeCallback(h.ChangedCallback, t.KeyCode or t.UserInputType)
+											g:SafeCallback(h.Changed, t.KeyCode or t.UserInputType)
+											n:Disconnect()
+											s:Disconnect()
+										end
+										end
+									)
+								end
+							)
+					end
+				end
+			)
+			ah.AddSignal(
+				af.InputBegan,
+				function(m)
+					if not i and not af:GetFocusedTextBox() then
+						if h.Mode == "Toggle" then
+							local n = h.Value
+							if n == "MouseLeft" or n == "MouseRight" then
+								if
+									n == "MouseLeft" and m.UserInputType == Enum.UserInputType.MouseButton1 or
+									n == "MouseRight" and m.UserInputType == Enum.UserInputType.MouseButton2
+								then
+									h.Toggled = not h.Toggled
+									h:DoClick()
+								end
+							elseif m.UserInputType == Enum.UserInputType.Keyboard then
+								if m.KeyCode.Name == n then
+									h.Toggled = not h.Toggled
+									h:DoClick()
+								end
+							end
+						end
+					end
+				end
+			)
+			g.Options[e] = h
+			return h
+		end
+		return c
+	end,
+	[25] = function()
+		local aa, ab, ac, ad, ae = b(25)
+		local af = ab.Parent.Parent
+		local ag, ah, ai, aj = af.Components, ac(af.Packages.Flipper), ac(af.Creator), {}
+		aj.__index = aj
+		aj.__type = "Paragraph"
+		function aj.New(c, d)
+			assert(d.Title, "Paragraph - Missing Title")
+			d.Content = d.Content or ""
+			local e = ac(ag.Element)(d.Title, d.Content, aj.Container, false)
+			e.Frame.BackgroundTransparency = 0.92
+			e.Border.Transparency = 0.6
+			return e
+		end
+		return aj
+	end,
+	[26] = function()
+		local aa, ab, ac, ad, ae = b(26)
+		local af, ag = game:GetService "UserInputService", ab.Parent.Parent
+		local ah = ac(ag.Creator)
+		local ai, aj, c = ah.New, ag.Components, {}
+		c.__index = c
+		c.__type = "Slider"
+		function c.New(d, e, f)
+			local g = d.Library
+			assert(f.Title, "Slider - Missing Title.")
+			assert(f.Default, "Slider - Missing default value.")
+			assert(f.Min, "Slider - Missing minimum value.")
+			assert(f.Max, "Slider - Missing maximum value.")
+			assert(f.Rounding, "Slider - Missing rounding value.")
+			local h, i, j =
+				{Value = nil, Min = f.Min, Max = f.Max, Rounding = f.Rounding, Callback = f.Callback or function(h)
+				end, Type = "Slider"},
+			false,
+			ac(aj.Element)(f.Title, f.Description, d.Container, false)
+			j.DescLabel.Size = UDim2.new(1, -170, 0, 14)
+			h.SetTitle = j.SetTitle
+			h.SetDesc = j.SetDesc
+			local k =
+				ai(
+					"ImageLabel",
+					{
+						AnchorPoint = Vector2.new(0, 0.5),
+						Position = UDim2.new(0, -7, 0.5, 0),
+						Size = UDim2.fromOffset(14, 14),
+						Image = "http://www.roblox.com/asset/?id=12266946128",
+						ThemeTag = {ImageColor3 = "Accent"}
+					}
+				)
+			local l, m, n =
+				ai(
+					"Frame",
+					{BackgroundTransparency = 1, Position = UDim2.fromOffset(7, 0), Size = UDim2.new(1, -14, 1, 0)},
+					{k}
+				),
+			ai(
+				"Frame",
+				{Size = UDim2.new(0, 0, 1, 0), ThemeTag = {BackgroundColor3 = "Accent"}},
+				{ai("UICorner", {CornerRadius = UDim.new(1, 0)})}
+			),
+			ai(
+				"TextLabel",
+				{
+					FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+					Text = "Value",
+					TextSize = 12,
+					TextWrapped = true,
+					TextXAlignment = Enum.TextXAlignment.Right,
+					BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+					BackgroundTransparency = 1,
+					Size = UDim2.new(0, 100, 0, 14),
+					Position = UDim2.new(0, -4, 0.5, 0),
+					AnchorPoint = Vector2.new(1, 0.5),
+					ThemeTag = {TextColor3 = "SubText"}
+				}
+			)
+			local o =
+				ai(
+					"Frame",
+					{
+						Size = UDim2.new(1, 0, 0, 4),
+						AnchorPoint = Vector2.new(1, 0.5),
+						Position = UDim2.new(1, -10, 0.5, 0),
+						BackgroundTransparency = 0.4,
+						Parent = j.Frame,
+						ThemeTag = {BackgroundColor3 = "SliderRail"}
+					},
+					{
+						ai("UICorner", {CornerRadius = UDim.new(1, 0)}),
+						ai("UISizeConstraint", {MaxSize = Vector2.new(150, math.huge)}),
+						n,
+						m,
+						l
+					}
+				)
+			ah.AddSignal(
+				k.InputBegan,
+				function(p)
+					if p.UserInputType == Enum.UserInputType.MouseButton1 or p.UserInputType == Enum.UserInputType.Touch then
+						i = true
+					end
+				end
+			)
+			ah.AddSignal(
+				k.InputEnded,
+				function(p)
+					if p.UserInputType == Enum.UserInputType.MouseButton1 or p.UserInputType == Enum.UserInputType.Touch then
+						i = false
+					end
+				end
+			)
+			ah.AddSignal(
+				af.InputChanged,
+				function(p)
+					if
+						i and
+						(p.UserInputType == Enum.UserInputType.MouseMovement or
+							p.UserInputType == Enum.UserInputType.Touch)
+					then
+						local s = math.clamp((p.Position.X - l.AbsolutePosition.X) / l.AbsoluteSize.X, 0, 1)
+						h:SetValue(h.Min + ((h.Max - h.Min) * s))
+					end
+				end
+			)
+			function h.OnChanged(p, s)
+				h.Changed = s
+				s(h.Value)
+			end
+			function h.SetValue(p, s)
+				p.Value = g:Round(math.clamp(s, h.Min, h.Max), h.Rounding)
+				k.Position = UDim2.new((p.Value - h.Min) / (h.Max - h.Min), -7, 0.5, 0)
+				m.Size = UDim2.fromScale((p.Value - h.Min) / (h.Max - h.Min), 1)
+				n.Text = tostring(p.Value)
+				g:SafeCallback(h.Callback, p.Value)
+				g:SafeCallback(h.Changed, p.Value)
+			end
+			function h.Destroy(p)
+				j:Destroy()
+				g.Options[e] = nil
+			end
+			h:SetValue(f.Default)
+			g.Options[e] = h
+			return h
+		end
+		return c
+	end,
+	[27] = function()
+		local aa, ab, ac, ad, ae = b(27)
+		local af, ag = game:GetService "TweenService", ab.Parent.Parent
+		local ah = ac(ag.Creator)
+		local ai, aj, c = ah.New, ag.Components, {}
+		c.__index = c
+		c.__type = "Toggle"
+		function c.New(d, e, f)
+			local g = d.Library
+			assert(f.Title, "Toggle - Missing Title")
+			local h, i = {Value = f.Default or false, Callback = f.Callback or function(h)
+			end, Type = "Toggle"}, ac(aj.Element)(f.Title, f.Description, d.Container, true)
+			i.DescLabel.Size = UDim2.new(1, -54, 0, 14)
+			h.SetTitle = i.SetTitle
+			h.SetDesc = i.SetDesc
+			local j, k =
+				ai(
+					"ImageLabel",
+					{
+						AnchorPoint = Vector2.new(0, 0.5),
+						Size = UDim2.fromOffset(14, 14),
+						Position = UDim2.new(0, 2, 0.5, 0),
+						Image = "http://www.roblox.com/asset/?id=12266946128",
+						ImageTransparency = 0.5,
+						ThemeTag = {ImageColor3 = "ToggleSlider"}
+					}
+				),
+			ai("UIStroke", {Transparency = 0.5, ThemeTag = {Color = "ToggleSlider"}})
+			local l =
+				ai(
+					"Frame",
+					{
+						Size = UDim2.fromOffset(36, 18),
+						AnchorPoint = Vector2.new(1, 0.5),
+						Position = UDim2.new(1, -10, 0.5, 0),
+						Parent = i.Frame,
+						BackgroundTransparency = 1,
+						ThemeTag = {BackgroundColor3 = "Accent"}
+					},
+					{ai("UICorner", {CornerRadius = UDim.new(0, 9)}), k, j}
+				)
+			function h.OnChanged(m, n)
+				h.Changed = n
+				n(h.Value)
+			end
+			function h.SetValue(m, n)
+				n = not (not n)
+				h.Value = n
+				ah.OverrideTag(k, {Color = h.Value and "Accent" or "ToggleSlider"})
+				ah.OverrideTag(j, {ImageColor3 = h.Value and "ToggleToggled" or "ToggleSlider"})
+				af:Create(
+					j,
+					TweenInfo.new(0.25, Enum.EasingStyle.Quint, Enum.EasingDirection.Out),
+					{Position = UDim2.new(0, h.Value and 19 or 2, 0.5, 0)}
+				):Play()
+				af:Create(
+					l,
+					TweenInfo.new(0.25, Enum.EasingStyle.Quint, Enum.EasingDirection.Out),
+					{BackgroundTransparency = h.Value and 0 or 1}
+				):Play()
+				j.ImageTransparency = h.Value and 0 or 0.5
+				g:SafeCallback(h.Callback, h.Value)
+				g:SafeCallback(h.Changed, h.Value)
+			end
+			function h.Destroy(m)
+				i:Destroy()
+				g.Options[e] = nil
+			end
+			ah.AddSignal(
+				i.Frame.MouseButton1Click,
+				function()
+					h:SetValue(not h.Value)
+				end
+			)
+			h:SetValue(h.Value)
+			g.Options[e] = h
+			return h
+		end
+		return c
+	end,
+	[28] = function()
+		local aa, ab, ac, ad, ae = b(28)
+		return {
+			assets = {
+				["lucide-accessibility"] = "rbxassetid://10709751939",
+				["lucide-activity"] = "rbxassetid://10709752035",
+				["lucide-air-vent"] = "rbxassetid://10709752131",
+				["lucide-airplay"] = "rbxassetid://10709752254",
+				["lucide-alarm-check"] = "rbxassetid://10709752405",
+				["lucide-alarm-clock"] = "rbxassetid://10709752630",
+				["lucide-alarm-clock-off"] = "rbxassetid://10709752508",
+				["lucide-alarm-minus"] = "rbxassetid://10709752732",
+				["lucide-alarm-plus"] = "rbxassetid://10709752825",
+				["lucide-album"] = "rbxassetid://10709752906",
+				["lucide-alert-circle"] = "rbxassetid://10709752996",
+				["lucide-alert-octagon"] = "rbxassetid://10709753064",
+				["lucide-alert-triangle"] = "rbxassetid://10709753149",
+				["lucide-align-center"] = "rbxassetid://10709753570",
+				["lucide-align-center-horizontal"] = "rbxassetid://10709753272",
+				["lucide-align-center-vertical"] = "rbxassetid://10709753421",
+				["lucide-align-end-horizontal"] = "rbxassetid://10709753692",
+				["lucide-align-end-vertical"] = "rbxassetid://10709753808",
+				["lucide-align-horizontal-distribute-center"] = "rbxassetid://10747779791",
+				["lucide-align-horizontal-distribute-end"] = "rbxassetid://10747784534",
+				["lucide-align-horizontal-distribute-start"] = "rbxassetid://10709754118",
+				["lucide-align-horizontal-justify-center"] = "rbxassetid://10709754204",
+				["lucide-align-horizontal-justify-end"] = "rbxassetid://10709754317",
+				["lucide-align-horizontal-justify-start"] = "rbxassetid://10709754436",
+				["lucide-align-horizontal-space-around"] = "rbxassetid://10709754590",
+				["lucide-align-horizontal-space-between"] = "rbxassetid://10709754749",
+				["lucide-align-justify"] = "rbxassetid://10709759610",
+				["lucide-align-left"] = "rbxassetid://10709759764",
+				["lucide-align-right"] = "rbxassetid://10709759895",
+				["lucide-align-start-horizontal"] = "rbxassetid://10709760051",
+				["lucide-align-start-vertical"] = "rbxassetid://10709760244",
+				["lucide-align-vertical-distribute-center"] = "rbxassetid://10709760351",
+				["lucide-align-vertical-distribute-end"] = "rbxassetid://10709760434",
+				["lucide-align-vertical-distribute-start"] = "rbxassetid://10709760612",
+				["lucide-align-vertical-justify-center"] = "rbxassetid://10709760814",
+				["lucide-align-vertical-justify-end"] = "rbxassetid://10709761003",
+				["lucide-align-vertical-justify-start"] = "rbxassetid://10709761176",
+				["lucide-align-vertical-space-around"] = "rbxassetid://10709761324",
+				["lucide-align-vertical-space-between"] = "rbxassetid://10709761434",
+				["lucide-anchor"] = "rbxassetid://10709761530",
+				["lucide-angry"] = "rbxassetid://10709761629",
+				["lucide-annoyed"] = "rbxassetid://10709761722",
+				["lucide-aperture"] = "rbxassetid://10709761813",
+				["lucide-apple"] = "rbxassetid://10709761889",
+				["lucide-archive"] = "rbxassetid://10709762233",
+				["lucide-archive-restore"] = "rbxassetid://10709762058",
+				["lucide-armchair"] = "rbxassetid://10709762327",
+				["lucide-arrow-big-down"] = "rbxassetid://10747796644",
+				["lucide-arrow-big-left"] = "rbxassetid://10709762574",
+				["lucide-arrow-big-right"] = "rbxassetid://10709762727",
+				["lucide-arrow-big-up"] = "rbxassetid://10709762879",
+				["lucide-arrow-down"] = "rbxassetid://10709767827",
+				["lucide-arrow-down-circle"] = "rbxassetid://10709763034",
+				["lucide-arrow-down-left"] = "rbxassetid://10709767656",
+				["lucide-arrow-down-right"] = "rbxassetid://10709767750",
+				["lucide-arrow-left"] = "rbxassetid://10709768114",
+				["lucide-arrow-left-circle"] = "rbxassetid://10709767936",
+				["lucide-arrow-left-right"] = "rbxassetid://10709768019",
+				["lucide-arrow-right"] = "rbxassetid://10709768347",
+				["lucide-arrow-right-circle"] = "rbxassetid://10709768226",
+				["lucide-arrow-up"] = "rbxassetid://10709768939",
+				["lucide-arrow-up-circle"] = "rbxassetid://10709768432",
+				["lucide-arrow-up-down"] = "rbxassetid://10709768538",
+				["lucide-arrow-up-left"] = "rbxassetid://10709768661",
+				["lucide-arrow-up-right"] = "rbxassetid://10709768787",
+				["lucide-asterisk"] = "rbxassetid://10709769095",
+				["lucide-at-sign"] = "rbxassetid://10709769286",
+				["lucide-award"] = "rbxassetid://10709769406",
+				["lucide-axe"] = "rbxassetid://10709769508",
+				["lucide-axis-3d"] = "rbxassetid://10709769598",
+				["lucide-baby"] = "rbxassetid://10709769732",
+				["lucide-backpack"] = "rbxassetid://10709769841",
+				["lucide-baggage-claim"] = "rbxassetid://10709769935",
+				["lucide-banana"] = "rbxassetid://10709770005",
+				["lucide-banknote"] = "rbxassetid://10709770178",
+				["lucide-bar-chart"] = "rbxassetid://10709773755",
+				["lucide-bar-chart-2"] = "rbxassetid://10709770317",
+				["lucide-bar-chart-3"] = "rbxassetid://10709770431",
+				["lucide-bar-chart-4"] = "rbxassetid://10709770560",
+				["lucide-bar-chart-horizontal"] = "rbxassetid://10709773669",
+				["lucide-barcode"] = "rbxassetid://10747360675",
+				["lucide-baseline"] = "rbxassetid://10709773863",
+				["lucide-bath"] = "rbxassetid://10709773963",
+				["lucide-battery"] = "rbxassetid://10709774640",
+				["lucide-battery-charging"] = "rbxassetid://10709774068",
+				["lucide-battery-full"] = "rbxassetid://10709774206",
+				["lucide-battery-low"] = "rbxassetid://10709774370",
+				["lucide-battery-medium"] = "rbxassetid://10709774513",
+				["lucide-beaker"] = "rbxassetid://10709774756",
+				["lucide-bed"] = "rbxassetid://10709775036",
+				["lucide-bed-double"] = "rbxassetid://10709774864",
+				["lucide-bed-single"] = "rbxassetid://10709774968",
+				["lucide-beer"] = "rbxassetid://10709775167",
+				["lucide-bell"] = "rbxassetid://10709775704",
+				["lucide-bell-minus"] = "rbxassetid://10709775241",
+				["lucide-bell-off"] = "rbxassetid://10709775320",
+				["lucide-bell-plus"] = "rbxassetid://10709775448",
+				["lucide-bell-ring"] = "rbxassetid://10709775560",
+				["lucide-bike"] = "rbxassetid://10709775894",
+				["lucide-binary"] = "rbxassetid://10709776050",
+				["lucide-bitcoin"] = "rbxassetid://10709776126",
+				["lucide-bluetooth"] = "rbxassetid://10709776655",
+				["lucide-bluetooth-connected"] = "rbxassetid://10709776240",
+				["lucide-bluetooth-off"] = "rbxassetid://10709776344",
+				["lucide-bluetooth-searching"] = "rbxassetid://10709776501",
+				["lucide-bold"] = "rbxassetid://10747813908",
+				["lucide-bomb"] = "rbxassetid://10709781460",
+				["lucide-bone"] = "rbxassetid://10709781605",
+				["lucide-book"] = "rbxassetid://10709781824",
+				["lucide-book-open"] = "rbxassetid://10709781717",
+				["lucide-bookmark"] = "rbxassetid://10709782154",
+				["lucide-bookmark-minus"] = "rbxassetid://10709781919",
+				["lucide-bookmark-plus"] = "rbxassetid://10709782044",
+				["lucide-bot"] = "rbxassetid://10709782230",
+				["lucide-box"] = "rbxassetid://10709782497",
+				["lucide-box-select"] = "rbxassetid://10709782342",
+				["lucide-boxes"] = "rbxassetid://10709782582",
+				["lucide-briefcase"] = "rbxassetid://10709782662",
+				["lucide-brush"] = "rbxassetid://10709782758",
+				["lucide-bug"] = "rbxassetid://10709782845",
+				["lucide-building"] = "rbxassetid://10709783051",
+				["lucide-building-2"] = "rbxassetid://10709782939",
+				["lucide-bus"] = "rbxassetid://10709783137",
+				["lucide-cake"] = "rbxassetid://10709783217",
+				["lucide-calculator"] = "rbxassetid://10709783311",
+				["lucide-calendar"] = "rbxassetid://10709789505",
+				["lucide-calendar-check"] = "rbxassetid://10709783474",
+				["lucide-calendar-check-2"] = "rbxassetid://10709783392",
+				["lucide-calendar-clock"] = "rbxassetid://10709783577",
+				["lucide-calendar-days"] = "rbxassetid://10709783673",
+				["lucide-calendar-heart"] = "rbxassetid://10709783835",
+				["lucide-calendar-minus"] = "rbxassetid://10709783959",
+				["lucide-calendar-off"] = "rbxassetid://10709788784",
+				["lucide-calendar-plus"] = "rbxassetid://10709788937",
+				["lucide-calendar-range"] = "rbxassetid://10709789053",
+				["lucide-calendar-search"] = "rbxassetid://10709789200",
+				["lucide-calendar-x"] = "rbxassetid://10709789407",
+				["lucide-calendar-x-2"] = "rbxassetid://10709789329",
+				["lucide-camera"] = "rbxassetid://10709789686",
+				["lucide-camera-off"] = "rbxassetid://10747822677",
+				["lucide-car"] = "rbxassetid://10709789810",
+				["lucide-carrot"] = "rbxassetid://10709789960",
+				["lucide-cast"] = "rbxassetid://10709790097",
+				["lucide-charge"] = "rbxassetid://10709790202",
+				["lucide-check"] = "rbxassetid://10709790644",
+				["lucide-check-circle"] = "rbxassetid://10709790387",
+				["lucide-check-circle-2"] = "rbxassetid://10709790298",
+				["lucide-check-square"] = "rbxassetid://10709790537",
+				["lucide-chef-hat"] = "rbxassetid://10709790757",
+				["lucide-cherry"] = "rbxassetid://10709790875",
+				["lucide-chevron-down"] = "rbxassetid://10709790948",
+				["lucide-chevron-first"] = "rbxassetid://10709791015",
+				["lucide-chevron-last"] = "rbxassetid://10709791130",
+				["lucide-chevron-left"] = "rbxassetid://10709791281",
+				["lucide-chevron-right"] = "rbxassetid://10709791437",
+				["lucide-chevron-up"] = "rbxassetid://10709791523",
+				["lucide-chevrons-down"] = "rbxassetid://10709796864",
+				["lucide-chevrons-down-up"] = "rbxassetid://10709791632",
+				["lucide-chevrons-left"] = "rbxassetid://10709797151",
+				["lucide-chevrons-left-right"] = "rbxassetid://10709797006",
+				["lucide-chevrons-right"] = "rbxassetid://10709797382",
+				["lucide-chevrons-right-left"] = "rbxassetid://10709797274",
+				["lucide-chevrons-up"] = "rbxassetid://10709797622",
+				["lucide-chevrons-up-down"] = "rbxassetid://10709797508",
+				["lucide-chrome"] = "rbxassetid://10709797725",
+				["lucide-circle"] = "rbxassetid://10709798174",
+				["lucide-circle-dot"] = "rbxassetid://10709797837",
+				["lucide-circle-ellipsis"] = "rbxassetid://10709797985",
+				["lucide-circle-slashed"] = "rbxassetid://10709798100",
+				["lucide-citrus"] = "rbxassetid://10709798276",
+				["lucide-clapperboard"] = "rbxassetid://10709798350",
+				["lucide-clipboard"] = "rbxassetid://10709799288",
+				["lucide-clipboard-check"] = "rbxassetid://10709798443",
+				["lucide-clipboard-copy"] = "rbxassetid://10709798574",
+				["lucide-clipboard-edit"] = "rbxassetid://10709798682",
+				["lucide-clipboard-list"] = "rbxassetid://10709798792",
+				["lucide-clipboard-signature"] = "rbxassetid://10709798890",
+				["lucide-clipboard-type"] = "rbxassetid://10709798999",
+				["lucide-clipboard-x"] = "rbxassetid://10709799124",
+				["lucide-clock"] = "rbxassetid://10709805144",
+				["lucide-clock-1"] = "rbxassetid://10709799535",
+				["lucide-clock-10"] = "rbxassetid://10709799718",
+				["lucide-clock-11"] = "rbxassetid://10709799818",
+				["lucide-clock-12"] = "rbxassetid://10709799962",
+				["lucide-clock-2"] = "rbxassetid://10709803876",
+				["lucide-clock-3"] = "rbxassetid://10709803989",
+				["lucide-clock-4"] = "rbxassetid://10709804164",
+				["lucide-clock-5"] = "rbxassetid://10709804291",
+				["lucide-clock-6"] = "rbxassetid://10709804435",
+				["lucide-clock-7"] = "rbxassetid://10709804599",
+				["lucide-clock-8"] = "rbxassetid://10709804784",
+				["lucide-clock-9"] = "rbxassetid://10709804996",
+				["lucide-cloud"] = "rbxassetid://10709806740",
+				["lucide-cloud-cog"] = "rbxassetid://10709805262",
+				["lucide-cloud-drizzle"] = "rbxassetid://10709805371",
+				["lucide-cloud-fog"] = "rbxassetid://10709805477",
+				["lucide-cloud-hail"] = "rbxassetid://10709805596",
+				["lucide-cloud-lightning"] = "rbxassetid://10709805727",
+				["lucide-cloud-moon"] = "rbxassetid://10709805942",
+				["lucide-cloud-moon-rain"] = "rbxassetid://10709805838",
+				["lucide-cloud-off"] = "rbxassetid://10709806060",
+				["lucide-cloud-rain"] = "rbxassetid://10709806277",
+				["lucide-cloud-rain-wind"] = "rbxassetid://10709806166",
+				["lucide-cloud-snow"] = "rbxassetid://10709806374",
+				["lucide-cloud-sun"] = "rbxassetid://10709806631",
+				["lucide-cloud-sun-rain"] = "rbxassetid://10709806475",
+				["lucide-cloudy"] = "rbxassetid://10709806859",
+				["lucide-clover"] = "rbxassetid://10709806995",
+				["lucide-code"] = "rbxassetid://10709810463",
+				["lucide-code-2"] = "rbxassetid://10709807111",
+				["lucide-codepen"] = "rbxassetid://10709810534",
+				["lucide-codesandbox"] = "rbxassetid://10709810676",
+				["lucide-coffee"] = "rbxassetid://10709810814",
+				["lucide-cog"] = "rbxassetid://10709810948",
+				["lucide-coins"] = "rbxassetid://10709811110",
+				["lucide-columns"] = "rbxassetid://10709811261",
+				["lucide-command"] = "rbxassetid://10709811365",
+				["lucide-compass"] = "rbxassetid://10709811445",
+				["lucide-component"] = "rbxassetid://10709811595",
+				["lucide-concierge-bell"] = "rbxassetid://10709811706",
+				["lucide-connection"] = "rbxassetid://10747361219",
+				["lucide-contact"] = "rbxassetid://10709811834",
+				["lucide-contrast"] = "rbxassetid://10709811939",
+				["lucide-cookie"] = "rbxassetid://10709812067",
+				["lucide-copy"] = "rbxassetid://10709812159",
+				["lucide-copyleft"] = "rbxassetid://10709812251",
+				["lucide-copyright"] = "rbxassetid://10709812311",
+				["lucide-corner-down-left"] = "rbxassetid://10709812396",
+				["lucide-corner-down-right"] = "rbxassetid://10709812485",
+				["lucide-corner-left-down"] = "rbxassetid://10709812632",
+				["lucide-corner-left-up"] = "rbxassetid://10709812784",
+				["lucide-corner-right-down"] = "rbxassetid://10709812939",
+				["lucide-corner-right-up"] = "rbxassetid://10709813094",
+				["lucide-corner-up-left"] = "rbxassetid://10709813185",
+				["lucide-corner-up-right"] = "rbxassetid://10709813281",
+				["lucide-cpu"] = "rbxassetid://10709813383",
+				["lucide-croissant"] = "rbxassetid://10709818125",
+				["lucide-crop"] = "rbxassetid://10709818245",
+				["lucide-cross"] = "rbxassetid://10709818399",
+				["lucide-crosshair"] = "rbxassetid://10709818534",
+				["lucide-crown"] = "rbxassetid://10709818626",
+				["lucide-cup-soda"] = "rbxassetid://10709818763",
+				["lucide-curly-braces"] = "rbxassetid://10709818847",
+				["lucide-currency"] = "rbxassetid://10709818931",
+				["lucide-database"] = "rbxassetid://10709818996",
+				["lucide-delete"] = "rbxassetid://10709819059",
+				["lucide-diamond"] = "rbxassetid://10709819149",
+				["lucide-dice-1"] = "rbxassetid://10709819266",
+				["lucide-dice-2"] = "rbxassetid://10709819361",
+				["lucide-dice-3"] = "rbxassetid://10709819508",
+				["lucide-dice-4"] = "rbxassetid://10709819670",
+				["lucide-dice-5"] = "rbxassetid://10709819801",
+				["lucide-dice-6"] = "rbxassetid://10709819896",
+				["lucide-dices"] = "rbxassetid://10723343321",
+				["lucide-diff"] = "rbxassetid://10723343416",
+				["lucide-disc"] = "rbxassetid://10723343537",
+				["lucide-divide"] = "rbxassetid://10723343805",
+				["lucide-divide-circle"] = "rbxassetid://10723343636",
+				["lucide-divide-square"] = "rbxassetid://10723343737",
+				["lucide-dollar-sign"] = "rbxassetid://10723343958",
+				["lucide-download"] = "rbxassetid://10723344270",
+				["lucide-download-cloud"] = "rbxassetid://10723344088",
+				["lucide-droplet"] = "rbxassetid://10723344432",
+				["lucide-droplets"] = "rbxassetid://10734883356",
+				["lucide-drumstick"] = "rbxassetid://10723344737",
+				["lucide-edit"] = "rbxassetid://10734883598",
+				["lucide-edit-2"] = "rbxassetid://10723344885",
+				["lucide-edit-3"] = "rbxassetid://10723345088",
+				["lucide-egg"] = "rbxassetid://10723345518",
+				["lucide-egg-fried"] = "rbxassetid://10723345347",
+				["lucide-electricity"] = "rbxassetid://10723345749",
+				["lucide-electricity-off"] = "rbxassetid://10723345643",
+				["lucide-equal"] = "rbxassetid://10723345990",
+				["lucide-equal-not"] = "rbxassetid://10723345866",
+				["lucide-eraser"] = "rbxassetid://10723346158",
+				["lucide-euro"] = "rbxassetid://10723346372",
+				["lucide-expand"] = "rbxassetid://10723346553",
+				["lucide-external-link"] = "rbxassetid://10723346684",
+				["lucide-eye"] = "rbxassetid://10723346959",
+				["lucide-eye-off"] = "rbxassetid://10723346871",
+				["lucide-factory"] = "rbxassetid://10723347051",
+				["lucide-fan"] = "rbxassetid://10723354359",
+				["lucide-fast-forward"] = "rbxassetid://10723354521",
+				["lucide-feather"] = "rbxassetid://10723354671",
+				["lucide-figma"] = "rbxassetid://10723354801",
+				["lucide-file"] = "rbxassetid://10723374641",
+				["lucide-file-archive"] = "rbxassetid://10723354921",
+				["lucide-file-audio"] = "rbxassetid://10723355148",
+				["lucide-file-audio-2"] = "rbxassetid://10723355026",
+				["lucide-file-axis-3d"] = "rbxassetid://10723355272",
+				["lucide-file-badge"] = "rbxassetid://10723355622",
+				["lucide-file-badge-2"] = "rbxassetid://10723355451",
+				["lucide-file-bar-chart"] = "rbxassetid://10723355887",
+				["lucide-file-bar-chart-2"] = "rbxassetid://10723355746",
+				["lucide-file-box"] = "rbxassetid://10723355989",
+				["lucide-file-check"] = "rbxassetid://10723356210",
+				["lucide-file-check-2"] = "rbxassetid://10723356100",
+				["lucide-file-clock"] = "rbxassetid://10723356329",
+				["lucide-file-code"] = "rbxassetid://10723356507",
+				["lucide-file-cog"] = "rbxassetid://10723356830",
+				["lucide-file-cog-2"] = "rbxassetid://10723356676",
+				["lucide-file-diff"] = "rbxassetid://10723357039",
+				["lucide-file-digit"] = "rbxassetid://10723357151",
+				["lucide-file-down"] = "rbxassetid://10723357322",
+				["lucide-file-edit"] = "rbxassetid://10723357495",
+				["lucide-file-heart"] = "rbxassetid://10723357637",
+				["lucide-file-image"] = "rbxassetid://10723357790",
+				["lucide-file-input"] = "rbxassetid://10723357933",
+				["lucide-file-json"] = "rbxassetid://10723364435",
+				["lucide-file-json-2"] = "rbxassetid://10723364361",
+				["lucide-file-key"] = "rbxassetid://10723364605",
+				["lucide-file-key-2"] = "rbxassetid://10723364515",
+				["lucide-file-line-chart"] = "rbxassetid://10723364725",
+				["lucide-file-lock"] = "rbxassetid://10723364957",
+				["lucide-file-lock-2"] = "rbxassetid://10723364861",
+				["lucide-file-minus"] = "rbxassetid://10723365254",
+				["lucide-file-minus-2"] = "rbxassetid://10723365086",
+				["lucide-file-output"] = "rbxassetid://10723365457",
+				["lucide-file-pie-chart"] = "rbxassetid://10723365598",
+				["lucide-file-plus"] = "rbxassetid://10723365877",
+				["lucide-file-plus-2"] = "rbxassetid://10723365766",
+				["lucide-file-question"] = "rbxassetid://10723365987",
+				["lucide-file-scan"] = "rbxassetid://10723366167",
+				["lucide-file-search"] = "rbxassetid://10723366550",
+				["lucide-file-search-2"] = "rbxassetid://10723366340",
+				["lucide-file-signature"] = "rbxassetid://10723366741",
+				["lucide-file-spreadsheet"] = "rbxassetid://10723366962",
+				["lucide-file-symlink"] = "rbxassetid://10723367098",
+				["lucide-file-terminal"] = "rbxassetid://10723367244",
+				["lucide-file-text"] = "rbxassetid://10723367380",
+				["lucide-file-type"] = "rbxassetid://10723367606",
+				["lucide-file-type-2"] = "rbxassetid://10723367509",
+				["lucide-file-up"] = "rbxassetid://10723367734",
+				["lucide-file-video"] = "rbxassetid://10723373884",
+				["lucide-file-video-2"] = "rbxassetid://10723367834",
+				["lucide-file-volume"] = "rbxassetid://10723374172",
+				["lucide-file-volume-2"] = "rbxassetid://10723374030",
+				["lucide-file-warning"] = "rbxassetid://10723374276",
+				["lucide-file-x"] = "rbxassetid://10723374544",
+				["lucide-file-x-2"] = "rbxassetid://10723374378",
+				["lucide-files"] = "rbxassetid://10723374759",
+				["lucide-film"] = "rbxassetid://10723374981",
+				["lucide-filter"] = "rbxassetid://10723375128",
+				["lucide-fingerprint"] = "rbxassetid://10723375250",
+				["lucide-flag"] = "rbxassetid://10723375890",
+				["lucide-flag-off"] = "rbxassetid://10723375443",
+				["lucide-flag-triangle-left"] = "rbxassetid://10723375608",
+				["lucide-flag-triangle-right"] = "rbxassetid://10723375727",
+				["lucide-flame"] = "rbxassetid://10723376114",
+				["lucide-flashlight"] = "rbxassetid://10723376471",
+				["lucide-flashlight-off"] = "rbxassetid://10723376365",
+				["lucide-flask-conical"] = "rbxassetid://10734883986",
+				["lucide-flask-round"] = "rbxassetid://10723376614",
+				["lucide-flip-horizontal"] = "rbxassetid://10723376884",
+				["lucide-flip-horizontal-2"] = "rbxassetid://10723376745",
+				["lucide-flip-vertical"] = "rbxassetid://10723377138",
+				["lucide-flip-vertical-2"] = "rbxassetid://10723377026",
+				["lucide-flower"] = "rbxassetid://10747830374",
+				["lucide-flower-2"] = "rbxassetid://10723377305",
+				["lucide-focus"] = "rbxassetid://10723377537",
+				["lucide-folder"] = "rbxassetid://10723387563",
+				["lucide-folder-archive"] = "rbxassetid://10723384478",
+				["lucide-folder-check"] = "rbxassetid://10723384605",
+				["lucide-folder-clock"] = "rbxassetid://10723384731",
+				["lucide-folder-closed"] = "rbxassetid://10723384893",
+				["lucide-folder-cog"] = "rbxassetid://10723385213",
+				["lucide-folder-cog-2"] = "rbxassetid://10723385036",
+				["lucide-folder-down"] = "rbxassetid://10723385338",
+				["lucide-folder-edit"] = "rbxassetid://10723385445",
+				["lucide-folder-heart"] = "rbxassetid://10723385545",
+				["lucide-folder-input"] = "rbxassetid://10723385721",
+				["lucide-folder-key"] = "rbxassetid://10723385848",
+				["lucide-folder-lock"] = "rbxassetid://10723386005",
+				["lucide-folder-minus"] = "rbxassetid://10723386127",
+				["lucide-folder-open"] = "rbxassetid://10723386277",
+				["lucide-folder-output"] = "rbxassetid://10723386386",
+				["lucide-folder-plus"] = "rbxassetid://10723386531",
+				["lucide-folder-search"] = "rbxassetid://10723386787",
+				["lucide-folder-search-2"] = "rbxassetid://10723386674",
+				["lucide-folder-symlink"] = "rbxassetid://10723386930",
+				["lucide-folder-tree"] = "rbxassetid://10723387085",
+				["lucide-folder-up"] = "rbxassetid://10723387265",
+				["lucide-folder-x"] = "rbxassetid://10723387448",
+				["lucide-folders"] = "rbxassetid://10723387721",
+				["lucide-form-input"] = "rbxassetid://10723387841",
+				["lucide-forward"] = "rbxassetid://10723388016",
+				["lucide-frame"] = "rbxassetid://10723394389",
+				["lucide-framer"] = "rbxassetid://10723394565",
+				["lucide-frown"] = "rbxassetid://10723394681",
+				["lucide-fuel"] = "rbxassetid://10723394846",
+				["lucide-function-square"] = "rbxassetid://10723395041",
+				["lucide-gamepad"] = "rbxassetid://10723395457",
+				["lucide-gamepad-2"] = "rbxassetid://10723395215",
+				["lucide-gauge"] = "rbxassetid://10723395708",
+				["lucide-gavel"] = "rbxassetid://10723395896",
+				["lucide-gem"] = "rbxassetid://10723396000",
+				["lucide-ghost"] = "rbxassetid://10723396107",
+				["lucide-gift"] = "rbxassetid://10723396402",
+				["lucide-gift-card"] = "rbxassetid://10723396225",
+				["lucide-git-branch"] = "rbxassetid://10723396676",
+				["lucide-git-branch-plus"] = "rbxassetid://10723396542",
+				["lucide-git-commit"] = "rbxassetid://10723396812",
+				["lucide-git-compare"] = "rbxassetid://10723396954",
+				["lucide-git-fork"] = "rbxassetid://10723397049",
+				["lucide-git-merge"] = "rbxassetid://10723397165",
+				["lucide-git-pull-request"] = "rbxassetid://10723397431",
+				["lucide-git-pull-request-closed"] = "rbxassetid://10723397268",
+				["lucide-git-pull-request-draft"] = "rbxassetid://10734884302",
+				["lucide-glass"] = "rbxassetid://10723397788",
+				["lucide-glass-2"] = "rbxassetid://10723397529",
+				["lucide-glass-water"] = "rbxassetid://10723397678",
+				["lucide-glasses"] = "rbxassetid://10723397895",
+				["lucide-globe"] = "rbxassetid://10723404337",
+				["lucide-globe-2"] = "rbxassetid://10723398002",
+				["lucide-grab"] = "rbxassetid://10723404472",
+				["lucide-graduation-cap"] = "rbxassetid://10723404691",
+				["lucide-grape"] = "rbxassetid://10723404822",
+				["lucide-grid"] = "rbxassetid://10723404936",
+				["lucide-grip-horizontal"] = "rbxassetid://10723405089",
+				["lucide-grip-vertical"] = "rbxassetid://10723405236",
+				["lucide-hammer"] = "rbxassetid://10723405360",
+				["lucide-hand"] = "rbxassetid://10723405649",
+				["lucide-hand-metal"] = "rbxassetid://10723405508",
+				["lucide-hard-drive"] = "rbxassetid://10723405749",
+				["lucide-hard-hat"] = "rbxassetid://10723405859",
+				["lucide-hash"] = "rbxassetid://10723405975",
+				["lucide-haze"] = "rbxassetid://10723406078",
+				["lucide-headphones"] = "rbxassetid://10723406165",
+				["lucide-heart"] = "rbxassetid://10723406885",
+				["lucide-heart-crack"] = "rbxassetid://10723406299",
+				["lucide-heart-handshake"] = "rbxassetid://10723406480",
+				["lucide-heart-off"] = "rbxassetid://10723406662",
+				["lucide-heart-pulse"] = "rbxassetid://10723406795",
+				["lucide-help-circle"] = "rbxassetid://10723406988",
+				["lucide-hexagon"] = "rbxassetid://10723407092",
+				["lucide-highlighter"] = "rbxassetid://10723407192",
+				["lucide-history"] = "rbxassetid://10723407335",
+				["lucide-home"] = "rbxassetid://10723407389",
+				["lucide-hourglass"] = "rbxassetid://10723407498",
+				["lucide-ice-cream"] = "rbxassetid://10723414308",
+				["lucide-image"] = "rbxassetid://10723415040",
+				["lucide-image-minus"] = "rbxassetid://10723414487",
+				["lucide-image-off"] = "rbxassetid://10723414677",
+				["lucide-image-plus"] = "rbxassetid://10723414827",
+				["lucide-import"] = "rbxassetid://10723415205",
+				["lucide-inbox"] = "rbxassetid://10723415335",
+				["lucide-indent"] = "rbxassetid://10723415494",
+				["lucide-indian-rupee"] = "rbxassetid://10723415642",
+				["lucide-infinity"] = "rbxassetid://10723415766",
+				["lucide-info"] = "rbxassetid://10723415903",
+				["lucide-inspect"] = "rbxassetid://10723416057",
+				["lucide-italic"] = "rbxassetid://10723416195",
+				["lucide-japanese-yen"] = "rbxassetid://10723416363",
+				["lucide-joystick"] = "rbxassetid://10723416527",
+				["lucide-key"] = "rbxassetid://10723416652",
+				["lucide-keyboard"] = "rbxassetid://10723416765",
+				["lucide-lamp"] = "rbxassetid://10723417513",
+				["lucide-lamp-ceiling"] = "rbxassetid://10723416922",
+				["lucide-lamp-desk"] = "rbxassetid://10723417016",
+				["lucide-lamp-floor"] = "rbxassetid://10723417131",
+				["lucide-lamp-wall-down"] = "rbxassetid://10723417240",
+				["lucide-lamp-wall-up"] = "rbxassetid://10723417356",
+				["lucide-landmark"] = "rbxassetid://10723417608",
+				["lucide-languages"] = "rbxassetid://10723417703",
+				["lucide-laptop"] = "rbxassetid://10723423881",
+				["lucide-laptop-2"] = "rbxassetid://10723417797",
+				["lucide-lasso"] = "rbxassetid://10723424235",
+				["lucide-lasso-select"] = "rbxassetid://10723424058",
+				["lucide-laugh"] = "rbxassetid://10723424372",
+				["lucide-layers"] = "rbxassetid://10723424505",
+				["lucide-layout"] = "rbxassetid://10723425376",
+				["lucide-layout-dashboard"] = "rbxassetid://10723424646",
+				["lucide-layout-grid"] = "rbxassetid://10723424838",
+				["lucide-layout-list"] = "rbxassetid://10723424963",
+				["lucide-layout-template"] = "rbxassetid://10723425187",
+				["lucide-leaf"] = "rbxassetid://10723425539",
+				["lucide-library"] = "rbxassetid://10723425615",
+				["lucide-life-buoy"] = "rbxassetid://10723425685",
+				["lucide-lightbulb"] = "rbxassetid://10723425852",
+				["lucide-lightbulb-off"] = "rbxassetid://10723425762",
+				["lucide-line-chart"] = "rbxassetid://10723426393",
+				["lucide-link"] = "rbxassetid://10723426722",
+				["lucide-link-2"] = "rbxassetid://10723426595",
+				["lucide-link-2-off"] = "rbxassetid://10723426513",
+				["lucide-list"] = "rbxassetid://10723433811",
+				["lucide-list-checks"] = "rbxassetid://10734884548",
+				["lucide-list-end"] = "rbxassetid://10723426886",
+				["lucide-list-minus"] = "rbxassetid://10723426986",
+				["lucide-list-music"] = "rbxassetid://10723427081",
+				["lucide-list-ordered"] = "rbxassetid://10723427199",
+				["lucide-list-plus"] = "rbxassetid://10723427334",
+				["lucide-list-start"] = "rbxassetid://10723427494",
+				["lucide-list-video"] = "rbxassetid://10723427619",
+				["lucide-list-x"] = "rbxassetid://10723433655",
+				["lucide-loader"] = "rbxassetid://10723434070",
+				["lucide-loader-2"] = "rbxassetid://10723433935",
+				["lucide-locate"] = "rbxassetid://10723434557",
+				["lucide-locate-fixed"] = "rbxassetid://10723434236",
+				["lucide-locate-off"] = "rbxassetid://10723434379",
+				["lucide-lock"] = "rbxassetid://10723434711",
+				["lucide-log-in"] = "rbxassetid://10723434830",
+				["lucide-log-out"] = "rbxassetid://10723434906",
+				["lucide-luggage"] = "rbxassetid://10723434993",
+				["lucide-magnet"] = "rbxassetid://10723435069",
+				["lucide-mail"] = "rbxassetid://10734885430",
+				["lucide-mail-check"] = "rbxassetid://10723435182",
+				["lucide-mail-minus"] = "rbxassetid://10723435261",
+				["lucide-mail-open"] = "rbxassetid://10723435342",
+				["lucide-mail-plus"] = "rbxassetid://10723435443",
+				["lucide-mail-question"] = "rbxassetid://10723435515",
+				["lucide-mail-search"] = "rbxassetid://10734884739",
+				["lucide-mail-warning"] = "rbxassetid://10734885015",
+				["lucide-mail-x"] = "rbxassetid://10734885247",
+				["lucide-mails"] = "rbxassetid://10734885614",
+				["lucide-map"] = "rbxassetid://10734886202",
+				["lucide-map-pin"] = "rbxassetid://10734886004",
+				["lucide-map-pin-off"] = "rbxassetid://10734885803",
+				["lucide-maximize"] = "rbxassetid://10734886735",
+				["lucide-maximize-2"] = "rbxassetid://10734886496",
+				["lucide-medal"] = "rbxassetid://10734887072",
+				["lucide-megaphone"] = "rbxassetid://10734887454",
+				["lucide-megaphone-off"] = "rbxassetid://10734887311",
+				["lucide-meh"] = "rbxassetid://10734887603",
+				["lucide-menu"] = "rbxassetid://10734887784",
+				["lucide-message-circle"] = "rbxassetid://10734888000",
+				["lucide-message-square"] = "rbxassetid://10734888228",
+				["lucide-mic"] = "rbxassetid://10734888864",
+				["lucide-mic-2"] = "rbxassetid://10734888430",
+				["lucide-mic-off"] = "rbxassetid://10734888646",
+				["lucide-microscope"] = "rbxassetid://10734889106",
+				["lucide-microwave"] = "rbxassetid://10734895076",
+				["lucide-milestone"] = "rbxassetid://10734895310",
+				["lucide-minimize"] = "rbxassetid://10734895698",
+				["lucide-minimize-2"] = "rbxassetid://10734895530",
+				["lucide-minus"] = "rbxassetid://10734896206",
+				["lucide-minus-circle"] = "rbxassetid://10734895856",
+				["lucide-minus-square"] = "rbxassetid://10734896029",
+				["lucide-monitor"] = "rbxassetid://10734896881",
+				["lucide-monitor-off"] = "rbxassetid://10734896360",
+				["lucide-monitor-speaker"] = "rbxassetid://10734896512",
+				["lucide-moon"] = "rbxassetid://10734897102",
+				["lucide-more-horizontal"] = "rbxassetid://10734897250",
+				["lucide-more-vertical"] = "rbxassetid://10734897387",
+				["lucide-mountain"] = "rbxassetid://10734897956",
+				["lucide-mountain-snow"] = "rbxassetid://10734897665",
+				["lucide-mouse"] = "rbxassetid://10734898592",
+				["lucide-mouse-pointer"] = "rbxassetid://10734898476",
+				["lucide-mouse-pointer-2"] = "rbxassetid://10734898194",
+				["lucide-mouse-pointer-click"] = "rbxassetid://10734898355",
+				["lucide-move"] = "rbxassetid://10734900011",
+				["lucide-move-3d"] = "rbxassetid://10734898756",
+				["lucide-move-diagonal"] = "rbxassetid://10734899164",
+				["lucide-move-diagonal-2"] = "rbxassetid://10734898934",
+				["lucide-move-horizontal"] = "rbxassetid://10734899414",
+				["lucide-move-vertical"] = "rbxassetid://10734899821",
+				["lucide-music"] = "rbxassetid://10734905958",
+				["lucide-music-2"] = "rbxassetid://10734900215",
+				["lucide-music-3"] = "rbxassetid://10734905665",
+				["lucide-music-4"] = "rbxassetid://10734905823",
+				["lucide-navigation"] = "rbxassetid://10734906744",
+				["lucide-navigation-2"] = "rbxassetid://10734906332",
+				["lucide-navigation-2-off"] = "rbxassetid://10734906144",
+				["lucide-navigation-off"] = "rbxassetid://10734906580",
+				["lucide-network"] = "rbxassetid://10734906975",
+				["lucide-newspaper"] = "rbxassetid://10734907168",
+				["lucide-octagon"] = "rbxassetid://10734907361",
+				["lucide-option"] = "rbxassetid://10734907649",
+				["lucide-outdent"] = "rbxassetid://10734907933",
+				["lucide-package"] = "rbxassetid://10734909540",
+				["lucide-package-2"] = "rbxassetid://10734908151",
+				["lucide-package-check"] = "rbxassetid://10734908384",
+				["lucide-package-minus"] = "rbxassetid://10734908626",
+				["lucide-package-open"] = "rbxassetid://10734908793",
+				["lucide-package-plus"] = "rbxassetid://10734909016",
+				["lucide-package-search"] = "rbxassetid://10734909196",
+				["lucide-package-x"] = "rbxassetid://10734909375",
+				["lucide-paint-bucket"] = "rbxassetid://10734909847",
+				["lucide-paintbrush"] = "rbxassetid://10734910187",
+				["lucide-paintbrush-2"] = "rbxassetid://10734910030",
+				["lucide-palette"] = "rbxassetid://10734910430",
+				["lucide-palmtree"] = "rbxassetid://10734910680",
+				["lucide-paperclip"] = "rbxassetid://10734910927",
+				["lucide-party-popper"] = "rbxassetid://10734918735",
+				["lucide-pause"] = "rbxassetid://10734919336",
+				["lucide-pause-circle"] = "rbxassetid://10735024209",
+				["lucide-pause-octagon"] = "rbxassetid://10734919143",
+				["lucide-pen-tool"] = "rbxassetid://10734919503",
+				["lucide-pencil"] = "rbxassetid://10734919691",
+				["lucide-percent"] = "rbxassetid://10734919919",
+				["lucide-person-standing"] = "rbxassetid://10734920149",
+				["lucide-phone"] = "rbxassetid://10734921524",
+				["lucide-phone-call"] = "rbxassetid://10734920305",
+				["lucide-phone-forwarded"] = "rbxassetid://10734920508",
+				["lucide-phone-incoming"] = "rbxassetid://10734920694",
+				["lucide-phone-missed"] = "rbxassetid://10734920845",
+				["lucide-phone-off"] = "rbxassetid://10734921077",
+				["lucide-phone-outgoing"] = "rbxassetid://10734921288",
+				["lucide-pie-chart"] = "rbxassetid://10734921727",
+				["lucide-piggy-bank"] = "rbxassetid://10734921935",
+				["lucide-pin"] = "rbxassetid://10734922324",
+				["lucide-pin-off"] = "rbxassetid://10734922180",
+				["lucide-pipette"] = "rbxassetid://10734922497",
+				["lucide-pizza"] = "rbxassetid://10734922774",
+				["lucide-plane"] = "rbxassetid://10734922971",
+				["lucide-play"] = "rbxassetid://10734923549",
+				["lucide-play-circle"] = "rbxassetid://10734923214",
+				["lucide-plus"] = "rbxassetid://10734924532",
+				["lucide-plus-circle"] = "rbxassetid://10734923868",
+				["lucide-plus-square"] = "rbxassetid://10734924219",
+				["lucide-podcast"] = "rbxassetid://10734929553",
+				["lucide-pointer"] = "rbxassetid://10734929723",
+				["lucide-pound-sterling"] = "rbxassetid://10734929981",
+				["lucide-power"] = "rbxassetid://10734930466",
+				["lucide-power-off"] = "rbxassetid://10734930257",
+				["lucide-printer"] = "rbxassetid://10734930632",
+				["lucide-puzzle"] = "rbxassetid://10734930886",
+				["lucide-quote"] = "rbxassetid://10734931234",
+				["lucide-radio"] = "rbxassetid://10734931596",
+				["lucide-radio-receiver"] = "rbxassetid://10734931402",
+				["lucide-rectangle-horizontal"] = "rbxassetid://10734931777",
+				["lucide-rectangle-vertical"] = "rbxassetid://10734932081",
+				["lucide-recycle"] = "rbxassetid://10734932295",
+				["lucide-redo"] = "rbxassetid://10734932822",
+				["lucide-redo-2"] = "rbxassetid://10734932586",
+				["lucide-refresh-ccw"] = "rbxassetid://10734933056",
+				["lucide-refresh-cw"] = "rbxassetid://10734933222",
+				["lucide-refrigerator"] = "rbxassetid://10734933465",
+				["lucide-regex"] = "rbxassetid://10734933655",
+				["lucide-repeat"] = "rbxassetid://10734933966",
+				["lucide-repeat-1"] = "rbxassetid://10734933826",
+				["lucide-reply"] = "rbxassetid://10734934252",
+				["lucide-reply-all"] = "rbxassetid://10734934132",
+				["lucide-rewind"] = "rbxassetid://10734934347",
+				["lucide-rocket"] = "rbxassetid://10734934585",
+				["lucide-rocking-chair"] = "rbxassetid://10734939942",
+				["lucide-rotate-3d"] = "rbxassetid://10734940107",
+				["lucide-rotate-ccw"] = "rbxassetid://10734940376",
+				["lucide-rotate-cw"] = "rbxassetid://10734940654",
+				["lucide-rss"] = "rbxassetid://10734940825",
+				["lucide-ruler"] = "rbxassetid://10734941018",
+				["lucide-russian-ruble"] = "rbxassetid://10734941199",
+				["lucide-sailboat"] = "rbxassetid://10734941354",
+				["lucide-save"] = "rbxassetid://10734941499",
+				["lucide-scale"] = "rbxassetid://10734941912",
+				["lucide-scale-3d"] = "rbxassetid://10734941739",
+				["lucide-scaling"] = "rbxassetid://10734942072",
+				["lucide-scan"] = "rbxassetid://10734942565",
+				["lucide-scan-face"] = "rbxassetid://10734942198",
+				["lucide-scan-line"] = "rbxassetid://10734942351",
+				["lucide-scissors"] = "rbxassetid://10734942778",
+				["lucide-screen-share"] = "rbxassetid://10734943193",
+				["lucide-screen-share-off"] = "rbxassetid://10734942967",
+				["lucide-scroll"] = "rbxassetid://10734943448",
+				["lucide-search"] = "rbxassetid://10734943674",
+				["lucide-send"] = "rbxassetid://10734943902",
+				["lucide-separator-horizontal"] = "rbxassetid://10734944115",
+				["lucide-separator-vertical"] = "rbxassetid://10734944326",
+				["lucide-server"] = "rbxassetid://10734949856",
+				["lucide-server-cog"] = "rbxassetid://10734944444",
+				["lucide-server-crash"] = "rbxassetid://10734944554",
+				["lucide-server-off"] = "rbxassetid://10734944668",
+				["lucide-settings"] = "rbxassetid://10734950309",
+				["lucide-settings-2"] = "rbxassetid://10734950020",
+				["lucide-share"] = "rbxassetid://10734950813",
+				["lucide-share-2"] = "rbxassetid://10734950553",
+				["lucide-sheet"] = "rbxassetid://10734951038",
+				["lucide-shield"] = "rbxassetid://10734951847",
+				["lucide-shield-alert"] = "rbxassetid://10734951173",
+				["lucide-shield-check"] = "rbxassetid://10734951367",
+				["lucide-shield-close"] = "rbxassetid://10734951535",
+				["lucide-shield-off"] = "rbxassetid://10734951684",
+				["lucide-shirt"] = "rbxassetid://10734952036",
+				["lucide-shopping-bag"] = "rbxassetid://10734952273",
+				["lucide-shopping-cart"] = "rbxassetid://10734952479",
+				["lucide-shovel"] = "rbxassetid://10734952773",
+				["lucide-shower-head"] = "rbxassetid://10734952942",
+				["lucide-shrink"] = "rbxassetid://10734953073",
+				["lucide-shrub"] = "rbxassetid://10734953241",
+				["lucide-shuffle"] = "rbxassetid://10734953451",
+				["lucide-sidebar"] = "rbxassetid://10734954301",
+				["lucide-sidebar-close"] = "rbxassetid://10734953715",
+				["lucide-sidebar-open"] = "rbxassetid://10734954000",
+				["lucide-sigma"] = "rbxassetid://10734954538",
+				["lucide-signal"] = "rbxassetid://10734961133",
+				["lucide-signal-high"] = "rbxassetid://10734954807",
+				["lucide-signal-low"] = "rbxassetid://10734955080",
+				["lucide-signal-medium"] = "rbxassetid://10734955336",
+				["lucide-signal-zero"] = "rbxassetid://10734960878",
+				["lucide-siren"] = "rbxassetid://10734961284",
+				["lucide-skip-back"] = "rbxassetid://10734961526",
+				["lucide-skip-forward"] = "rbxassetid://10734961809",
+				["lucide-skull"] = "rbxassetid://10734962068",
+				["lucide-slack"] = "rbxassetid://10734962339",
+				["lucide-slash"] = "rbxassetid://10734962600",
+				["lucide-slice"] = "rbxassetid://10734963024",
+				["lucide-sliders"] = "rbxassetid://10734963400",
+				["lucide-sliders-horizontal"] = "rbxassetid://10734963191",
+				["lucide-smartphone"] = "rbxassetid://10734963940",
+				["lucide-smartphone-charging"] = "rbxassetid://10734963671",
+				["lucide-smile"] = "rbxassetid://10734964441",
+				["lucide-smile-plus"] = "rbxassetid://10734964188",
+				["lucide-snowflake"] = "rbxassetid://10734964600",
+				["lucide-sofa"] = "rbxassetid://10734964852",
+				["lucide-sort-asc"] = "rbxassetid://10734965115",
+				["lucide-sort-desc"] = "rbxassetid://10734965287",
+				["lucide-speaker"] = "rbxassetid://10734965419",
+				["lucide-sprout"] = "rbxassetid://10734965572",
+				["lucide-square"] = "rbxassetid://10734965702",
+				["lucide-star"] = "rbxassetid://10734966248",
+				["lucide-star-half"] = "rbxassetid://10734965897",
+				["lucide-star-off"] = "rbxassetid://10734966097",
+				["lucide-stethoscope"] = "rbxassetid://10734966384",
+				["lucide-sticker"] = "rbxassetid://10734972234",
+				["lucide-sticky-note"] = "rbxassetid://10734972463",
+				["lucide-stop-circle"] = "rbxassetid://10734972621",
+				["lucide-stretch-horizontal"] = "rbxassetid://10734972862",
+				["lucide-stretch-vertical"] = "rbxassetid://10734973130",
+				["lucide-strikethrough"] = "rbxassetid://10734973290",
+				["lucide-subscript"] = "rbxassetid://10734973457",
+				["lucide-sun"] = "rbxassetid://10734974297",
+				["lucide-sun-dim"] = "rbxassetid://10734973645",
+				["lucide-sun-medium"] = "rbxassetid://10734973778",
+				["lucide-sun-moon"] = "rbxassetid://10734973999",
+				["lucide-sun-snow"] = "rbxassetid://10734974130",
+				["lucide-sunrise"] = "rbxassetid://10734974522",
+				["lucide-sunset"] = "rbxassetid://10734974689",
+				["lucide-superscript"] = "rbxassetid://10734974850",
+				["lucide-swiss-franc"] = "rbxassetid://10734975024",
+				["lucide-switch-camera"] = "rbxassetid://10734975214",
+				["lucide-sword"] = "rbxassetid://10734975486",
+				["lucide-swords"] = "rbxassetid://10734975692",
+				["lucide-syringe"] = "rbxassetid://10734975932",
+				["lucide-table"] = "rbxassetid://10734976230",
+				["lucide-table-2"] = "rbxassetid://10734976097",
+				["lucide-tablet"] = "rbxassetid://10734976394",
+				["lucide-tag"] = "rbxassetid://10734976528",
+				["lucide-tags"] = "rbxassetid://10734976739",
+				["lucide-target"] = "rbxassetid://10734977012",
+				["lucide-tent"] = "rbxassetid://10734981750",
+				["lucide-terminal"] = "rbxassetid://10734982144",
+				["lucide-terminal-square"] = "rbxassetid://10734981995",
+				["lucide-text-cursor"] = "rbxassetid://10734982395",
+				["lucide-text-cursor-input"] = "rbxassetid://10734982297",
+				["lucide-thermometer"] = "rbxassetid://10734983134",
+				["lucide-thermometer-snowflake"] = "rbxassetid://10734982571",
+				["lucide-thermometer-sun"] = "rbxassetid://10734982771",
+				["lucide-thumbs-down"] = "rbxassetid://10734983359",
+				["lucide-thumbs-up"] = "rbxassetid://10734983629",
+				["lucide-ticket"] = "rbxassetid://10734983868",
+				["lucide-timer"] = "rbxassetid://10734984606",
+				["lucide-timer-off"] = "rbxassetid://10734984138",
+				["lucide-timer-reset"] = "rbxassetid://10734984355",
+				["lucide-toggle-left"] = "rbxassetid://10734984834",
+				["lucide-toggle-right"] = "rbxassetid://10734985040",
+				["lucide-tornado"] = "rbxassetid://10734985247",
+				["lucide-toy-brick"] = "rbxassetid://10747361919",
+				["lucide-train"] = "rbxassetid://10747362105",
+				["lucide-trash"] = "rbxassetid://10747362393",
+				["lucide-trash-2"] = "rbxassetid://10747362241",
+				["lucide-tree-deciduous"] = "rbxassetid://10747362534",
+				["lucide-tree-pine"] = "rbxassetid://10747362748",
+				["lucide-trees"] = "rbxassetid://10747363016",
+				["lucide-trending-down"] = "rbxassetid://10747363205",
+				["lucide-trending-up"] = "rbxassetid://10747363465",
+				["lucide-triangle"] = "rbxassetid://10747363621",
+				["lucide-trophy"] = "rbxassetid://10747363809",
+				["lucide-truck"] = "rbxassetid://10747364031",
+				["lucide-tv"] = "rbxassetid://10747364593",
+				["lucide-tv-2"] = "rbxassetid://10747364302",
+				["lucide-type"] = "rbxassetid://10747364761",
+				["lucide-umbrella"] = "rbxassetid://10747364971",
+				["lucide-underline"] = "rbxassetid://10747365191",
+				["lucide-undo"] = "rbxassetid://10747365484",
+				["lucide-undo-2"] = "rbxassetid://10747365359",
+				["lucide-unlink"] = "rbxassetid://10747365771",
+				["lucide-unlink-2"] = "rbxassetid://10747397871",
+				["lucide-unlock"] = "rbxassetid://10747366027",
+				["lucide-upload"] = "rbxassetid://10747366434",
+				["lucide-upload-cloud"] = "rbxassetid://10747366266",
+				["lucide-usb"] = "rbxassetid://10747366606",
+				["lucide-user"] = "rbxassetid://10747373176",
+				["lucide-user-check"] = "rbxassetid://10747371901",
+				["lucide-user-cog"] = "rbxassetid://10747372167",
+				["lucide-user-minus"] = "rbxassetid://10747372346",
+				["lucide-user-plus"] = "rbxassetid://10747372702",
+				["lucide-user-x"] = "rbxassetid://10747372992",
+				["lucide-users"] = "rbxassetid://10747373426",
+				["lucide-utensils"] = "rbxassetid://10747373821",
+				["lucide-utensils-crossed"] = "rbxassetid://10747373629",
+				["lucide-venetian-mask"] = "rbxassetid://10747374003",
+				["lucide-verified"] = "rbxassetid://10747374131",
+				["lucide-vibrate"] = "rbxassetid://10747374489",
+				["lucide-vibrate-off"] = "rbxassetid://10747374269",
+				["lucide-video"] = "rbxassetid://10747374938",
+				["lucide-video-off"] = "rbxassetid://10747374721",
+				["lucide-view"] = "rbxassetid://10747375132",
+				["lucide-voicemail"] = "rbxassetid://10747375281",
+				["lucide-volume"] = "rbxassetid://10747376008",
+				["lucide-volume-1"] = "rbxassetid://10747375450",
+				["lucide-volume-2"] = "rbxassetid://10747375679",
+				["lucide-volume-x"] = "rbxassetid://10747375880",
+				["lucide-wallet"] = "rbxassetid://10747376205",
+				["lucide-wand"] = "rbxassetid://10747376565",
+				["lucide-wand-2"] = "rbxassetid://10747376349",
+				["lucide-watch"] = "rbxassetid://10747376722",
+				["lucide-waves"] = "rbxassetid://10747376931",
+				["lucide-webcam"] = "rbxassetid://10747381992",
+				["lucide-wifi"] = "rbxassetid://10747382504",
+				["lucide-wifi-off"] = "rbxassetid://10747382268",
+				["lucide-wind"] = "rbxassetid://10747382750",
+				["lucide-wrap-text"] = "rbxassetid://10747383065",
+				["lucide-wrench"] = "rbxassetid://10747383470",
+				["lucide-x"] = "rbxassetid://10747384394",
+				["lucide-x-circle"] = "rbxassetid://10747383819",
+				["lucide-x-octagon"] = "rbxassetid://10747384037",
+				["lucide-x-square"] = "rbxassetid://10747384217",
+				["lucide-zoom-in"] = "rbxassetid://10747384552",
+				["lucide-zoom-out"] = "rbxassetid://10747384679"
+			}
+		}
+	end,
+	[30] = function()
+		local aa, ab, ac, ad, ae = b(30)
+		local af = {
+			SingleMotor = ac(ab.SingleMotor),
+			GroupMotor = ac(ab.GroupMotor),
+			Instant = ac(ab.Instant),
+			Linear = ac(ab.Linear),
+			Spring = ac(ab.Spring),
+			isMotor = ac(ab.isMotor)
+		}
+		return af
+	end,
+	[31] = function()
+		local aa, ab, ac, ad, ae = b(31)
+		local af, ag, ah, ai = game:GetService "RunService", ac(ab.Parent.Signal), function()
+		end, {}
+		ai.__index = ai
+		function ai.new()
+			return setmetatable({_onStep = ag.new(), _onStart = ag.new(), _onComplete = ag.new()}, ai)
+		end
+		function ai.onStep(aj, c)
+			return aj._onStep:connect(c)
+		end
+		function ai.onStart(aj, c)
+			return aj._onStart:connect(c)
+		end
+		function ai.onComplete(aj, c)
+			return aj._onComplete:connect(c)
+		end
+		function ai.start(aj)
+			if not aj._connection then
+				aj._connection =
+					af.RenderStepped:Connect(
+						function(c)
+							aj:step(c)
+						end
+					)
+			end
+		end
+		function ai.stop(aj)
+			if aj._connection then
+				aj._connection:Disconnect()
+				aj._connection = nil
+			end
+		end
+		ai.destroy = ai.stop
+		ai.step = ah
+		ai.getValue = ah
+		ai.setGoal = ah
+		function ai.__tostring(aj)
+			return "Motor"
+		end
+		return ai
+	end,
+	[32] = function()
+		local aa, ab, ac, ad, ae = b(32)
+		return function()
+			local af, ag = game:GetService "RunService", ac(ab.Parent.BaseMotor)
+			describe(
+				"connection management",
+				function()
+					local ah = ag.new()
+					it(
+						"should hook up connections on :start()",
+						function()
+							ah:start()
+							expect(typeof(ah._connection)).to.equal "RBXScriptConnection"
+						end
+					)
+					it(
+						"should remove connections on :stop() or :destroy()",
+						function()
+							ah:stop()
+							expect(ah._connection).to.equal(nil)
+						end
+					)
+				end
+			)
+			it(
+				"should call :step() with deltaTime",
+				function()
+					local ah, ai = (ag.new())
+					function ah.step(aj, ...)
+						ai = {...}
+						ah:stop()
+					end
+					ah:start()
+					local aj = af.RenderStepped:Wait()
+					af.RenderStepped:Wait()
+					expect(ai).to.be.ok()
+					expect(ai[1]).to.equal(aj)
+				end
+			)
+		end
+	end,
+	[33] = function()
+		local aa, ab, ac, ad, ae = b(33)
+		local af, ag, ah = ac(ab.Parent.BaseMotor), ac(ab.Parent.SingleMotor), ac(ab.Parent.isMotor)
+		local ai = setmetatable({}, af)
+		ai.__index = ai
+		local aj = function(aj)
+			if ah(aj) then
+				return aj
+			end
+			local c = typeof(aj)
+			if c == "number" then
+				return ag.new(aj, false)
+			elseif c == "table" then
+				return ai.new(aj, false)
+			end
+			error(("Unable to convert %q to motor; type %s is unsupported"):format(aj, c), 2)
+		end
+		function ai.new(c, d)
+			assert(c, "Missing argument #1: initialValues")
+			assert(typeof(c) == "table", "initialValues must be a table!")
+			assert(
+				not c.step,
+				[[initialValues contains disallowed property "step". Did you mean to put a table of values here?]]
+			)
+			local e = setmetatable(af.new(), ai)
+			if d ~= nil then
+				e._useImplicitConnections = d
+			else
+				e._useImplicitConnections = true
+			end
+			e._complete = true
+			e._motors = {}
+			for f, g in pairs(c) do
+				e._motors[f] = aj(g)
+			end
+			return e
+		end
+		function ai.step(c, d)
+			if c._complete then
+				return true
+			end
+			local e = true
+			for f, g in pairs(c._motors) do
+				local h = g:step(d)
+				if not h then
+					e = false
+				end
+			end
+			c._onStep:fire(c:getValue())
+			if e then
+				if c._useImplicitConnections then
+					c:stop()
+				end
+				c._complete = true
+				c._onComplete:fire()
+			end
+			return e
+		end
+		function ai.setGoal(c, d)
+			assert(
+				not d.step,
+				[[goals contains disallowed property "step". Did you mean to put a table of goals here?]]
+			)
+			c._complete = false
+			c._onStart:fire()
+			for e, f in pairs(d) do
+				local g = assert(c._motors[e], ("Unknown motor for key %s"):format(e))
+				g:setGoal(f)
+			end
+			if c._useImplicitConnections then
+				c:start()
+			end
+		end
+		function ai.getValue(c)
+			local d = {}
+			for e, f in pairs(c._motors) do
+				d[e] = f:getValue()
+			end
+			return d
+		end
+		function ai.__tostring(c)
+			return "Motor(Group)"
+		end
+		return ai
+	end,
+	[34] = function()
+		local aa, ab, ac, ad, ae = b(34)
+		return function()
+			local af, ag, ah = ac(ab.Parent.GroupMotor), ac(ab.Parent.Instant), ac(ab.Parent.Spring)
+			it(
+				"should complete when all child motors are complete",
+				function()
+					local ai = af.new({A = 1, B = 2}, false)
+					expect(ai._complete).to.equal(true)
+					ai:setGoal {A = ag.new(3), B = ah.new(4, {frequency = 7.5, dampingRatio = 1})}
+					expect(ai._complete).to.equal(false)
+					ai:step(1.6666666666666665E-2)
+					expect(ai._complete).to.equal(false)
+					for aj = 1, 30 do
+						ai:step(1.6666666666666665E-2)
+					end
+					expect(ai._complete).to.equal(true)
+				end
+			)
+			it(
+				"should start when the goal is set",
+				function()
+					local ai, aj = af.new({A = 0}, false), false
+					ai:onStart(
+						function()
+							aj = not aj
+						end
+					)
+					ai:setGoal {A = ag.new(1)}
+					expect(aj).to.equal(true)
+					ai:setGoal {A = ag.new(1)}
+					expect(aj).to.equal(false)
+				end
+			)
+			it(
+				"should properly return all values",
+				function()
+					local ai = af.new({A = 1, B = 2}, false)
+					local aj = ai:getValue()
+					expect(aj.A).to.equal(1)
+					expect(aj.B).to.equal(2)
+				end
+			)
+			it(
+				"should error when a goal is given to GroupMotor.new",
+				function()
+					local ai =
+						pcall(
+							function()
+								af.new(ag.new(0))
+							end
+						)
+					expect(ai).to.equal(false)
+				end
+			)
+			it(
+				[[should error when a single goal is provided to GroupMotor:step]],
+				function()
+					local ai =
+						pcall(
+							function()
+								af.new {a = 1}:setGoal(ag.new(0))
+							end
+						)
+					expect(ai).to.equal(false)
+				end
+			)
+		end
+	end,
+	[35] = function()
+		local aa, ab, ac, ad, ae = b(35)
+		local af = {}
+		af.__index = af
+		function af.new(ag)
+			return setmetatable({_targetValue = ag}, af)
+		end
+		function af.step(ag)
+			return {complete = true, value = ag._targetValue}
+		end
+		return af
+	end,
+	[36] = function()
+		local aa, ab, ac, ad, ae = b(36)
+		return function()
+			local af = ac(ab.Parent.Instant)
+			it(
+				"should return a completed state with the provided value",
+				function()
+					local ag = af.new(1.23)
+					local ah = ag:step(0.1, {value = 0, complete = false})
+					expect(ah.complete).to.equal(true)
+					expect(ah.value).to.equal(1.23)
+				end
+			)
+		end
+	end,
+	[37] = function()
+		local aa, ab, ac, ad, ae = b(37)
+		local af = {}
+		af.__index = af
+		function af.new(ag, ah)
+			assert(ag, "Missing argument #1: targetValue")
+			ah = ah or {}
+			return setmetatable({_targetValue = ag, _velocity = ah.velocity or 1}, af)
+		end
+		function af.step(ag, ah, ai)
+			local aj, c, d = ah.value, ag._velocity, ag._targetValue
+			local e = ai * c
+			local f = e >= math.abs(d - aj)
+			aj = aj + e * (d > aj and 1 or -1)
+			if f then
+				aj = ag._targetValue
+				c = 0
+			end
+			return {complete = f, value = aj, velocity = c}
+		end
+		return af
+	end,
+	[38] = function()
+		local aa, ab, ac, ad, ae = b(38)
+		return function()
+			local af, ag = ac(ab.Parent.SingleMotor), ac(ab.Parent.Linear)
+			describe(
+				"completed state",
+				function()
+					local ah, ai = af.new(0, false), ag.new(1, {velocity = 1})
+					ah:setGoal(ai)
+					for aj = 1, 60 do
+						ah:step(1.6666666666666665E-2)
+					end
+					it(
+						"should complete",
+						function()
+							expect(ah._state.complete).to.equal(true)
+						end
+					)
+					it(
+						"should be exactly the goal value when completed",
+						function()
+							expect(ah._state.value).to.equal(1)
+						end
+					)
+				end
+			)
+			describe(
+				"uncompleted state",
+				function()
+					local ah, ai = af.new(0, false), ag.new(1, {velocity = 1})
+					ah:setGoal(ai)
+					for aj = 1, 59 do
+						ah:step(1.6666666666666665E-2)
+					end
+					it(
+						"should be uncomplete",
+						function()
+							expect(ah._state.complete).to.equal(false)
+						end
+					)
+				end
+			)
+			describe(
+				"negative velocity",
+				function()
+					local ah, ai = af.new(1, false), ag.new(0, {velocity = 1})
+					ah:setGoal(ai)
+					for aj = 1, 60 do
+						ah:step(1.6666666666666665E-2)
+					end
+					it(
+						"should complete",
+						function()
+							expect(ah._state.complete).to.equal(true)
+						end
+					)
+					it(
+						"should be exactly the goal value when completed",
+						function()
+							expect(ah._state.value).to.equal(0)
+						end
+					)
+				end
+			)
+		end
+	end,
+	[39] = function()
+		local aa, ab, ac, ad, ae = b(39)
+		local af = {}
+		af.__index = af
+		function af.new(ag, ah)
+			return setmetatable({signal = ag, connected = true, _handler = ah}, af)
+		end
+		function af.disconnect(ag)
+			if ag.connected then
+				ag.connected = false
+				for ah, ai in pairs(ag.signal._connections) do
+					if ai == ag then
+						table.remove(ag.signal._connections, ah)
+						return
+					end
+				end
+			end
+		end
+		local ag = {}
+		ag.__index = ag
+		function ag.new()
+			return setmetatable({_connections = {}, _threads = {}}, ag)
+		end
+		function ag.fire(ah, ...)
+			for ai, aj in pairs(ah._connections) do
+				aj._handler(...)
+			end
+			for c, d in pairs(ah._threads) do
+				coroutine.resume(d, ...)
+			end
+			ah._threads = {}
+		end
+		function ag.connect(ah, aj)
+			local c = af.new(ah, aj)
+			table.insert(ah._connections, c)
+			return c
+		end
+		function ag.wait(ah)
+			table.insert(ah._threads, coroutine.running())
+			return coroutine.yield()
+		end
+		return ag
+	end,
+	[40] = function()
+		local aa, ab, ac, ad, ae = b(40)
+		return function()
+			local af = ac(ab.Parent.Signal)
+			it(
+				"should invoke all connections, instantly",
+				function()
+					local ag, ah, aj = (af.new())
+					ag:connect(
+						function(c)
+							ah = c
+						end
+					)
+					ag:connect(
+						function(c)
+							aj = c
+						end
+					)
+					ag:fire "hello"
+					expect(ah).to.equal "hello"
+					expect(aj).to.equal "hello"
+				end
+			)
+			it(
+				"should return values when :wait() is called",
+				function()
+					local ag = af.new()
+					spawn(
+						function()
+							ag:fire(123, "hello")
+						end
+					)
+					local ah, aj = ag:wait()
+					expect(ah).to.equal(123)
+					expect(aj).to.equal "hello"
+				end
+			)
+			it(
+				"should properly handle disconnections",
+				function()
+					local ag, ah = af.new(), false
+					local aj =
+						ag:connect(
+							function()
+								ah = true
+							end
+						)
+					aj:disconnect()
+					ag:fire()
+					expect(ah).to.equal(false)
+				end
+			)
+		end
+	end,
+	[41] = function()
+		local aa, ab, ac, ad, ae = b(41)
+		local af = ac(ab.Parent.BaseMotor)
+		local ag = setmetatable({}, af)
+		ag.__index = ag
+		function ag.new(ah, aj)
+			assert(ah, "Missing argument #1: initialValue")
+			assert(typeof(ah) == "number", "initialValue must be a number!")
+			local c = setmetatable(af.new(), ag)
+			if aj ~= nil then
+				c._useImplicitConnections = aj
+			else
+				c._useImplicitConnections = true
+			end
+			c._goal = nil
+			c._state = {complete = true, value = ah}
+			return c
+		end
+		function ag.step(ah, aj)
+			if ah._state.complete then
+				return true
+			end
+			local c = ah._goal:step(ah._state, aj)
+			ah._state = c
+			ah._onStep:fire(c.value)
+			if c.complete then
+				if ah._useImplicitConnections then
+					ah:stop()
+				end
+				ah._onComplete:fire()
+			end
+			return c.complete
+		end
+		function ag.getValue(ah)
+			return ah._state.value
+		end
+		function ag.setGoal(ah, aj)
+			ah._state.complete = false
+			ah._goal = aj
+			ah._onStart:fire()
+			if ah._useImplicitConnections then
+				ah:start()
+			end
+		end
+		function ag.__tostring(ah)
+			return "Motor(Single)"
+		end
+		return ag
+	end,
+	[42] = function()
+		local aa, ab, ac, ad, ae = b(42)
+		return function()
+			local af, ag = ac(ab.Parent.SingleMotor), ac(ab.Parent.Instant)
+			it(
+				"should assign new state on step",
+				function()
+					local ah = af.new(0, false)
+					ah:setGoal(ag.new(5))
+					ah:step(1.6666666666666665E-2)
+					expect(ah._state.complete).to.equal(true)
+					expect(ah._state.value).to.equal(5)
+				end
+			)
+			it(
+				[[should invoke onComplete listeners when the goal is completed]],
+				function()
+					local ah, aj = af.new(0, false), false
+					ah:onComplete(
+						function()
+							aj = true
+						end
+					)
+					ah:setGoal(ag.new(5))
+					ah:step(1.6666666666666665E-2)
+					expect(aj).to.equal(true)
+				end
+			)
+			it(
+				"should start when the goal is set",
+				function()
+					local ah, aj = af.new(0, false), false
+					ah:onStart(
+						function()
+							aj = not aj
+						end
+					)
+					ah:setGoal(ag.new(5))
+					expect(aj).to.equal(true)
+					ah:setGoal(ag.new(5))
+					expect(aj).to.equal(false)
+				end
+			)
+		end
+	end,
+	[43] = function()
+		local aa, ab, ac, ad, ae = b(43)
+		local af, ag, ah, aj = 0.001, 0.001, 0.0001, {}
+		aj.__index = aj
+		function aj.new(c, d)
+			assert(c, "Missing argument #1: targetValue")
+			d = d or {}
+			return setmetatable(
+				{_targetValue = c, _frequency = d.frequency or 4, _dampingRatio = d.dampingRatio or 1},
+				aj
+			)
+		end
+		function aj.step(c, d, e)
+			local f, g, h, i, j = c._dampingRatio, c._frequency * 2 * math.pi, c._targetValue, d.value, d.velocity or 0
+			local k, l, m, n = i - h, (math.exp(-f * g * e))
+			if f == 1 then
+				m = (k * (1 + g * e) + j * e) * l + h
+				n = (j * (1 - g * e) - k * (g * g * e)) * l
+			elseif f < 1 then
+				local o = math.sqrt(1 - f * f)
+				local p, s, t = math.cos(g * o * e), (math.sin(g * o * e))
+				if o > ah then
+					t = s / o
+				else
+					local u = e * g
+					t = u + ((u * u) * (o * o) * (o * o) / 20 - o * o) * (u * u * u) / 6
+				end
+				local u
+				if g * o > ah then
+					u = s / (g * o)
+				else
+					local v = g * o
+					u = e + ((e * e) * (v * v) * (v * v) / 20 - v * v) * (e * e * e) / 6
+				end
+				m = (k * (p + f * t) + j * u) * l + h
+				n = (j * (p - t * f) - k * (t * g)) * l
+			else
+				local o = math.sqrt(f * f - 1)
+				local p, s = -g * (f - o), -g * (f + o)
+				local t = (j - k * p) / (2 * g * o)
+				local u = k - t
+				local v, w = u * math.exp(p * e), t * math.exp(s * e)
+				m = v + w + h
+				n = v * p + w * s
+			end
+			local o = math.abs(n) < af and math.abs(m - h) < ag
+			return {complete = o, value = o and h or m, velocity = n}
+		end
+		return aj
+	end,
+	[44] = function()
+		local aa, ab, ac, ad, ae = b(44)
+		return function()
+			local af, ag = ac(ab.Parent.SingleMotor), ac(ab.Parent.Spring)
+			describe(
+				"completed state",
+				function()
+					local ah, aj = af.new(0, false), ag.new(1, {frequency = 2, dampingRatio = 0.75})
+					ah:setGoal(aj)
+					for c = 1, 100 do
+						ah:step(1.6666666666666665E-2)
+					end
+					it(
+						"should complete",
+						function()
+							expect(ah._state.complete).to.equal(true)
+						end
+					)
+					it(
+						"should be exactly the goal value when completed",
+						function()
+							expect(ah._state.value).to.equal(1)
+						end
+					)
+				end
+			)
+			it(
+				"should inherit velocity",
+				function()
+					local ah = af.new(0, false)
+					ah._state = {complete = false, value = 0, velocity = -5}
+					local aj = ag.new(1, {frequency = 2, dampingRatio = 1})
+					ah:setGoal(aj)
+					ah:step(1.6666666666666665E-2)
+					expect(ah._state.velocity < 0).to.equal(true)
+				end
+			)
+		end
+	end,
+	[45] = function()
+		local aa, ab, ac, ad, ae = b(45)
+		local af = function(af)
+			local ag = tostring(af):match "^Motor%((.+)%)$"
+			if ag then
+				return true, ag
+			else
+				return false
+			end
+		end
+		return af
+	end,
+	[46] = function()
+		local aa, ab, ac, ad, ae = b(46)
+		return function()
+			local af, ag, ah = ac(ab.Parent.isMotor), ac(ab.Parent.SingleMotor), ac(ab.Parent.GroupMotor)
+			local aj, c = ag.new(0), ah.new {}
+			it(
+				"should properly detect motors",
+				function()
+					expect(af(aj)).to.equal(true)
+					expect(af(c)).to.equal(true)
+				end
+			)
+			it(
+				"shouldn't detect things that aren't motors",
+				function()
+					expect(af {}).to.equal(false)
+				end
+			)
+			it(
+				"should return the proper motor type",
+				function()
+					local d, e = af(aj)
+					local f, g = af(c)
+					expect(e).to.equal "Single"
+					expect(g).to.equal "Group"
+				end
+			)
+		end
+	end,
+	[47] = function()
+		local aa, ab, ac, ad, ae = b(47)
+		local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Grey", "R2LX", "Enhanced", "Gradien", "WibuTheme"}}
+		for ag, ah in next, ab:GetChildren() do
+			local aj = ac(ah)
+			af[aj.Name] = aj
+		end
+		return af
+	end,
+	[48] = function()
+		local aa, ab, ac, ad, ae = b(48)
+		return {
+			Name = "Amethyst",
+			Accent = Color3.fromRGB(97, 62, 167),
+			AcrylicMain = Color3.fromRGB(20, 20, 20),
+			AcrylicBorder = Color3.fromRGB(110, 90, 130),
+			AcrylicGradient = ColorSequence.new(Color3.fromRGB(85, 57, 139), Color3.fromRGB(40, 25, 65)),
+			AcrylicNoise = 0.92,
+			TitleBarLine = Color3.fromRGB(95, 75, 110),
+			Tab = Color3.fromRGB(160, 140, 180),
+			Element = Color3.fromRGB(140, 120, 160),
+			ElementBorder = Color3.fromRGB(60, 50, 70),
+			InElementBorder = Color3.fromRGB(100, 90, 110),
+			ElementTransparency = 0.87,
+			ToggleSlider = Color3.fromRGB(140, 120, 160),
+			ToggleToggled = Color3.fromRGB(0, 0, 0),
+			SliderRail = Color3.fromRGB(140, 120, 160),
+			DropdownFrame = Color3.fromRGB(170, 160, 200),
+			DropdownHolder = Color3.fromRGB(60, 45, 80),
+			DropdownBorder = Color3.fromRGB(50, 40, 65),
+			DropdownOption = Color3.fromRGB(140, 120, 160),
+			Keybind = Color3.fromRGB(140, 120, 160),
+			Input = Color3.fromRGB(140, 120, 160),
+			InputFocused = Color3.fromRGB(20, 10, 30),
+			InputIndicator = Color3.fromRGB(170, 150, 190),
+			Dialog = Color3.fromRGB(60, 45, 80),
+			DialogHolder = Color3.fromRGB(45, 30, 65),
+			DialogHolderLine = Color3.fromRGB(40, 25, 60),
+			DialogButton = Color3.fromRGB(60, 45, 80),
+			DialogButtonBorder = Color3.fromRGB(95, 80, 110),
+			DialogBorder = Color3.fromRGB(85, 70, 100),
+			DialogInput = Color3.fromRGB(70, 55, 85),
+			DialogInputLine = Color3.fromRGB(175, 160, 190),
+			Text = Color3.fromRGB(240, 240, 240),
+			SubText = Color3.fromRGB(170, 170, 170),
+			Hover = Color3.fromRGB(140, 120, 160),
+			HoverChange = 0.04
+		}
+	end,
+	[49] = function()
+		local aa, ab, ac, ad, ae = b(49)
+		return {
+			Name = "Aqua",
+			Accent = Color3.fromRGB(60, 165, 165),
+			AcrylicMain = Color3.fromRGB(20, 20, 20),
+			AcrylicBorder = Color3.fromRGB(50, 100, 100),
+			AcrylicGradient = ColorSequence.new(Color3.fromRGB(60, 140, 140), Color3.fromRGB(40, 80, 80)),
+			AcrylicNoise = 0.92,
+			TitleBarLine = Color3.fromRGB(60, 120, 120),
+			Tab = Color3.fromRGB(140, 180, 180),
+			Element = Color3.fromRGB(110, 160, 160),
+			ElementBorder = Color3.fromRGB(40, 70, 70),
+			InElementBorder = Color3.fromRGB(80, 110, 110),
+			ElementTransparency = 0.84,
+			ToggleSlider = Color3.fromRGB(110, 160, 160),
+			ToggleToggled = Color3.fromRGB(0, 0, 0),
+			SliderRail = Color3.fromRGB(110, 160, 160),
+			DropdownFrame = Color3.fromRGB(160, 200, 200),
+			DropdownHolder = Color3.fromRGB(40, 80, 80),
+			DropdownBorder = Color3.fromRGB(40, 65, 65),
+			DropdownOption = Color3.fromRGB(110, 160, 160),
+			Keybind = Color3.fromRGB(110, 160, 160),
+			Input = Color3.fromRGB(110, 160, 160),
+			InputFocused = Color3.fromRGB(20, 10, 30),
+			InputIndicator = Color3.fromRGB(130, 170, 170),
+			Dialog = Color3.fromRGB(40, 80, 80),
+			DialogHolder = Color3.fromRGB(30, 60, 60),
+			DialogHolderLine = Color3.fromRGB(25, 50, 50),
+			DialogButton = Color3.fromRGB(40, 80, 80),
+			DialogButtonBorder = Color3.fromRGB(80, 110, 110),
+			DialogBorder = Color3.fromRGB(50, 100, 100),
+			DialogInput = Color3.fromRGB(45, 90, 90),
+			DialogInputLine = Color3.fromRGB(130, 170, 170),
+			Text = Color3.fromRGB(240, 240, 240),
+			SubText = Color3.fromRGB(170, 170, 170),
+			Hover = Color3.fromRGB(110, 160, 160),
+			HoverChange = 0.04
+		}
+	end,
+	[50] = function()
+		local aa, ab, ac, ad, ae = b(50)
+		return {
+			Name = "Dark",
+			Accent = Color3.fromRGB(96, 205, 255),
+			AcrylicMain = Color3.fromRGB(60, 60, 60),
+			AcrylicBorder = Color3.fromRGB(90, 90, 90),
+			AcrylicGradient = ColorSequence.new(Color3.fromRGB(40, 40, 40), Color3.fromRGB(40, 40, 40)),
+			AcrylicNoise = 0.9,
+			TitleBarLine = Color3.fromRGB(75, 75, 75),
+			Tab = Color3.fromRGB(120, 120, 120),
+			Element = Color3.fromRGB(120, 120, 120),
+			ElementBorder = Color3.fromRGB(35, 35, 35),
+			InElementBorder = Color3.fromRGB(90, 90, 90),
+			ElementTransparency = 0.87,
+			ToggleSlider = Color3.fromRGB(120, 120, 120),
+			ToggleToggled = Color3.fromRGB(0, 0, 0),
+			SliderRail = Color3.fromRGB(120, 120, 120),
+			DropdownFrame = Color3.fromRGB(160, 160, 160),
+			DropdownHolder = Color3.fromRGB(45, 45, 45),
+			DropdownBorder = Color3.fromRGB(35, 35, 35),
+			DropdownOption = Color3.fromRGB(120, 120, 120),
+			Keybind = Color3.fromRGB(120, 120, 120),
+			Input = Color3.fromRGB(160, 160, 160),
+			InputFocused = Color3.fromRGB(10, 10, 10),
+			InputIndicator = Color3.fromRGB(150, 150, 150),
+			Dialog = Color3.fromRGB(45, 45, 45),
+			DialogHolder = Color3.fromRGB(35, 35, 35),
+			DialogHolderLine = Color3.fromRGB(30, 30, 30),
+			DialogButton = Color3.fromRGB(45, 45, 45),
+			DialogButtonBorder = Color3.fromRGB(80, 80, 80),
+			DialogBorder = Color3.fromRGB(70, 70, 70),
+			DialogInput = Color3.fromRGB(55, 55, 55),
+			DialogInputLine = Color3.fromRGB(160, 160, 160),
+			Text = Color3.fromRGB(240, 240, 240),
+			SubText = Color3.fromRGB(170, 170, 170),
+			Hover = Color3.fromRGB(120, 120, 120),
+			HoverChange = 0.07
+		}
+	end,
+	[51] = function()
+		local aa, ab, ac, ad, ae = b(51)
+		return {
+			Name = "Darker",
+			Accent = Color3.fromRGB(72, 138, 182),
+			AcrylicMain = Color3.fromRGB(30, 30, 30),
+			AcrylicBorder = Color3.fromRGB(60, 60, 60),
+			AcrylicGradient = ColorSequence.new(Color3.fromRGB(25, 25, 25), Color3.fromRGB(15, 15, 15)),
+			AcrylicNoise = 0.94,
+			TitleBarLine = Color3.fromRGB(65, 65, 65),
+			Tab = Color3.fromRGB(100, 100, 100),
+			Element = Color3.fromRGB(70, 70, 70),
+			ElementBorder = Color3.fromRGB(25, 25, 25),
+			InElementBorder = Color3.fromRGB(55, 55, 55),
+			ElementTransparency = 0.82,
+			DropdownFrame = Color3.fromRGB(120, 120, 120),
+			DropdownHolder = Color3.fromRGB(35, 35, 35),
+			DropdownBorder = Color3.fromRGB(25, 25, 25),
+			Dialog = Color3.fromRGB(35, 35, 35),
+			DialogHolder = Color3.fromRGB(25, 25, 25),
+			DialogHolderLine = Color3.fromRGB(20, 20, 20),
+			DialogButton = Color3.fromRGB(35, 35, 35),
+			DialogButtonBorder = Color3.fromRGB(55, 55, 55),
+			DialogBorder = Color3.fromRGB(50, 50, 50),
+			DialogInput = Color3.fromRGB(45, 45, 45),
+			DialogInputLine = Color3.fromRGB(120, 120, 120)
+		}
+	end,
+	[52] = function()
+		local aa, ab, ac, ad, ae = b(52)
+		return {
+			Name = "Light",
+			Accent = Color3.fromRGB(0, 103, 192),
+			AcrylicMain = Color3.fromRGB(200, 200, 200),
+			AcrylicBorder = Color3.fromRGB(120, 120, 120),
+			AcrylicGradient = ColorSequence.new(Color3.fromRGB(255, 255, 255), Color3.fromRGB(255, 255, 255)),
+			AcrylicNoise = 0.96,
+			TitleBarLine = Color3.fromRGB(160, 160, 160),
+			Tab = Color3.fromRGB(90, 90, 90),
+			Element = Color3.fromRGB(255, 255, 255),
+			ElementBorder = Color3.fromRGB(180, 180, 180),
+			InElementBorder = Color3.fromRGB(150, 150, 150),
+			ElementTransparency = 0.65,
+			ToggleSlider = Color3.fromRGB(40, 40, 40),
+			ToggleToggled = Color3.fromRGB(255, 255, 255),
+			SliderRail = Color3.fromRGB(40, 40, 40),
+			DropdownFrame = Color3.fromRGB(200, 200, 200),
+			DropdownHolder = Color3.fromRGB(240, 240, 240),
+			DropdownBorder = Color3.fromRGB(200, 200, 200),
+			DropdownOption = Color3.fromRGB(150, 150, 150),
+			Keybind = Color3.fromRGB(120, 120, 120),
+			Input = Color3.fromRGB(200, 200, 200),
+			InputFocused = Color3.fromRGB(100, 100, 100),
+			InputIndicator = Color3.fromRGB(80, 80, 80),
+			Dialog = Color3.fromRGB(255, 255, 255),
+			DialogHolder = Color3.fromRGB(240, 240, 240),
+			DialogHolderLine = Color3.fromRGB(228, 228, 228),
+			DialogButton = Color3.fromRGB(255, 255, 255),
+			DialogButtonBorder = Color3.fromRGB(190, 190, 190),
+			DialogBorder = Color3.fromRGB(140, 140, 140),
+			DialogInput = Color3.fromRGB(250, 250, 250),
+			DialogInputLine = Color3.fromRGB(160, 160, 160),
+			Text = Color3.fromRGB(0, 0, 0),
+			SubText = Color3.fromRGB(40, 40, 40),
+			Hover = Color3.fromRGB(50, 50, 50),
+			HoverChange = 0.16
+		}
+	end,
+	[53] = function()
+		local aa, ab, ac, ad, ae = b(53)
+		return {
+			Name = "Rose",
+			Accent = Color3.fromRGB(180, 55, 90),
+			AcrylicMain = Color3.fromRGB(40, 40, 40),
+			AcrylicBorder = Color3.fromRGB(130, 90, 110),
+			AcrylicGradient = ColorSequence.new(Color3.fromRGB(190, 60, 135), Color3.fromRGB(165, 50, 70)),
+			AcrylicNoise = 0.92,
+			TitleBarLine = Color3.fromRGB(140, 85, 105),
+			Tab = Color3.fromRGB(180, 140, 160),
+			Element = Color3.fromRGB(200, 120, 170),
+			ElementBorder = Color3.fromRGB(110, 70, 85),
+			InElementBorder = Color3.fromRGB(120, 90, 90),
+			ElementTransparency = 0.86,
+			ToggleSlider = Color3.fromRGB(200, 120, 170),
+			ToggleToggled = Color3.fromRGB(0, 0, 0),
+			SliderRail = Color3.fromRGB(200, 120, 170),
+			DropdownFrame = Color3.fromRGB(200, 160, 180),
+			DropdownHolder = Color3.fromRGB(120, 50, 75),
+			DropdownBorder = Color3.fromRGB(90, 40, 55),
+			DropdownOption = Color3.fromRGB(200, 120, 170),
+			Keybind = Color3.fromRGB(200, 120, 170),
+			Input = Color3.fromRGB(200, 120, 170),
+			InputFocused = Color3.fromRGB(20, 10, 30),
+			InputIndicator = Color3.fromRGB(170, 150, 190),
+			Dialog = Color3.fromRGB(120, 50, 75),
+			DialogHolder = Color3.fromRGB(95, 40, 60),
+			DialogHolderLine = Color3.fromRGB(90, 35, 55),
+			DialogButton = Color3.fromRGB(120, 50, 75),
+			DialogButtonBorder = Color3.fromRGB(155, 90, 115),
+			DialogBorder = Color3.fromRGB(100, 70, 90),
+			DialogInput = Color3.fromRGB(135, 55, 80),
+			DialogInputLine = Color3.fromRGB(190, 160, 180),
+			Text = Color3.fromRGB(240, 240, 240),
+			SubText = Color3.fromRGB(170, 170, 170),
+			Hover = Color3.fromRGB(200, 120, 170),
+			HoverChange = 0.04
+		}
+	end,
+[54] = function()
+    local aa, ab, ac, ad, ae = b(54)
+    return {
+        Name = "Grey",
+        Accent = Color3.fromRGB(200, 200, 200),
+        AcrylicMain = Color3.fromRGB(220, 220, 220),
+        AcrylicBorder = Color3.fromRGB(190, 190, 190),
+        AcrylicGradient = ColorSequence.new(Color3.fromRGB(230, 230, 230), Color3.fromRGB(210, 210, 210)),
+        AcrylicNoise = 0.92,
+        TitleBarLine = Color3.fromRGB(180, 180, 180),
+        Tab = Color3.fromRGB(210, 210, 210),
+        Element = Color3.fromRGB(220, 220, 220),
+        ElementBorder = Color3.fromRGB(180, 180, 180),
+        InElementBorder = Color3.fromRGB(190, 190, 190),
+        ElementTransparency = 0.86,
+        ToggleSlider = Color3.fromRGB(220, 220, 220),
+        ToggleToggled = Color3.fromRGB(150, 150, 150),
+        SliderRail = Color3.fromRGB(220, 220, 220),
+        DropdownFrame = Color3.fromRGB(230, 230, 230),
+        DropdownHolder = Color3.fromRGB(200, 200, 200),
+        DropdownBorder = Color3.fromRGB(170, 170, 170),
+        DropdownOption = Color3.fromRGB(220, 220, 220),
+        Keybind = Color3.fromRGB(220, 220, 220),
+        Input = Color3.fromRGB(220, 220, 220),
+        InputFocused = Color3.fromRGB(180, 180, 180),
+        InputIndicator = Color3.fromRGB(200, 200, 200),
+        Dialog = Color3.fromRGB(200, 200, 200),
+        DialogHolder = Color3.fromRGB(190, 190, 190),
+        DialogHolderLine = Color3.fromRGB(180, 180, 180),
+        DialogButton = Color3.fromRGB(200, 200, 200),
+        DialogButtonBorder = Color3.fromRGB(210, 210, 210),
+        DialogBorder = Color3.fromRGB(185, 185, 185),
+        DialogInput = Color3.fromRGB(195, 195, 195),
+        DialogInputLine = Color3.fromRGB(220, 220, 220),
+        Text = Color3.fromRGB(50, 50, 50),
+        SubText = Color3.fromRGB(120, 120, 120),
+        Hover = Color3.fromRGB(205, 205, 205),
+        HoverChange = 0.04
+       }
+    end,
+[55] = function()
+    local aa, ab, ac, ad, ae = b(55)
+    return {
+        Name = "R2LX",
+        Accent = Color3.fromRGB(178, 172, 255),
+        AcrylicMain = Color3.fromRGB(178, 172, 255),
+        AcrylicBorder = Color3.fromRGB(168, 172, 255),
+        AcrylicGradient = ColorSequence.new(Color3.fromRGB(131, 181, 255), Color3.fromRGB(224, 162, 255)),
+        AcrylicNoise = 0.92,
+        TitleBarLine = Color3.fromRGB(158, 172, 255),
+        Tab = Color3.fromRGB(178, 172, 255),
+        Element = Color3.fromRGB(178, 172, 255),
+        ElementBorder = Color3.fromRGB(158, 172, 255),
+        InElementBorder = Color3.fromRGB(168, 172, 255),
+        ElementTransparency = 0.86,
+        ToggleSlider = Color3.fromRGB(178, 172, 255),
+        ToggleToggled = Color3.fromRGB(150, 150, 255),
+        SliderRail = Color3.fromRGB(178, 172, 255),
+        DropdownFrame = Color3.fromRGB(178, 172, 255),
+        DropdownHolder = Color3.fromRGB(178, 172, 255),
+        DropdownBorder = Color3.fromRGB(158, 172, 255),
+        DropdownOption = Color3.fromRGB(178, 172, 255),
+        Keybind = Color3.fromRGB(178, 172, 255),
+        Input = Color3.fromRGB(178, 172, 255),
+        InputFocused = Color3.fromRGB(158, 172, 255),
+        InputIndicator = Color3.fromRGB(178, 172, 255),
+        Dialog = Color3.fromRGB(178, 172, 255),
+        DialogHolder = Color3.fromRGB(168, 172, 255),
+        DialogHolderLine = Color3.fromRGB(158, 172, 255),
+        DialogButton = Color3.fromRGB(178, 172, 255),
+        DialogButtonBorder = Color3.fromRGB(178, 172, 255),
+        DialogBorder = Color3.fromRGB(168, 172, 255),
+        DialogInput = Color3.fromRGB(178, 172, 255),
+        DialogInputLine = Color3.fromRGB(178, 172, 255),
+        Text = Color3.fromRGB(50, 50, 50),
+        SubText = Color3.fromRGB(120, 120, 120),
+        Hover = Color3.fromRGB(178, 172, 255),
+        HoverChange = 0.04
+    }
+end,
+[56] = function()
+    local aa, ab, ac, ad, ae = b(56)
+    return {
+        Name = "Enhanced",
+        Accent = Color3.fromRGB(178, 172, 255),
+        AcrylicMain = Color3.fromRGB(178, 172, 255),
+        AcrylicBorder = Color3.fromRGB(168, 172, 255),
+        AcrylicGradient = ColorSequence.new(Color3.fromRGB(131, 181, 255), Color3.fromRGB(200, 170, 255), Color3.fromRGB(224, 162, 255)),
+        AcrylicNoise = 0.92,
+        TitleBarLine = Color3.fromRGB(158, 172, 255),
+        Tab = Color3.fromRGB(178, 172, 255),
+        Element = Color3.fromRGB(178, 172, 255),
+        ElementBorder = Color3.fromRGB(158, 172, 255),
+        InElementBorder = Color3.fromRGB(168, 172, 255),
+        ElementTransparency = 0.86,
+        ToggleSlider = Color3.fromRGB(178, 172, 255),
+        ToggleToggled = Color3.fromRGB(150, 150, 255),
+        SliderRail = Color3.fromRGB(178, 172, 255),
+        DropdownFrame = Color3.fromRGB(178, 172, 255),
+        DropdownHolder = Color3.fromRGB(178, 172, 255),
+        DropdownBorder = Color3.fromRGB(158, 172, 255),
+        DropdownOption = Color3.fromRGB(178, 172, 255),
+        Keybind = Color3.fromRGB(178, 172, 255),
+        Input = Color3.fromRGB(178, 172, 255),
+        InputFocused = Color3.fromRGB(158, 172, 255),
+        InputIndicator = Color3.fromRGB(178, 172, 255),
+        Dialog = Color3.fromRGB(178, 172, 255),
+        DialogHolder = Color3.fromRGB(168, 172, 255),
+        DialogHolderLine = Color3.fromRGB(158, 172, 255),
+        DialogButton = Color3.fromRGB(178, 172, 255),
+        DialogButtonBorder = Color3.fromRGB(178, 172, 255),
+        DialogBorder = Color3.fromRGB(168, 172, 255),
+        DialogInput = Color3.fromRGB(178, 172, 255),
+        DialogInputLine = Color3.fromRGB(178, 172, 255),
+        Text = Color3.fromRGB(50, 50, 50),
+        SubText = Color3.fromRGB(120, 120, 120),
+        Hover = Color3.fromRGB(178, 172, 255),
+        HoverChange = 0.04
+    }
+end,
+[57] = function()
+    local aa, ab, ac, ad, ae = b(57)
+    return {
+        Name = "Gradien",
+        Accent = Color3.fromRGB(178, 172, 255),
+        AcrylicMain = Color3.fromRGB(178, 172, 255),
+        AcrylicBorder = Color3.fromRGB(168, 172, 255),
+        AcrylicGradient = ColorSequence.new(Color3.fromRGB(131, 181, 255), Color3.fromRGB(180, 200, 255), Color3.fromRGB(224, 162, 255)),
+        AcrylicNoise = 0.92,
+        TitleBarLine = Color3.fromRGB(158, 172, 255),
+        Tab = Color3.fromRGB(178, 172, 255),
+        Element = Color3.fromRGB(178, 172, 255),
+        ElementBorder = Color3.fromRGB(158, 172, 255),
+        InElementBorder = Color3.fromRGB(168, 172, 255),
+        ElementTransparency = 0.86,
+        ToggleSlider = Color3.fromRGB(178, 172, 255),
+        ToggleToggled = Color3.fromRGB(150, 150, 255),
+        SliderRail = Color3.fromRGB(178, 172, 255),
+        DropdownFrame = Color3.fromRGB(178, 172, 255),
+        DropdownHolder = Color3.fromRGB(178, 172, 255),
+        DropdownBorder = Color3.fromRGB(158, 172, 255),
+        DropdownOption = Color3.fromRGB(178, 172, 255),
+        Keybind = Color3.fromRGB(178, 172, 255),
+        Input = Color3.fromRGB(178, 172, 255),
+        InputFocused = Color3.fromRGB(158, 172, 255),
+        InputIndicator = Color3.fromRGB(178, 172, 255),
+        Dialog = Color3.fromRGB(178, 172, 255),
+        DialogHolder = Color3.fromRGB(168, 172, 255),
+        DialogHolderLine = Color3.fromRGB(158, 172, 255),
+        DialogButton = Color3.fromRGB(178, 172, 255),
+        DialogButtonBorder = Color3.fromRGB(178, 172, 255),
+        DialogBorder = Color3.fromRGB(168, 172, 255),
+        DialogInput = Color3.fromRGB(178, 172, 255),
+        DialogInputLine = Color3.fromRGB(178, 172, 255),
+        Text = Color3.fromRGB(50, 50, 50),
+        SubText = Color3.fromRGB(120, 120, 120),
+        Hover = Color3.fromRGB(178, 172, 255),
+        HoverChange = 0.04
+    }
+end,
+
+[58] = function()
+    local aa, ab, ac, ad, ae = b(58)
+    return {
+        Name = "WibuTheme",
+        Accent = Color3.fromRGB(178, 172, 255),
+        AcrylicMain = Color3.fromRGB(178, 172, 255),
+        AcrylicBorder = Color3.fromRGB(168, 172, 255),
+        AcrylicGradient = ColorSequence.new(Color3.fromRGB(131, 181, 255), Color3.fromRGB(180, 200, 255), Color3.fromRGB(224, 162, 255)),
+        AcrylicNoise = 0.92,
+        TitleBarLine = Color3.fromRGB(158, 172, 255),
+        Tab = Color3.fromRGB(178, 172, 255),
+        Element = Color3.fromRGB(178, 172, 255),
+        ElementBorder = Color3.fromRGB(158, 172, 255),
+        InElementBorder = Color3.fromRGB(168, 172, 255),
+        ElementTransparency = 0.86,
+        ToggleSlider = Color3.fromRGB(178, 172, 255),
+        ToggleToggled = Color3.fromRGB(150, 150, 255),
+        SliderRail = Color3.fromRGB(178, 172, 255),
+        DropdownFrame = Color3.fromRGB(178, 172, 255),
+        DropdownHolder = Color3.fromRGB(178, 172, 255),
+        DropdownBorder = Color3.fromRGB(158, 172, 255),
+        DropdownOption = Color3.fromRGB(178, 172, 255),
+        Keybind = Color3.fromRGB(178, 172, 255),
+        Input = Color3.fromRGB(178, 172, 255),
+        InputFocused = Color3.fromRGB(158, 172, 255),
+        InputIndicator = Color3.fromRGB(178, 172, 255),
+        Dialog = Color3.fromRGB(178, 172, 255),
+        DialogHolder = Color3.fromRGB(168, 172, 255),
+        DialogHolderLine = Color3.fromRGB(158, 172, 255),
+        DialogButton = Color3.fromRGB(178, 172, 255),
+        DialogButtonBorder = Color3.fromRGB(178, 172, 255),
+        DialogBorder = Color3.fromRGB(168, 172, 255),
+        DialogInput = Color3.fromRGB(178, 172, 255),
+        DialogInputLine = Color3.fromRGB(178, 172, 255),
+        Text = Color3.fromRGB(50, 50, 50),
+        SubText = Color3.fromRGB(120, 120, 120),
+        Hover = Color3.fromRGB(178, 172, 255),
+        HoverChange = 0.04
+    }
+end
+}
+do
+	local ab, ac, ad, ae, af, ag, ah, aj, c, e, f, g, h, i, j, k =
+		task,
+	setmetatable,
+	error,
+	newproxy,
+	getmetatable,
+	next,
+	table,
+	unpack,
+	coroutine,
+	script,
+	type,
+	require,
+	pcall,
+	getfenv,
+	setfenv,
+	rawget
+	local l, m, n, o, p, s, t, u, v, w, x = ah.insert, ah.remove, ah.freeze or function(l)
+		return l
+	end, ab and ab.defer or function(l, ...)
+		local m = c.create(l)
+		c.resume(m, ...)
+		return m
+	end, "0.0.0-venv", {}, {}, {}, {}, {}, {}
+	local y, z = {GetChildren = function(y)
+		local z, A = x[y], {}
+		for B in ag, z do
+			l(A, B)
+		end
+		return A
+	end, FindFirstChild = function(y, z)
+		if not z then
+			ad("Argument 1 missing or nil", 2)
+		end
+		for A in ag, x[y] do
+			if A.Name == z then
+				return A
+			end
+		end
+		return
+	end, GetFullName = function(y)
+			local z, A = y.Name, y.Parent
+			while A do
+			z = A.Name .. "." .. z
+			A = A.Parent
+		end
+			return "VirtualEnv." .. z
+		end}, {}
+	for A, B in ag, y do
+		z[A] = function(C, ...)
+			if not x[C] then
+				ad("Expected ':' not '.' calling member function " .. A, 1)
+			end
+			return B(C, ...)
+		end
+	end
+	local C = function(C, D, E)
+		local F, G, H, I, J = ac({}, {__mode = "k"}), function(F)
+			ad(F .. " is not a valid (virtual) member of " .. C .. ' "' .. D .. '"', 1)
+		end, function(F)
+			ad("Unable to assign (virtual) property " .. F .. ". Property is read only", 1)
+		end, (ae(true))
+		local K = af(I)
+		K.__index = function(L, M)
+			if M == "ClassName" then
+				return C
+			elseif M == "Name" then
+				return D
+			elseif M == "Parent" then
+				return E
+			elseif C == "StringValue" and M == "Value" then
+				return J
+			else
+				local N = z[M]
+				if N then
+					return N
+				end
+			end
+			for N in ag, F do
+				if N.Name == M then
+					return N
+				end
+			end
+			G(M)
+		end
+		K.__newindex = function(L, M, N)
+			if M == "ClassName" then
+				H(M)
+			elseif M == "Name" then
+				D = N
+			elseif M == "Parent" then
+				if N == I then
+					return
+				end
+				if E ~= nil then
+					x[E][I] = nil
+				end
+				E = N
+				if N ~= nil then
+					x[N][I] = true
+				end
+			elseif C == "StringValue" and M == "Value" then
+				J = N
+			else
+				G(M)
+			end
+		end
+		K.__tostring = function()
+			return D
+		end
+		x[I] = F
+		if E ~= nil then
+			x[E][I] = true
+		end
+		return I
+	end
+	local function D(E, F)
+		local G, H, I, J = E[1], E[2], E[3], E[4]
+		local K = m(I, 1)
+		local L = C(H, K, F)
+		s[G] = L
+		if I then
+			for M, N in ag, I do
+				L[M] = N
+			end
+		end
+		if J then
+			for M, N in ag, J do
+				D(N, L)
+			end
+		end
+		return L
+	end
+	local E = {}
+	for F, G in ag, a do
+		l(E, D(G))
+	end
+	for H, I in ag, aa do
+		local J = s[H]
+		t[J] = I
+		local K = J.ClassName
+		if K == "LocalScript" or K == "Script" then
+			l(v, J)
+		end
+	end
+	local J = function(J)
+		local K, L = J.ClassName, u[J]
+		if L and K == "ModuleScript" then
+			return aj(L)
+		end
+		local M = t[J]
+		if not M then
+			return
+		end
+		if K == "LocalScript" or K == "Script" then
+			M()
+			return
+		else
+			local N = {M()}
+			u[J] = N
+			return aj(N)
+		end
+	end
+	function b(K)
+		local L = s[K]
+		local M = t[L]
+		if not M then
+			return
+		end
+		local N, O, P, Q, R, S, T = false, n {Version = p, Script = e, Shared = w, GetScript = function()
+			return e
+		end, GetShared = function()
+			return w
+		end}, L, function(N, ...)
+			if x[N] and N.ClassName == "ModuleScript" and t[N] then
+				return J(N)
+			end
+			return g(N, ...)
+		end
+		local U, V = function(U, ...)
+			if not N then
+				T()
+			end
+			if f(U) == "number" and U >= 0 then
+				if U == 0 then
+					return S
+				else
+					U = U + 1
+					local V, W = h(i, U)
+					if V and W == R then
+						return S
+					end
+				end
+			end
+			return i(U, ...)
+		end, function(U, V, ...)
+			if not N then
+				T()
+			end
+			if f(U) == "number" and U >= 0 then
+				if U == 0 then
+					return j(S, V)
+				else
+					U = U + 1
+					local W, X = h(i, U)
+					if W and X == R then
+						return j(S, V)
+					end
+				end
+			end
+			return j(U, V, ...)
+		end
+		function T()
+			R = i(0)
+			local W = {maui = O, script = P, require = Q, getfenv = U, setfenv = V}
+			S =
+				ac(
+					{},
+					{__index = function(X, Y)
+						local Z = k(S, Y)
+						if Z ~= nil then
+						return Z
+					end
+						local _ = W[Y]
+						if _ ~= nil then
+						return _
+					end
+						return R[Y]
+					end}
+				)
+			j(M, S)
+			N = true
+		end
+		return O, P, Q, U, V
+	end
+	for K, L in ag, v do
+		o(J, L)
+	end
+	do
+		local M
+		for N, O in ag, E do
+			if O.ClassName == "ModuleScript" and O.Name == "MainModule" then
+				M = O
+				break
+			end
+		end
+		if M then
+			return J(M)
+		end
+	end
+end
