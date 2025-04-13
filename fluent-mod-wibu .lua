@@ -471,7 +471,6 @@ local a, b = {
 				{
 					{50, "ModuleScript", {"Dark"}},
 					{54, "ModuleScript", {"Grey"}},		
-					{59, "ModuleScript", {"lua"}},		
 			     	{58, "ModuleScript", {"WibuTheme"}},		
 					{57, "ModuleScript", {"Gradien"}},		
 					{56, "ModuleScript", {"Enhanced"}},		
@@ -1522,7 +1521,7 @@ local aa = {
 							{
 								SortOrder = Enum.SortOrder.LayoutOrder,
 								VerticalAlignment = Enum.VerticalAlignment.Center,
-								Padding = 1(0, 3)
+								Padding = UDim.new(0, 3)
 							}
 						),
 						r.ContentLabel,
@@ -1905,7 +1904,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = n and "Input" or "DialogInput"}
 					},
 					{
-						l("UICorner", {CornerRadius = UDim.new(0, 15)}),
+						l("UICorner", {CornerRadius = UDim.new(0, 4)}),
 						l(
 							"UIStroke",
 							{
@@ -2744,7 +2743,7 @@ local aa = {
 				s(
 					"Frame",
 					{Size = UDim2.fromScale(1, 1), BackgroundColor3 = z.Value, Parent = A.Frame},
-					{s("UICorner", {CornerRadius = UDim.new(0, 15)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
 				)
 			local aa, ab =
 				s(
@@ -2759,7 +2758,7 @@ local aa = {
 						ScaleType = Enum.ScaleType.Tile,
 						TileSize = UDim2.fromOffset(40, 40)
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 15)}), B}
+					{s("UICorner", {CornerRadius = UDim.new(0, 4)}), B}
 				),
 			function()
 				local C = e(t.Dialog):Create()
@@ -2823,7 +2822,7 @@ local aa = {
 							BackgroundTransparency = 0,
 							Parent = C.Root
 						},
-						{s("UICorner", {CornerRadius = UDim.new(0, 15)}), K}
+						{s("UICorner", {CornerRadius = UDim.new(0, 4)}), K}
 					),
 				s(
 					"Frame",
@@ -2832,7 +2831,7 @@ local aa = {
 						Size = UDim2.fromScale(1, 1),
 						BackgroundTransparency = z.Transparency
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 15)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
 				)
 				local N, O =
 					s(
@@ -2848,7 +2847,7 @@ local aa = {
 							Parent = C.Root
 						},
 						{
-							s("UICorner", {CornerRadius = UDim.new(0, 15)}),
+							s("UICorner", {CornerRadius = UDim.new(0, 4)}),
 							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
 							M
 						}
@@ -2856,7 +2855,7 @@ local aa = {
 				s(
 					"Frame",
 					{BackgroundColor3 = z.Value, Size = UDim2.fromScale(1, 1), BackgroundTransparency = 0},
-					{s("UICorner", {CornerRadius = UDim.new(0, 15)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
 				)
 				local P, Q =
 					s(
@@ -2872,6 +2871,7 @@ local aa = {
 							Parent = C.Root
 						},
 						{
+							s("UICorner", {CornerRadius = UDim.new(0, 4)}),
 							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
 							O
 						}
@@ -5624,7 +5624,7 @@ local aa = {
 	end,
 	[47] = function()
 		local aa, ab, ac, ad, ae = b(47)
-		local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Grey", "R2LX", "Enhanced", "Gradien", "WibuTheme", "lua"}}
+		local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Grey", "R2LX", "Enhanced", "Gradien", "WibuTheme"}}
 		for ag, ah in next, ab:GetChildren() do
 			local aj = ac(ah)
 			af[aj.Name] = aj
@@ -6058,47 +6058,6 @@ end,
         SubText = Color3.fromRGB(120, 120, 120),
         Hover = Color3.fromRGB(178, 172, 255),
         HoverChange = 0.04
-    }
-end,
-
-[59] = function()
-    local aa, ab, ac, ad, ae = b(59)
-    return {
-        Name = "lua",
-        Accent = Color3.fromRGB(235, 120, 255), -- màu chủ đạo hồng tím
-        AcrylicMain = Color3.fromRGB(20, 20, 20), -- nền chính tối
-        AcrylicBorder = Color3.fromRGB(235, 120, 255), -- viền sáng hồng tím
-        AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(20, 20, 20)),
-        AcrylicNoise = 0.185,
-        TitleBarLine = Color3.fromRGB(235, 120, 255),
-        Tab = Color3.fromRGB(235, 120, 255),
-        Element = Color3.fromRGB(235, 120, 255),
-        ElementBorder = Color3.fromRGB(225, 100, 255),
-        InElementBorder = Color3.fromRGB(235, 120, 255),
-        ElementTransparency = 0.7,
-        ToggleSlider = Color3.fromRGB(235, 120, 255),
-        ToggleToggled = Color3.fromRGB(200, 100, 255),
-        SliderRail = Color3.fromRGB(235, 120, 255),
-        DropdownFrame = Color3.fromRGB(25, 25, 25),
-        DropdownHolder = Color3.fromRGB(30, 30, 30),
-        DropdownBorder = Color3.fromRGB(235, 120, 255),
-        DropdownOption = Color3.fromRGB(235, 120, 255),
-        Keybind = Color3.fromRGB(235, 120, 255),
-        Input = Color3.fromRGB(235, 120, 255),
-        InputFocused = Color3.fromRGB(255, 140, 255),
-        InputIndicator = Color3.fromRGB(235, 120, 255),
-        Dialog = Color3.fromRGB(235, 120, 255),
-        DialogHolder = Color3.fromRGB(30, 30, 30),
-        DialogHolderLine = Color3.fromRGB(235, 120, 255),
-        DialogButton = Color3.fromRGB(235, 120, 255),
-        DialogButtonBorder = Color3.fromRGB(235, 120, 255),
-        DialogBorder = Color3.fromRGB(235, 120, 255),
-        DialogInput = Color3.fromRGB(235, 120, 255),
-        DialogInputLine = Color3.fromRGB(235, 120, 255),
-        Text = Color3.fromRGB(255, 255, 255),
-        SubText = Color3.fromRGB(150, 150, 150),
-        Hover = Color3.fromRGB(255, 160, 255),
-        HoverChange = 0.17
     }
 end
 }
