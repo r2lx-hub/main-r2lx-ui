@@ -928,7 +928,7 @@ local aa = {
 								ImageTransparency = 0.7
 							}
 						),
-						j("UICorner", {CornerRadius = UDim.new(0, 30)}),
+						j("UICorner", {CornerRadius = UDim.new(0, 8)}),
 						j(
 							"Frame",
 							{
@@ -961,7 +961,7 @@ local aa = {
 								Size = UDim2.fromScale(1, 1),
 								BackgroundTransparency = 1
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 30)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
 						),
 						j(
 							"ImageLabel",
@@ -974,7 +974,7 @@ local aa = {
 								BackgroundTransparency = 1,
 								ThemeTag = {ImageTransparency = "AcrylicNoise"}
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 30)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
 						),
 						j(
 							"Frame",
@@ -1163,7 +1163,7 @@ local aa = {
 						p(
 							"UIListLayout",
 							{
-								Padding = UDim.new(0, 45),
+								Padding = UDim.new(0, 20),
 								FillDirection = Enum.FillDirection.Horizontal,
 								HorizontalAlignment = Enum.HorizontalAlignment.Center,
 								SortOrder = Enum.SortOrder.LayoutOrder
@@ -1439,7 +1439,7 @@ local aa = {
 								HorizontalAlignment = Enum.HorizontalAlignment.Center,
 								SortOrder = Enum.SortOrder.LayoutOrder,
 								VerticalAlignment = Enum.VerticalAlignment.Bottom,
-								Padding = UDim.new(0, 45)
+								Padding = UDim.new(0, 20)
 							}
 						)
 					}
@@ -1522,7 +1522,7 @@ local aa = {
 							{
 								SortOrder = Enum.SortOrder.LayoutOrder,
 								VerticalAlignment = Enum.VerticalAlignment.Center,
-								Padding = UDim.new(0, 45)
+								Padding = UDim.new(0, 20)
 							}
 						),
 						r.ContentLabel,
@@ -1619,7 +1619,7 @@ local aa = {
 		local j = i.New
 		return function(k, l)
 			local m = {}
-			m.Layout = j("UIListLayout", {Padding = UDim.new(0, 45)})
+			m.Layout = j("UIListLayout", {Padding = UDim.new(0, 20)})
 			m.Container =
 				j(
 					"Frame",
@@ -1738,7 +1738,7 @@ local aa = {
 						)
 					}
 				)
-			local y = k("UIListLayout", {Padding = UDim.new(0, 45), SortOrder = Enum.SortOrder.LayoutOrder})
+			local y = k("UIListLayout", {Padding = UDim.new(0, 20), SortOrder = Enum.SortOrder.LayoutOrder})
 			x.ContainerFrame =
 				k(
 					"ScrollingFrame",
@@ -2047,7 +2047,7 @@ local aa = {
 								l(
 									"UIListLayout",
 									{
-										Padding = UDim.new(0, 45),
+										Padding = UDim.new(0, 20),
 										FillDirection = Enum.FillDirection.Horizontal,
 										SortOrder = Enum.SortOrder.LayoutOrder
 									}
@@ -2198,7 +2198,7 @@ local aa = {
 						CanvasSize = UDim2.fromScale(0, 0),
 						ScrollingDirection = Enum.ScrollingDirection.Y
 					},
-					{s("UIListLayout", {Padding = UDim.new(0, 30)})}
+					{s("UIListLayout", {Padding = UDim.new(0, 20)})}
 				)
 			local F =
 				s(
@@ -3274,7 +3274,7 @@ local aa = {
 						n
 					}
 				),
-			e("UIListLayout", {Padding = UDim.new(0, 45)})
+			e("UIListLayout", {Padding = UDim.new(0, 20)})
 			local t =
 				e(
 					"ScrollingFrame",
