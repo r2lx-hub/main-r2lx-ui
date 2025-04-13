@@ -578,7 +578,7 @@ local MkButton = function()
 	stf.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
 	stf.SizeConstraint = Enum.SizeConstraint.RelativeYY
 	stf.Rotation = 360
-	UICorner.CornerRadius = UDim.new( 0, 45)
+	UICorner.CornerRadius = UDim.new(0, 3)
 	UICorner.Parent = stf
 
 	DropShadow.Name = "DropShadow"
