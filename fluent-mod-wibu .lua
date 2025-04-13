@@ -578,7 +578,7 @@ local MkButton = function()
 	stf.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
 	stf.SizeConstraint = Enum.SizeConstraint.RelativeYY
 	stf.Rotation = 360
-	UICorner.CornerRadius = UDim.new(0, 3)
+	UICorner.CornerRadius = UDim.new(0, 6)
 	UICorner.Parent = stf
 
 	DropShadow.Name = "DropShadow"
@@ -928,7 +928,7 @@ local aa = {
 								ImageTransparency = 0.7
 							}
 						),
-						j("UICorner", {CornerRadius = UDim.new(0, 8)}),
+						j("UICorner", {CornerRadius = UDim.new(0, 15)}),
 						j(
 							"Frame",
 							{
@@ -937,7 +937,7 @@ local aa = {
 								Name = "Background",
 								ThemeTag = {BackgroundColor3 = "AcrylicMain"}
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 15)})}
 						),
 						j(
 							"Frame",
@@ -947,7 +947,7 @@ local aa = {
 								Size = UDim2.fromScale(1, 1)
 							},
 							{
-								j("UICorner", {CornerRadius = UDim.new(0, 8)}),
+								j("UICorner", {CornerRadius = UDim.new(0, 15)}),
 								j("UIGradient", {Rotation = 90, ThemeTag = {Color = "AcrylicGradient"}})
 							}
 						),
@@ -961,7 +961,7 @@ local aa = {
 								Size = UDim2.fromScale(1, 1),
 								BackgroundTransparency = 1
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 15)})}
 						),
 						j(
 							"ImageLabel",
@@ -974,13 +974,13 @@ local aa = {
 								BackgroundTransparency = 1,
 								ThemeTag = {ImageTransparency = "AcrylicNoise"}
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 15)})}
 						),
 						j(
 							"Frame",
 							{BackgroundTransparency = 1, Size = UDim2.fromScale(1, 1), ZIndex = 2},
 							{
-								j("UICorner", {CornerRadius = UDim.new(0, 8)}),
+								j("UICorner", {CornerRadius = UDim.new(0, 15)}),
 								j("UIStroke", {Transparency = 0.5, Thickness = 1, ThemeTag = {Color = "AcrylicBorder"}})
 							}
 						)
@@ -1074,14 +1074,14 @@ local aa = {
 				k(
 					"Frame",
 					{Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1, ThemeTag = {BackgroundColor3 = "Hover"}},
-					{k("UICorner", {CornerRadius = UDim.new(0, 15)})}
+					{k("UICorner", {CornerRadius = UDim.new(0, 8)})}
 				)
 			p.Frame =
 				k(
 					"TextButton",
 					{Size = UDim2.new(0, 0, 0, 32), Parent = n, ThemeTag = {BackgroundColor3 = "DialogButton"}},
 					{
-						k("UICorner", {CornerRadius = UDim.new(0, 15)}),
+						k("UICorner", {CornerRadius = UDim.new(0, 8)}),
 						k(
 							"UIStroke",
 							{
@@ -1147,7 +1147,7 @@ local aa = {
 						BackgroundTransparency = 1,
 						Parent = q.Window.Root
 					},
-					{p("UICorner", {CornerRadius = UDim.new(0, 8)})}
+					{p("UICorner", {CornerRadius = UDim.new(0, 15)})}
 				)
 			local t, u = m.SpringMotor(1, s.TintFrame, "BackgroundTransparency", true)
 			s.ButtonHolder =
@@ -1218,7 +1218,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "Dialog"}
 					},
 					{
-						p("UICorner", {CornerRadius = UDim.new(0, 8)}),
+						p("UICorner", {CornerRadius = UDim.new(0, 15)}),
 						p("UIStroke", {Transparency = 0.5, ThemeTag = {Color = "DialogBorder"}}),
 						s.Scale,
 						s.Title,
@@ -1357,7 +1357,7 @@ local aa = {
 						LayoutOrder = 7,
 						ThemeTag = {BackgroundColor3 = "Element", BackgroundTransparency = "ElementTransparency"}
 					},
-					{k("UICorner", {CornerRadius = UDim.new(0, 15)}), q.Border, q.LabelHolder}
+					{k("UICorner", {CornerRadius = UDim.new(0, 8)}), q.Border, q.LabelHolder}
 				)
 			function q.SetTitle(r, s)
 				q.TitleLabel.Text = s
@@ -1522,7 +1522,7 @@ local aa = {
 							{
 								SortOrder = Enum.SortOrder.LayoutOrder,
 								VerticalAlignment = Enum.VerticalAlignment.Center,
-								Padding = UDim.new(0, 3)
+								Padding = UDim.new(0, 6)
 							}
 						),
 						r.ContentLabel,
@@ -1619,7 +1619,7 @@ local aa = {
 		local j = i.New
 		return function(k, l)
 			local m = {}
-			m.Layout = j("UIListLayout", {Padding = UDim.new(0, 5)})
+			m.Layout = j("UIListLayout", {Padding = UDim.new(0, 15)})
 			m.Container =
 				j(
 					"Frame",
@@ -1738,7 +1738,7 @@ local aa = {
 						)
 					}
 				)
-			local y = k("UIListLayout", {Padding = UDim.new(0, 5), SortOrder = Enum.SortOrder.LayoutOrder})
+			local y = k("UIListLayout", {Padding = UDim.new(0, 15), SortOrder = Enum.SortOrder.LayoutOrder})
 			x.ContainerFrame =
 				k(
 					"ScrollingFrame",
@@ -1905,7 +1905,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = n and "Input" or "DialogInput"}
 					},
 					{
-						l("UICorner", {CornerRadius = UDim.new(0, 15)}),
+						l("UICorner", {CornerRadius = UDim.new(0, 8)}),
 						l(
 							"UIStroke",
 							{
@@ -2047,7 +2047,7 @@ local aa = {
 								l(
 									"UIListLayout",
 									{
-										Padding = UDim.new(0, 5),
+										Padding = UDim.new(0, 15),
 										FillDirection = Enum.FillDirection.Horizontal,
 										SortOrder = Enum.SortOrder.LayoutOrder
 									}
@@ -2198,7 +2198,7 @@ local aa = {
 						CanvasSize = UDim2.fromScale(0, 0),
 						ScrollingDirection = Enum.ScrollingDirection.Y
 					},
-					{s("UIListLayout", {Padding = UDim.new(0, 4)})}
+					{s("UIListLayout", {Padding = UDim.new(0, 8)})}
 				)
 			local F =
 				s(
@@ -2744,7 +2744,7 @@ local aa = {
 				s(
 					"Frame",
 					{Size = UDim2.fromScale(1, 1), BackgroundColor3 = z.Value, Parent = A.Frame},
-					{s("UICorner", {CornerRadius = UDim.new(0, 15)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 8)})}
 				)
 			local aa, ab =
 				s(
@@ -2759,7 +2759,7 @@ local aa = {
 						ScaleType = Enum.ScaleType.Tile,
 						TileSize = UDim2.fromOffset(40, 40)
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 15)}), B}
+					{s("UICorner", {CornerRadius = UDim.new(0, 8)}), B}
 				),
 			function()
 				local C = e(t.Dialog):Create()
@@ -2823,7 +2823,7 @@ local aa = {
 							BackgroundTransparency = 0,
 							Parent = C.Root
 						},
-						{s("UICorner", {CornerRadius = UDim.new(0, 15)}), K}
+						{s("UICorner", {CornerRadius = UDim.new(0, 8)}), K}
 					),
 				s(
 					"Frame",
@@ -2832,7 +2832,7 @@ local aa = {
 						Size = UDim2.fromScale(1, 1),
 						BackgroundTransparency = z.Transparency
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 15)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 8)})}
 				)
 				local N, O =
 					s(
@@ -2848,7 +2848,7 @@ local aa = {
 							Parent = C.Root
 						},
 						{
-							s("UICorner", {CornerRadius = UDim.new(0, 15)}),
+							s("UICorner", {CornerRadius = UDim.new(0, 8)}),
 							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
 							M
 						}
@@ -2856,7 +2856,7 @@ local aa = {
 				s(
 					"Frame",
 					{BackgroundColor3 = z.Value, Size = UDim2.fromScale(1, 1), BackgroundTransparency = 0},
-					{s("UICorner", {CornerRadius = UDim.new(0, 15)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 8)})}
 				)
 				local P, Q =
 					s(
@@ -2872,7 +2872,7 @@ local aa = {
 							Parent = C.Root
 						},
 						{
-							s("UICorner", {CornerRadius = UDim.new(0, 15)}),
+							s("UICorner", {CornerRadius = UDim.new(0, 8)}),
 							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
 							O
 						}
@@ -3261,7 +3261,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "DropdownFrame"}
 					},
 					{
-						e("UICorner", {CornerRadius = UDim.new(0, 5)}),
+						e("UICorner", {CornerRadius = UDim.new(0, 15)}),
 						e(
 							"UIStroke",
 							{
@@ -3274,7 +3274,7 @@ local aa = {
 						n
 					}
 				),
-			e("UIListLayout", {Padding = UDim.new(0, 3)})
+			e("UIListLayout", {Padding = UDim.new(0, 6)})
 			local t =
 				e(
 					"ScrollingFrame",
@@ -3759,8 +3759,8 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "Keybind"}
 					},
 					{
-						ai("UICorner", {CornerRadius = UDim.new(0, 5)}),
-						ai("UIPadding", {PaddingLeft = UDim.new(0, 8), PaddingRight = UDim.new(0, 8)}),
+						ai("UICorner", {CornerRadius = UDim.new(0, 15)}),
+						ai("UIPadding", {PaddingLeft = UDim.new(0, 15), PaddingRight = UDim.new(0, 15)}),
 						ai(
 							"UIStroke",
 							{
