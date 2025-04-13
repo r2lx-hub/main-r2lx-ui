@@ -578,7 +578,7 @@ local MkButton = function()
 	stf.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
 	stf.SizeConstraint = Enum.SizeConstraint.RelativeYY
 	stf.Rotation = 360
-	UICorner.CornerRadius = UDim.new(0, 3)
+	UICorner.CornerRadius = UDim.new( 0, 45)
 	UICorner.Parent = stf
 
 	DropShadow.Name = "DropShadow"
@@ -928,7 +928,7 @@ local aa = {
 								ImageTransparency = 0.7
 							}
 						),
-						j("UICorner", {CornerRadius = UDim.new(0, 45)}),
+						j("UICorner", {CornerRadius = UDim.new(0, 8)}),
 						j(
 							"Frame",
 							{
@@ -937,7 +937,7 @@ local aa = {
 								Name = "Background",
 								ThemeTag = {BackgroundColor3 = "AcrylicMain"}
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 45)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
 						),
 						j(
 							"Frame",
@@ -947,7 +947,7 @@ local aa = {
 								Size = UDim2.fromScale(1, 1)
 							},
 							{
-								j("UICorner", {CornerRadius = UDim.new(0, 45)}),
+								j("UICorner", {CornerRadius = UDim.new(0, 8)}),
 								j("UIGradient", {Rotation = 90, ThemeTag = {Color = "AcrylicGradient"}})
 							}
 						),
@@ -961,7 +961,7 @@ local aa = {
 								Size = UDim2.fromScale(1, 1),
 								BackgroundTransparency = 1
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 45)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
 						),
 						j(
 							"ImageLabel",
@@ -974,13 +974,13 @@ local aa = {
 								BackgroundTransparency = 1,
 								ThemeTag = {ImageTransparency = "AcrylicNoise"}
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 45)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
 						),
 						j(
 							"Frame",
 							{BackgroundTransparency = 1, Size = UDim2.fromScale(1, 1), ZIndex = 2},
 							{
-								j("UICorner", {CornerRadius = UDim.new(0, 45)}),
+								j("UICorner", {CornerRadius = UDim.new(0, 8)}),
 								j("UIStroke", {Transparency = 0.5, Thickness = 1, ThemeTag = {Color = "AcrylicBorder"}})
 							}
 						)
@@ -1147,7 +1147,7 @@ local aa = {
 						BackgroundTransparency = 1,
 						Parent = q.Window.Root
 					},
-					{p("UICorner", {CornerRadius = UDim.new(0, 45)})}
+					{p("UICorner", {CornerRadius = UDim.new(0, 8)})}
 				)
 			local t, u = m.SpringMotor(1, s.TintFrame, "BackgroundTransparency", true)
 			s.ButtonHolder =
@@ -1218,7 +1218,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "Dialog"}
 					},
 					{
-						p("UICorner", {CornerRadius = UDim.new(0, 45)}),
+						p("UICorner", {CornerRadius = UDim.new(0, 8)}),
 						p("UIStroke", {Transparency = 0.5, ThemeTag = {Color = "DialogBorder"}}),
 						s.Scale,
 						s.Title,
@@ -3760,7 +3760,7 @@ local aa = {
 					},
 					{
 						ai("UICorner", {CornerRadius = UDim.new(0, 5)}),
-						ai("UIPadding", {PaddingLeft = UDim.new(0, 45), PaddingRight = UDim.new(0, 45)}),
+						ai("UIPadding", {PaddingLeft = UDim.new(0, 8), PaddingRight = UDim.new(0, 8)}),
 						ai(
 							"UIStroke",
 							{
