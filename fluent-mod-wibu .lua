@@ -1074,14 +1074,14 @@ local aa = {
 				k(
 					"Frame",
 					{Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1, ThemeTag = {BackgroundColor3 = "Hover"}},
-					{k("UICorner", {CornerRadius = UDim.new(0, 4)})}
+					{k("UICorner", {CornerRadius = UDim.new(0, 45)})}
 				)
 			p.Frame =
 				k(
 					"TextButton",
 					{Size = UDim2.new(0, 0, 0, 32), Parent = n, ThemeTag = {BackgroundColor3 = "DialogButton"}},
 					{
-						k("UICorner", {CornerRadius = UDim.new(0, 4)}),
+						k("UICorner", {CornerRadius = UDim.new(0, 45)}),
 						k(
 							"UIStroke",
 							{
@@ -1357,7 +1357,7 @@ local aa = {
 						LayoutOrder = 7,
 						ThemeTag = {BackgroundColor3 = "Element", BackgroundTransparency = "ElementTransparency"}
 					},
-					{k("UICorner", {CornerRadius = UDim.new(0, 4)}), q.Border, q.LabelHolder}
+					{k("UICorner", {CornerRadius = UDim.new(0, 45)}), q.Border, q.LabelHolder}
 				)
 			function q.SetTitle(r, s)
 				q.TitleLabel.Text = s
@@ -1522,7 +1522,7 @@ local aa = {
 							{
 								SortOrder = Enum.SortOrder.LayoutOrder,
 								VerticalAlignment = Enum.VerticalAlignment.Center,
-								Padding = UDim.new(0, 3)
+								Padding = 1(0, 3)
 							}
 						),
 						r.ContentLabel,
@@ -1702,7 +1702,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "Tab"}
 					},
 					{
-						k("UICorner", {CornerRadius = UDim.new(0, 6)}),
+						k("UICorner", {CornerRadius = UDim.new(0, 45)}),
 						k(
 							"TextLabel",
 							{
@@ -1905,7 +1905,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = n and "Input" or "DialogInput"}
 					},
 					{
-						l("UICorner", {CornerRadius = UDim.new(0, 4)}),
+						l("UICorner", {CornerRadius = UDim.new(0, 15)}),
 						l(
 							"UIStroke",
 							{
@@ -2744,7 +2744,7 @@ local aa = {
 				s(
 					"Frame",
 					{Size = UDim2.fromScale(1, 1), BackgroundColor3 = z.Value, Parent = A.Frame},
-					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 15)})}
 				)
 			local aa, ab =
 				s(
@@ -2759,7 +2759,7 @@ local aa = {
 						ScaleType = Enum.ScaleType.Tile,
 						TileSize = UDim2.fromOffset(40, 40)
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 4)}), B}
+					{s("UICorner", {CornerRadius = UDim.new(0, 15)}), B}
 				),
 			function()
 				local C = e(t.Dialog):Create()
@@ -2823,7 +2823,7 @@ local aa = {
 							BackgroundTransparency = 0,
 							Parent = C.Root
 						},
-						{s("UICorner", {CornerRadius = UDim.new(0, 4)}), K}
+						{s("UICorner", {CornerRadius = UDim.new(0, 15)}), K}
 					),
 				s(
 					"Frame",
@@ -2832,7 +2832,7 @@ local aa = {
 						Size = UDim2.fromScale(1, 1),
 						BackgroundTransparency = z.Transparency
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 15)})}
 				)
 				local N, O =
 					s(
@@ -2848,7 +2848,7 @@ local aa = {
 							Parent = C.Root
 						},
 						{
-							s("UICorner", {CornerRadius = UDim.new(0, 4)}),
+							s("UICorner", {CornerRadius = UDim.new(0, 15)}),
 							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
 							M
 						}
@@ -2856,7 +2856,7 @@ local aa = {
 				s(
 					"Frame",
 					{BackgroundColor3 = z.Value, Size = UDim2.fromScale(1, 1), BackgroundTransparency = 0},
-					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 15)})}
 				)
 				local P, Q =
 					s(
@@ -2872,7 +2872,6 @@ local aa = {
 							Parent = C.Root
 						},
 						{
-							s("UICorner", {CornerRadius = UDim.new(0, 4)}),
 							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
 							O
 						}
@@ -6070,7 +6069,7 @@ end,
         AcrylicMain = Color3.fromRGB(20, 20, 20), -- nền chính tối
         AcrylicBorder = Color3.fromRGB(235, 120, 255), -- viền sáng hồng tím
         AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(20, 20, 20)),
-        AcrylicNoise = 0.85,
+        AcrylicNoise = 0.185,
         TitleBarLine = Color3.fromRGB(235, 120, 255),
         Tab = Color3.fromRGB(235, 120, 255),
         Element = Color3.fromRGB(235, 120, 255),
@@ -6099,7 +6098,7 @@ end,
         Text = Color3.fromRGB(255, 255, 255),
         SubText = Color3.fromRGB(150, 150, 150),
         Hover = Color3.fromRGB(255, 160, 255),
-        HoverChange = 0.06
+        HoverChange = 0.17
     }
 end
 }
