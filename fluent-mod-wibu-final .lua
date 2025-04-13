@@ -1,6 +1,4 @@
--- Fluent Mod
-
-local a=Instance.new("ScreenGui")local b=Instance.new("TextLabel")a.Parent=game.CoreGui;a.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;b.Parent=a;b.BackgroundColor3=Color3.fromRGB(255,255,255)b.BackgroundTransparency=1.000;b.BorderColor3=Color3.fromRGB(0,0,0)b.BorderSizePixel=0;b.Position=UDim2.new(0,0,0.412030578,0)b.Size=UDim2.new(1,0,0.175591096,0)b.Font=Enum.Font.SourceSansSemibold;b.Text="262"b.TextColor3=Color3.fromRGB(255, 0, 0)b.TextScaled=true;b.TextSize=14.000;b.TextWrapped=true;local c=game:GetService('RunService')task.spawn(function()while true do local d=c.RenderStepped:Wait()b.Text='fps : '..tostring(math.floor(1/d))task.wait()end end)
+-- R2lx Mod
 
 local old_tts = tostring;
 local a, b = {
@@ -18,7 +16,6 @@ local a, b = {
 				{
 					{50, "ModuleScript", {"Dark"}},
 					{54, "ModuleScript", {"Grey"}},		
-					{59, "ModuleScript", {"lua"}},		
 			     	{58, "ModuleScript", {"WibuTheme"}},		
 					{57, "ModuleScript", {"Gradien"}},		
 					{56, "ModuleScript", {"Enhanced"}},		
@@ -125,7 +122,7 @@ local MkButton = function()
 	stf.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
 	stf.SizeConstraint = Enum.SizeConstraint.RelativeYY
 	stf.Rotation = 360
-	UICorner.CornerRadius = UDim.new(0, 30)
+	UICorner.CornerRadius = UDim.new(0, 3)
 	UICorner.Parent = stf
 
 	DropShadow.Name = "DropShadow"
@@ -475,7 +472,7 @@ local aa = {
 								ImageTransparency = 0.7
 							}
 						),
-						j("UICorner", {CornerRadius = UDim.new(0, 30)}),
+						j("UICorner", {CornerRadius = UDim.new(0, 8)}),
 						j(
 							"Frame",
 							{
@@ -484,7 +481,7 @@ local aa = {
 								Name = "Background",
 								ThemeTag = {BackgroundColor3 = "AcrylicMain"}
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 30)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
 						),
 						j(
 							"Frame",
@@ -494,7 +491,7 @@ local aa = {
 								Size = UDim2.fromScale(1, 1)
 							},
 							{
-								j("UICorner", {CornerRadius = UDim.new(0, 30)}),
+								j("UICorner", {CornerRadius = UDim.new(0, 8)}),
 								j("UIGradient", {Rotation = 90, ThemeTag = {Color = "AcrylicGradient"}})
 							}
 						),
@@ -508,7 +505,7 @@ local aa = {
 								Size = UDim2.fromScale(1, 1),
 								BackgroundTransparency = 1
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 30)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
 						),
 						j(
 							"ImageLabel",
@@ -521,13 +518,13 @@ local aa = {
 								BackgroundTransparency = 1,
 								ThemeTag = {ImageTransparency = "AcrylicNoise"}
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 30)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
 						),
 						j(
 							"Frame",
 							{BackgroundTransparency = 1, Size = UDim2.fromScale(1, 1), ZIndex = 2},
 							{
-								j("UICorner", {CornerRadius = UDim.new(0, 30)}),
+								j("UICorner", {CornerRadius = UDim.new(0, 8)}),
 								j("UIStroke", {Transparency = 0.5, Thickness = 1, ThemeTag = {Color = "AcrylicBorder"}})
 							}
 						)
@@ -621,14 +618,14 @@ local aa = {
 				k(
 					"Frame",
 					{Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1, ThemeTag = {BackgroundColor3 = "Hover"}},
-					{k("UICorner", {CornerRadius = UDim.new(0, 30)})}
+					{k("UICorner", {CornerRadius = UDim.new(0, 4)})}
 				)
 			p.Frame =
 				k(
 					"TextButton",
 					{Size = UDim2.new(0, 0, 0, 32), Parent = n, ThemeTag = {BackgroundColor3 = "DialogButton"}},
 					{
-						k("UICorner", {CornerRadius = UDim.new(0, 30)}),
+						k("UICorner", {CornerRadius = UDim.new(0, 4)}),
 						k(
 							"UIStroke",
 							{
@@ -694,7 +691,7 @@ local aa = {
 						BackgroundTransparency = 1,
 						Parent = q.Window.Root
 					},
-					{p("UICorner", {CornerRadius = UDim.new(0, 30)})}
+					{p("UICorner", {CornerRadius = UDim.new(0, 8)})}
 				)
 			local t, u = m.SpringMotor(1, s.TintFrame, "BackgroundTransparency", true)
 			s.ButtonHolder =
@@ -710,7 +707,7 @@ local aa = {
 						p(
 							"UIListLayout",
 							{
-								Padding = UDim.new(0, 45),
+								Padding = UDim.new(0, 10),
 								FillDirection = Enum.FillDirection.Horizontal,
 								HorizontalAlignment = Enum.HorizontalAlignment.Center,
 								SortOrder = Enum.SortOrder.LayoutOrder
@@ -765,7 +762,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "Dialog"}
 					},
 					{
-						p("UICorner", {CornerRadius = UDim.new(0, 30)}),
+						p("UICorner", {CornerRadius = UDim.new(0, 8)}),
 						p("UIStroke", {Transparency = 0.5, ThemeTag = {Color = "DialogBorder"}}),
 						s.Scale,
 						s.Title,
@@ -876,7 +873,7 @@ local aa = {
 							"UIListLayout",
 							{SortOrder = Enum.SortOrder.LayoutOrder, VerticalAlignment = Enum.VerticalAlignment.Center}
 						),
-						k("UIPadding", {PaddingBottom = UDim.new(0, 20), PaddingTop = UDim.new(0, 20)}),
+						k("UIPadding", {PaddingBottom = UDim.new(0, 13), PaddingTop = UDim.new(0, 13)}),
 						q.TitleLabel,
 						q.DescLabel
 					}
@@ -904,7 +901,7 @@ local aa = {
 						LayoutOrder = 7,
 						ThemeTag = {BackgroundColor3 = "Element", BackgroundTransparency = "ElementTransparency"}
 					},
-					{k("UICorner", {CornerRadius = UDim.new(0, 30)}), q.Border, q.LabelHolder}
+					{k("UICorner", {CornerRadius = UDim.new(0, 4)}), q.Border, q.LabelHolder}
 				)
 			function q.SetTitle(r, s)
 				q.TitleLabel.Text = s
@@ -986,7 +983,7 @@ local aa = {
 								HorizontalAlignment = Enum.HorizontalAlignment.Center,
 								SortOrder = Enum.SortOrder.LayoutOrder,
 								VerticalAlignment = Enum.VerticalAlignment.Bottom,
-								Padding = UDim.new(0, 45)
+								Padding = UDim.new(0, 20)
 							}
 						)
 					}
@@ -1069,7 +1066,7 @@ local aa = {
 							{
 								SortOrder = Enum.SortOrder.LayoutOrder,
 								VerticalAlignment = Enum.VerticalAlignment.Center,
-								Padding = UDim.new(0, 45)
+								Padding = UDim.new(0, 3)
 							}
 						),
 						r.ContentLabel,
@@ -1166,7 +1163,7 @@ local aa = {
 		local j = i.New
 		return function(k, l)
 			local m = {}
-			m.Layout = j("UIListLayout", {Padding = UDim.new(0, 45)})
+			m.Layout = j("UIListLayout", {Padding = UDim.new(0, 5)})
 			m.Container =
 				j(
 					"Frame",
@@ -1249,7 +1246,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "Tab"}
 					},
 					{
-						k("UICorner", {CornerRadius = UDim.new(0, 30)}),
+						k("UICorner", {CornerRadius = UDim.new(0, 6)}),
 						k(
 							"TextLabel",
 							{
@@ -1285,7 +1282,7 @@ local aa = {
 						)
 					}
 				)
-			local y = k("UIListLayout", {Padding = UDim.new(0, 45), SortOrder = Enum.SortOrder.LayoutOrder})
+			local y = k("UIListLayout", {Padding = UDim.new(0, 5), SortOrder = Enum.SortOrder.LayoutOrder})
 			x.ContainerFrame =
 				k(
 					"ScrollingFrame",
@@ -1452,7 +1449,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = n and "Input" or "DialogInput"}
 					},
 					{
-						l("UICorner", {CornerRadius = UDim.new(0, 30)}),
+						l("UICorner", {CornerRadius = UDim.new(0, 4)}),
 						l(
 							"UIStroke",
 							{
@@ -1536,7 +1533,7 @@ local aa = {
 							ThemeTag = {BackgroundColor3 = "Text"}
 						},
 						{
-							l("UICorner", {CornerRadius = UDim.new(0, 30)}),
+							l("UICorner", {CornerRadius = UDim.new(0, 7)}),
 							l(
 								"ImageLabel",
 								{
@@ -1594,7 +1591,7 @@ local aa = {
 								l(
 									"UIListLayout",
 									{
-										Padding = UDim.new(0, 45),
+										Padding = UDim.new(0, 5),
 										FillDirection = Enum.FillDirection.Horizontal,
 										SortOrder = Enum.SortOrder.LayoutOrder
 									}
@@ -1727,7 +1724,7 @@ local aa = {
 						AnchorPoint = Vector2.new(0, 0.5),
 						ThemeTag = {BackgroundColor3 = "Accent"}
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 30)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 2)})}
 				),
 			s(
 				"Frame",
@@ -1745,7 +1742,7 @@ local aa = {
 						CanvasSize = UDim2.fromScale(0, 0),
 						ScrollingDirection = Enum.ScrollingDirection.Y
 					},
-					{s("UIListLayout", {Padding = UDim.new(0, 30)})}
+					{s("UIListLayout", {Padding = UDim.new(0, 4)})}
 				)
 			local F =
 				s(
@@ -2291,7 +2288,7 @@ local aa = {
 				s(
 					"Frame",
 					{Size = UDim2.fromScale(1, 1), BackgroundColor3 = z.Value, Parent = A.Frame},
-					{s("UICorner", {CornerRadius = UDim.new(0, 30)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
 				)
 			local aa, ab =
 				s(
@@ -2306,7 +2303,7 @@ local aa = {
 						ScaleType = Enum.ScaleType.Tile,
 						TileSize = UDim2.fromOffset(40, 40)
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 30)}), B}
+					{s("UICorner", {CornerRadius = UDim.new(0, 4)}), B}
 				),
 			function()
 				local C = e(t.Dialog):Create()
@@ -2370,7 +2367,7 @@ local aa = {
 							BackgroundTransparency = 0,
 							Parent = C.Root
 						},
-						{s("UICorner", {CornerRadius = UDim.new(0, 30)}), K}
+						{s("UICorner", {CornerRadius = UDim.new(0, 4)}), K}
 					),
 				s(
 					"Frame",
@@ -2379,7 +2376,7 @@ local aa = {
 						Size = UDim2.fromScale(1, 1),
 						BackgroundTransparency = z.Transparency
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 30)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
 				)
 				local N, O =
 					s(
@@ -2395,15 +2392,15 @@ local aa = {
 							Parent = C.Root
 						},
 						{
-							s("UICorner", {CornerRadius = UDim.new(0, 30)}),
-							s("UIStroke", {Thickness = 10, Transparency = 0.75}),
+							s("UICorner", {CornerRadius = UDim.new(0, 4)}),
+							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
 							M
 						}
 					),
 				s(
 					"Frame",
 					{BackgroundColor3 = z.Value, Size = UDim2.fromScale(1, 1), BackgroundTransparency = 0},
-					{s("UICorner", {CornerRadius = UDim.new(0, 30)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
 				)
 				local P, Q =
 					s(
@@ -2419,8 +2416,8 @@ local aa = {
 							Parent = C.Root
 						},
 						{
-							s("UICorner", {CornerRadius = UDim.new(0, 30)}),
-							s("UIStroke", {Thickness = 10, Transparency = 0.75}),
+							s("UICorner", {CornerRadius = UDim.new(0, 4)}),
+							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
 							O
 						}
 					),
@@ -2808,7 +2805,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "DropdownFrame"}
 					},
 					{
-						e("UICorner", {CornerRadius = UDim.new(0, 30)}),
+						e("UICorner", {CornerRadius = UDim.new(0, 5)}),
 						e(
 							"UIStroke",
 							{
@@ -2821,7 +2818,7 @@ local aa = {
 						n
 					}
 				),
-			e("UIListLayout", {Padding = UDim.new(0, 45)})
+			e("UIListLayout", {Padding = UDim.new(0, 3)})
 			local t =
 				e(
 					"ScrollingFrame",
@@ -2846,7 +2843,7 @@ local aa = {
 					{Size = UDim2.fromScale(1, 0.6), ThemeTag = {BackgroundColor3 = "DropdownHolder"}},
 					{
 						t,
-						e("UICorner", {CornerRadius = UDim.new(0, 30)}),
+						e("UICorner", {CornerRadius = UDim.new(0, 7)}),
 						e(
 							"UIStroke",
 							{ApplyStrokeMode = Enum.ApplyStrokeMode.Border, ThemeTag = {Color = "DropdownBorder"}}
@@ -2972,7 +2969,7 @@ local aa = {
 								AnchorPoint = Vector2.new(0, 0.5),
 								ThemeTag = {BackgroundColor3 = "Accent"}
 							},
-							{e("UICorner", {CornerRadius = UDim.new(0, 30)})}
+							{e("UICorner", {CornerRadius = UDim.new(0, 2)})}
 						),
 					e(
 						"TextLabel",
@@ -3002,7 +2999,7 @@ local aa = {
 								Parent = t,
 								ThemeTag = {BackgroundColor3 = "DropdownOption"}
 							},
-							{K, L, e("UICorner", {CornerRadius = UDim.new(0, 30)})}
+							{K, L, e("UICorner", {CornerRadius = UDim.new(0, 6)})}
 							))
 					if j.Multi then
 						N = l.Value[I]
@@ -3306,8 +3303,8 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "Keybind"}
 					},
 					{
-						ai("UICorner", {CornerRadius = UDim.new(0, 30)}),
-						ai("UIPadding", {PaddingLeft = UDim.new(0, 30), PaddingRight = UDim.new(0, 30)}),
+						ai("UICorner", {CornerRadius = UDim.new(0, 5)}),
+						ai("UIPadding", {PaddingLeft = UDim.new(0, 8), PaddingRight = UDim.new(0, 8)}),
 						ai(
 							"UIStroke",
 							{
@@ -3619,7 +3616,7 @@ local aa = {
 						BackgroundTransparency = 1,
 						ThemeTag = {BackgroundColor3 = "Accent"}
 					},
-					{ai("UICorner", {CornerRadius = UDim.new(0, 30)}), k, j}
+					{ai("UICorner", {CornerRadius = UDim.new(0, 9)}), k, j}
 				)
 			function h.OnChanged(m, n)
 				h.Changed = n
@@ -5172,7 +5169,7 @@ local aa = {
 	end,
 	[47] = function()
 		local aa, ab, ac, ad, ae = b(47)
-		local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Grey", "R2LX", "Enhanced", "Gradien", "WibuTheme", "lua"}}
+		local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Grey", "R2LX", "Enhanced", "Gradien", "WibuTheme"}}
 		for ag, ah in next, ab:GetChildren() do
 			local aj = ac(ah)
 			af[aj.Name] = aj
@@ -5606,47 +5603,6 @@ end,
         SubText = Color3.fromRGB(120, 120, 120),
         Hover = Color3.fromRGB(178, 172, 255),
         HoverChange = 0.04
-    }
-end,
-
-[59] = function()
-    local aa, ab, ac, ad, ae = b(59)
-    return {
-        Name = "lua",
-        Accent = Color3.fromRGB(235, 120, 255), -- màu chủ đạo hồng tím
-        AcrylicMain = Color3.fromRGB(20, 20, 20), -- nền chính tối
-        AcrylicBorder = Color3.fromRGB(235, 120, 255), -- viền sáng hồng tím
-        AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(20, 20, 20)),
-        AcrylicNoise = 0.185,
-        TitleBarLine = Color3.fromRGB(235, 120, 255),
-        Tab = Color3.fromRGB(235, 120, 255),
-        Element = Color3.fromRGB(235, 120, 255),
-        ElementBorder = Color3.fromRGB(225, 100, 255),
-        InElementBorder = Color3.fromRGB(235, 120, 255),
-        ElementTransparency = 0.7,
-        ToggleSlider = Color3.fromRGB(235, 120, 255),
-        ToggleToggled = Color3.fromRGB(200, 100, 255),
-        SliderRail = Color3.fromRGB(235, 120, 255),
-        DropdownFrame = Color3.fromRGB(25, 25, 25),
-        DropdownHolder = Color3.fromRGB(30, 30, 30),
-        DropdownBorder = Color3.fromRGB(235, 120, 255),
-        DropdownOption = Color3.fromRGB(235, 120, 255),
-        Keybind = Color3.fromRGB(235, 120, 255),
-        Input = Color3.fromRGB(235, 120, 255),
-        InputFocused = Color3.fromRGB(255, 140, 255),
-        InputIndicator = Color3.fromRGB(235, 120, 255),
-        Dialog = Color3.fromRGB(235, 120, 255),
-        DialogHolder = Color3.fromRGB(30, 30, 30),
-        DialogHolderLine = Color3.fromRGB(235, 120, 255),
-        DialogButton = Color3.fromRGB(235, 120, 255),
-        DialogButtonBorder = Color3.fromRGB(235, 120, 255),
-        DialogBorder = Color3.fromRGB(235, 120, 255),
-        DialogInput = Color3.fromRGB(235, 120, 255),
-        DialogInputLine = Color3.fromRGB(235, 120, 255),
-        Text = Color3.fromRGB(255, 255, 255),
-        SubText = Color3.fromRGB(150, 150, 150),
-        Hover = Color3.fromRGB(255, 160, 255),
-        HoverChange = 0.17
     }
 end
 }
