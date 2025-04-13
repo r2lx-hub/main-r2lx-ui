@@ -927,7 +927,7 @@ local aa = {
 								ImageTransparency = 0.7
 							}
 						),
-						j("UICorner", {CornerRadius = UDim.new(0, 8)}),
+						j("UICorner", {CornerRadius = UDim.new(0, 48)}),
 						j(
 							"Frame",
 							{
@@ -936,7 +936,7 @@ local aa = {
 								Name = "Background",
 								ThemeTag = {BackgroundColor3 = "AcrylicMain"}
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 48)})}
 						),
 						j(
 							"Frame",
@@ -946,7 +946,7 @@ local aa = {
 								Size = UDim2.fromScale(1, 1)
 							},
 							{
-								j("UICorner", {CornerRadius = UDim.new(0, 8)}),
+								j("UICorner", {CornerRadius = UDim.new(0, 48)}),
 								j("UIGradient", {Rotation = 90, ThemeTag = {Color = "AcrylicGradient"}})
 							}
 						),
@@ -960,7 +960,7 @@ local aa = {
 								Size = UDim2.fromScale(1, 1),
 								BackgroundTransparency = 1
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 48)})}
 						),
 						j(
 							"ImageLabel",
@@ -973,13 +973,13 @@ local aa = {
 								BackgroundTransparency = 1,
 								ThemeTag = {ImageTransparency = "AcrylicNoise"}
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 48)})}
 						),
 						j(
 							"Frame",
 							{BackgroundTransparency = 1, Size = UDim2.fromScale(1, 1), ZIndex = 2},
 							{
-								j("UICorner", {CornerRadius = UDim.new(0, 8)}),
+								j("UICorner", {CornerRadius = UDim.new(0, 48)}),
 								j("UIStroke", {Transparency = 0.5, Thickness = 1, ThemeTag = {Color = "AcrylicBorder"}})
 							}
 						)
@@ -1073,14 +1073,14 @@ local aa = {
 				k(
 					"Frame",
 					{Size = UDim2.fromScale(1, 1), BackgroundTransparency = 1, ThemeTag = {BackgroundColor3 = "Hover"}},
-					{k("UICorner", {CornerRadius = UDim.new(0, 45)})}
+					{k("UICorner", {CornerRadius = UDim.new(0, 4)})}
 				)
 			p.Frame =
 				k(
 					"TextButton",
 					{Size = UDim2.new(0, 0, 0, 32), Parent = n, ThemeTag = {BackgroundColor3 = "DialogButton"}},
 					{
-						k("UICorner", {CornerRadius = UDim.new(0, 45)}),
+						k("UICorner", {CornerRadius = UDim.new(0, 4)}),
 						k(
 							"UIStroke",
 							{
@@ -1146,7 +1146,7 @@ local aa = {
 						BackgroundTransparency = 1,
 						Parent = q.Window.Root
 					},
-					{p("UICorner", {CornerRadius = UDim.new(0, 8)})}
+					{p("UICorner", {CornerRadius = UDim.new(0, 48)})}
 				)
 			local t, u = m.SpringMotor(1, s.TintFrame, "BackgroundTransparency", true)
 			s.ButtonHolder =
@@ -1217,7 +1217,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "Dialog"}
 					},
 					{
-						p("UICorner", {CornerRadius = UDim.new(0, 8)}),
+						p("UICorner", {CornerRadius = UDim.new(0, 48)}),
 						p("UIStroke", {Transparency = 0.5, ThemeTag = {Color = "DialogBorder"}}),
 						s.Scale,
 						s.Title,
@@ -1356,7 +1356,7 @@ local aa = {
 						LayoutOrder = 7,
 						ThemeTag = {BackgroundColor3 = "Element", BackgroundTransparency = "ElementTransparency"}
 					},
-					{k("UICorner", {CornerRadius = UDim.new(0, 45)}), q.Border, q.LabelHolder}
+					{k("UICorner", {CornerRadius = UDim.new(0, 4)}), q.Border, q.LabelHolder}
 				)
 			function q.SetTitle(r, s)
 				q.TitleLabel.Text = s
@@ -1701,7 +1701,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "Tab"}
 					},
 					{
-						k("UICorner", {CornerRadius = UDim.new(0, 45)}),
+						k("UICorner", {CornerRadius = UDim.new(0, 6)}),
 						k(
 							"TextLabel",
 							{
@@ -1904,7 +1904,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = n and "Input" or "DialogInput"}
 					},
 					{
-						l("UICorner", {CornerRadius = UDim.new(0, 4)}),
+						l("UICorner", {CornerRadius = UDim.new(0, 48)}),
 						l(
 							"UIStroke",
 							{
@@ -1988,7 +1988,7 @@ local aa = {
 							ThemeTag = {BackgroundColor3 = "Text"}
 						},
 						{
-							l("UICorner", {CornerRadius = UDim.new(0, 7)}),
+							l("UICorner", {CornerRadius = UDim.new(0, 48)}),
 							l(
 								"ImageLabel",
 								{
@@ -2179,7 +2179,7 @@ local aa = {
 						AnchorPoint = Vector2.new(0, 0.5),
 						ThemeTag = {BackgroundColor3 = "Accent"}
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 2)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 48)})}
 				),
 			s(
 				"Frame",
@@ -2743,7 +2743,7 @@ local aa = {
 				s(
 					"Frame",
 					{Size = UDim2.fromScale(1, 1), BackgroundColor3 = z.Value, Parent = A.Frame},
-					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 48)})}
 				)
 			local aa, ab =
 				s(
@@ -2758,7 +2758,7 @@ local aa = {
 						ScaleType = Enum.ScaleType.Tile,
 						TileSize = UDim2.fromOffset(40, 40)
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 4)}), B}
+					{s("UICorner", {CornerRadius = UDim.new(0, 48)}), B}
 				),
 			function()
 				local C = e(t.Dialog):Create()
@@ -2822,7 +2822,7 @@ local aa = {
 							BackgroundTransparency = 0,
 							Parent = C.Root
 						},
-						{s("UICorner", {CornerRadius = UDim.new(0, 4)}), K}
+						{s("UICorner", {CornerRadius = UDim.new(0, 48)}), K}
 					),
 				s(
 					"Frame",
@@ -2831,7 +2831,7 @@ local aa = {
 						Size = UDim2.fromScale(1, 1),
 						BackgroundTransparency = z.Transparency
 					},
-					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 48)})}
 				)
 				local N, O =
 					s(
@@ -2847,7 +2847,7 @@ local aa = {
 							Parent = C.Root
 						},
 						{
-							s("UICorner", {CornerRadius = UDim.new(0, 4)}),
+							s("UICorner", {CornerRadius = UDim.new(0, 48)}),
 							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
 							M
 						}
@@ -2855,7 +2855,7 @@ local aa = {
 				s(
 					"Frame",
 					{BackgroundColor3 = z.Value, Size = UDim2.fromScale(1, 1), BackgroundTransparency = 0},
-					{s("UICorner", {CornerRadius = UDim.new(0, 4)})}
+					{s("UICorner", {CornerRadius = UDim.new(0, 48)})}
 				)
 				local P, Q =
 					s(
@@ -2871,7 +2871,7 @@ local aa = {
 							Parent = C.Root
 						},
 						{
-							s("UICorner", {CornerRadius = UDim.new(0, 4)}),
+							s("UICorner", {CornerRadius = UDim.new(0, 48)}),
 							s("UIStroke", {Thickness = 2, Transparency = 0.75}),
 							O
 						}
@@ -2903,7 +2903,7 @@ local aa = {
 				s(
 					"Frame",
 					{Size = UDim2.fromOffset(12, 190), Position = UDim2.fromOffset(210, 55), Parent = C.Root},
-					{s("UICorner", {CornerRadius = UDim.new(1, 0)}), R, S}
+					{s("UICorner", {CornerRadius = UDim.new(10, 0)}), R, S}
 				),
 				H()
 				V.Frame.Position = UDim2.fromOffset(x.Transparency and 260 or 240, 55)
@@ -2959,7 +2959,7 @@ local aa = {
 										Rotation = 270
 									}
 								),
-								s("UICorner", {CornerRadius = UDim.new(1, 0)})
+								s("UICorner", {CornerRadius = UDim.new(10, 0)})
 							}
 						)
 					_ =
@@ -2972,7 +2972,7 @@ local aa = {
 								BackgroundTransparency = 1
 							},
 							{
-								s("UICorner", {CornerRadius = UDim.new(1, 0)}),
+								s("UICorner", {CornerRadius = UDim.new(10, 0)}),
 								s(
 									"ImageLabel",
 									{
@@ -2984,7 +2984,7 @@ local aa = {
 										Size = UDim2.fromScale(1, 1),
 										Parent = C.Root
 									},
-									{s("UICorner", {CornerRadius = UDim.new(1, 0)})}
+									{s("UICorner", {CornerRadius = UDim.new(10, 0)})}
 								),
 								ab,
 								ac
@@ -3260,7 +3260,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "DropdownFrame"}
 					},
 					{
-						e("UICorner", {CornerRadius = UDim.new(0, 5)}),
+						e("UICorner", {CornerRadius = UDim.new(0, 48)}),
 						e(
 							"UIStroke",
 							{
@@ -3298,7 +3298,7 @@ local aa = {
 					{Size = UDim2.fromScale(1, 0.6), ThemeTag = {BackgroundColor3 = "DropdownHolder"}},
 					{
 						t,
-						e("UICorner", {CornerRadius = UDim.new(0, 7)}),
+						e("UICorner", {CornerRadius = UDim.new(0, 48)}),
 						e(
 							"UIStroke",
 							{ApplyStrokeMode = Enum.ApplyStrokeMode.Border, ThemeTag = {Color = "DropdownBorder"}}
@@ -3424,7 +3424,7 @@ local aa = {
 								AnchorPoint = Vector2.new(0, 0.5),
 								ThemeTag = {BackgroundColor3 = "Accent"}
 							},
-							{e("UICorner", {CornerRadius = UDim.new(0, 2)})}
+							{e("UICorner", {CornerRadius = UDim.new(0, 48)})}
 						),
 					e(
 						"TextLabel",
@@ -3454,7 +3454,7 @@ local aa = {
 								Parent = t,
 								ThemeTag = {BackgroundColor3 = "DropdownOption"}
 							},
-							{K, L, e("UICorner", {CornerRadius = UDim.new(0, 6)})}
+							{K, L, e("UICorner", {CornerRadius = UDim.new(0, 48)})}
 							))
 					if j.Multi then
 						N = l.Value[I]
@@ -3758,7 +3758,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "Keybind"}
 					},
 					{
-						ai("UICorner", {CornerRadius = UDim.new(0, 5)}),
+						ai("UICorner", {CornerRadius = UDim.new(0, 48)}),
 						ai("UIPadding", {PaddingLeft = UDim.new(0, 8), PaddingRight = UDim.new(0, 8)}),
 						ai(
 							"UIStroke",
@@ -3944,7 +3944,7 @@ local aa = {
 			ai(
 				"Frame",
 				{Size = UDim2.new(0, 0, 1, 0), ThemeTag = {BackgroundColor3 = "Accent"}},
-				{ai("UICorner", {CornerRadius = UDim.new(1, 0)})}
+				{ai("UICorner", {CornerRadius = UDim.new(10, 0)})}
 			),
 			ai(
 				"TextLabel",
@@ -3974,7 +3974,7 @@ local aa = {
 						ThemeTag = {BackgroundColor3 = "SliderRail"}
 					},
 					{
-						ai("UICorner", {CornerRadius = UDim.new(1, 0)}),
+						ai("UICorner", {CornerRadius = UDim.new(10, 0)}),
 						ai("UISizeConstraint", {MaxSize = Vector2.new(150, math.huge)}),
 						n,
 						m,
@@ -4071,7 +4071,7 @@ local aa = {
 						BackgroundTransparency = 1,
 						ThemeTag = {BackgroundColor3 = "Accent"}
 					},
-					{ai("UICorner", {CornerRadius = UDim.new(0, 9)}), k, j}
+					{ai("UICorner", {CornerRadius = UDim.new(0, 48)}), k, j}
 				)
 			function h.OnChanged(m, n)
 				h.Changed = n
