@@ -1522,7 +1522,7 @@ local aa = {
 							{
 								SortOrder = Enum.SortOrder.LayoutOrder,
 								VerticalAlignment = Enum.VerticalAlignment.Center,
-								Padding = 1(0, 3)
+								Padding = UDim.new(0, 3)
 							}
 						),
 						r.ContentLabel,
@@ -6070,7 +6070,7 @@ end,
         AcrylicMain = Color3.fromRGB(20, 20, 20), -- nền chính tối
         AcrylicBorder = Color3.fromRGB(235, 120, 255), -- viền sáng hồng tím
         AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(20, 20, 20)),
-        AcrylicNoise = 0.185,
+        AcrylicNoise = 0.85,
         TitleBarLine = Color3.fromRGB(235, 120, 255),
         Tab = Color3.fromRGB(235, 120, 255),
         Element = Color3.fromRGB(235, 120, 255),
@@ -6099,7 +6099,7 @@ end,
         Text = Color3.fromRGB(255, 255, 255),
         SubText = Color3.fromRGB(150, 150, 150),
         Hover = Color3.fromRGB(255, 160, 255),
-        HoverChange = 0.17
+        HoverChange = 0.06
     }
 end
 }
