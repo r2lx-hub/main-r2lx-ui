@@ -1718,7 +1718,7 @@ local aa = {
 									Enum.FontStyle.Normal
 								),
 								TextSize = 12,
-								TextXAlignment = "Left",
+								TextXAlignment = "Center",
 								TextYAlignment = "Center",
 								Size = UDim2.new(1, -12, 1, 0),
 								BackgroundTransparency = 1,
@@ -2218,15 +2218,14 @@ local aa = {
 						RichText = true,
 						Text = "Tab",
 						TextTransparency = 0,
-						FontFace = Font.new("rbxassetid://12187371840", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal),
+						FontFace = Font.new("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal),
 						TextSize = 28,
-						TextXAlignment = "Center", -- căn giữa theo chiều ngang
-						TextYAlignment = "Center", -- căn giữa theo chiều dọc
-						Size = UDim2.new(0, 200, 0, 28), -- hoặc chỉnh lại phù hợp
-						AnchorPoint = Vector2.new(0.5, 0.5), -- thêm dòng này
-						Position = UDim2.new(0.5, 0, 0.5, 0), -- nằm giữa khung cha
+						TextXAlignment = "Left",
+						TextYAlignment = "Center",
+						Size = UDim2.new(1, -16, 0, 28),
+						Position = UDim2.fromOffset(t.TabWidth + 26, 56),
 						BackgroundTransparency = 1,
-						ThemeTag = {TextColor3 = "Text"},
+						ThemeTag = {TextColor3 = "Text"}
 					}
 				)
 			v.ContainerHolder =
