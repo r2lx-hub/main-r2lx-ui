@@ -928,7 +928,7 @@ local aa = {
 								ImageTransparency = 0.7
 							}
 						),
-						j("UICorner", {CornerRadius = UDim.new(0, 8)}),
+						j("UICorner", {CornerRadius = UDim.new(0, 30)}),
 						j(
 							"Frame",
 							{
@@ -961,7 +961,7 @@ local aa = {
 								Size = UDim2.fromScale(1, 1),
 								BackgroundTransparency = 1
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 30)})}
 						),
 						j(
 							"ImageLabel",
@@ -974,7 +974,7 @@ local aa = {
 								BackgroundTransparency = 1,
 								ThemeTag = {ImageTransparency = "AcrylicNoise"}
 							},
-							{j("UICorner", {CornerRadius = UDim.new(0, 8)})}
+							{j("UICorner", {CornerRadius = UDim.new(0, 30)})}
 						),
 						j(
 							"Frame",
@@ -1057,7 +1057,7 @@ local aa = {
 				k(
 					"TextLabel",
 					{
-						FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+						FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
 						TextColor3 = Color3.fromRGB(200, 200, 200),
 						TextSize = 14,
 						TextWrapped = true,
@@ -1189,7 +1189,7 @@ local aa = {
 					"TextLabel",
 					{
 						FontFace = Font.new(
-							"rbxasset://fonts/families/GothamSSm.json",
+							"https://create.roblox.com/store/asset/12187371840/Silkscreen",
 							Enum.FontWeight.SemiBold,
 							Enum.FontStyle.Normal
 						),
@@ -1283,7 +1283,7 @@ local aa = {
 					"TextLabel",
 					{
 						FontFace = Font.new(
-							"rbxasset://fonts/families/GothamSSm.json",
+							"https://create.roblox.com/store/asset/12187371840/Silkscreen",
 							Enum.FontWeight.Medium,
 							Enum.FontStyle.Normal
 						),
@@ -1301,7 +1301,7 @@ local aa = {
 				k(
 					"TextLabel",
 					{
-						FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+						FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
 						Text = n,
 						TextColor3 = Color3.fromRGB(200, 200, 200),
 						TextSize = 12,
@@ -1462,7 +1462,7 @@ local aa = {
 						RichText = true,
 						TextColor3 = Color3.fromRGB(255, 255, 255),
 						TextTransparency = 0,
-						FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+						FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
 						TextSize = 13,
 						TextXAlignment = "Left",
 						TextYAlignment = "Center",
@@ -1476,7 +1476,7 @@ local aa = {
 				n(
 					"TextLabel",
 					{
-						FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+						FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
 						Text = q.Content,
 						TextColor3 = Color3.fromRGB(240, 240, 240),
 						TextSize = 14,
@@ -1493,7 +1493,7 @@ local aa = {
 				n(
 					"TextLabel",
 					{
-						FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+						FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
 						Text = q.SubContent,
 						TextColor3 = Color3.fromRGB(240, 240, 240),
 						TextSize = 14,
@@ -1713,7 +1713,7 @@ local aa = {
 								TextColor3 = Color3.fromRGB(255, 255, 255),
 								TextTransparency = 0,
 								FontFace = Font.new(
-									"rbxasset://fonts/families/GothamSSm.json",
+									"https://create.roblox.com/store/asset/12187371840/Silkscreen",
 									Enum.FontWeight.Regular,
 									Enum.FontStyle.Normal
 								),
@@ -1860,7 +1860,7 @@ local aa = {
 				l(
 					"TextBox",
 					{
-						FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+						FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
 						TextColor3 = Color3.fromRGB(200, 200, 200),
 						TextSize = 14,
 						TextXAlignment = Enum.TextXAlignment.Left,
@@ -2058,7 +2058,7 @@ local aa = {
 										RichText = true,
 										Text = n.Title,
 										FontFace = Font.new(
-											"rbxasset://fonts/families/GothamSSm.json",
+											"https://create.roblox.com/store/asset/12187371840/Silkscreen",
 											Enum.FontWeight.Regular,
 											Enum.FontStyle.Normal
 										),
@@ -2078,7 +2078,7 @@ local aa = {
 										Text = n.SubTitle,
 										TextTransparency = 0.4,
 										FontFace = Font.new(
-											"rbxasset://fonts/families/GothamSSm.json",
+											"https://create.roblox.com/store/asset/12187371840/Silkscreen",
 											Enum.FontWeight.Regular,
 											Enum.FontStyle.Normal
 										),
@@ -2460,7 +2460,7 @@ local aa = {
 					s(
 						"TextLabel",
 						{
-							FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+							FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
 							Text = O.Content,
 							TextColor3 = Color3.fromRGB(240, 240, 240),
 							TextSize = 14,
@@ -2781,7 +2781,7 @@ local aa = {
 						"TextLabel",
 						{
 							FontFace = Font.new(
-								"rbxasset://fonts/families/GothamSSm.json",
+								"https://create.roblox.com/store/asset/12187371840/Silkscreen",
 								Enum.FontWeight.Medium,
 								Enum.FontStyle.Normal
 							),
@@ -3221,7 +3221,7 @@ local aa = {
 					"TextLabel",
 					{
 						FontFace = Font.new(
-							"rbxasset://fonts/families/GothamSSm.json",
+							"https://create.roblox.com/store/asset/12187371840/Silkscreen",
 							Enum.FontWeight.Regular,
 							Enum.FontStyle.Normal
 						),
@@ -3430,7 +3430,7 @@ local aa = {
 					e(
 						"TextLabel",
 						{
-							FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+							FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
 							Text = I,
 							TextColor3 = Color3.fromRGB(200, 200, 200),
 							TextSize = 13,
@@ -3729,7 +3729,7 @@ local aa = {
 					"TextLabel",
 					{
 						FontFace = Font.new(
-							"rbxasset://fonts/families/GothamSSm.json",
+							"https://create.roblox.com/store/asset/12187371840/Silkscreen",
 							Enum.FontWeight.Regular,
 							Enum.FontStyle.Normal
 						),
@@ -3950,7 +3950,7 @@ local aa = {
 			ai(
 				"TextLabel",
 				{
-					FontFace = Font.new "rbxasset://fonts/families/GothamSSm.json",
+					FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
 					Text = "Value",
 					TextSize = 12,
 					TextWrapped = true,
