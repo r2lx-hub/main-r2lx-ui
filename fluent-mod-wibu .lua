@@ -9,7 +9,7 @@ wait(1)
 Notification:Notify(
    {Title = "R2lx Hub", Description = "R2LX HUB"},
    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
-   {Image = "http://www.roblox.com/asset/?id=72839129717682", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
+   {Image = "rbxassetid://72839129717682", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
 )
 notify.New("Project Main 1.0", 60)
 notify.New("by R2LX and (cayngaydem) and T & Version X_X", 60)
@@ -2063,7 +2063,7 @@ local aa = {
 											Enum.FontStyle.Normal
 										),
 										TextSize = 12,
-										TextXAlignment = "Left",
+										TextXAlignment = "Center",
 										TextYAlignment = "Center",
 										Size = UDim2.fromScale(0, 1),
 										AutomaticSize = Enum.AutomaticSize.X,
@@ -2083,7 +2083,7 @@ local aa = {
 											Enum.FontStyle.Normal
 										),
 										TextSize = 12,
-										TextXAlignment = "Left",
+										TextXAlignment = "Center",
 										TextYAlignment = "Center",
 										Size = UDim2.fromScale(0, 1),
 										AutomaticSize = Enum.AutomaticSize.X,
@@ -2464,8 +2464,8 @@ local aa = {
 							Text = O.Content,
 							TextColor3 = Color3.fromRGB(240, 240, 240),
 							TextSize = 14,
-							TextXAlignment = Enum.TextXAlignment.Left,
-							TextYAlignment = Enum.TextYAlignment.Top,
+							TextXAlignment = Enum.TextXAlignment.Center,
+                            TextYAlignment = Enum.TextYAlignment.Center,
 							Size = UDim2.new(1, -40, 1, 0),
 							Position = UDim2.fromOffset(20, 60),
 							BackgroundTransparency = 1,
@@ -2754,7 +2754,7 @@ local aa = {
 						Position = UDim2.new(1, -10, 0.5, 0),
 						AnchorPoint = Vector2.new(1, 0.5),
 						Parent = A.Frame,
-						Image = "http://www.roblox.com/asset/?id=14204231522",
+						Image = "rbxassetid://14204231522",
 						ImageTransparency = 0.45,
 						ScaleType = Enum.ScaleType.Tile,
 						TileSize = UDim2.fromOffset(40, 40)
@@ -2788,7 +2788,7 @@ local aa = {
 							Text = D,
 							TextColor3 = Color3.fromRGB(240, 240, 240),
 							TextSize = 13,
-							TextXAlignment = Enum.TextXAlignment.Left,
+							TextXAlignment = Enum.TextXAlignment.Center,
 							Size = UDim2.new(1, 0, 0, 32),
 							Position = E,
 							BackgroundTransparency = 1,
@@ -2809,7 +2809,7 @@ local aa = {
 						ScaleType = Enum.ScaleType.Fit,
 						AnchorPoint = Vector2.new(0.5, 0.5),
 						BackgroundTransparency = 1,
-						Image = "http://www.roblox.com/asset/?id=4805639000"
+						Image = "rbxassetid://4805639000"
 					}
 				)
 				local L, M =
@@ -2838,7 +2838,7 @@ local aa = {
 					s(
 						"ImageLabel",
 						{
-							Image = "http://www.roblox.com/asset/?id=14204231522",
+							Image = "rbxassetid://14204231522",
 							ImageTransparency = 0.45,
 							ScaleType = Enum.ScaleType.Tile,
 							TileSize = UDim2.fromOffset(40, 40),
@@ -2862,7 +2862,7 @@ local aa = {
 					s(
 						"ImageLabel",
 						{
-							Image = "http://www.roblox.com/asset/?id=14204231522",
+							Image = "rbxassetid://14204231522",
 							ImageTransparency = 0.45,
 							ScaleType = Enum.ScaleType.Tile,
 							TileSize = UDim2.fromOffset(40, 40),
@@ -2896,7 +2896,7 @@ local aa = {
 						"ImageLabel",
 						{
 							Size = UDim2.fromOffset(14, 14),
-							Image = "http://www.roblox.com/asset/?id=12266946128",
+							Image = "rbxassetid://12266946128",
 							Parent = S,
 							ThemeTag = {ImageColor3 = "DialogInput"}
 						}
@@ -2940,7 +2940,7 @@ local aa = {
 							"ImageLabel",
 							{
 								Size = UDim2.fromOffset(14, 14),
-								Image = "http://www.roblox.com/asset/?id=12266946128",
+								Image = "rbxassetid://12266946128",
 								Parent = ac,
 								ThemeTag = {ImageColor3 = "DialogInput"}
 							}
@@ -2977,7 +2977,7 @@ local aa = {
 								s(
 									"ImageLabel",
 									{
-										Image = "http://www.roblox.com/asset/?id=14204231522",
+										Image = "rbxassetid://14204231522",
 										ImageTransparency = 0.45,
 										ScaleType = Enum.ScaleType.Tile,
 										TileSize = UDim2.fromOffset(40, 40),
@@ -3228,7 +3228,7 @@ local aa = {
 						Text = "Value",
 						TextColor3 = Color3.fromRGB(240, 240, 240),
 						TextSize = 13,
-						TextXAlignment = Enum.TextXAlignment.Left,
+						TextXAlignment = Enum.TextXAlignment.Center,
 						Size = UDim2.new(1, -30, 0, 14),
 						Position = UDim2.new(0, 8, 0.5, 0),
 						AnchorPoint = Vector2.new(0, 0.5),
@@ -3308,7 +3308,7 @@ local aa = {
 							"ImageLabel",
 							{
 								BackgroundTransparency = 1,
-								Image = "http://www.roblox.com/asset/?id=5554236805",
+								Image = "rbxassetid://5554236805",
 								ScaleType = Enum.ScaleType.Slice,
 								SliceCenter = Rect.new(23, 23, 277, 277),
 								Size = UDim2.fromScale(1, 1) + UDim2.fromOffset(30, 30),
@@ -3434,7 +3434,7 @@ local aa = {
 							Text = I,
 							TextColor3 = Color3.fromRGB(200, 200, 200),
 							TextSize = 13,
-							TextXAlignment = Enum.TextXAlignment.Left,
+							TextXAlignment = Enum.TextXAlignment.Center,
 							BackgroundColor3 = Color3.fromRGB(255, 255, 255),
 							AutomaticSize = Enum.AutomaticSize.Y,
 							BackgroundTransparency = 1,
@@ -3932,7 +3932,7 @@ local aa = {
 						AnchorPoint = Vector2.new(0, 0.5),
 						Position = UDim2.new(0, -7, 0.5, 0),
 						Size = UDim2.fromOffset(16, 16),
-						Image = "http://www.roblox.com/asset/?id=12266946128",
+						Image = "rbxassetid://12266946128",
 						ThemeTag = {ImageColor3 = "Accent"}
 					}
 				)
@@ -3954,7 +3954,7 @@ local aa = {
 					Text = "Value",
 					TextSize = 12,
 					TextWrapped = true,
-					TextXAlignment = Enum.TextXAlignment.Right,
+					TextXAlignment = Enum.TextXAlignment.Center,
 					BackgroundColor3 = Color3.fromRGB(255, 255, 255),
 					BackgroundTransparency = 1,
 					Size = UDim2.new(0, 100, 0, 14),
@@ -4055,7 +4055,7 @@ local aa = {
 						AnchorPoint = Vector2.new(0, 0.5),
 						Size = UDim2.fromOffset(14, 14),
 						Position = UDim2.new(0, 2, 0.5, 0),
-						Image = "http://www.roblox.com/asset/?id=12266946128",
+						Image = "rbxassetid://12266946128",
 						ImageTransparency = 0.5,
 						ThemeTag = {ImageColor3 = "ToggleSlider"}
 					}
