@@ -1057,7 +1057,7 @@ local aa = {
 				k(
 					"TextLabel",
 					{
-						FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
+						FontFace = Font.new "rbxassetid://12187371840",
 						TextColor3 = Color3.fromRGB(200, 200, 200),
 						TextSize = 14,
 						TextWrapped = true,
@@ -1189,7 +1189,7 @@ local aa = {
 					"TextLabel",
 					{
 						FontFace = Font.new(
-							"https://create.roblox.com/store/asset/12187371840/Silkscreen",
+							"rbxassetid://12187371840",
 							Enum.FontWeight.SemiBold,
 							Enum.FontStyle.Normal
 						),
@@ -1283,7 +1283,7 @@ local aa = {
 					"TextLabel",
 					{
 						FontFace = Font.new(
-							"https://create.roblox.com/store/asset/12187371840/Silkscreen",
+							"rbxassetid://12187371840",
 							Enum.FontWeight.Medium,
 							Enum.FontStyle.Normal
 						),
@@ -1301,7 +1301,7 @@ local aa = {
 				k(
 					"TextLabel",
 					{
-						FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
+						FontFace = Font.new "rbxassetid://12187371840",
 						Text = n,
 						TextColor3 = Color3.fromRGB(200, 200, 200),
 						TextSize = 12,
@@ -1462,7 +1462,7 @@ local aa = {
 						RichText = true,
 						TextColor3 = Color3.fromRGB(255, 255, 255),
 						TextTransparency = 0,
-						FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
+						FontFace = Font.new "rbxassetid://12187371840",
 						TextSize = 13,
 						TextXAlignment = "Left",
 						TextYAlignment = "Center",
@@ -1476,7 +1476,7 @@ local aa = {
 				n(
 					"TextLabel",
 					{
-						FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
+						FontFace = Font.new "rbxassetid://12187371840",
 						Text = q.Content,
 						TextColor3 = Color3.fromRGB(240, 240, 240),
 						TextSize = 14,
@@ -1493,7 +1493,7 @@ local aa = {
 				n(
 					"TextLabel",
 					{
-						FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
+						FontFace = Font.new "rbxassetid://12187371840",
 						Text = q.SubContent,
 						TextColor3 = Color3.fromRGB(240, 240, 240),
 						TextSize = 14,
@@ -1638,7 +1638,7 @@ local aa = {
 								Text = k,
 								TextTransparency = 0,
 								FontFace = Font.new(
-									"rbxassetid://12187365364",
+									"rbxassetid://12187371840",
 									Enum.FontWeight.SemiBold,
 									Enum.FontStyle.Normal
 								),
@@ -1706,14 +1706,14 @@ local aa = {
 						k(
 							"TextLabel",
 							{
-								AnchorPoint = Vector2.new(0, 0.5),
-								Position = r and UDim2.new(0, 30, 0.5, 0) or UDim2.new(0, 12, 0.5, 0),
+								AnchorPoint = Vector2.new(0.5, 0.5),
+                                Position = UDim2.new(0.5, 0, 0.5, 0),
 								Text = q,
 								RichText = true,
 								TextColor3 = Color3.fromRGB(255, 255, 255),
 								TextTransparency = 0,
 								FontFace = Font.new(
-									"https://create.roblox.com/store/asset/12187371840/Silkscreen",
+									"rbxassetid://12187371840",
 									Enum.FontWeight.Regular,
 									Enum.FontStyle.Normal
 								),
@@ -1860,7 +1860,7 @@ local aa = {
 				l(
 					"TextBox",
 					{
-						FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
+						FontFace = Font.new "rbxassetid://12187371840",
 						TextColor3 = Color3.fromRGB(200, 200, 200),
 						TextSize = 14,
 						TextXAlignment = Enum.TextXAlignment.Left,
@@ -2058,7 +2058,7 @@ local aa = {
 										RichText = true,
 										Text = n.Title,
 										FontFace = Font.new(
-											"https://create.roblox.com/store/asset/12187371840/Silkscreen",
+											"rbxassetid://12187371840",
 											Enum.FontWeight.Regular,
 											Enum.FontStyle.Normal
 										),
@@ -2078,7 +2078,7 @@ local aa = {
 										Text = n.SubTitle,
 										TextTransparency = 0.4,
 										FontFace = Font.new(
-											"https://create.roblox.com/store/asset/12187371840/Silkscreen",
+											"rbxassetid://12187371840",
 											Enum.FontWeight.Regular,
 											Enum.FontStyle.Normal
 										),
@@ -2218,14 +2218,15 @@ local aa = {
 						RichText = true,
 						Text = "Tab",
 						TextTransparency = 0,
-						FontFace = Font.new("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal),
+						FontFace = Font.new("rbxassetid://12187371840", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal),
 						TextSize = 28,
-						TextXAlignment = "Left",
-						TextYAlignment = "Center",
-						Size = UDim2.new(1, -16, 0, 28),
-						Position = UDim2.fromOffset(t.TabWidth + 26, 56),
+						TextXAlignment = "Center", -- căn giữa theo chiều ngang
+						TextYAlignment = "Center", -- căn giữa theo chiều dọc
+						Size = UDim2.new(0, 200, 0, 28), -- hoặc chỉnh lại phù hợp
+						AnchorPoint = Vector2.new(0.5, 0.5), -- thêm dòng này
+						Position = UDim2.new(0.5, 0, 0.5, 0), -- nằm giữa khung cha
 						BackgroundTransparency = 1,
-						ThemeTag = {TextColor3 = "Text"}
+						ThemeTag = {TextColor3 = "Text"},
 					}
 				)
 			v.ContainerHolder =
@@ -2460,7 +2461,7 @@ local aa = {
 					s(
 						"TextLabel",
 						{
-							FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
+							FontFace = Font.new "rbxassetid://12187371840",
 							Text = O.Content,
 							TextColor3 = Color3.fromRGB(240, 240, 240),
 							TextSize = 14,
@@ -2781,7 +2782,7 @@ local aa = {
 						"TextLabel",
 						{
 							FontFace = Font.new(
-								"https://create.roblox.com/store/asset/12187371840/Silkscreen",
+								"rbxassetid://12187371840",
 								Enum.FontWeight.Medium,
 								Enum.FontStyle.Normal
 							),
@@ -3221,7 +3222,7 @@ local aa = {
 					"TextLabel",
 					{
 						FontFace = Font.new(
-							"https://create.roblox.com/store/asset/12187371840/Silkscreen",
+							"rbxassetid://12187371840",
 							Enum.FontWeight.Regular,
 							Enum.FontStyle.Normal
 						),
@@ -3430,7 +3431,7 @@ local aa = {
 					e(
 						"TextLabel",
 						{
-							FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
+							FontFace = Font.new "rbxassetid://12187371840",
 							Text = I,
 							TextColor3 = Color3.fromRGB(200, 200, 200),
 							TextSize = 13,
@@ -3729,7 +3730,7 @@ local aa = {
 					"TextLabel",
 					{
 						FontFace = Font.new(
-							"https://create.roblox.com/store/asset/12187371840/Silkscreen",
+							"rbxassetid://12187371840",
 							Enum.FontWeight.Regular,
 							Enum.FontStyle.Normal
 						),
@@ -3950,7 +3951,7 @@ local aa = {
 			ai(
 				"TextLabel",
 				{
-					FontFace = Font.new "https://create.roblox.com/store/asset/12187371840/Silkscreen",
+					FontFace = Font.new "rbxassetid://12187371840",
 					Text = "Value",
 					TextSize = 12,
 					TextWrapped = true,
