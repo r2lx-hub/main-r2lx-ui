@@ -5,12 +5,6 @@ print("Enc");
 print("T");
 print("(cayngaydem)");
 print("Free");
-warn("R2LX");
-warn("HUB");
-warn("Enc");
-warn("T");
-warn("(cayngaydem)");
-warn("Free");
 _G.HoHoLoaded = true
 notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
 local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
@@ -3914,122 +3908,136 @@ local aa = {
 		end
 		return aj
 	end,
-[26] = function()
-	local aa, ab, ac, ad, ae = b(26)
-	local af, ag = game:GetService "UserInputService", ab.Parent.Parent
-	local ah = ac(ag.Creator)
-	local ai, aj, c = ah.New, ag.Components, {}
-	c.__index = c
-	c.__type = "Slider"
-	function c.New(d, e, f)
-		local g = d.Library
-		assert(f.Title, "Slider - Missing Title.")
-		assert(f.Default, "Slider - Missing default value.")
-		assert(f.Min, "Slider - Missing minimum value.")
-		assert(f.Max, "Slider - Missing maximum value.")
-		assert(f.Rounding, "Slider - Missing rounding value.")
-		local h, i, j = {
-			Value = nil,
-			Min = f.Min,
-			Max = f.Max,
-			Rounding = f.Rounding,
-			Callback = f.Callback or function(h) end,
-			Type = "Slider"
-		}, false, ac(aj.Element)(f.Title, f.Description, d.Container, false)
-		j.DescLabel.Size = UDim2.new(1, -170, 0, 14)
-		h.SetTitle = j.SetTitle
-		h.SetDesc = j.SetDesc
-
-		local k = ai("ImageLabel", {
-			AnchorPoint = Vector2.new(0, 0.5),
-			Position = UDim2.new(0, -7, 0.5, 0),
-			Size = UDim2.fromOffset(16, 16),
-			Image = "rbxassetid://12266946128",
-			ThemeTag = {ImageColor3 = "Accent"}
-		})
-
-		local l, m, n = ai("Frame", {
-			BackgroundTransparency = 1,
-			Position = UDim2.fromOffset(7, 0),
-			Size = UDim2.new(1, -14, 1, 0)
-		}, {k}), ai("Frame", {
-			Size = UDim2.new(0, 0, 1, 0),
-			ThemeTag = {BackgroundColor3 = "SliderRail"}
-		}, {
-			ai("UICorner", {CornerRadius = UDim.new(1, 0)})
-		}), ai("TextLabel", {
-			FontFace = Font.new("rbxassetid://12187371840"),
-			Text = "Value",
-			TextSize = 12,
-			TextWrapped = true,
-			TextXAlignment = Enum.TextXAlignment.Center,
-			BackgroundColor3 = Color3.fromRGB(255, 255, 255),
-			BackgroundTransparency = 1,
-			Size = UDim2.new(0, 100, 0, 14),
-			Position = UDim2.new(0, -4, 0.5, 0),
-			AnchorPoint = Vector2.new(1, 0.5),
-			ThemeTag = {TextColor3 = "SubText"}
-		})
-
-		local o = ai("Frame", {
-			Size = UDim2.new(0.5, 0, 1, 0),
-			AnchorPoint = Vector2.new(0, 0.5),
-			Position = UDim2.new(0, 0, 0.5, 0),
-			BackgroundColor3 = Color3.fromRGB(0, 0, 0),
-			BackgroundTransparency = 0.3,
-			Parent = j.Frame
-		}, {
-			ai("UICorner", {CornerRadius = UDim.new(1, 0)}),
-			ai("UISizeConstraint", {MaxSize = Vector2.new(150, math.huge)}),
-			n,
-			m,
-			l
-		})
-
-		ah.AddSignal(k.InputBegan, function(p)
-			if p.UserInputType == Enum.UserInputType.MouseButton1 or p.UserInputType == Enum.UserInputType.Touch then
-				i = true
+	[26] = function()
+		local aa, ab, ac, ad, ae = b(26)
+		local af, ag = game:GetService "UserInputService", ab.Parent.Parent
+		local ah = ac(ag.Creator)
+		local ai, aj, c = ah.New, ag.Components, {}
+		c.__index = c
+		c.__type = "Slider"
+		function c.New(d, e, f)
+			local g = d.Library
+			assert(f.Title, "Slider - Missing Title.")
+			assert(f.Default, "Slider - Missing default value.")
+			assert(f.Min, "Slider - Missing minimum value.")
+			assert(f.Max, "Slider - Missing maximum value.")
+			assert(f.Rounding, "Slider - Missing rounding value.")
+			local h, i, j =
+				{Value = nil, Min = f.Min, Max = f.Max, Rounding = f.Rounding, Callback = f.Callback or function(h)
+				end, Type = "Slider"},
+			false,
+			ac(aj.Element)(f.Title, f.Description, d.Container, false)
+			j.DescLabel.Size = UDim2.new(1, -170, 0, 14)
+			h.SetTitle = j.SetTitle
+			h.SetDesc = j.SetDesc
+			local k =
+				ai(
+					"ImageLabel",
+					{
+						AnchorPoint = Vector2.new(0, 0.5),
+						Position = UDim2.new(0, -7, 0.5, 0),
+						Size = UDim2.fromOffset(16, 16),
+						Image = "rbxassetid://12266946128",
+						ThemeTag = {ImageColor3 = "Accent"}
+					}
+				)
+			local l, m, n =
+				ai(
+					"Frame",
+					{BackgroundTransparency = 1, Position = UDim2.fromOffset(7, 0), Size = UDim2.new(1, -14, 1, 0)},
+					{k}
+				),
+			ai(
+				"Frame",
+				{Size = UDim2.new(0, 0, 1, 0), ThemeTag = {BackgroundColor3 = "Accent"}},
+				{ai("UICorner", {CornerRadius = UDim.new(1, 0)})}
+			),
+			ai(
+				"TextLabel",
+				{
+					FontFace = Font.new "rbxassetid://12187371840",
+					Text = "Value",
+					TextSize = 12,
+					TextWrapped = true,
+					TextXAlignment = Enum.TextXAlignment.Center,
+					BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+					BackgroundTransparency = 1,
+					Size = UDim2.new(0, 100, 0, 14),
+					Position = UDim2.new(0, -4, 0.5, 0),
+					AnchorPoint = Vector2.new(1, 0.5),
+					ThemeTag = {TextColor3 = "SubText"}
+				}
+			)
+			local o =
+				ai(
+					"Frame",
+					{
+						Size = UDim2.new(1, 0, 0, 4),
+						AnchorPoint = Vector2.new(1, 0.5),
+						Position = UDim2.new(1, -10, 0.5, 0),
+						BackgroundTransparency = 0.4,
+						Parent = j.Frame,
+						ThemeTag = {BackgroundColor3 = "SliderRail"}
+					},
+					{
+						ai("UICorner", {CornerRadius = UDim.new(1, 0)}),
+						ai("UISizeConstraint", {MaxSize = Vector2.new(150, math.huge)}),
+						n,
+						m,
+						l
+					}
+				)
+			ah.AddSignal(
+				k.InputBegan,
+				function(p)
+					if p.UserInputType == Enum.UserInputType.MouseButton1 or p.UserInputType == Enum.UserInputType.Touch then
+						i = true
+					end
+				end
+			)
+			ah.AddSignal(
+				k.InputEnded,
+				function(p)
+					if p.UserInputType == Enum.UserInputType.MouseButton1 or p.UserInputType == Enum.UserInputType.Touch then
+						i = false
+					end
+				end
+			)
+			ah.AddSignal(
+				af.InputChanged,
+				function(p)
+					if
+						i and
+						(p.UserInputType == Enum.UserInputType.MouseMovement or
+							p.UserInputType == Enum.UserInputType.Touch)
+					then
+						local s = math.clamp((p.Position.X - l.AbsolutePosition.X) / l.AbsoluteSize.X, 0, 1)
+						h:SetValue(h.Min + ((h.Max - h.Min) * s))
+					end
+				end
+			)
+			function h.OnChanged(p, s)
+				h.Changed = s
+				s(h.Value)
 			end
-		end)
-
-		ah.AddSignal(k.InputEnded, function(p)
-			if p.UserInputType == Enum.UserInputType.MouseButton1 or p.UserInputType == Enum.UserInputType.Touch then
-				i = false
+			function h.SetValue(p, s)
+				p.Value = g:Round(math.clamp(s, h.Min, h.Max), h.Rounding)
+				k.Position = UDim2.new((p.Value - h.Min) / (h.Max - h.Min), -7, 0.5, 0)
+				m.Size = UDim2.fromScale((p.Value - h.Min) / (h.Max - h.Min), 1)
+				n.Text = tostring(p.Value)
+				g:SafeCallback(h.Callback, p.Value)
+				g:SafeCallback(h.Changed, p.Value)
 			end
-		end)
-
-		ah.AddSignal(af.InputChanged, function(p)
-			if i and (p.UserInputType == Enum.UserInputType.MouseMovement or p.UserInputType == Enum.UserInputType.Touch) then
-				local s = math.clamp((p.Position.X - l.AbsolutePosition.X) / l.AbsoluteSize.X, 0, 1)
-				h:SetValue(h.Min + ((h.Max - h.Min) * s))
+			function h.Destroy(p)
+				j:Destroy()
+				g.Options[e] = nil
 			end
-		end)
-
-		function h.OnChanged(p, s)
-			h.Changed = s
-			s(h.Value)
+			h:SetValue(f.Default)
+			g.Options[e] = h
+			return h
 		end
-
-		function h.SetValue(p, s)
-			p.Value = g:Round(math.clamp(s, h.Min, h.Max), h.Rounding)
-			k.Position = UDim2.new((p.Value - h.Min) / (h.Max - h.Min), -7, 0.5, 0)
-			m.Size = UDim2.fromScale((p.Value - h.Min) / (h.Max - h.Min), 1)
-			n.Text = tostring(p.Value)
-			g:SafeCallback(h.Callback, p.Value)
-			g:SafeCallback(h.Changed, p.Value)
-		end
-
-		function h.Destroy(p)
-			j:Destroy()
-			g.Options[e] = nil
-		end
-
-		h:SetValue(f.Default)
-		g.Options[e] = h
-		return h
-	end
-	return c
-end,
+		return c
+	end,
   [27] = function()
 	local aa, ab, ac, ad, ae = b(27)
 	local af, ag = game:GetService("TweenService"), ab.Parent.Parent
