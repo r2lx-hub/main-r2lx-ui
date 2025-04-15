@@ -4033,86 +4033,119 @@ local aa = {
 		end
 		return c
 	end,
-	[27] = function()
-		local aa, ab, ac, ad, ae = b(27)
-		local af, ag = game:GetService "TweenService", ab.Parent.Parent
-		local ah = ac(ag.Creator)
-		local ai, aj, c = ah.New, ag.Components, {}
-		c.__index = c
-		c.__type = "Toggle"
-		function c.New(d, e, f)
-			local g = d.Library
-			assert(f.Title, "Toggle - Missing Title")
-			local h, i = {Value = f.Default or false, Callback = f.Callback or function(h)
-			end, Type = "Toggle"}, ac(aj.Element)(f.Title, f.Description, d.Container, true)
-			i.DescLabel.Size = UDim2.new(1, -54, 0, 14)
-			h.SetTitle = i.SetTitle
-			h.SetDesc = i.SetDesc
-			local j, k =
-				ai(
-					"ImageLabel",
-					{
-						AnchorPoint = Vector2.new(0, 0.5),
-						Size = UDim2.fromOffset(14, 14),
-						Position = UDim2.new(0, 2, 0.5, 0),
-						Image = "rbxassetid://12266946128",
-						ImageTransparency = 0.5,
-						ThemeTag = {ImageColor3 = "ToggleSlider"}
-					}
-				),
-			ai("UIStroke", {Transparency = 0.5, ThemeTag = {Color = "ToggleSlider"}})
-			local l =
-				ai(
-					"Frame",
-					{
-						Size = UDim2.fromOffset(36, 18),
-						AnchorPoint = Vector2.new(1, 0.5),
-						Position = UDim2.new(1, -10, 0.5, 0),
-						Parent = i.Frame,
-						BackgroundTransparency = 1,
-						ThemeTag = {BackgroundColor3 = "Accent"}
-					},
-					{ai("UICorner", {CornerRadius = UDim.new(0, 30)}), k, j}
-				)
-			function h.OnChanged(m, n)
-				h.Changed = n
-				n(h.Value)
-			end
-			function h.SetValue(m, n)
-				n = not (not n)
-				h.Value = n
-				ah.OverrideTag(k, {Color = h.Value and "Accent" or "ToggleSlider"})
-				ah.OverrideTag(j, {ImageColor3 = h.Value and "ToggleToggled" or "ToggleSlider"})
-				af:Create(
-					j,
-					TweenInfo.new(0.25, Enum.EasingStyle.Quint, Enum.EasingDirection.Out),
-					{Position = UDim2.new(0, h.Value and 19 or 2, 0.5, 0)}
-				):Play()
-				af:Create(
-					l,
-					TweenInfo.new(0.25, Enum.EasingStyle.Quint, Enum.EasingDirection.Out),
-					{BackgroundTransparency = h.Value and 0 or 1}
-				):Play()
-				j.ImageTransparency = h.Value and 0 or 0.5
-				g:SafeCallback(h.Callback, h.Value)
-				g:SafeCallback(h.Changed, h.Value)
-			end
-			function h.Destroy(m)
-				i:Destroy()
-				g.Options[e] = nil
-			end
-			ah.AddSignal(
-				i.Frame.MouseButton1Click,
-				function()
-					h:SetValue(not h.Value)
-				end
-			)
-			h:SetValue(h.Value)
-			g.Options[e] = h
-			return h
+  [27] = function()
+	local aa, ab, ac, ad, ae = b(27)
+	local af, ag = game:GetService("TweenService"), ab.Parent.Parent
+	local ah = ac(ag.Creator)
+	local ai, aj, c = ah.New, ag.Components, {}
+	c.__index = c
+	c.__type = "Toggle"
+
+	function c.New(d, e, f)
+		local g = d.Library
+		assert(f.Title, "Toggle - Missing Title")
+
+		local h = {
+			Value = f.Default or false,
+			Callback = f.Callback or function(_) end,
+			Type = "Toggle"
+		}
+
+		local i = ac(aj.Element)(f.Title, f.Description, d.Container, true)
+		i.DescLabel.Size = UDim2.new(1, -54, 0, 14)
+
+		h.SetTitle = i.SetTitle
+		h.SetDesc = i.SetDesc
+
+		local toggleCircle = ai("ImageLabel", {
+			AnchorPoint = Vector2.new(0, 0.5),
+			Size = UDim2.fromOffset(14, 14),
+			Position = UDim2.new(0, 2, 0.5, 0),
+			Image = "rbxassetid://12266946128",
+			ImageTransparency = 0.5,
+			ThemeTag = {ImageColor3 = "ToggleSlider"}
+		})
+
+		-- Icon phụ nằm trong toggle
+		local iconInside = ai("ImageLabel", {
+			AnchorPoint = Vector2.new(0.5, 0.5),
+			Position = UDim2.new(0.5, 0, 0.5, 0),
+			Size = UDim2.fromOffset(10, 10),
+			Image = h.Value and "rbxassetid://6023426926" or "rbxassetid://6035047409",
+			BackgroundTransparency = 1,
+			ImageTransparency = 0.2,
+			Parent = toggleCircle
+		})
+
+		local stroke = ai("UIStroke", {
+			Transparency = 0.5,
+			ThemeTag = {Color = "ToggleSlider"}
+		})
+
+		local toggleFrame = ai("Frame", {
+			Size = UDim2.fromOffset(36, 18),
+			AnchorPoint = Vector2.new(1, 0.5),
+			Position = UDim2.new(1, -10, 0.5, 0),
+			Parent = i.Frame,
+			BackgroundTransparency = 1,
+			ThemeTag = {BackgroundColor3 = "Accent"}
+		}, {
+			ai("UICorner", {CornerRadius = UDim.new(0, 30)}),
+			stroke,
+			toggleCircle
+		})
+
+		function h.OnChanged(_, n)
+			h.Changed = n
+			n(h.Value)
 		end
-		return c
-	end,
+
+		function h.SetValue(_, n)
+			n = not (not n)
+			h.Value = n
+
+			-- Thay đổi màu sắc và vị trí toggle
+			ah.OverrideTag(stroke, {Color = h.Value and "Accent" or "ToggleSlider"})
+			ah.OverrideTag(toggleCircle, {ImageColor3 = h.Value and "ToggleToggled" or "ToggleSlider"})
+
+			-- Tween chuyển động
+			af:Create(toggleCircle, TweenInfo.new(0.25, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {
+				Position = UDim2.new(0, h.Value and 19 or 2, 0.5, 0)
+			}):Play()
+
+			af:Create(toggleFrame, TweenInfo.new(0.25, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {
+				BackgroundTransparency = h.Value and 0 or 1
+			}):Play()
+
+			-- Cập nhật transparency và icon
+			toggleCircle.ImageTransparency = h.Value and 0 or 0.5
+			iconInside.Image = h.Value and "rbxassetid://6023426926" or "rbxassetid://6035047409"
+			iconInside.ImageTransparency = h.Value and 0 or 0.2
+
+			-- Gọi callback
+			g:SafeCallback(h.Callback, h.Value)
+			g:SafeCallback(h.Changed, h.Value)
+		end
+
+		function h.Destroy(_)
+			i:Destroy()
+			g.Options[e] = nil
+		end
+
+		-- Bắt sự kiện click
+		ah.AddSignal(i.Frame.MouseButton1Click, function()
+			h:SetValue(not h.Value)
+		end)
+
+		-- Gán giá trị ban đầu
+		h:SetValue(h.Value)
+
+		g.Options[e] = h
+		return h
+	end
+
+	return c
+end,
 	[28] = function()
 		local aa, ab, ac, ad, ae = b(28)
 		return {
