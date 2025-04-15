@@ -5,13 +5,6 @@ print("Enc");
 print("T");
 print("(cayngaydem)");
 print("Free");
-warn("R2LX");
-warn("HUB");
-warn("Enc");
-warn("T");
-warn("(cayngaydem)");
-assert(player, "Không tìm thấy người chơi")
-error("Lỗi nghiêm trọng: không tìm thấy r2lx")
 _G.HoHoLoaded = true
 notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
 local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
