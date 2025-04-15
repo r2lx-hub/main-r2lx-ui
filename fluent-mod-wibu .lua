@@ -1,5 +1,10 @@
 -- Fluent Mod
-
+print("R2LX");
+print("HUB");
+print("Enc");
+print("T");
+print("(cayngaydem)");
+print("Free");
 _G.HoHoLoaded = true
 notify = loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Notification.lua"))()
 local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
