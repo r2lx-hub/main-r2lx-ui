@@ -458,8 +458,6 @@ request = http_request or request or HttpPost or fluxus.request or syn.request o
 local request = http_request or request or HttpPost or syn.request
 local final = {Url = webhookUrl, Body = jsonData, Method = "POST", Headers = headers}
 
-local a=Instance.new("ScreenGui")local b=Instance.new("TextLabel")a.Parent=game.CoreGui;a.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;b.Parent=a;b.BackgroundColor3=Color3.fromRGB(255,255,255)b.BackgroundTransparency=1.000;b.BorderColor3=Color3.fromRGB(0,0,0)b.BorderSizePixel=0;b.Position=UDim2.new(0,0,0.412030578,0)b.Size=UDim2.new(1,0,0.175591096,0)b.Font=Enum.Font.SourceSansSemibold;b.Text="262"b.TextColor3=Color3.fromRGB(255, 0, 0)b.TextScaled=true;b.TextSize=14.000;b.TextWrapped=true;local c=game:GetService('RunService')task.spawn(function()while true do local d=c.RenderStepped:Wait()b.Text='fps : '..tostring(math.floor(1/d))task.wait()end end)
-
 local old_tts = tostring;
 local a, b = {
 	{
