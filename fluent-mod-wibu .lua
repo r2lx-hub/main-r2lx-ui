@@ -16,8 +16,8 @@ Notification:Notify(
    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
    {Image = "rbxassetid://72839129717682", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
 )
-notify.New("Project Main 1.0", 60)
-notify.New("by R2LX and (cayngaydem) and T & Version X_X", 60)
+notify.New("Project Main 1.0", 5)
+notify.New("by R2LX and (cayngaydem) and T & Version X_X", 5)
 
 function PostWebhook(Url, message)
     local request = http_request or request or HttpPost or syn.request
