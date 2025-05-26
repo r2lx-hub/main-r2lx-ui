@@ -6100,52 +6100,17 @@ end,
 
 [59] = function()
     local aa, ab, ac, ad, ae = b(59)
-
-    -- Hàm thêm gradient cầu vồng động vào UIStroke
-    local function ApplyRainbowBorder(uiElement)
-        if not uiElement then return end
-        local stroke = Instance.new("UIStroke")
-        stroke.Thickness = 2
-        stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-        stroke.Parent = uiElement
-
-        local gradient = Instance.new("UIGradient")
-        gradient.Color = ColorSequence.new({
-            ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)),   -- Đỏ
-            ColorSequenceKeypoint.new(0.17, Color3.fromRGB(255, 165, 0)), -- Cam
-            ColorSequenceKeypoint.new(0.33, Color3.fromRGB(255, 255, 0)), -- Vàng
-            ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 255, 0)),   -- Lục
-            ColorSequenceKeypoint.new(0.67, Color3.fromRGB(0, 127, 255)), -- Lam
-            ColorSequenceKeypoint.new(0.83, Color3.fromRGB(75, 0, 130)),  -- Chàm
-            ColorSequenceKeypoint.new(1.00, Color3.fromRGB(148, 0, 211))  -- Tím
-        })
-        gradient.Rotation = 45 -- Góc nghiêng để tạo hiệu ứng vừa ngang vừa dọc
-        gradient.Parent = stroke
-
-        -- Di chuyển gradient
-        local offset = 0
-        local RunService = game:GetService("RunService")
-        RunService.RenderStepped:Connect(function(dt)
-            if gradient then
-                offset = (offset + dt * 0.2) % 1
-                gradient.Offset = Vector2.new(offset, offset)
-            end
-        end)
-    end
-
     return {
         Name = "lua",
-        Accent = Color3.fromRGB(235, 120, 255),
-        AcrylicMain = Color3.fromRGB(20, 20, 20),
-        AcrylicBorder = Color3.fromRGB(235, 120, 255),
+        Accent = Color3.fromRGB(235, 120, 255), -- màu chủ đạo hồng tím
+        AcrylicMain = Color3.fromRGB(20, 20, 20), -- nền chính tối
+        AcrylicBorder = Color3.fromRGB(235, 120, 255), -- viền sáng hồng tím
         AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(20, 20, 20)),
         AcrylicNoise = 0.185,
         TitleBarLine = Color3.fromRGB(235, 120, 255),
         Tab = Color3.fromRGB(235, 120, 255),
         Element = Color3.fromRGB(235, 120, 255),
-
-        -- Các màu viền, bạn có thể áp dụng hiệu ứng tại đây khi tạo UI thực tế
-        ElementBorder = ApplyRainbowBorder, -- Chuyển thành hàm áp dụng hiệu ứng viền
+        ElementBorder = Color3.fromRGB(225, 100, 255),
         InElementBorder = Color3.fromRGB(235, 120, 255),
         ElementTransparency = 0.7,
         ToggleSlider = Color3.fromRGB(235, 120, 255),
@@ -6153,7 +6118,7 @@ end,
         SliderRail = Color3.fromRGB(235, 120, 255),
         DropdownFrame = Color3.fromRGB(25, 25, 25),
         DropdownHolder = Color3.fromRGB(30, 30, 30),
-        DropdownBorder = ApplyRainbowBorder,
+        DropdownBorder = Color3.fromRGB(235, 120, 255),
         DropdownOption = Color3.fromRGB(235, 120, 255),
         Keybind = Color3.fromRGB(235, 120, 255),
         Input = Color3.fromRGB(235, 120, 255),
@@ -6163,8 +6128,8 @@ end,
         DialogHolder = Color3.fromRGB(30, 30, 30),
         DialogHolderLine = Color3.fromRGB(235, 120, 255),
         DialogButton = Color3.fromRGB(235, 120, 255),
-        DialogButtonBorder = ApplyRainbowBorder,
-        DialogBorder = ApplyRainbowBorder,
+        DialogButtonBorder = Color3.fromRGB(235, 120, 255),
+        DialogBorder = Color3.fromRGB(235, 120, 255),
         DialogInput = Color3.fromRGB(235, 120, 255),
         DialogInputLine = Color3.fromRGB(235, 120, 255),
         Text = Color3.fromRGB(255, 255, 255),
